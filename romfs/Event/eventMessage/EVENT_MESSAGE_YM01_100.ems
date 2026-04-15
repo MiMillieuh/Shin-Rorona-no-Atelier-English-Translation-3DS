@@ -1,0 +1,23 @@
+BalloonData YM01_100_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hey, Rorona-chan.<CR>Rorona-chan" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_BUC,            "Mmm...?<CR>Is that you, Estiy-san? What's wrong~?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "I heard you've been staying inside the<CR>Atelier this whole time, so I came to check,<CR>but..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "Aah... yeah.<CR>It's exactly what you see" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "What happened?<CR>You were so energetic before.<CR>Did something occur?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_BUC,            "Aah, it's nothing serious~.<CR>Just too much trouble~" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Too much trouble...<CR>Really? Are you sure?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_BUC,            "It's true~ no need to worry~.<CR>I'm not going to do any work for a while,<CR>so please leave me alone~..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "I see... okay then.<CR>I'll head back for today..." },
+	// ▼艾斯蒂离开アトリエ
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Looks like she really is just being lazy...<CR>After being so busy all this time..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "...Maybe this is the backlash.<CR>I might need to do something about this<CR>pretty soon..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM01_100_bda = {
+	"YM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM01_100",// 出力ファイル名
+	YM01_100_EMS,           // 上記変数
+};

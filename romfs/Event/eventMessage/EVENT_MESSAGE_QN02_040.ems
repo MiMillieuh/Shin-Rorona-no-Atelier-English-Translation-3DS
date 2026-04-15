@@ -1,0 +1,42 @@
+BalloonData QN02_040_EMS[] = {
+	// ▼発生条件未定：ロロナがアトリエにいる時
+	// ▼アトリエで本を調べているロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...Let me see, found it. This is it." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Are you researching something, Master?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Yeah. I was thinking of looking up<CR>about Homunculus." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "As an alchemist, it seems like<CR>something I really should know..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Let's see. First, 'How to make a Homunculus,'<CR>and..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "'Place several herbs and horse manure<CR>inside a flask and seal it tightly...'" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Eeeek!? H-Horse manure...?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Why do you look at Hom that way?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Ahhh! I-It's nothing!<CR>Um, let's continue, continue..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "'If suitable horse manure is unavailable,<CR>instead use human e-ex...'" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "*cough!* *hack!*" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Are you alright? I'll bring you some tea." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Th-Thank you... Ugh. I mean, um,<CR>this is getting scary to read..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "'Keep the temperature at human body heat,<CR>and for forty days, give it<CR>human blood daily...'" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Ugh... I-I'm starting to feel sick..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R2,      15, BALLOON_FRAME_TYPE_BUC,            "Can't even read quietly, can you?" },
+	// ▼やはりいつの間にかいる師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "M-Master... What this book describes,<CR>does it mean that Hom-chan is...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R2,      17, BALLOON_FRAME_TYPE_BUC,            "Well, what's written there is<CR>certainly one fact.<CR>Read it all the way to the end." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Y-Yes..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "'However, the creation of a Homunculus<CR>using this method has only been<CR>recorded once in history,<CR>and even its existence is uncertain.'" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Hmm? So this means..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R2,      21, BALLOON_FRAME_TYPE_BUC,            "The synthesis of Homunculi has<CR>extremely few successful cases." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R2,      22, BALLOON_FRAME_TYPE_BUC,            "And the methods vary greatly<CR>among alchemists." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "B-But Master succeeded, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R2,      24, BALLOON_FRAME_TYPE_BUC,            "The reason I succeeded was simply<CR>because I was a genius." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R2,      25, BALLOON_FRAME_TYPE_BUC,            "As for the method... well.<CR>Once you're a full-fledged alchemist,<CR>I'll teach you." },
+	// ▼部屋に帰っていく師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "...So what this means is that<CR>Hom-chan wasn't made this way, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "But knowing Master, she might have done<CR>something even more amazing. Like..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "Ugh... I should stop thinking about it..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN02_040_bda = {
+	"QN02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN02_040",// 出力ファイル名
+	QN02_040_EMS,           // 上記変数
+};

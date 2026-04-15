@@ -1,0 +1,11 @@
+BalloonData XG02_010_EMS[] = {
+	// ▼お金が足りなくて、仲間を連れていけない時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, no good... I don't have enough money,<CR>so I can't ask you to help me today..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL XG02_010_bda = {
+	"XG02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_XG02_010",// 出力ファイル名
+	XG02_010_EMS,           // 上記変数
+};

@@ -1,0 +1,30 @@
+﻿BalloonData QN03_094_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "O-Oh my?<CR>I accidentally made an adorable dress,<CR>just like a normal one!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "What a way to talk about my work—" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "It's not that I don't like it, but...<CR>You designed this, didn't you, pops?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "...Yeah, I thought so?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Eh?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "So... it doesn't suit you, does it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Um...<CR>I don't really understand what you're saying..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_IKA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "So what I'm asking is—does it look<CR>weird on a grown man wearing<CR>cute girl's clothing every night, or not!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Hyaaah!? Th-That is absolutely not—" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "...Eh? Pops, you do that?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_ODO,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Ack! I slipped and said too much...<CR>Forget everything I just said! Got it!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "O-Okay... I understand..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(Even if I told anyone,<CR>　nobody would ever believe me...)" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "...Listen, since I've come this far,<CR>I have another favor to ask" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "What is it?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "When you get a chance, could you...<CR>let me take a picture of you<CR>wearing that dress?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "A picture?<CR>Well, I guess that's not too weird..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Really!? Yahoo!<CR>As expected of you, you understand me!<CR>It's a promise now, okay? No backing out!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Uwaah, he's so happy about it..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "...I did promise, but<CR>is that really okay? Pops wouldn't,<CR>use it for anything weird..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN03_094_bda = {
+	"QN03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN03_094",// 出力ファイル名
+	QN03_094_EMS,           // 上記変数
+};

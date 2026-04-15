@@ -1,0 +1,43 @@
+ BalloonData QC02_030_EMS[] = {
+	// ▼仲間になってから少し経過
+	// ▼ステルクと一緒に採取に行って、街に戻ってきた時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Sterk-san, thank you so much.<CR>You really helped me out" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "It's nothing worth thanking me for" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "As soon as I get home, I have to start synthesizing.<CR>Well then, goodbye!" },
+	// ▼帰っていくロロナ
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Always so impulsive.<CR>But seeing her so happy makes it worth the effort..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_BUC,            "Quite the gentleman, aren't you, Sterkenburg" },
+	// ▼物陰から出てくる師匠
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "…That elusive as ever.<CR>I've told you many times before,<CR>please stop calling me that" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "For me too, using such a long and cumbersome name<CR>is quite a bother, but,<CR>I can't help but tease when I see your frustrated face" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "…Fine then. What do you want" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "What are you plotting?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Plotting, you say?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "I'm asking if you have some ulterior motive<CR>for offering to help Rorona,<CR>the royal knight to boot" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Nothing at all. I just wanted to help, so I did.<CR>That's all there is to it" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "…Well, fine then.<CR>You're not the type to play mind games, are you" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "But if you think you're making it up to Rorona<CR>with half-hearted efforts like this,<CR>I have to say it's rather incomplete" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Don't say it like it's someone else's problem!<CR>First of all, both I and the King expected you<CR>to take on this commission when—" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "You've gone back to using 'ore' for yourself" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Er… sorry. I got a bit carried away" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "And just for the record…" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "You're not smitten with Rorona's cuteness<CR>and approaching her with ulterior motives,<CR>right?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Don't put me in the same category as you!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Fufu, just kidding. Glad to see<CR>your kindness hasn't changed one bit" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Was that sarcasm? That's rich coming from you" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "I'm giving you a compliment. Take it sincerely.<CR>Well, as your master,<CR>let me bow my head just this once" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Please keep an eye on my foolish disciple" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "That goes without saying" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "But absolutely do not lay a finger on her.<CR>Rorona is mine, after all" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "How persistent!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "Ha ha ha.<CR>If you get so serious, people will start to suspect something.<CR>Well then, goodbye" },
+	// ▼笑いながら立ち去る師匠
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Good grief… with that master,<CR>even someone as innocent as her grows up,<CR>the ways of the world are truly unknowable…" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_030_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_030",// 出力ファイル名
+	QC02_030_EMS,           // 上記変数
+};

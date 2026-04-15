@@ -1,0 +1,78 @@
+BalloonData QN05_040_EMS[] = {
+	// ▼くまを拾って街に帰った時に発生
+	// ▼アトリエに戻ってくる主人公
+	// ▼普通に歩いて帰ってきた時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Whew, no ghosts appeared. Oh wait,<CR>I didn't want them to appear..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "I was so scared, it tired me out<CR>more than usual...<CR>I'm going to bed" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Ah, what should I do with the teddy bear...<CR>Tomorrow's problem. Yaaawn..." },
+	// ▼全滅で戻ってきた時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Uuu...I didn't see any ghosts,<CR>but what a rough day...I'm going to bed..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Ah, what should I do with the teddy bear...<CR>Tomorrow's problem. Yaaawn..." },
+	// ▼以下共通
+	// ▼部屋に置かれるクマ。明かりを消して黒画面に
+	// ▼そのまま連続で翌朝。錬金釜の前の主人公
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Okay then.<CR>Let me try making various things<CR>with yesterday's materials" },
+	// ▼しばらく錬金釜を前に作業するロロナ
+	{ BALLOON_MODE_BUCSYS, CHARA_CAT_A,      0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_BUC,            "...Mmm...muyaah~<CR>fwaaah~, what a good sleep~" },
+	// ▼ロロナ、振り向かず作業を続けたまま
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Huh? Did Master wake up?<CR>I haven't finished breakfast yet..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "......." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "That's not it! That wasn't Master's voice!<CR>W-Who is it?!" },
+	// ▼振り返る主人公
+	// ▼クマのぬいぐるみの中から、寝ぼけまなこのパメラが出てきている
+	// ★一枚絵表示
+	{ BALLOON_MODE_BUCSYS, CHARA_PAMELA,     0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_BUC,            "Mmm...? Where am I, I wonder...?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_BUC,            "......." },
+	{ BALLOON_MODE_BUCSYS, CHARA_PAMELA,     0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    12, BALLOON_FRAME_TYPE_BUC,            "Oh my, what a nice person.<CR>Hey, do you know where this is?<CR>Why am I in a place like this~..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    13, BALLOON_FRAME_TYPE_BUC_SHOUT,      "K-Kyaaaaaaaa!!<CR>A ghost appeared!!!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_PAMELA,     0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_BUC,            "Kya!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_PAMELA,     0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    15, BALLOON_FRAME_TYPE_BUC,            "My, my, what's the matter~?<CR>It's rude to yell at someone's face, you know" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Noooooo! So scary, so scary!<CR>D-Don't eat me!!" },
+	// ▼隣の部屋から出てきて呆れ顔の師匠
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Oh my. This is..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "To think you'd bring home a ghost.<CR>You really do exceed all expectations" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L2,      19, BALLOON_FRAME_TYPE_BUC,            "M-Master! H-Help...<CR>Waaahhh!! I'm gonna be eaten!!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "That won't be necessary.<CR>That was all my tall tale" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L2,      21, BALLOON_FRAME_TYPE_BUC,            "Tall tale or not, please help..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L2,      22, BALLOON_FRAME_TYPE_BUC,            "...Tall...tale?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Yes. You could also call it staging<CR>to make you more scared.<CR>That was quite a reaction!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_NAZO,        BUC_PAMELA_IKA,     BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "How cruel~.<CR>I don't eat people, you know~" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "Forgive me. I meant no harm.<CR>Beautiful ghost maiden" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_NAZO,        BUC_PAMELA_TERE,    BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "Oh my, oh my. Beautiful, you say~?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L2,      27, BALLOON_FRAME_TYPE_BUC,            "W-What are you all talking about normally?!<CR>G-Ghosts, why are there ghosts!!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Opportunities to talk with ghosts don't come often.<CR>We should actively try to communicate" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "Standing here talking is rude.<CR>Please, sit down.<CR>Rorona, make some tea" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_NOR,     BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "Don't mind if I do.<CR>Since I'm a ghost, I can't sit,<CR>and I can't drink tea either~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L2,      31, BALLOON_FRAME_TYPE_BUC,            "Uuu, what's going on..." },
+	// ▼しばし時間経過
+	// ▼ロロナは会話している二人を遠巻きに見ている
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      32, BALLOON_FRAME_TYPE_BUC,            "...In other words, Pamela-san has no memories<CR>from her past life, and somehow ended up<CR>possessing that stuffed animal" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_NOR,     BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "Pamela-san is so cold~.<CR>Pamela is fine~" },
+	// ★名前のテロップ表示
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       34, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(...From this distance, she seems like<CR>　just an ordinary girl)" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      35, BALLOON_FRAME_TYPE_BUC,            "Then, if I may be so bold. What do you plan<CR>to do from here on, Pamela?" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_NOR,     BUC_POSITION_TYPE_R,       36, BALLOON_FRAME_TYPE_BUC,            "I haven't thought about anything at all.<CR>I came here by chance, after all~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       37, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(This ghost isn't so scary after all...<CR>　Oh, but she doesn't have any feet)" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      38, BALLOON_FRAME_TYPE_BUC,            "Hmm...then what do you think about<CR>staying at this Atelier until<CR>you decide what to do?" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_WARA,    BUC_POSITION_TYPE_R,       39, BALLOON_FRAME_TYPE_BUC,            "Really? Thank you~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       40, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(Her hair is fluffy too,<CR>　she might be cute...hm?)" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       41, BALLOON_FRAME_TYPE_BUC,            "Ehhh?! N-No way! Absolutely not!!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R2,      42, BALLOON_FRAME_TYPE_BUC,            "What, are you going to turn away<CR>a pitiful beautiful girl<CR>with nowhere to go?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R2,      43, BALLOON_FRAME_TYPE_BUC,            "Besides, if you can't even take care of her,<CR>why did you pick her up in the first place?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       44, BALLOON_FRAME_TYPE_BUC,            "I-I didn't pick her up because I wanted to...<CR>Besides, she's a ghost..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       45, BALLOON_FRAME_TYPE_BUC,            "A-And besides! Master's being<CR>suspiciously nice!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R2,      46, BALLOON_FRAME_TYPE_BUC,            "How rude. You think my true purpose is<CR>to watch my disciple squeal in fear?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       47, BALLOON_FRAME_TYPE_BUC,            "That's exactly what you're thinking!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_WARA,    BUC_POSITION_TYPE_R,       48, BALLOON_FRAME_TYPE_BUC,            "You're Rorona, right? Let's get along~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       49, BALLOON_FRAME_TYPE_BUC,            "Kyaaaa! D-Don't come near me!!" },
+	// ▼パメラに追い掛け回されるロロナ
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_R2,      50, BALLOON_FRAME_TYPE_BUC,            "Ahh, how nice...<CR>I won't be bored for a while" },
+	// ▼イベント結果：しばらくパメラがアトリエに
+	// ▼
+};
+
+BALLOON_DATA_ALL QN05_040_bda = {
+	"QN05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN05_040",// 出力ファイル名
+	QN05_040_EMS,           // 上記変数
+};

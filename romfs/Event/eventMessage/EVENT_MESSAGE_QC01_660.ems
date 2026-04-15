@@ -1,0 +1,37 @@
+BalloonData QC01_660_EMS[] = {
+	// ▼
+	// ★※From when Homu starts raising a cat until the kitten event
+	// ▼Homu is playing with a cat in front of the atelier. Cuderira is watching
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Mmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,      -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            ".........*twitch*...*twitch twitch*..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R2,       3, BALLOON_FRAME_TYPE_BUC,            "Does Kuu-chan also like kittens?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Wh-...! I-It's not like I like them or anything! Cats!!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,       5, BALLOON_FRAME_TYPE_BUC,            "I see" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CAT_A,      0, NAME_CAT_K_NA,    BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_BUC,            "Meow..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Oh, well...<CR>I don't HATE them or anything, it's just..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,       8, BALLOON_FRAME_TYPE_BUC,            "Would you like to pet her?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_WARA,   BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Really!? I mean, no, wait...<CR>If you REALLY want me to,<CR>I guess I could pet it!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "Please do.<CR>Konaha likes having her head pet" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CAT_A,      0, NAME_CAT_K_NA,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_BUC,            "Meow" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "O-Okay then...<CR>She won't scratch or anything, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,      13, BALLOON_FRAME_TYPE_BUC,            "Don't worry. Konaha hates violence" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "O-Okay... here we go then..." },
+	// ▼Rorona comes out of the atelier
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Homu-chan, can you help me with some...<CR>Oh? Kuu-chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Kyaaaa!<CR>W-Why are you here!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Huh? Why, you ask?<CR>Because this is my atelier..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "What about you, Kuu-chan?<CR>You could've just come inside" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "W-Well, I was just...<CR>Nothing! I'm going home!" },
+	// ▼Cuderira runs away
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Huh? Um... Kuu-chan, is something wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R2,      21, BALLOON_FRAME_TYPE_BUC,            "I think Master should<CR>learn to read the atmosphere better" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CAT_A,      0, NAME_CAT_K_NA,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    22, BALLOON_FRAME_TYPE_BUC,            "Meow..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_660_bda = {
+	"QC01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC01_660",// 出力ファイル名
+	QC01_660_EMS,           // 上記変数
+};

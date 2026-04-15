@@ -1,0 +1,25 @@
+BalloonData YM03_100_EMS[] = {
+	// ▼ロロナ・ギゼラ・ジオのパーティでの出発イベント
+	// ●本編中以降で発生
+	// ●ギゼラ参戦が発生している
+	// ●ジオが国王だと判明している
+	// ▼二人を一緒に雇って、初めて採取に行こうとした時
+	// ▼先にギゼラがいる
+	// ▼ジオやってくる
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "Today's companion is this lovely lady, I see" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "That's right!" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_NOR,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Hmm? Who are you?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "I'm Gio. I'm usually just wandering around<CR>with nothing to do, but sometimes<CR>I help out like this as a bodyguard" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_NOR,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Gio... Hmm, I see.<CR>So you're that guy. I'm Gisela.<CR>From Aranya village in the south" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_SIN,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Even with this appearance, I'm pretty confident<CR>in my abilities, you know.<CR>If it's just guarding around here,<CR>I'd be enough on my own" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_SIN,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "That said, my goal is still far away,<CR>I'm only halfway there, I suppose" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_WARA,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Well, I'll watch your fighting performance<CR>carefully with these eyes,<CR>and learn from it" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "As long as I can be of some help, that's fine with me.<CR>Let's get going, shall we?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM03_100_bda = {
+	"YM03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM03_100",// 出力ファイル名
+	YM03_100_EMS,           // 上記変数
+};

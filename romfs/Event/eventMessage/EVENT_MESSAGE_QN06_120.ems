@@ -1,0 +1,36 @@
+﻿BalloonData QN06_120_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Estiy-san, I brought it!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Thank you, that helps a lot.<CR>...But I'm sorry for asking you<CR>so many, many times." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Not at all. And I'm the one who<CR>got the wrong idea and<CR>did all kinds of rude things..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Oh yes, there was that too...<CR>Speaking of which, about that misunderstanding.<CR>I still haven't heard the details though?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "T-That's impossible! There's no way I could tell you!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Ehh~ Don't be shy, tell me!<CR>Come on, I won't get mad!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Ah, b-but... sorry! If you'll excuse me!" },
+	// ▼逃げるロロナ
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "She got away.<CR>I think I teased her a little too much." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Your teasing method is lacking.<CR>Who gave you permission to tease<CR>my dear apprentice like that?" },
+	// ▼ひょっこり師匠が出てくる
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "It can't be helped.<CR>I've been helping you out for free this whole time.<CR>That flustered look on her face was my reward!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Hmm, that was an expensive reward.<CR>You picked the wrong person to ask for help." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Haah, but Rorona-chan...<CR>in a little while, you won't be able to<CR>come here as much anymore, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "I'll miss you..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "That face says 'I'm a hundred times<CR>more lonely than you are!' is what I meant." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "I can't deny it.<CR>It's a matter of whether I'm<CR>active or passive about it." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "So, have you made up your mind?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Who knows?<CR>Even if I have decided,<CR>the proper thing would be to tell Rorona first." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "I can't have certain receptionists<CR>going around saying<CR>all sorts of things about it, can I?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "You don't trust me, do you? Well, whatever.<CR>It's not something others should be<CR>butting in on anyway." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "That's right.<CR>It's a problem I have to decide myself." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "We don't have much time<CR>left to think about it..." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You received <CLGR>5000 cole<CLNR>." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN06_120_bda = {
+	"QN06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN06_120",// 出力ファイル名
+	QN06_120_EMS,           // 上記変数
+};

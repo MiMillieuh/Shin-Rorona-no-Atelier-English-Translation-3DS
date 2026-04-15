@@ -1,0 +1,37 @@
+BalloonData QC06_120_EMS[] = {
+	// ▼↑から一週間後（仮）ジオが誘いにくる
+	// ▼ドアをノックする音
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Wah, t-they're here... c-come in!" },
+	// ▼ジオが入ってくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Ah, as I expected...<CR>W-welcome,Gio..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "You know why I'm here.<CR>I want to hear your answer from last week" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Y-yes. Um..." },
+	// ▼選択肢一緒に行く／やっぱり断る」
+	// ▼一緒に行くを選ぶ
+	// ▼断るを選ぶ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "I'm sorry! I really... I can't do it!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "...I see.<CR>If you think you can't do it, then I understand.<CR>I'll manage on my own" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I'm really sorry...<CR>Um, please be careful" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Don't worry.<CR>You know my skills well enough, don't you?" },
+	// ▼帰っていくジオ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "...He'll be fine, right?<CR>If it'sGio, he can handle it alone..." },
+	// ▼イベント終了
+	// ▼一緒に行くを選ぶ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "If you'll have me,<CR>please let me help!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "I was hoping you'd say that.<CR>Let's go" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "...Right now?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Yes. Those bandits need to be<CR>dealt with as soon as possible" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Ah, but I still need to prepare and various other things..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "That's why I waited a week.<CR>Surely you're not going to tell me<CR>you did nothing to prepare" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Ah. No, I wasn't talking about that kind of preparation,<CR>I meant mental preparation..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "You can work on that while we walk.<CR>Come on, let's go!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Ah, w-wait, don't pull me!" },
+	// ▼二人で外へ。そのまま次のイベントに続く
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_120_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_120",// 出力ファイル名
+	QC06_120_EMS,           // 上記変数
+};

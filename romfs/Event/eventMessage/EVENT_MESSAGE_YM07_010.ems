@@ -1,0 +1,50 @@
+﻿BalloonData YM07_010_EMS[] = {
+	// ▼延長戦が始まって割とすぐに発生
+	// ●アトリエから出る（もしくは職人通りに行く？）と発生
+	// ▼アトリエの端っこ（？）を見せる
+	// ▼タイムカプセルオブジェが置かれている
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KOMA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hmm? What's this?<CR>Wasn't here before, was it...?" },
+	// ▼オブジェに近づく
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "I wonder who left this here?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_AKI,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "...There's something like paper inside.<CR>I wonder what it is?" },
+	// ▼がさがさＳＥ
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Let me see...<CR>'Since conditions have not yet been met<CR> to return to the past, I am sending a simplified version of the hourglass capsule...' " },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "'This is a substitute for the Dragon's Hourglass.<CR> Items placed inside can travel between<CR> your world and this one.'" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "'However, since this is still a prototype,<CR> sending people is too dangerous.<CR> Please limit use to transferring items only.'" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "'Since you are likely having a hard time there,<CR> if there is something you need,<CR> place it in this capsule and send it to us.'" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "'I will send back what I think you need<CR> based on what you placed inside,<CR> so look forward to it. ～Astrid～'" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_SIN,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_IKA,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "This must be from Astrid-san<CR> in the future!<CR>Totori-sensei! Rorona-sa!" },
+	// ▼黒画面に
+	// ▼アトリエ
+	// ▼転送カプセルオブジェを所定の位置に
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "...I see. So if we tell her what we want,<CR>she'll send us something from the future?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_WARA,    BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "Looks like she'll send us the latest stuff<CR> from the era we lived in!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "That's amazing.<CR>Alchemy in the future sure has progressed." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "This is something special, though.<CR>We don't even know about this item,<CR>so it's not like something we could make." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_L2,      14, BALLOON_FRAME_TYPE_BUC,            "Let's try sending something first!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Good idea~<CR>Alright, what should we send?<CR>A cloth scrap, I guess?" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You placed a cloth scrap in the capsule." },
+	// ▼カプセル転送ＳＥ
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "And it's... gone." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_L2,      18, BALLOON_FRAME_TYPE_BUC,            "Something should come back to us now, right?<CR>I wonder what it'll be..." },
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Hey, there's something else written<CR>on the back of this letter?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_L2,      20, BALLOON_FRAME_TYPE_BUC,            "Really?<CR>Let me see, what does it say..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_L2,      21, BALLOON_FRAME_TYPE_BUC,            "'P.S. I will write down the recipe for<CR> the Dragon's Hourglass.<CR> I am doing what I can on this side, but you<CR> have two people there, so please do your best.'" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_SIN,     BUC_POSITION_TYPE_L2,      22, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_SIN,     BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Indeed... it looks like a recipe." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_L2,      25, BALLOON_FRAME_TYPE_BUC,            "So that means if we have the materials,<CR>we can make it ourselves, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "I suppose so...?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX1,     BUC_POSITION_TYPE_L2,      27, BALLOON_FRAME_TYPE_BUC,            "Then let's work hard and find those materials!<CR>Let's make it!<CR>Let's compete with Astrid-san!" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Meruru-chan, you're quite energetic,<CR>aren't you..." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Received the reference book<CR>\"<CLGR>Wisdom Beyond Time<CLNR>\"." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM07_010_bda = {
+	"YM07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM07_010",// 出力ファイル名
+	YM07_010_EMS,           // 上記変数
+};

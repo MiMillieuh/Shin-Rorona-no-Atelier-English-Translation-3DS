@@ -1,0 +1,15 @@
+BalloonData YM07_160_EMS[] = {
+	// ▼タイムカプセルリアクション
+	// ▼パイを入れたあと手紙だけが帰ってきた場合
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Huh, is this a letter? Let me see..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "'I took responsibility for the pie and<CR>　finished it all. It was delicious.'" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "...You just ate it all!? So mean, Master--!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM07_160_bda = {
+	"YM07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM07_160",// 出力ファイル名
+	YM07_160_EMS,           // 上記変数
+};

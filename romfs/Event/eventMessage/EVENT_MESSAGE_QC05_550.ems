@@ -1,0 +1,11 @@
+﻿BalloonData QC05_550_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_CHARA,  CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "Dummy" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_550_bda = {
+	"QC05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC05_550",// 出力ファイル名
+	QC05_550_EMS,           // 上記変数
+};

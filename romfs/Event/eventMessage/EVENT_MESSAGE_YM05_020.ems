@@ -1,0 +1,31 @@
+BalloonData YM05_020_EMS[] = {
+	// ▼延長戦で発生
+	// ●クーデリアと仲良くなっていなくても出る
+	// ●クーデリア初対面が発生している
+	// ▼広場に行くと発生
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, it's Kuu-chan. She looks like<CR>she's thinking about something...<CR>Kuu-chan!" },
+	// ▼クーデリア表示
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Daaah, don't shout my name in such<CR>a crowded place!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Because you looked like you were thinking<CR>deeply about something, I was wondering<CR>what was wrong..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Was it that obvious? Grrr, I let my guard down.<CR>...I was just thinking about something.<CR>You should hear me out too" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "...There's an adventurer woman who's been<CR>going a little overboard lately. She's from a small<CR>village to the south of here" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "It's fine that she defeats monsters for us,<CR>but she sometimes goes too far and ends up<CR>destroying ruins and buildings, making a mess of things,<CR>I wonder?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Have you talked to her and asked her to stop?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "If that would solve the problem, no one would be worried.<CR>The thing is, she's not doing it<CR>because she's trying to be mean or anything" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "So we have no choice but to try<CR>and set up some kind of monitoring system,<CR>but we just can't figure out how" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "I understand the situation, but...<CR>Why does this have to be your problem, Kuu-chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Right? Why do I have to deal with stuff like this?<CR>Requests like this have been piling up lately<CR>and it's really getting on my nerves" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "I see, it sounds tough" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Don't just say that like it's someone else's problem!<CR>Since I told you about it, you're going to<CR>think of a good solution too, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "What!<CR>You want me to think of something<CR>on the spot!?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_WARA,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "It doesn't have to be right now.<CR>It's more important to come up with a reliable solution.<CR>I'm counting on you" },
+	// ▼クーデリア立ち去る
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "(Even if she says that... I have no idea what to do)" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM05_020_bda = {
+	"YM05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM05_020",// 出力ファイル名
+	YM05_020_EMS,           // 上記変数
+};

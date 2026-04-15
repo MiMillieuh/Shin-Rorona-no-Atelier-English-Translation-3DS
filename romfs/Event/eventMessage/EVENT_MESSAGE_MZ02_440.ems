@@ -1,0 +1,27 @@
+BalloonData MZ02_440_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...I received an invitation saying she started a new shop,<CR>but just what in the world has she started this time..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Well, worrying about it won't help.<CR>I'll understand once I go see for myself." },
+	// ▼黒画面に
+	{ BALLOON_MODE_BUCSYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_BUC,            "Oh my, it's quite busy...<CR>Pardon the intrusion." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "Welcome!<CR>Welcome to Rorona's Pie Shop!" },
+	// ▼一枚絵に
+	{ BALLOON_MODE_BUCSYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_BUC,            "...A Pie Shop?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_BUC,            "Ah, Sterk-san. You came!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_BUC,            "Yes, well...<CR>I didn't expect it to have changed this much..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_BUC,            "Ehehe.<CR>Actually, it was my dream since I was little.<CR>To open a pie shop." },
+	{ BALLOON_MODE_BUCSYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_BUC,            "But won't Astrid get angry<CR>when she returns?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     9, BALLOON_FRAME_TYPE_BUC,            "Oof, that's... t-that'll be fine!<CR>I'm still doing alchemy... look, this pie here<CR>I even made with alchemy!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_BUC,            "I doubt she'll accept that excuse,<CR>but... well, I'll mediate if it comes to that." },
+	{ BALLOON_MODE_BUCSYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_BUC,            "You fulfilled your dream.<CR>For today, I should simply offer<CR>my sincere congratulations." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    12, BALLOON_FRAME_TYPE_BUC,            "Yes, thank you so much!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    13, BALLOON_FRAME_TYPE_BUC,            "Now then, I shall have something as well.<CR>I would appreciate it if you had<CR>something not too sweet." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_BUC,            "Leave it to me. I'll make it right away!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_440_bda = {
+	"MZ02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MZ02_440",// 出力ファイル名
+	MZ02_440_EMS,           // 上記変数
+};

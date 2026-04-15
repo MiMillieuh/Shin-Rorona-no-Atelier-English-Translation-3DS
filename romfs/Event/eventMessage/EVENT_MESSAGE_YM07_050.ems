@@ -1,0 +1,26 @@
+BalloonData YM07_050_EMS[] = {
+	// ▼延長戦後、割とすぐに発生
+	// ●課題２もしくはこの課題１が発生すると延長戦用王宮課題が発動する
+	// ▼アトリエで発生
+	// ▼アトリエにいるとステルクがやってくる
+	// ▼ドアをノックする音
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Pardon my intrusion. I've come to deliver a message from the castle." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, Sterk. A message, you say?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Yes. It's about a request." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "This Atelier has completed the three-year assignment from the castle and earned its freedom. But..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "We think it'd be a shame to sever ties entirely. That's why we've decided to continue requesting your services." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Unlike before, these won't be assignments—just regular requests. There won't be a strict deadline either. Still, the sooner the better." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I see..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "I've outlined what we'd like you to do here. Of course, there will be a reward. Please do consider it." },
+	// ▼帰って行くステルク
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "(Hmm, should I do it? But this is like an acknowledgment of our work... maybe I should take on some requests.)" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "(He said there's no deadline. Nothing to lose by doing them when I can, right?)" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The request from the kingdom has been updated.<CR>You can report on this request by speaking with Sterk." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM07_050_bda = {
+	"YM07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM07_050",// 出力ファイル名
+	YM07_050_EMS,           // 上記変数
+};

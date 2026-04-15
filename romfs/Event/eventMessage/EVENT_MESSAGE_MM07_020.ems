@@ -1,0 +1,12 @@
+BalloonData MM07_020_EMS[] = {
+	// ▼Triggers when deadline for task is near (warning message)
+	// ▼When protagonist is exploring
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh no. The castle job deadline is coming up.<CR>If I don't head back soon, I won't make it" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM07_020_bda = {
+	"MM07",                 // Output file path
+	"EVENT_MESSAGE_MM07_020",// Output file name
+	MM07_020_EMS,           // Variable above
+};

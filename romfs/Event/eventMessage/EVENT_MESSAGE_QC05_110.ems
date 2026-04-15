@@ -1,0 +1,42 @@
+BalloonData QC05_110_EMS[] = {
+	// ▼After some time passes from the above event
+	// ▼When Rorona is at the atelier
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Hello, Rorona" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, Tanta-san. Welcome.<CR>May I help you?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Yeah. There's something I've been wanting to ask<CR>you for a while. Is now a good time?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "An ask? If it's something I can do...<CR>Make something, perhaps?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_ODO,   BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "No no. I was wondering if you could<CR>identify this for me" },
+	// ★Show item image?
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Eh? Hmmm, I wonder what it is...<CR>Just looking at it, I can't really tell..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "Let me see" },
+	// ▼The master appears from the side and grabs the medicine
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Master!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "This is rare.<CR>It's been a while since I've seen the real thing" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "The master seems to know about this...<CR>What kind of medicine is it?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      10, BALLOON_FRAME_TYPE_BUC,            "A type of laxative.<CR>Even a small amount causes severe symptoms.<CR>Yet somehow it's not life-threatening - remarkable, really" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "The materials are absurdly expensive though,<CR>making it terrible value for money" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_ODO,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Oh my...<CR>Where on earth did you get something like this" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "Of all people, you come to Rorona to ask about this?<CR>The more I hear, the less I understand what you're trying to do" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "I told you from the start, didn't I?<CR>I'm not planning on being entertaining about this" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,      15, BALLOON_FRAME_TYPE_BUC,            "Hmm... you really are a daddy's boy" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_ODO,   BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "*cough*!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Huh? Faza... what is that?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_ODO,   BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "N-nothing! Really, it's nothing!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,      19, BALLOON_FRAME_TYPE_BUC,            "Your reaction says it all, doesn't it?<CR>How boring, how boring" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,      20, BALLOON_FRAME_TYPE_BUC,            "I expected you to be a troublemaker who causes<CR>all sorts of romantic disputes,<CR>but it turns out you're just a spoiled boy<CR>trying to get his father's attention" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Well... I won't deny the latter part.<CR>But if you WANT romantic troubles,<CR>I'll gladly take on as many as you like" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,      23, BALLOON_FRAME_TYPE_BUC,            "Don't try to act tough now.<CR>Alright, your business here is done. Get out" },
+	// ▼The master returns to her room
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Sigh... I haven't sweat this much in a while.<CR>She's definitely several levels above me" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "Um... I couldn't follow the conversation at all..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "Oh, don't worry about it.<CR>It'd actually make me happy if you could<CR>just forget about tonight" },
+	// ▼Tantolis also leaves
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "You say not to worry, but I can't help it..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_110_bda = {
+	"QC05",                 // Output file path
+	"EVENT_MESSAGE_QC05_110",// Output file name
+	QC05_110_EMS,           // The variable
+};

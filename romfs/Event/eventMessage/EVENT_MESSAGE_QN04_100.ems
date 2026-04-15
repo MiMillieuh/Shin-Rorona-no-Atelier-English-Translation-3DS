@@ -1,0 +1,31 @@
+BalloonData QN04_100_EMS[] = {
+	// ★デフォはティファナさんに。ティファナさんのが起きた後に、他の人のも発生する
+	// ▼条件を満たして（時期とか好感度とか）、買い物画面を抜けた時に発生
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Oh right, Rorona-chan.<CR>I have a request, is that okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "A request? What is it?" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "You see, I'd like to sell<CR>the things you make at my shop.<CR>Medicine, items, things like that" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Things I made?" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "My shop doesn't have much variety,<CR>so I've been wanting to do something about it for a while..." },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_WARA,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "And if townspeople got to use<CR>the items you make,<CR>it would be good publicity for you too" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I see...so, is Tifana-san<CR>doing this for my sake?" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Not at all. It's a business for me too. I think<CR>about how to benefit myself, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "...I understand.<CR>If that's the case, I'd be happy to!" },
+	// ▼量販店システムのヘルプメッセージ
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The mass-production shop can now be used." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Would you like to check the mass-production shop tutorial?" },
+	// ▼選択肢「はい/いいえ」
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The mass-production shop is a system where<CR>items synthesized by Rorona are<CR>mass-produced and sold by shop owners." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "To use the mass-production shop,<CR>first talk to a shop owner<CR>and choose \"Register.\"" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Then select the item to register<CR>and you're done. After some time,<CR>the registered item will be on sale." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "However, some items cannot be registered.<CR>In that case, try raising friendship<CR>with other shop owners." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The items that can be registered differ by shop,<CR>so when the mass-production shop starts at<CR>another shop, they might handle them." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "By the way, Tifana-san's shop<CR>handles medicine and miscellaneous goods." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "For details, please check the help on<CR>the mass-production shop from the menu's encyclopedia." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN04_100_bda = {
+	"QN04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN04_100",// 出力ファイル名
+	QN04_100_EMS,           // 上記変数
+};

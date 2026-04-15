@@ -1,0 +1,23 @@
+﻿BalloonData MM11_550_EMS[] = {
+	// ▼
+	// ★Only if the doll problem has been solved
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Ah... Rorona-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Ah, Lionela. What's wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I heard you started your<CR>final work..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Yeah, I got it the other day.<CR>They told me to bring the ultimate secret of alchemy" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "I'm... I'm so sorry!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Eh? Why are you apologizing all of a sudden?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Rorona-chan, even though you were so busy,<CR>I caused you so much trouble, so..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "It's fine, don't worry about it.<CR>The things I did, I wanted to do,<CR>and it was mostly Master who..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,       8, BALLOON_FRAME_TYPE_BUC,            "Come on,<CR>she's saying it's fine, so don't worry" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "You should at least worry a little" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_SIN,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "I'll work extra hard to help you!<CR>So, um..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "...Yeah, thanks. It's okay.<CR>I'll definitely pass!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM11_550_bda = {
+	"MM11",                 // Output file path
+	"EVENT_MESSAGE_MM11_550",// Output file name
+	MM11_550_EMS,           // Above variable
+};

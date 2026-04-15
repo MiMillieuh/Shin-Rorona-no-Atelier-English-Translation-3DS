@@ -1,0 +1,31 @@
+BalloonData QC01_640_EMS[] = {
+	// ▼
+	// ★※When alchemy level is fairly high and relationship is good
+	// ★Around year 3 and beyond
+	// ▼Cuderira is watching Rorona make something
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "You've gotten better at this, huh" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Hehehe.<CR>I've been doing this for over two years now, after all" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Is that so... Has it really been that long...<CR>Can you make all kinds of medicines now?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Yeah, I can make quite a lot. Why?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Well, um, you see...<CR>Like, this is just<CR>a hypothetical question, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "You couldn't like...<CR>make a medicine that makes you taller, could you..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "...Kuu-chan..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "W-What! I said it was hypothetical!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Hey! Don't look at me<CR>like I'm some pitiful creature!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "But Kuu-chan...<CR>You haven't grown at all... *sniffle*" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Why are you crying!?<CR>And I AM growing, okay!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Eh...? How much have you grown?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KANA,   BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "........About two millimeters" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "...*sniff* Sorry, sorry.<CR>I shouldn't have asked something like that..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KANA,   BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Don't apologize! Ugh, forget this conversation ever happened!<CR>Forget it! Got it!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Okay, okay... Well, I can't make one yet,<CR>but I'm sure eventually I'll be able to..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Daaah! Enough already!<CR>I said forget it!!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_640_bda = {
+	"QC01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC01_640",// 出力ファイル名
+	QC01_640_EMS,           // 上記変数
+};

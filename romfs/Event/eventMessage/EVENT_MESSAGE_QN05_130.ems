@@ -1,0 +1,21 @@
+BalloonData QN05_130_EMS[] = {
+	// ▼条件を満たしていて、買い物画面を抜けた時
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_NOR,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Hey, Rorona~.<CR>Got any interesting items~?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Eh? You just surprised me...<CR>Why?" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KOMA,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I'm getting tired of selling the same things.<CR>But selling regular items is boring too~..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Hmm, let me think...<CR>Okay, I'll bring some fitting items<CR>next time" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_WARA,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Really? Thank you~!<CR>Friends are the best~!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Waaaah! D-Don't get so close!<CR>Still a little scary!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_WARA,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Fufufu. Bring them quick, okay~?<CR>If you don't, I'll get even closer~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "O-Okay! Okay, so please step back!" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The mass-production shop<CR>can now be used at Pamela's shop." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Pamela's shop<CR>handles magical items and more." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN05_130_bda = {
+	"QN05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN05_130",// 出力ファイル名
+	QN05_130_EMS,           // 上記変数
+};

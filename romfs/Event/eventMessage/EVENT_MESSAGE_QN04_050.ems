@@ -1,0 +1,22 @@
+BalloonData QN04_050_EMS[] = {
+	// ▼店の前におじさん達がたむろしている
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "Huh? Why is everyone<CR>standing outside the shop...<CR>Something wrong?" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_A,      0, NAME_GUEST_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_NORMAL,         "Oh, you see, Tifana-chan<CR>seems to have gotten sick, so the shop's closed, you know" },
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_NORMAL,         "Why is that?<CR>Tifana-san's body is weak, and<CR>on top of that she pushes herself too hard..." },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_B,      0, NAME_GUEST_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_NORMAL,         "Well, that delicate nature<CR>is part of her charm, you know" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_C,      0, NAME_GUEST_C,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_NORMAL,         "Hey! That's a bit insensitive!" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_B,      0, NAME_GUEST_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_NORMAL,         "I know, I know, but...<CR>anyone would think about it once, right?" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_B,      0, NAME_GUEST_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_NORMAL,         "That they'd want to visit<CR>Tifana-chan while she's sick in bed..." },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_A,      0, NAME_GUEST_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_NORMAL,         "You dare?! Such an audacity!" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_B,      0, NAME_GUEST_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_NORMAL,         "W-What?! It's just imagination, okay?!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Aaaah, don't fight!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "But I'm worried...<CR>Maybe I should bring her some medicine" },
+	// ▼イベント結果：雑貨屋が一日お休み
+	// ▼
+};
+
+BALLOON_DATA_ALL QN04_050_bda = {
+	"QN04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN04_050",// 出力ファイル名
+	QN04_050_EMS,           // 上記変数
+};

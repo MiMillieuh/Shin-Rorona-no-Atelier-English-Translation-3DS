@@ -1,0 +1,23 @@
+BalloonData YM02_160_EMS[] = {
+	// ▼本編中以降で発生
+	// ●エスティ参戦が発生している
+	// ▼ロロナ・エスティ・ステルクのパーティでの出発イベント
+	// ▼二人を一緒に雇って、初めて採取に行こうとした時
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Today's my first time going with Sterk-kun.<CR>Rorona-chan is... not here yet, I wonder" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "She should be coming soon, I think..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Still, I never thought the day would come<CR>when I'd go out with Sterk-kun like this" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "That's my line.<CR>I thought you'd be working at the reception desk forever..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Huh? Would I have been in the way?<CR>It would've been more fun just<CR>with Rorona-chan, wouldn't it?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "N-No, that's not it at all...<CR>Hmm... This time around,<CR>things seem awkwardly complicated..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Fufu, since it's come to this,<CR>I'll make sure to closely observe<CR>how much Sterk-kun's swordsmanship has improved" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "No, I'd rather you didn't do that.<CR>You should focus on your own work,<CR>please" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Of course. I'll do what I need to do.<CR>But I will also check on Sterk-kun's sword skills. Don't worry" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Hmm... This is troubling. How awkward..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM02_160_bda = {
+	"YM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM02_160",// 出力ファイル名
+	YM02_160_EMS,           // 上記変数
+};

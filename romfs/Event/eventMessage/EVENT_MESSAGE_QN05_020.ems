@@ -1,0 +1,13 @@
+BalloonData QN05_020_EMS[] = {
+	// ▼↑の採取地に初めて行った時に発生
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "I came after all, but...w-will I be okay?<CR>It's what Master said, after all.<CR>It has to be a lie, right?!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "......." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Alright, let's finish up and go home!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN05_020_bda = {
+	"QN05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN05_020",// 出力ファイル名
+	QN05_020_EMS,           // 上記変数
+};

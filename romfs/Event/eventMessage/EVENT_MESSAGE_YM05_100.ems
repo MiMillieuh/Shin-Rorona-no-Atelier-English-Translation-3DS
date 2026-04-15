@@ -1,0 +1,24 @@
+BalloonData YM05_100_EMS[] = {
+	// ▼ジオの持論が発生している（しばらく経過）
+	// ▼王宮廊下に行くと発生
+	// ▼ステルクが一人つぶやいている
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "...That idiotic king really does cause me no end of trouble" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "...Saying we should become a republic, is it?<CR>He sure makes it sound easy" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "It might be fine for you,<CR>but what about the people who get dragged along with all this?<CR>Think about our position for once" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "If the king disappears, knights would become unnecessary too,<CR>wouldn't they?<CR>At the very least, there'd be no one left to protect..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "So what am I supposed to do then?<CR>What about my very reason for being?<CR>Who am I supposed to protect anymore...?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "...No matter how much I think about it, I can't come to a conclusion.<CR>This isn't something I can just talk to someone about,<CR>I wonder..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "If I asked Estiy-senpai,<CR>I bet she'd have something to say about it" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "...Haa, maybe I should cool my head for a while..." },
+	// ▼ステルク去る
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "(Sterk-san has his share of troubles too... )" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM05_100_bda = {
+	"YM05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM05_100",// 出力ファイル名
+	YM05_100_EMS,           // 上記変数
+};

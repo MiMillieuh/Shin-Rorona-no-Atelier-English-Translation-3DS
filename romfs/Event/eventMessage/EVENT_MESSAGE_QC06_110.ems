@@ -1,0 +1,35 @@
+BalloonData QC06_110_EMS[] = {
+	// ▼↑が発生してしばらく経過後
+	// ★※発生場所、状況未定。やはりアトリエか
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Excuse me" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, welcome. What brings you here today..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Sorry to drop in on you like this, but I need your help" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Huh? Oh, no way! Impossible!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Hmm? You're free to refuse, of course, but<CR>at least hear me out first" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Because you'll say something like<CR>'we're leaving right now' like you did before, right?<CR>That really is..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "No no, it's nothing that urgent.<CR>This time, I need you to properly prepare<CR>and get everything in order" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "In that case... I'll listen. Alright" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Good. Now... have you heard about the bandits<CR>that have been appearing near this country recently?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Oh, yes.<CR>Sterk told me about it" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Then I'll cut to the chase.<CR>I'm thinking of raiding their hideout nearby<CR>and taking them all down at once" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Haah... eeeehhhh!?<CR>Just the two of us,Gio? Is anyone else coming..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Just you and me.<CR>I don't want to make a big fuss by<CR>bringing more people than necessary" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "But why me?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "I need your knowledge.<CR>It seems they're hoarding firearms, bombs,<CR>and the like" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Without that, I was planning to handle it<CR>all by myself" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "But but, my knowledge isn't that special...<CR>Wouldn't it be better to ask Sterk or the knights?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "There's a reason I can't ask them...<CR>Well, it is dangerous work, and as I said,<CR>you're free to refuse" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Come back in a week.<CR>I want your answer by then" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "And please, keep this between us" },
+	// ▼去っていくジオ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Oh,Gio!<CR>Uuh, what should I do..." },
+	// ▼イベント結果：ジオが仲間から外れて、次のイベントまで雇えなくなる
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Gio has left your party." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_110_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_110",// 出力ファイル名
+	QC06_110_EMS,           // 上記変数
+};

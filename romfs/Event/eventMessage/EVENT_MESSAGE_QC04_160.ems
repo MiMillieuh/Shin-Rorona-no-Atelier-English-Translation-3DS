@@ -1,0 +1,31 @@
+BalloonData QC04_160_EMS[] = {
+	// ★↑で説明不足なところ埋めるイベント
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...Master.<CR>Was that really okay for Rio-chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "What do you mean by 'that'?<CR>If you ask so vaguely, I can't answer" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "I mean Ranya-chan and Horo-kun, of course.<CR>Now that I think about it, I can kind of understand<CR>what those two are saying..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Are you saying it would have been better<CR>if those two disappeared?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "That's not what I mean!<CR>But for Rio-chan's sake,<CR>I wonder which would have been better" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "If the person herself doesn't mind, then there's no problem.<CR>It's not like there's any physical harm either" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "But Ranya-chan and Horo-kun are<CR>also part of Rio-chan herself, right?<CR>She thinks it's not right for them to exist" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "That's true. Unconsciously,<CR>she probably thinks it's not right either" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "If you ask me,<CR>no matter how others look at you,<CR>you just need to not care yourself, that's all" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "You have a point, Master" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Are you saying I'm being<CR>looked at strangely by others?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Ah, no, that's not what I meant!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Well, whatever. Either way,<CR>it's not something we need to decide right away.<CR>Take your time to find the answer" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "...You're right. It's not like<CR>what others think really matters, is it" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "It's not like it's not your concern either.<CR>Your feelings will<CR>greatly influence her decision" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Huh? Why me?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "...I won't tell you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "What? Why not? Please tell me!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Figure that out for yourself.<CR>You natural flirt, you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Flirt?<CR>Wait, why is that? Hold on, Master!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC04_160_bda = {
+	"QC04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC04_160",// 出力ファイル名
+	QC04_160_EMS,           // 上記変数
+};

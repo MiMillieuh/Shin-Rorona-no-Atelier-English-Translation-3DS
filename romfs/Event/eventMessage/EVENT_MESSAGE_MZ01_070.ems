@@ -1,0 +1,59 @@
+ BalloonData MZ01_070_EMS[] = {
+	// ▼
+	// ★- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	// ▼好感度高い
+	// ▼城の前でジオがうろうろしている
+	// ★※ジオで前日のイベントを見てる時は、タウンマップになる前に優先で発生する感じ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...Huh? Gio-san? What are you doing here?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, finally you're here.<CR>Well, you see... I was worried about your results" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "If that was the case, you could have just gone inside the castle...<CR>You're the king, after all" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Using my kingly authority just<CR>to satisfy my curiosity feels a bit uncouth..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Forget about me.<CR>How did it go? What were the results?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Yes, I passed!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_WARA,       BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I see! I'm glad. Congratulations" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Thank you! It's all because you helped me so much" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "No... I was merely the one who gave the order.<CR>In the end, you were the one who worked so hard.<CR>I'm sorry for putting you through that" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Please don't apologize.<CR>If it weren't for this job,<CR>I wouldn't have worked so hard" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "I might not have even started alchemy in the first place...<CR>So in a way, I'm grateful" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "...Though I couldn't say this if I had failed" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "...Hmm. It seems you've grown not just as an alchemist,<CR>but as a person as well" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Have I?<CR>I don't think I've changed that much..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Well, I shouldn't keep you here all day.<CR>I'm sure there are others<CR>waiting to hear the news" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Ah, that's right.<CR>I need to tell the teacher" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Yes, you should.<CR>I'll come by to greet you properly another day" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Yes. Well then, goodbye" },
+	// ▼立ち去るロロナ
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Having fulfilled the kingdom's request,<CR>I should reward her accordingly" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Now then, it's time for this king<CR>to do some real work" },
+	// ▼
+	// ★※必ず最初になる予定なので分岐なし
+	// ★- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	// ▼好感度普通
+	// ★王であることは知りつつ、１位ではない時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Ah, Gio-san! Gio-san!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Hmm? Oh, it's you.<CR>Looks like things worked out well" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Thank you!<CR>Did Sterk-san already tell you?<CR>Did he?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "I didn't need to be told.<CR>Your face says it all.<CR>Look how happy you are" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Eh? Was it that obvious?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "There's no shame in being happy.<CR>The harder you worked,<CR>the more you're entitled to that joy" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "I guess so. It feels like just yesterday,<CR>but so much has happened..." },
+	// ▼最後の台詞で分岐させる。最初に来たか否かで（アストリッドのとこに行くのを促す台詞
+	// ▼最初に来た時
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "Anyway, congratulations.<CR>I would love to talk more,<CR>but I shouldn't keep you any longer" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "There are probably others who<CR>are looking forward to hearing this" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "Eh? Oh, yes.<CR>I need to go tell the teacher" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "Yes. Please give her my regards" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "Yes. Well then, see you!" },
+	// ▼
+	// ▼二回目以降
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "Anyway, congratulations.<CR>I would love to talk more,<CR>but I shouldn't keep you any longer" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "I'll come by to see you again soon" },
+	// ▼
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ01_070_bda = {
+	"MZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MZ01_070",// 出力ファイル名
+	MZ01_070_EMS,           // 上記変数
+};

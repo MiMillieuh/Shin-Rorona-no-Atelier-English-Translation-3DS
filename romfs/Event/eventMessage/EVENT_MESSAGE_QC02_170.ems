@@ -1,0 +1,35 @@
+BalloonData QC02_170_EMS[] = {
+	// ▼↑のイベントからある程度の期限内で
+	// ▼ステルク含む３人で採取に出かけた時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Sterk, please don't overdo it today. You're still recovering from your injury, you know." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R2,       1, BALLOON_FRAME_TYPE_BUC,            "I'm fine. If I'm helping, I'll do it with all my strength." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "No way! Please stay behind me today. Okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R2,       3, BALLOON_FRAME_TYPE_BUC,            "That's backwards. I'm here to protect you." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "But if you get hurt again, what will we do! No fighting today, period!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R2,       5, BALLOON_FRAME_TYPE_BUC,            "Then you should have just not invited me in the first place. You invited me but want me to sit on the sidelines? That's absurd." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "W-well, that's...! I wanted you to come! But no fighting!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "Your logic is all over the place. You're becoming more like Astrid." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Hey! That's unfair! Being compared to Master!" },
+	// ▼そんなやり取りを呆れてみてるもう一人（五人分、それぞれ）
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "...Excuse me, you two. Could you stop being so lovey-dovey in front of everyone?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_TERE,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "...Um, when you two are being all lovey-dovey like that, it's embarrassing for us watching..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "U-um, I think it's dangerous to be so flirty out here where monsters could appear..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "My my, showing off like that in front of me. Getting all cozy when you know I'm watching." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Hey hey, you two. Couldn't you save the flirting for when you get back to town?" },
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R2,      14, BALLOON_FRAME_TYPE_BUC,            "W-who's flirting!? That's not our intention at all, we were just..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "R-right! It's not like that! We're just..." },
+	// ▼もう一回五人分
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Whatever you say... I can't deal with this..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_AKI,      BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Sigh... Fine, do whatever you want..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "...Sorry for butting in. I'll leave you two alone..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Sigh. You two enjoy your time together, then. My my..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Can't watch anymore. Kids these days..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_170_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_170",// 出力ファイル名
+	QC02_170_EMS,           // 上記変数
+};

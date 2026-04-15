@@ -1,0 +1,49 @@
+BalloonData QC06_180_EMS[] = {
+	// ▼↑のイベントの後
+	// ★※長くなりすぎないようなら連続発生でも
+	// ▼大臣の家
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Haah, is it this late already...<CR>Even though it's work, having this every day,<CR>is really exhausting..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_GIO,        0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_BUC,            "I'm causing you trouble" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_ODO,   BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Wha...? Who's there!?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "It's me, Meriodas" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_ODO,   BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Y-Your Majesty!? Why are you at my home..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "I had something I didn't want others to hear.<CR>I apologize for entering uninvited" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "How extremely irresponsible...<CR>Do you have any idea of your responsibility as King...!?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Ah, please spare me the lectures.<CR>I've had enough for tonight" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Speaking of which, do you recognize this?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "That's a bomb being test-manufactured<CR>at our country's factory..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_ODO,   BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Wha!? H-how dare you bring such a dangerous item<CR>into someone's home!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Don't raise your voice.<CR>This is something I took from the bandits<CR>who've been plaguing the area around town lately" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_ODO,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "N-now I see...<CR>So those bandits stole from<CR>our country's factory?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "They said they received their supplies from you" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_KANA,  BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "............<CR>Surely you're not believing<CR>the words of mere bandits, Your Majesty?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_KANA,  BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Moreover, what would I possibly have to gain<CR>from doing such a thing..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "What immediately comes to mind is gathering data" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "If the country conducted bomb experiments openly,<CR>it would alarm the people, and building dedicated facilities<CR>would cost money" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "But if they make some outlaws use them,<CR>there's no cost, and if the products turn out defective,<CR>those outlaws are the ones who get hurt" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Or perhaps you were colluding with such people<CR>and plotting a coup" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Even now, you hold the real power in the country.<CR>Wouldn't it be natural to want it all for yourself..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Your Majesty! Your suspicions are outrageous!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Yes, outrageous suspicions.<CR>As for this time, I'd like to end it<CR>as my own baseless speculation" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_KANA,  BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "Because you handle the state affairs so well,<CR>I can confidently leave the castle empty" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "And I'm grateful for that,<CR>so I haven't interfered unnecessarily until now" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "But lately, haven't you been going too far?<CR>In everything, really" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "...How presumptuous of you to speak!<CR>Someone who never fulfills their duties whatsoever,<CR>what could you possibly know!?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "I told you to spare me the lectures" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "Your argument has merit,<CR>but there's no need to force changes<CR>when everything is running smoothly" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "It would be better for the country and its people<CR>if a king weren't needed at all" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "How long do you think such selfish reasoning<CR>will hold up!<CR>Today, I simply must say!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "That concludes my business.<CR>I apologize for troubling you when you're tired.<CR>Rest well" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,       34, BALLOON_FRAME_TYPE_BUC,            "Wait! Your Majesty!" },
+	// ▼立ち去るジオ
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_KANA,  BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "Hmph... Does he think this makes us even!<CR>Ugh, how infuriating!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_180_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_180",// 出力ファイル名
+	QC06_180_EMS,           // 上記変数
+};

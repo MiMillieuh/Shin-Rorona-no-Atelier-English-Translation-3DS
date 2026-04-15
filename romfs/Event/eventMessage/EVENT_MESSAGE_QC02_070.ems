@@ -1,0 +1,37 @@
+ BalloonData QC02_070_EMS[] = {
+	// ▼↑のイベントの後、さほど経たない内に依頼のところへ
+	// ★経過し過ぎてる場合は起きない
+	// ▼依頼を請け負えた時などに発生
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Estiy-san.<CR>Did something happen with Sterk-san lately?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Eh? Like what, for example?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Well, I can't really explain it well,<CR>he seems kind of down, or sad, or something…" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Heh… Sterk-kun rarely shows emotion<CR>in front of people he's not close to.<CR>Seems like you've gotten quite close with him, Rorona-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Is that right?<CR>I feel like he hasn't changed much from before" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "He's just embarrassed.<CR>That boy is quite shy, after all.<CR>Oh, I got off topic" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Mmm, is Sterk-kun really sad…<CR>It might be about work, I guess" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Work, you mean knight duties?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "More precisely, it's work that's<CR>not very knight-like, let's say" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Even Sterk-kun, despite how he seems,<CR>actually admires knights from stories,<CR>and that kind of thing…" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Oh, I think I've heard something like that before" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Oh is that so. So you two talk about stuff like that" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Well, even so, what we're doing now is shutting down the atelier<CR>of a poor young girl…<CR>It's probably taking a toll on him mentally" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "That's not true!<CR>Sterk-san isn't trying to shut it down or anything!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Sterk-san is always helping me,<CR>and I'm really grateful, so…" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "The more you get closer to Rorona-chan…<CR>that's how it is" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "…Then maybe it's better if<CR>I don't ask Sterk-san for help anymore…?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Oh no, that's not what I meant.<CR>That's not what I was trying to say at all" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "It's just a problem with Sterk-kun's feelings, anyway.<CR>First of all, it would be a problem if Sterk-kun<CR>stopped helping, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "That would be a huge problem… and I really don't want that" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Then don't worry about it.<CR>It's fine, Sterk-kun is a grown man.<CR>He'll work it out on his own eventually" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Alright… I understand.<CR>Thank you so much…" },
+	// ▼すごすご帰っていくロロナ
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "I messed up… I was just trying to cheer her up,<CR>but I think I made it worse" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "This is all Sterk-kun's fault.<CR>I'll have to scold him later" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_070_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_070",// 出力ファイル名
+	QC02_070_EMS,           // 上記変数
+};

@@ -1,0 +1,32 @@
+﻿BalloonData QN03_050_EMS[] = {
+	// ★↑発生からしばらく時間経過後
+	// ★ロロナがアトリエにいる時
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_BUC,            "Rorona! Come help me for a moment" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Coming~! What's up, Master?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_BUC,            "Just hurry up and come.<CR>It's heavy—I can't carry it alone" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Yes, yes... I wonder what you made this time..." },
+	// ▼隣の部屋に行くロロナ
+	// ▼黒画面で時間経過
+	// ▼アトリエに置かれたフルフェイスのヘルメットを挟んで話している二人
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Heave, ho... so heavy...<CR>What even is this?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "It's called a helmet in most circles, you know.<CR>It weighs about 50 kg" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Fi-Fifty kilograms!?<CR>Wh-Why such a heavy helmet?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Have you forgotten? It's for Hageru's wig, obviously" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "A wig? Oh, there was something about that...<CR>Wait, this is supposed to be a wig?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Yes. Attach some hair to this, and it'll look the part.<CR>That way, it definitely won't<CR>just slip off" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "But still, compared to normal wigs,<CR>this feels pretty different..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "No need to worry. It'll surely become something fun...<CR>No, something he'll definitely be pleased with" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "You just let a bit of your true feelings slip there" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "You misheard. Well then, I'll leave the finishing touches to you.<CR>Haah, I'm exhausted from working so hard" },
+	// ▼部屋に帰っていく師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "And with that, the wig is...<CR>Hmm, is this really okay...?" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Received reference book:<CR>\"<CLGR>Wig World<CLNR>\".<CR>Obtained <CLGR>Helmet<CLNR>." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN03_050_bda = {
+	"QN03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN03_050",// 出力ファイル名
+	QN03_050_EMS,           // 上記変数
+};

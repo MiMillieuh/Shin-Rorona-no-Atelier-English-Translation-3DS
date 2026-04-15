@@ -1,0 +1,12 @@
+BalloonData MA02_130_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Exploration sites are composed<CR>of multiple smaller maps. At first, you can only select one map,<CR>but clearing it allows you to proceed to new maps." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Cleared maps can be explored any number of times.<CR>Additionally, no matter which map you explore,<CR>a full day will always pass." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA02_130_bda = {
+	"MA02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA02_130",// 出力ファイル名
+	MA02_130_EMS,           // 上記変数
+};

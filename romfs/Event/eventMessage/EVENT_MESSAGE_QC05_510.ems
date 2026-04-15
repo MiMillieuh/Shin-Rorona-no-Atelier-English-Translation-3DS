@@ -1,0 +1,42 @@
+﻿BalloonData QC05_510_EMS[] = {
+	// ▼タントリスと一緒に採取に行った時
+	// ▼どこかの採取地か街道で、ひょっこり両親に会う
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_ODO,    BUC_POSITION_TYPE_R2,       0, BALLOON_FRAME_TYPE_BUC,            "Oh, if it isn't Rorona" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "Huh? Mom, Dad?<CR>Are you two traveling together again?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_NOR,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Yes. We felt like climbing the mountains for the first time in a while.<CR>Don't worry, we'll be<CR>back in about three weeks" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "I'm not worried or anything...<CR>But why don't you ever tell me<CR>before you go somewhere?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_SIN,    BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "We didn't want to interrupt Rorona's training.<CR>It's out of love, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "You're not interrupting anything,<CR>just tell me properly!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "When I come home and nobody's there,<CR>it gets pretty lonely, you know" },
+	// ▼その様子を見ているタントリス
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "...Hmm. You get along well with your parents" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "Really? I think it's normal" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Normal, huh..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_NOR,    BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "My, who is this person?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_NOR,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Oh my, what a lovely person.<CR>Rorona, you can't blame us for noticing" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L2,      12, BALLOON_FRAME_TYPE_BUC,            "N-no! That's not what this is!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_SIN,    BUC_POSITION_TYPE_R2,      13, BALLOON_FRAME_TYPE_BUC,            "Wh-what!? I won't allow it, Rorona!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L2,      14, BALLOON_FRAME_TYPE_BUC,            "I told you it's not like that!<CR>Stop it, this is so embarrassing..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "How do you do. Pleased to meet you, ma'am and sir" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_NOR,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Oh, how polite of you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_SIN,    BUC_POSITION_TYPE_R2,      17, BALLOON_FRAME_TYPE_BUC,            "Father indeed!<CR>I don't recall giving you permission to call me that!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "My name is Tantris.<CR>Rorona and I are seriously considering<CR>our future together..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L2,      19, BALLOON_FRAME_TYPE_BUC,            "Wh-what are you saying!<CR>That's not it at all!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_SIN,    BUC_POSITION_TYPE_R2,      20, BALLOON_FRAME_TYPE_BUC,            "I knew it! This is exactly what I suspected!<CR>Rorona, you..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_ODO,    BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "My, my... I never expected Rorona<CR>to catch such a lovely person..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "I shouldn't intrude on a family reunion.<CR>I'll take my leave.<CR>Take care, Rorona" },
+	// ▼立ち去るタントリス
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L2,      23, BALLOON_FRAME_TYPE_BUC,            "W-wait a moment!<CR>First, let me clear up this misunderstanding..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_SIN,    BUC_POSITION_TYPE_R2,      24, BALLOON_FRAME_TYPE_BUC,            "Rorona! I want you to explain<CR>what's going on properly!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_NOR,    BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "Mama wants to know too.<CR>How did you seduce such a person?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L2,      26, BALLOON_FRAME_TYPE_BUC,            "I told you it's not like that...<CR>Tantris! Come back!" },
+	// ▼少し離れた場所でタントリスの独り言
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "Maybe I was a bit too mischievous...<CR>I should apologize later" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_510_bda = {
+	"QC05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC05_510",// 出力ファイル名
+	QC05_510_EMS,           // 上記変数
+};

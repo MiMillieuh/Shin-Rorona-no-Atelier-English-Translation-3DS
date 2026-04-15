@@ -1,0 +1,55 @@
+BalloonData MZ02_030_EMS[] = {
+	// ▼Sterk working inside the castle
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Alright, this should be it...<CR>Well then, excuse me" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Yes, good job.<CR>Oh, wait. Just a moment" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "You're going to the atelier anyway, right?<CR>Please take this with you" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "What is this?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "My homemade bento.<CR>You need to let her eat<CR>proper meals once in a while" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Sterk-kun,<CR>your cooking skills are totally lacking, after all" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I do make an effort, but<CR>it seems swords and kitchen knives<CR>require different skills..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "But you know,<CR>you'd probably look quite handsome<CR>wearing an apron and cooking in the kitchen" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Sorry for calling you back for nothing.<CR>Hurry up and go see her" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Yes. Well then, excuse me" },
+	// ▼Sterk leaves
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "So diligent, aren't they.<CR>Going every single day" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "But the weird thing is they never<CR>come out and say how they feel...<CR>It's frustrating to watch, or whatever..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Well, it's not like I can talk...<CR>At my age..." },
+	// ▼Black screen scene change
+	// ▼Sterk walking toward the atelier
+	// ▼There's an amazing line in front of the atelier
+	{ BALLOON_MODE_CHASYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    13, BALLOON_FRAME_TYPE_NORMAL,         "...The crowd is as huge as ever.<CR>There's no way I'm getting through the front..." },
+	// ▼Sterk walks toward the back entrance
+	// ▼Sterk peeks at the inside of the atelier
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Alright, done!<CR>Hom-chan, take this to the customer!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Yes, understood" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Thanks! Now then, next request is..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Master. Perhaps you should rest a bit?<CR>You've been working nonstop since morning" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Nope, I'm fine.<CR>Ah, Hom-chan, are you tired?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_IKA,      BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "No, Hom is fine as well.<CR>It would not do for Hom to rest<CR>while Master is working" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Sorry about that.<CR>Once this is done, let's take a break, okay?" },
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Bad timing, I suppose. I'll wait a bit..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Although Astrid asked me to watch over things,<CR>there's almost nothing for me to do here.<CR>She's truly grown so much" },
+	// ▼
+	// ★Illustration and text
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Through three years of work, Rorona has grown greatly as an alchemist" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Her earnest and polite way of working has earned her high praise from the townspeople," },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "and today too, many people have lined up in a long queue in front of the atelier to ask Rorona for work" },
+	// ★Same as Ixel's. Copied as is
+	// ▼Conversation after narration
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "Well then, I suppose it's about time...<CR>Excuse me" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "Eh? Oh, Sterk-san!<CR>Were you here?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Ah, I was waiting outside for a bit.<CR>This is a gift from Estiy-senpai" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "Thank you so much.<CR>Please come up...<CR>Oh, I'm really dirty right now though..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "Being dirty is nothing new, is it?<CR>No need to worry about it now" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "I know, but...<CR>I wonder if it's okay for a girl to be<CR>this dirty..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "Hmm? My apologies. I didn't quite catch that..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "I-I'll clean up quickly!<CR>Just let me tidy up a little<CR>right away!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_030_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_030",// Output file name
+	MZ02_030_EMS,           // The above variable
+};

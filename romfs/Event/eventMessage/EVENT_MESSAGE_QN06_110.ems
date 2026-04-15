@@ -1,0 +1,20 @@
+﻿BalloonData QN06_110_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Oh wait. One more thing before you go, Rorona-chan..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Yes?<CR>Oh, is this another job from Estiy-san?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "You got it! Somehow you can<CR>tell what I'm going to say before I say it now." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Ahaha... you've asked me so many times.<CR>So, what should I bring this time?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Well, you see..." },
+	// ▼依頼の内容をシステムメッセージで表示
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I think this will probably be<CR>the last request I ask of you.<CR>So I'm sorry to trouble you while you're busy..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "It's fine! I can definitely do it.<CR>I'll bring it as soon as I can!" },
+	// ▼立ち去るロロナ
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "...My, she really has become dependable, hasn't she?<CR>I wonder if it's Master making her<CR>take a hands-off approach." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN06_110_bda = {
+	"QN06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN06_110",// 出力ファイル名
+	QN06_110_EMS,           // 上記変数
+};

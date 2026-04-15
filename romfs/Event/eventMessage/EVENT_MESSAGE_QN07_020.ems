@@ -1,0 +1,30 @@
+﻿BalloonData QN07_020_EMS[] = {
+	// ▼主人公がアトリエにいる時
+	// ▼無言でコオルがアトリエに入ってくる
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_NAZO,        BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Yo, you're the new Atelier shop owner?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Huh? Yes, that's right... but who are you?<CR>You can't just walk in like that!" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_NAZO,        BUC_COWLE_AKI,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "You sure don't look very reliable.<CR>Are you really okay being the shop owner?<CR>Someone like you, I mean." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Ouch! I mean... it's not like I'm confident or anything,<CR>but Master forced me into this..." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Well, whatever. I'm Corm. I'm a traveling merchant." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_WARA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I went out of my way to come here, so<CR>you gotta buy something from me, okay?" },
+	// ★名前テロップ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "A traveling merchant? Are you a kid?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "I'm way more of an adult than you, lady." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Anyway, take a look at what I've got." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Let me see...<CR>Whoa, there are so many materials I've never seen!" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_WARA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Heh, I've got exclusive access to my sources.<CR>The previous shop owner never bought anything from me, though..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "Of course. No sane person would pay money<CR>to buy stuff from a rude, unlikable kid." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Wah!? Master, you're here!?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_IKA,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Hmph. You don't see me being all smiles<CR>to customers who don't pay, do you?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      14, BALLOON_FRAME_TYPE_BUC,            "Shops choose their customers, not the other way around.<CR>If you're a merchant, remember that." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "U-Um, please don't fight, okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Hmph. So what do you say, lady?<CR>You gonna buy something or not?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Uh, okay, um... since you're here anyway..." },
+	// ▼買い物画面に移行
+};
+
+BALLOON_DATA_ALL QN07_020_bda = {
+	"QN07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN07_020",// 出力ファイル名
+	QN07_020_EMS,           // 上記変数
+};

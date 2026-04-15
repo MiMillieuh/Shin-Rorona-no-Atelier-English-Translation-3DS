@@ -1,0 +1,46 @@
+BalloonData QC03_510_EMS[] = {
+	// ▼ When you've come gathering with Iksel (nearby?
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Iksel! Iksel!<CR>Shouldn't we take a break soon?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Break? We just got here, you know." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "I know, but...<CR>I made us a lunch bento.<CR>If we don't eat it soon, it'll go bad." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_AKI,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Lunch... Seriously, this isn't a picnic, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Y-Yeah, I know...<CR>But maybe it wouldn't hurt just this once?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Fine, I guess. If we're eating, let's do it quick." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Okay, just wait here...<CR>Ahhhhhhh!!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Whoa!?<CR>Why are you yelling!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "I forgot the bento at home..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_AKI,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "What!?<CR>You really are spaced out, huh..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "I thought I definitely packed it...<CR>Uugh, my bento..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_KANA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "There, there, don't cry.<CR>...Fine, just wait here a sec." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Wait here... Iksel, where are you going?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Just stay there and be good, okay?" },
+	// ▼ Iksel ignores Rorona and goes somewhere
+	// ★ Brief black screen
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Okay, sorry for the wait." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Ah, you're back. Where did you go?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "I made this for you. Here." },
+	// ▼ Shows off some original cooking
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Oh, a meal! Eh? What is this?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "I made it, that's what.<CR>With ingredients from around here.<CR>Fortunately, there was a frying pan available." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Go on, try it." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "O-Okay. Thanks for the food...<CR>Oh, it's delicious!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Oh, really? That's great." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Yeah, so delicious!<CR>Especially this meat... What kind of meat is this?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_KOMA,     BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Well, when you talk about meat<CR>that you can find around here...<CR>*cough* *cough*!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Eh? W-What?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "Ah, nothing. Hey, I'm just glad you liked it. Yep." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "...Um, aren't you going to eat any...?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_KOMA,     BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "Ah, I already ate a bunch<CR>while taste-testing." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "Why are you looking away?<CR>Come on Iksel, about this meat..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "You full already?<CR>Alright then, let's get back to work. Let's gather a bunch!" },
+	// ▼ Iksel goes on ahead
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "Ah, wait... What kind of meat is this~?<CR>Iksel~!" },
+	// ▼
+	// ★※It might be fun if after this, new recipes appear at Iksel's shop, like if you can buy recipes there
+};
+
+BALLOON_DATA_ALL QC03_510_bda = {
+	"QC03",                 // Output file path
+	"EVENT_MESSAGE_QC03_510",// Output file name
+	QC03_510_EMS,           // Above variable
+};

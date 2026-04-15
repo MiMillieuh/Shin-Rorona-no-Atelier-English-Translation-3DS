@@ -1,0 +1,24 @@
+BalloonData MM06_540_EMS[] = {
+	// ▼One week after the event above, triggered automatically when in town
+	// ▼Everyone gathered at the city gate
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "Good, everyone is here" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R2,       1, BALLOON_FRAME_TYPE_BUC,            "What is this?!<CR>Summoning us so early in the morning!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KANA,    BUC_POSITION_TYPE_R2,       2, BALLOON_FRAME_TYPE_BUC,            "Mmmyaaah~... I'm still sleepy~<CR>I wanna sleep some more in bed~..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R2,       3, BALLOON_FRAME_TYPE_BUC,            "Eek... Pamela-san, you disappeared..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "Hom will carry the<CR>bear plushie" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "...Master. Why is it this group?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "That will be a surprise when we arrive.<CR>Now, let's go! Everyone, follow me!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "Hey!<CR>At least tell us where we're going!<CR>Are you listening!?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "U-um... could I<CR>really come along...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       9, BALLOON_FRAME_TYPE_BUC,            "Why not?<CR>They invited you, after all" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "More like, who knows what they'd do if you refused" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,      11, BALLOON_FRAME_TYPE_BUC,            "The plushie... is very fluffy" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "...I'm worried. I hope it'll be okay..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM06_540_bda = {
+	"MM06",                 // Output file path
+	"EVENT_MESSAGE_MM06_540",// Output file name
+	MM06_540_EMS,           // Variable above
+};

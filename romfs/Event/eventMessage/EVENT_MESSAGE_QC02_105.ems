@@ -1,0 +1,14 @@
+BalloonData QC02_105_EMS[] = {
+	// ▼↑と同じイベント。ステルクが一緒ではない時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "I came... I actually came, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Uuu, I should have listened to Sterk after all..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "No no, come on, don't be negative! I need those materials too! And if things get dangerous, I'll just run away with all I've got..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Aaaah, I'm still scared..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_105_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_105",// 出力ファイル名
+	QC02_105_EMS,           // 上記変数
+};

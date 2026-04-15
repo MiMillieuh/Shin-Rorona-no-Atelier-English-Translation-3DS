@@ -1,0 +1,33 @@
+BalloonData YM05_120_EMS[] = {
+	// ▼アーランドの騎士が発生している（しばらく経過）
+	// ●延長戦で発生
+	// ●本編以降でクーデリアの仕事ぶりが発生している
+	// ▼広場に行くと発生
+	// ▼クーデリアとステルクが会話している
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "...So from what you're saying, your involvement<CR>in politics hasn't been all that much,<CR>, I wonder?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "That's right. Our family isn't<CR>all that old, so we don't really<CR>get involved in that kind of thing" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Hmm... Nobility often have invisible<CR>connections and political power woven<CR>into everything, you see" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "When this country's political structure changes,<CR>there are sure to be some fireworks over<CR>who ends up running things..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Ah, we're not involved in any of that.<CR>I mean, for us, even calling ourselves<CR>nobility is really just for show" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "We've never seen eye to eye with the<CR>people who call themselves old nobility.<CR>That's why we hardly ever deal with them" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "...So you don't get along with them?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Well, I doubt they think very highly of us.<CR>We're not an interesting bunch to people who think<CR>nobility is a special privilege" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "From our point of view, nobility is just a group of people<CR>who use their power to throw their weight around<CR>and cling to their positions forever" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "...Are we done?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Ah, yes. This was helpful.<CR>Sorry to have stopped you so suddenly" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "No problem at all" },
+	// ▼クーデリア去る
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Nobility with no real ties,<CR>and no political power..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "She might be the perfect candidate<CR>to bridge the transition to a republic...<CR>I should report this" },
+	// ▼ステルク去る
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "(They were talking about some pretty complicated stuff... )" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM05_120_bda = {
+	"YM05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM05_120",// 出力ファイル名
+	YM05_120_EMS,           // 上記変数
+};

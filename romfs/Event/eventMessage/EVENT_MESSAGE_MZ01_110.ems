@@ -1,0 +1,38 @@
+BalloonData MZ01_110_EMS[] = {
+	// ▼Last line branches. Whether you came first or not (lines prompting you to go to Astrid
+	// ▼When you came first
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_IKA,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Hey, girl!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, Coel-kun" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Jeez, you were hiding in a place like this.<CR>I searched high and low for you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "You were looking for me? Why?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Why? Because I wanted to see how you did, obviously" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Huh... you were worried about me?<CR>Ehehehehe" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_AKI,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "What are you grinning about, that's creepy.<CR>So, how did it go?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Yeah, I passed with flying colors!<CR>I can keep running the atelier!" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_WARA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "I see... that's great.<CR>I won't be losing my best customer<CR>after all" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "...The thing you were worried about was that?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "What else could it be?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Hmph, you're so stubborn" },
+	// ▼When coming for the first time
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "What are you muttering about" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "By the way, when I was looking for you girl,<CR>I stopped by the atelier too, and<CR>they seemed really restless or something" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Restless...? The master? No way..." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_AKI,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "No matter how you look at it,<CR>they're the most worried one, right?<CR>Maybe you should tell them soon" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Well then, continue patronizing my shop" },
+	// ▼Coel leaving
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "The master was restless...? I can't imagine that..." },
+	// ▼
+	// ▼From the second time onwards
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "What are you muttering about" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_WARA,     BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "That's right. It's not really a celebration or anything,<CR>but the next time I come to your place,<CR>I'll sell you stuff cheaper than usual" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Really? Yay!" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "But buy a lot from me, okay?<CR>Otherwise I'll go broke" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Always so shrewd... Got it.<CR>Thanks, Coel-kun" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ01_110_bda = {
+	"MZ01",                 // Output file path
+	"EVENT_MESSAGE_MZ01_110",// Output file name
+	MZ01_110_EMS,           // The above variable
+};

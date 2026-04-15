@@ -1,0 +1,16 @@
+BalloonData QC02_135_EMS[] = {
+	// ▼↑のモンスターに勝利後
+	{ BALLOON_MODE_CHASYS, CHARA_NONE,       0, NAME_MONSTER,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "Guoo..." },
+	// ▼すごすごと逃げていくモンスター
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Huh...? We won? No way..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "I'm not dreaming... Ow! Everything hurts, so it's probably not a dream..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "So this is the real dragon scale... Ehehe, yes!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Wait, ow!! Getting too excited makes my body... uuu..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_135_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_135",// 出力ファイル名
+	QC02_135_EMS,           // 上記変数
+};

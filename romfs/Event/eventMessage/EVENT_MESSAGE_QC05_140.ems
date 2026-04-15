@@ -1,0 +1,44 @@
+BalloonData QC05_140_EMS[] = {
+	// ▼After the 2nd or 3rd request of year 3
+	// ▼The two are having a conversation in the minister's room
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "So, what is the meaning of this" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_ODO,   BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Hm? What's this about?<CR>That scary face of yours..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Don't play dumb! It's about that atelier!" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I called you back specifically to shut down that atelier,<CR>and yet you haven't done a thing!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "I mean, I'm doing what I can" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Besides, if even you couldn't do it, how would I be able to make a difference?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I expected you, of all people, to succeed<CR>where I failed" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "...That's kind of you to say.<CR>But shouldn't you just give up?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "I've been thinking,<CR>even if you do shut down the atelier,<CR>how much would that really help?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_KANA,  BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "I explained this before, didn't I?<CR>If we turn the whole area into factories and boost productivity..." },
+	// ▼Branches here depending on the town's reputation
+	// ▼When reputation is low
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "I understand that,<CR>but honestly, increasing productivity further<CR>won't solve anything" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "This country doesn't have that many people,<CR>making too much would probably just create a deficit" },
+	// ▼When reputation is high
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "But hey, that atelier is popular<CR>with the townspeople, isn't it?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Wouldn't shutting it down just make people angry?<CR>That doesn't seem like a good strategy" },
+	// ▼Common
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_ODO,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Oh... so you've learned to think logically too" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Is that a compliment?<CR>Then I'll gladly take it" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "But listen,<CR>I've been planning this for nearly three years" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Just because there are some downsides<CR>doesn't mean I can easily abandon the plan" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "If there's even some benefit,<CR>it may be worth considering..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Benefits, huh... how about this?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "If you give up on the atelier thing,<CR>I can guarantee the next minister candidate" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_ODO,   BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "What did you say...? What are you planning?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "What a rude way to put it.<CR>Well, let's just say I've had a change of heart" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Did someone fill your head with nonsense?<CR>Or did you grow a conscience?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Nothing was filled into me.<CR>But yeah, I won't deny the conscience part" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "When I see a pure, innocent girl like that,<CR>I feel like maybe I should be a bit more honest too" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "...You're serious, aren't you" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "I'm still figuring things out myself.<CR>Half serious, I guess" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "I see...<CR>Let me think about it" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_140_bda = {
+	"QC05",                 // Output file path
+	"EVENT_MESSAGE_QC05_140",// Output file name
+	QC05_140_EMS,           // The variable
+};

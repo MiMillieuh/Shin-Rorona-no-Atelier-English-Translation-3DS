@@ -1,0 +1,11 @@
+BalloonData YM08_020_EMS[] = {
+	// ▼チュートリアル・特性の合成
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "By including multiple traits of the same type,<CR>like High Price Lv1 and High Price Lv2,<CR>in the materials, you can upgrade them to higher-tier traits." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Newly created traits require a higher cost<CR>than the original traits, so be careful<CR>about your item's cost level." },
+};
+
+BALLOON_DATA_ALL YM08_020_bda = {
+	"YM08",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM08_020",// 出力ファイル名
+	YM08_020_EMS,           // 上記変数
+};

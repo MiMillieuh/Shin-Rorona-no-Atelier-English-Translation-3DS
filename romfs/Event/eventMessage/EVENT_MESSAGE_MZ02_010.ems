@@ -1,0 +1,66 @@
+BalloonData MZ02_010_EMS[] = {
+	// ▼Cordelia waiting somewhere in town, irritated and waiting for Rorona
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...You're late!<CR>The meeting time was long past!<CR>Don't tell me, again..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Aah, I've had enough!" },
+	// ▼Cordelia runs toward the atelier
+	// ▼Scene change. A crowd of customers lined up in front of the atelier. Cordelia arrives
+	// ▼Show them and display text
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Through three years of work, Rorona has grown greatly as an alchemist" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Her earnest and polite way of working has earned her high praise from the townspeople," },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "and today too, many people have lined up in a long queue in front of the atelier to ask Rorona for work" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "However, there is one girl here who simply cannot bear it..." },
+	// ▼After text ends, smoothly transition to puppet show
+	{ BALLOON_MODE_CHARA,  CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_NORMAL,         "Hey, move! Get out of the way!<CR>You're in my way, you people!" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_A,      0, NAME_GUEST_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_NORMAL,         "W-what the heck! Keep the proper order!" },
+	{ BALLOON_MODE_CHARA,  CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_NORMAL,         "Quiet! I'm not a customer!" },
+	// ▼Cordelia pushes through and advances to the atelier
+	// ▼Scene change, Rorona working hard inside the atelier
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L2,       9, BALLOON_FRAME_TYPE_BUC,            "One, two...<CR>Uuu, it just won't end..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "There's no time for complaints.<CR>We have to process at least five more items<CR>before the day is over" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "That many!?<CR>Why is it that even though I'm working so hard,<CR>the workload never decreases--!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_IKA,      BUC_POSITION_TYPE_R2,      12, BALLOON_FRAME_TYPE_BUC,            "It is because Master carelessly<CR>takes on new work" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "Uuu... that's... you're right. Yes..." },
+	{ BALLOON_MODE_CHASYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_NORMAL_SHOUT,   "RORONA--!!" },
+	// ▼Cordelia barges into the atelier shouting
+	// ★Hom BUC clear
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,      15, BALLOON_FRAME_TYPE_BUC,            "Ah, Kuu-chan. Welcome" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Welcome is not what you say!<CR>Didn't you say we were going out together today?<CR>Did you forget!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L2,      17, BALLOON_FRAME_TYPE_BUC,            "Huh...? Oh, ahhhh!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L2,      18, BALLOON_FRAME_TYPE_BUC,            "Um, well... ahahaha..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Don't try to laugh it off!<CR>Honestly, taking on way too much work<CR>when you can't even handle it..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L2,      20, BALLOON_FRAME_TYPE_BUC,            "Th-that's not true!<CR>I can definitely do it!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "I would not say \"can't do it.\"<CR>That is, if we ignore the condition<CR>of meeting deadlines" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L2,      22, BALLOON_FRAME_TYPE_BUC,            "...Hom-chan, that's not helping" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "...Fine. I understand.<CR>If that's how it is, then I have a plan" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L2,      24, BALLOON_FRAME_TYPE_BUC,            "A plan?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "From this moment,<CR>I'll be taking charge of this atelier!<CR>You have no objections, I assume?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L2,      26, BALLOON_FRAME_TYPE_BUC,            "Eh? Eh... ehhhhhhh!?" },
+	// ▼Long black screen, conversation continues while black screen remains
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    27, BALLOON_FRAME_TYPE_BUC,            "Rorona. Are you done yet?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    28, BALLOON_FRAME_TYPE_BUC,            "Ah, sorry. Just a bit more...<CR>Done! I finished it, Kuu-chan!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    29, BALLOON_FRAME_TYPE_BUC,            "Don't call me Kuu-chan!<CR>During work, you must call me President!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    30, BALLOON_FRAME_TYPE_BUC,            "S-sorry!" },
+	// ▼Display illustration
+	// ▼Rorona working hard while being nagged by
+	// ▼intellectual Cordelia with glasses
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    31, BALLOON_FRAME_TYPE_BUC,            "Um, President, um..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    32, BALLOON_FRAME_TYPE_BUC,            "What? Don't talk, move your hands!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    33, BALLOON_FRAME_TYPE_BUC,            "Um... even after President came,<CR>I feel like the workload hasn't decreased at all..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    34, BALLOON_FRAME_TYPE_BUC,            "Well, of course.<CR>I'm pushing ahead aggressively so that<CR>we can get time off next week" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    35, BALLOON_FRAME_TYPE_BUC,            "A vacation? You're taking time off next week?<CR>Hooray! It's my first day off in a long time!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    36, BALLOON_FRAME_TYPE_BUC,            "Let's go play together, just the two of us.<CR>We'll have fun all day long" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    37, BALLOON_FRAME_TYPE_BUC,            "Ehhh!?<CR>Sometimes I'd like to just relax..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    38, BALLOON_FRAME_TYPE_BUC,            "No can do. That's an order from the President" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    39, BALLOON_FRAME_TYPE_BUC,            "That's not fair! You're mixing business with pleasure! Moo..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    40, BALLOON_FRAME_TYPE_BUC,            "What's with that unhappy face?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    41, BALLOON_FRAME_TYPE_BUC,            "Recently, Kuu-chan,<CR>you've started resembling the master.<CR>Even wearing glasses and everything" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    42, BALLOON_FRAME_TYPE_BUC,            "Wh-who's like that woman!<CR>Say that again one more time!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    43, BALLOON_FRAME_TYPE_BUC,            "Waaa! I-i'm sorry!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_010_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_010",// Output file name
+	MZ02_010_EMS,           // The above variable
+};

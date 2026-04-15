@@ -1,0 +1,26 @@
+BalloonData YM02_080_EMS[] = {
+	// ▼艾斯蒂的友好度相当高
+	// ▼进入王宫接待处发生
+	// ▼叹气的艾斯蒂
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Haaaaah..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "What's wrong? You're sighing" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Oh, Rorona-chan. ...I had almost no work<CR>today and I'm bored. When I'm bored,<CR>I end up thinking too much, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Thinking too much... like what?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Like... hmm... whether I'll be<CR>doing this same job forever, or not" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "What I'll look like in the future,<CR>or whether I'll be married or not,<CR>...I think I'm at that age" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Eh? Estiy-san, are you getting married?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Not \"could I\", I WANT to.<CR>That's a huge difference" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "If you want to that badly,<CR>you should just do it, shouldn't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "...Rorona-chan, let me teach you something important.<CR>A piece of advice that will surely help you" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Marriage is something you<CR>can't do alone, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Oh... so that means...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Sorry, this conversation ends here.<CR>...Okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Y-yes..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM02_080_bda = {
+	"YM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM02_080",// 出力ファイル名
+	YM02_080_EMS,           // 上記変数
+};

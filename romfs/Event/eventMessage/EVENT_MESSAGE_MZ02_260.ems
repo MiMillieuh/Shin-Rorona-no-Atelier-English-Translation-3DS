@@ -1,0 +1,70 @@
+ BalloonData MZ02_260_EMS[] = {
+	// ▼城の中でばったり会うタントリスとエスティ
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, good morning.<CR>Tristan-kun, was it?<CR>Starting your work today?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Well yes, as an apprentice minister.<CR>I look forward to your guidance" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Guidance, huh. If only I had the time" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_ODO,   BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "What do you mean by that?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "No, never mind. My own affairs" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "But it is touching, isn't it?<CR>Sacrificing your own life<CR>for the girl you love..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Big sis just can't resist things like that~" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "It's not that cool, really.<CR>But please keep it secret from her" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "I'm not that unrefined.<CR>...Are you planning to never see<CR>Rorona-chan again?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Well, until things cool down..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Hmm. Just don't wait until it's too late" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_IKA,   BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "...That's an odd way to put it. You keep hinting at something" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "I'd love to tease you more,<CR>but we're short on time...<CR>Fine, I'll tell you" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "By the way, Rorona-chan actually..." },
+	// ▼長めの黒画面を挟む
+	// ▼明けて、城の中をきょろきょろしながら歩いている大臣。途中でエスティを見かけて
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Hmm... where is that guy..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Minister. Do you have a moment?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Hm? What is it? I'm busy.<CR>That guy really...!<CR>First day and he doesn't even show up!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "That "guy" you speak of...<CR>I saw him first thing this morning" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_ODO,   BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Really? Then where is he now!?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "I don't know about that...<CR>Oh, but I was entrusted with a letter for you" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "A letter? Give it here! Let me see..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "To Dad. It's impossible after all" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_ODO,   BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "...What does this mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "Don't ask me.<CR>It means exactly what it says, doesn't it?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC_SHOUT,      "A-ah... that foolish son of mine!!" },
+	// ▼場面転換
+	// ▼街の外を、時折振り返りつつ歩いているロロナとホム
+	// ★振り返るごとに………。」の台詞
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "...." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "Master. Does the town really mean that much to you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "Wha!? N-no, that's not...<CR>Maybe a little..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "So Hom told you many times,<CR>you should stop sneaking off<CR>acting cool like that" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "I wasn't trying to be cool or anything.<CR>I just thought it would be more lonely<CR>otherwise..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    34, BALLOON_FRAME_TYPE_BUC,            "Then let me fill that loneliness,<CR>if I may" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       35, BALLOON_FRAME_TYPE_BUC,            "Eh...?" },
+	// ★一枚絵
+	// ▼木の幹かなんかによっかかって、かっこつけたポーズのタントリスと、
+	// ▼それを見て驚きつつ、ちょっと顔を赤らめてるロロナ
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    36, BALLOON_FRAME_TYPE_BUC,            "Tantris-san!? Why are you...?<CR>But it was so long ago... Eh?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    37, BALLOON_FRAME_TYPE_BUC,            "Well, there are many reasons...<CR>If I had to say, I'd call it fate.<CR>Yours and mine" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    38, BALLOON_FRAME_TYPE_BUC,            "...What is that supposed to mean?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    39, BALLOON_FRAME_TYPE_BUC,            "Huh?<CR>I thought you'd be more embarrassed" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    40, BALLOON_FRAME_TYPE_BUC,            "I've gotten used to it.<CR>You've trained me well, Tant-san" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    41, BALLOON_FRAME_TYPE_BUC,            "That's both gratifying and disappointing..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    42, BALLOON_FRAME_TYPE_BUC,            "Well, enough with the greetings.<CR>Traveling alone gets lonely,<CR>so would you mind if I tagged along?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    43, BALLOON_FRAME_TYPE_BUC,            "Of course... ah, well then,<CR>if you'd just promise not to say<CR>embarrassing things anymore" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    44, BALLOON_FRAME_TYPE_BUC,            "Didn't you just say you got used to it?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    45, BALLOON_FRAME_TYPE_BUC,            "I got used to it, but it's still embarrassing" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    46, BALLOON_FRAME_TYPE_BUC,            "Alright. I promise" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    47, BALLOON_FRAME_TYPE_BUC,            "Yes. Well then, please take care of me" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    48, BALLOON_FRAME_TYPE_BUC,            "Likewise. Shall we get going?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    49, BALLOON_FRAME_TYPE_BUC,            "Yes. ...wait, waaaah!<CR>Wh-why are your hands on my shoulders!<CR>W-waah, let go!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    50, BALLOON_FRAME_TYPE_BUC,            "Is that not allowed?<CR>You told me not to say embarrassing things,<CR>so I showed you instead" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    51, BALLOON_FRAME_TYPE_BUC,            "Actions are not allowed either! P-please stop!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_260_bda = {
+	"MZ02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MZ02_260",// 出力ファイル名
+	MZ02_260_EMS,           // 上記変数
+};

@@ -1,0 +1,23 @@
+BalloonData YZ01_120_EMS[] = {
+	//  The person they were looking for
+	//  The main topic
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "If this person continues to be a problem,<CR>the future of alchemy would be in jeopardy." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "I think the situation is developing in a good direction...<CR>By the way, the person at the center might have a role to play,<CR>but I don't think they are related to the main issue." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Ah... But I think this is a rather unique situation..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "What do you mean by that?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "I see..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "What's the matter? Did the person at the center<CR>find the answer to the problem?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I think so... I don't think it's related to this." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "For now, the person at the center should work hard<CR>to find the answer to the problem..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "The person at the center is quite persistent... I think they might have found something..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Hmm... I think we might need to work together to solve this..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Ah... The person at the center might have the answer...<CR>I'm quite concerned about this..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "I think we should proceed with caution." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YZ01_120_bda = {
+	"YZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YZ01_120",// 出力ファイル名
+	YZ01_120_EMS,           // 上記変数
+};

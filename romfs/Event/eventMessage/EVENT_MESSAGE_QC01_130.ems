@@ -1,0 +1,31 @@
+﻿BalloonData QC01_130_EMS[] = {
+	// ▼After the above event, at the weapon shop
+	// ★Optional event
+	// ★Not much time in between, so placing for now
+	// ▼When entering the weapon shop, Cuderira is talking to Hageru
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ah" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Ah..." },
+	// ▼Cuderira sees Rorona and immediately runs outside
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Wait, Kuu-chan!<CR>...She ran off" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "What was that all about?<CR>Did you girls have a fight or something?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Kuu-chan... *sniff* *hic*..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_ODO,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Whoa! Wh-What's with the tears!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "*sniff*... Sorry...b-but..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Wh-What should I do...<CR>Oh right! In times like these!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_IKA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Hey, girl! Look over here!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Hya...?" },
+	// ▼Hageru removes his own hat
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_EX2,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Look at this! My smooth, shiny head!<CR>Gaze upon it, and your heart<CR>will surely brighten up!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_EX2,     BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Sorry...<CR>I'm going home today...*sniff*..." },
+	// ▼Rorona walks home
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_EX3,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "...It didn't work...<CR>Even after I went that far...<CR>DAMMITTTTT!!!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_130_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_130",// Output file name
+	QC01_130_EMS,           // Variable name
+};

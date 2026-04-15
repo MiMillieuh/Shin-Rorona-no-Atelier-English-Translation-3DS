@@ -1,0 +1,57 @@
+BalloonData MZ02_020_EMS[] = {
+	// ▼Sterk's restaurant with a decent number of customers
+	// ▼Sterk working but looking somewhat unsettled
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_KOMA,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, it's already this time...<CR>Ah, but well..." },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Fufu, you seem restless" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "E-eh? No, that's not true at all.<CR>I'm extremely focused on work. Yeah" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_WARA,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Why don't you go see her?<CR>I'll watch the shop for you" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Really?<CR>Ah, but Tifana-san..." },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "It's fine. I haven't had a drink today" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_AKI,      BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "...\"Today\" implies you're planning to drink?" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_WARA,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "I'll have a drink when Ixel-kun comes back.<CR>So, come on" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "...Alright then, I'll be in your care for a bit" },
+	// ▼Ixel leaves the shop
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Haah, I'm a little envious, maybe.<CR>Having someone who thinks of us by our side..." },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_WARA,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Now then, it's been a while since I cooked...<CR>I'm sure it'll be fine, probably" },
+	// ▼Customers at a nearby table overhear that
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_A,      0, NAME_GUEST_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_NORMAL,         "What!? Tifana-san's cooking... is that for real!?" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_B,      0, NAME_GUEST_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    12, BALLOON_FRAME_TYPE_NORMAL,         "Can we really allow such fortune...!" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_C,      0, NAME_GUEST_C,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    13, BALLOON_FRAME_TYPE_NORMAL,         "I-I'll go tell everyone else!" },
+	// ▼Black screen scene change
+	// ▼Ixel walking toward the atelier
+	// ▼There's an amazing line in front of the atelier
+	{ BALLOON_MODE_CHASYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_NORMAL,         "...The line is as crazy as ever.<CR>Guess there's no getting in through the front..." },
+	// ▼Ixel heads to the back entrance
+	// ▼Scene change, Rorona and Hom working busily inside the atelier
+	// ★May switch to an illustration at this point
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Hom-chan, are you done with that?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "My apologies.<CR>It appears it will take another 30 minutes or so" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "I see. Then I'll help out.<CR>Let's finish this quickly" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_IKA,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "No. It is Hom's duty to assist Master.<CR>I cannot allow you to help instead" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "It's fine, it's fine.<CR>Once that's done, let's take a short break, okay?" },
+	// ▼Display illustration
+	// ★Rorona and Hom working hard but looking happy at the atelier (Hom requires separate art)
+	// ★Narration voice no, display like subtitles
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Through three years of work, Rorona has grown greatly as an alchemist" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Her earnest and polite way of working has earned her high praise from the townspeople," },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "and today too, many people have lined up in a long queue in front of the atelier to ask Rorona for work" },
+	// ★The subtitle might be a bit too normal... if no voice, we could edit it till the end
+	// ▼Conversation after subtitle display
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Helloo, anyone alive~?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L2,      24, BALLOON_FRAME_TYPE_BUC,            "That voice... Ixel-kun?<CR>Food? Did you bring me food!?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_AKI,      BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "Your first words are about food...<CR>Am I your caretaker or something?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L2,      26, BALLOON_FRAME_TYPE_BUC,            "Because I've been so busy I<CR>haven't eaten anything since yesterday!<CR>Ah, come up, come up!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "Alright, I'll use your kitchen for a bit.<CR>Ah, you can keep working" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,      28, BALLOON_FRAME_TYPE_BUC,            "Okay~" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "...Watching this,<CR>I can't tell which one of you is the housewife" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,      30, BALLOON_FRAME_TYPE_BUC,            "Hmm? Did you say something, Hom-chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "Nothing at all.<CR>Let us continue working until the meal is ready" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L2,      32, BALLOON_FRAME_TYPE_BUC,            "Yeah! Alright, let's do this-- one more push!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_020_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_020",// Output file name
+	MZ02_020_EMS,           // The above variable
+};

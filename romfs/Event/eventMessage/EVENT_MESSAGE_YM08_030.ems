@@ -1,0 +1,15 @@
+BalloonData YM08_030_EMS[] = {
+	// ▼チュートリアル・農園
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "In front of the Atelier,<CR>you can now grow a home garden." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You may find seeds while exploring.<CR>Try planting them in your home garden." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "After a while, fruit will grow,<CR>and you can harvest items based on the seed." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Items not harvested at this time<CR>will become seeds again." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You also receive recipes when you find seeds." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "By synthesizing seeds, you can add traits of your choice, and by passing those traits on to the harvested item, you can create traits that differ from normal synthesis." },
+};
+
+BALLOON_DATA_ALL YM08_030_bda = {
+	"YM08",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM08_030",// 出力ファイル名
+	YM08_030_EMS,           // 上記変数
+};

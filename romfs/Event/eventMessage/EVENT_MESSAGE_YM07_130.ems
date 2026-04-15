@@ -1,0 +1,32 @@
+BalloonData YM07_130_EMS[] = {
+	// ▼内装開始イベント。これ以降内装ができるなくなる
+	// ▼王室課題１を達成している
+	// ▼アトリエに戻ると発生
+	// ▼ステルクがやってくる
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Pardon my intrusion." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, what's the matter?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I have something to give you. It's this..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "The castle request has been fulfilled. This is not exactly a reward, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "I don't have much use for it, but I thought it might be useful to you." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Wow, thank you!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "That's all I came to do. Keep up the good work." },
+	// ▼ステルク去る
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Hehe... I got something nice. I'll put it somewhere nice in the Atelier." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can decorate your Atelier with items<CR>you've synthesized or received." },
+	// ▼以下必要に応じてシステムメッセージ追加
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLGR>Happiness Basket<CLNR> received." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can now redecorate your Atelier." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Would you like to check the redecorating tutorial?" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Some items can be placed in your Atelier." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "These are useful items that can aid your adventure.<CR>When you get them, place them in your Atelier." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can redecorate from the Atelier diary." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "For more details, check the redecorating<CR>help in the encyclopedia from the menu." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM07_130_bda = {
+	"YM07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM07_130",// 出力ファイル名
+	YM07_130_EMS,           // 上記変数
+};

@@ -1,0 +1,21 @@
+BalloonData QN05_080_EMS[] = {
+	// ▼パメラの店が開店してからしばらく経過
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_WARA,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Welcome~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Hello. How's it going?" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KANA,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "...Oh~ it's just Rorona.<CR>Sighhh..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "You don't have to sound so disappointed" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KANA,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Because no customers come at all.<CR>This isn't helping me pass time at all~!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Hmm... I wonder if being a ghost shop<CR>is really the problem?" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_IKA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "That's not it! That's ghost discrimination~!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Ghost discrimination... anyway, I'm sorry.<CR>I can't think of any other reason..." },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KANA,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Uuu... maybe I should just quit the shop<CR>and go back to surprising you~..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Please don't!<CR>I'll think about it seriously, okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KOMA,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Okay... please don't take too long" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN05_080_bda = {
+	"QN05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN05_080",// 出力ファイル名
+	QN05_080_EMS,           // 上記変数
+};

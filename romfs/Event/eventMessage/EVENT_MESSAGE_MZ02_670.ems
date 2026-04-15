@@ -1,0 +1,22 @@
+﻿BalloonData MZ02_670_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Helloo. Are you in there?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_BUC,            "Mmm, is that... Gio-san?<CR>What's going on~?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I haven't heard from you in a while.<CR>So I decided to stop by and see how you were doing..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "Ah, sorry...<CR>I'm not really in the mood to go out right now" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Did something happen? Are you alright?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_BUC,            "No, it's not like that.<CR>It's just such a hassle~" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "A hassle? Hey, what are you saying?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_BUC,            "I'm not going to do any work for a while,<CR>so don't worry about me~" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "I-I see... Alright.<CR>I'll come back another day" },
+	// ▼Gio leaving the atelier
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "...Muu, this was so sudden, my head can't keep up.<CR>What on earth happened to her?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "I'll give it some time,<CR>and come check on her again..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_670_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_670",// Output file name
+	MZ02_670_EMS,           // Variable name
+};

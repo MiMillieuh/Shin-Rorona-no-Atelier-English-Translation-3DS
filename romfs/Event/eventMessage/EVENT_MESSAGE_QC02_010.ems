@@ -1,0 +1,44 @@
+BalloonData QC02_010_EMS[] = {
+	// ▼From game start until Sterk joins as a party member
+	// ▼When going to the castle (when accepting a normal request)
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Sigh..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh my, already in tired mode? Sighing like that" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "No, it's not that I'm tired or anything, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "I'm just a little worried whether<CR>I'm really gaining people's trust in town like this" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Hmm, you know... People's evaluation of you<CR>isn't something you can see with your eyes..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Well, it'll be fine. If you're doing your best,<CR>the people who are watching will notice" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "If you're already like this, I worry what the future holds" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Oh, Sterk-san...<CR>Uuu, I'm sorry..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Sterk-kun, since you don't seem aware,<CR>let me tell you - people find your<CR>intimidating way of speaking scary, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R2,       9, BALLOON_FRAME_TYPE_BUC,            "Hmm... I shall reflect on this.<CR>By the way, I have a request for you today" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "For me?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R2,      11, BALLOON_FRAME_TYPE_BUC,            "Yes. I'd like you to make me a Medal.<CR>The sooner, the better" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Eh? Eh?<CR>Um... why me?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R2,      13, BALLOON_FRAME_TYPE_BUC,            "I am also a resident of this town.<CR>I believe I have the right to make a request of you" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R2,      14, BALLOON_FRAME_TYPE_BUC,            "Of course, you have the right to refuse.<CR>If you don't wish to—" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "No, I'll do it! Please, let me do it!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R2,      16, BALLOON_FRAME_TYPE_BUC,            "Is that so. Then I look forward to it" },
+	// ▼Sterk leaves
+	// ★System explanation about personal requests
+	// ▼After the explanation
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Um, could it be that Sterk-san is...<CR>a nice person?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "That's right. He has that kind of personality,<CR>so he's easy to misunderstand, but...<CR>Once you get used to him, he's actually quite cute" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Cute, you say..." },
+	// ▼
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can now receive<CR>Friend Quests - personal requests." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Would you like to see<CR>the Friend Quest tutorial?" },
+	// ▼Choice: Yes/No
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Friend Quests are<CR>personal requests from town people." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "However, you can't receive them from everyone -<CR>only from shop keepers and people<CR>you've become friends with." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Completing these quests won't raise<CR>your reputation in town, but instead,<CR>it will increase your Friendship level with that person." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "As your Friendship level rises,<CR>the cost to hire them as a party member decreases,<CR>and there are many other benefits too." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "For more details, please check the Help<CR>section on Friend Quests in the Menu's<CR>Encyclopedia." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_010_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_010",// 出力ファイル名
+	QC02_010_EMS,           // 上記変数
+};

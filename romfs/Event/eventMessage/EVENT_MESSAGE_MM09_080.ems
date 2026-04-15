@@ -1,0 +1,24 @@
+﻿BalloonData MM09_080_EMS[] = {
+	// ▼When game over occurs while Sterk is injured
+	// ▼Results announcement day, Rorona and Estiy facing each other at the castle
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Haah... Of all times,<CR>for Sterk-kun to not be here..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Having to tell you this,<CR>what rotten luck I have" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Eh? Could that mean..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Yes. Unfortunately, you've failed" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "As of today,<CR>your atelier's business license has been revoked" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC_SHOUT,      "N-no way... That can't be truuue!!" },
+	// ▼Black screen with text
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Rorona was unable to complete<CR>the kingdom's work until the end" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The atelier was forced to close" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "On the lot where the atelier once stood, a magnificent factory was built," },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "and the townspeople continue to<CR>sweat and toil there to this day" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "And Rorona, led by her master,<CR>left town on a journey," },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "never to return again..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM09_080_bda = {
+	"MM09",                 // Output file path
+	"EVENT_MESSAGE_MM09_080",// Output file name
+	MM09_080_EMS,           // Above variable
+};

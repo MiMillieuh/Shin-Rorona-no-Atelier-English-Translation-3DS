@@ -1,0 +1,29 @@
+﻿BalloonData MM09_061_EMS[] = {
+	// ▼System screen shows results
+	// ▼Branches by evaluation
+	// ▼Top evaluation
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Looks like a perfect evaluation. Good job, good job" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, thank you..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(Compared to Sterk, she seems<CR>  really casual...)" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "...So, do I just ask you about the<CR>next request? That was surprisingly simple" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "With Sterk-san, if the results were bad he'd<CR>give me a lecture, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Ah, I see.<CR>But since the evaluation was good this time...<CR>Hmm, I don't really have anything to say" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Well, fine then.<CR>Here, this is your next request" },
+	// ▼Normal evaluation
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Looks like a normal result.<CR>Hmm, I don't really have anything to say" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Sigh..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Well, fine. It's not like I'm<CR>obligated to say something" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Now then,<CR>let me tell you about the next request" },
+	// ▼Low evaluation
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Hmm, this is... not great" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "S-sorry..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Sterk-kun would probably<CR>give you a lecture, but<CR>that's not really my style..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Well, do your best next time.<CR>Oh, and so, about the next request..." },
+	// ▼↓
+};
+
+BALLOON_DATA_ALL MM09_061_bda = {
+	"MM09",                 // Output file path
+	"EVENT_MESSAGE_MM09_061",// Output file name
+	MM09_061_EMS,           // Above variable
+};

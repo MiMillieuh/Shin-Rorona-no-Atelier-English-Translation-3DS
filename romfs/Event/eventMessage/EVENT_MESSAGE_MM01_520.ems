@@ -1,0 +1,34 @@
+﻿BalloonData MM01_520_EMS[] = {
+	// ▼一つ目の課題が終わったくらいのタイミング
+	// ▼ロロナが街の中にいる時
+	// ▼街を歩いてる最中、ふと立ち止まるロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "……Ah. Oh... that brings back memories..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "………。" },
+	// ▼別の方から歩いてきたクーデリアが気づいて声をかける
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Rorona?<CR>What are you spacing out for in the middle of the street?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Oh, Kuu-chan.<CR>Ahaha. I was just looking at the Ortoga Ruins" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Ah, those do bring back memories.<CR>I remember playing there all the time when we were kids" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "After monsters started appearing there though,<CR>we couldn't go anymore" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Yeah. We'd play until dark,<CR>and sometimes I'd get too scared to head home" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "I-I was fine though!<CR>You were the one crying,<CR>so I had no choice but to stay with you all night" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Did that happen?<CR>I have a memory of you crying first though..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "T-that's not true!<CR>You were the one crying! Definitely!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Did that happen... well, whatever.<CR>Hey Kuu-chan. Want to go there for old time's sake?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Haah? We're not kids anymore, you know,<CR>we don't need to play around there..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Well, I suppose maybe a little won't hurt.<CR>If you're going to insist" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "I didn't realize back then, but<CR>I bet we could find some interesting materials there" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "H-Hold on, materials...? A-ah, I see. So you're going for work" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "I wonder if those stones I found back then are still there...<CR>They had such pretty colors,<CR>I think they had various metals in them..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "How would I know about some random stones! Hmph!" },
+	// ▼怒って帰るクーデリア
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Eh? W-why are you angry?<CR>Kuu-chaaan!" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLBL>Ortoga Ruins<CLNR> can now be accessed." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM01_520_bda = {
+	"MM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MM01_520",// 出力ファイル名
+	MM01_520_EMS,           // 上記変数
+};

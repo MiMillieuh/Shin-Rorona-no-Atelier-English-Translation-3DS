@@ -1,0 +1,48 @@
+BalloonData QN02_030_EMS[] = {
+	// ▼ホムが働きだしてからしばらく経過後
+	// ▼ロロナがアトリエにいる時
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Master. The synthesis work is complete." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, thank you.<CR>Could you help me with this next?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Understood, Master." },
+	// ▼少しの間、作業に没頭する二人
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "...Hey, Hom-chan." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "What is it, Master?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "About that 'Master' title...<CR>Isn't there something we can do about it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "It's just, every time you call me that,<CR>I get embarrassed..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Then what should I call you instead?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Let me think...<CR>Just call me by my name." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Understood.<CR>Then I'll call you by your name, Rorona." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "U-Using my name directly is a bit..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Then I'll address you as Lady Rorona." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Wah! That's even more embarrassing!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Hmm, what should I do...<CR>Calling you 'Rorona-chan' feels weird too..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Oh, I know!<CR>...But it feels kind of master-like...<CR>But... alright!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Hom-chan, um, if it's okay with you...<CR>could you try calling me 'Big Sis'?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Understood, Big Sis." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Ooh, this is... I think I'm starting to understand<CR>just a little of how Master feels..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "A-And so, I'd like you to drop the formal speech too,<CR>and talk to me in a more friendly way." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Friendly, huh...<CR>Yeah. Got it, Big Sis." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Yes! That's great, really good!<CR>Um, so, next..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R2,      23, BALLOON_FRAME_TYPE_BUC_SHOUT,      "That's unfair, Rorona!" },
+	// ▼師匠が怒鳴りながら入って来る
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Kyaah!? M-Master!<CR>D-Did you just hear that?!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R2,      25, BALLOON_FRAME_TYPE_BUC,            "Even though you never call me<CR>'Onee-sama' no matter how long it takes, you...!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "T-That's not it!<CR>This is just a whim, or a moment of weakness..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R2,      27, BALLOON_FRAME_TYPE_BUC,            "Hom, 'Big Sis' is off limits!<CR>Informal speech is also prohibited! Are we clear!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Understood, Grand Master." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "That's so unfair!<CR>I know you're my master, but this is too much!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R2,      30, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Enough, enough! I won't accept any objections!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "Hey, wait! Hold on, Master~!" },
+	// ▼アトリエを出て行く師匠、追いかけるロロナ。一人残されるホム
+	// ▼一人取り残されるホム
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "Master and Grand Master get along so well...<CR>Hom should learn from that." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN02_030_bda = {
+	"QN02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN02_030",// 出力ファイル名
+	QN02_030_EMS,           // 上記変数
+};

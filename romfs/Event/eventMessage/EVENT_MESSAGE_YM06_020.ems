@@ -1,0 +1,44 @@
+﻿BalloonData YM06_020_EMS[] = {
+	// ▼延長戦以降に発生
+	// ●遊びは終わりの時１が発生している
+	// ●職人通り（？）で発生
+	// ▼職人通りの井戸のあたりでタントリスが一人、ぼんやりと考えている
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "The right way to do things, huh...<CR>I've never even thought about it before." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "...No, I just never tried to think about it." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "My old man had gotten so skinny...<CR>I always remembered him as being bigger." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "......" },
+	// ▼ロロナやってくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Oh, Tantori-san!<CR>What are you doing out here?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_ODO,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Oh, it's you.<CR>Caught me in a weird moment." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "You just seemed kind of... lonely,<CR>that's all..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "It's nothing serious.<CR>I was just thinking about my future." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "That doesn't sound like nothing!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Haha, I guess you're right.<CR>I have two paths ahead of me,<CR>and I've been wondering which to choose." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Two... paths?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "One is to continue as I am.<CR>The other is to follow in my father's footsteps." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Following him would undoubtedly be tough,<CR>troublesome. It'd surely be a difficult road.<CR>The easy path means nothing changes." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Which path should I take...<CR>That's what I was thinking about.<CR>But I just couldn't decide..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "...And before I knew it, I was here.<CR>Maybe I just wanted to see your face." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "...Doesn't that mean you've already<CR>found your answer?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Huh?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "I mean, one path is difficult and the other's<CR>easy, and you're wondering which to choose..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Doesn't that mean you actually want to<CR>take the difficult path...?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_ODO,   BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Oh..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "If it were me, I'd take the easy path<CR>if both were fine. That's what I'd do." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "You're right... I suppose you're right." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "...Haha, I didn't see it coming.<CR>I couldn't even recognize my own feelings..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "...Thanks. Because of you,<CR>I'm feeling very clear-headed right now." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "...I'm heading home. Thanks.<CR>See you." },
+	// ▼タントリス去る
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "(It seems like Tantori-san is feeling better.<CR>He really did look lonely...<CR>I'm glad I could help.)" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM06_020_bda = {
+	"YM06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM06_020",// 出力ファイル名
+	YM06_020_EMS,           // 上記変数
+};

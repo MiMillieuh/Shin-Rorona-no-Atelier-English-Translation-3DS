@@ -1,0 +1,55 @@
+BalloonData QC05_030_EMS[] = {
+	// ▼Some time has passed since above. When the protagonist is at the atelier
+	// ▼The sound of Tantoris's instrument can be heard
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "Huh? This sound... I've heard it somewhere before..." },
+	// ▼Suddenly, a man is standing behind her
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Heh" },
+	// ▼And blows in her ear
+	// ★May be hard to understand. Will consult with the event team...
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Hyyaaah！？<CR>M-my ear! My ear!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Oh, we meet again. Lovely kitten" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Wh-what the!? That was sudden!<CR>M-my ear...<CR>I'm not a cat! I'm a human!!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Were you really that excited?<CR>Then how about I try the other ear..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Nooo! Stop it! Cut it out!<CR>W-what did you even come here for!?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Last night, you appeared in my dreams" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "A-a dream?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "And when I tried to call out to you, I realized...<CR>I don't even know your name..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Can you understand this ache in my heart?<CR>Even just a simple glance in my direction..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "P-please stop being so embarrassing!<CR>I'm Rorona. I'm Rorona!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Rorona... what a poetic name.<CR>Only three letters, yet it echoes so in my heart..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "So please stop... oh, wait, I never<CR>asked for your name either" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Me? Well, I go by Toris... ah, no.<CR>Maybe I should keep it hidden. Um..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Let's say I'm Tantulis.<CR>Yes, I'm Tantulis.<CR>A humble traveling bard" },
+	// ★Show name subtitle for Tantolis
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Tantulis-san...<CR>Tanta-san, Torisu-san...<CR>Neither one is easy to say..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "But for you to ask my name yourself,<CR>maybe I can expect something more?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Ehh!? Expect what!?<CR>I-I was just curious because I'd have trouble calling you!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Your flustered face is adorable too.<CR>I just want to keep teasing you..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    20, BALLOON_FRAME_TYPE_BUC,            "I've been quietly listening this whole time..." },
+	// ▼The master bursts out of the room
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,      21, BALLOON_FRAME_TYPE_BUC,            "You there! Who gave you permission<CR>to flirt with my disciple!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "M-master!" },
+	// ▼The protagonist hides behind the master
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Oh my, how rude of me.<CR>I didn't realize this atelier had such a beauty<CR>as well as lovely ladies like yourself..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,      24, BALLOON_FRAME_TYPE_BUC,            "Save the cheesy lines...<CR>Hmm? You there, haven't I seen you somewhere..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_ODO,   BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "Ahem! That's right, I need to deliver my message!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "Rorona, I heard you were suffering under<CR>unreasonable orders from the guild.<CR>I wanted to see if I could help somehow" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "Help, you say?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Yes. Even if I can't offer much,<CR>I can at least be a shield to protect you...<CR>So please, don't hesitate to call on me" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "Well then, that's all for now" },
+	// ▼Tantolis takes his leave
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,      30, BALLOON_FRAME_TYPE_BUC,            "He got away..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "Looks like he ran away when he saw<CR>your face" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      32, BALLOON_FRAME_TYPE_BUC,            "Hmm... well, there will be plenty of<CR>opportunities to interrogate him later" },
+	// ▼The master returns to her room
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "Master...? She's gone. Sigh, whatever.<CR>I'm so tired..." },
+	// ▼Event result: Makes Tantolis available to hire
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can now hire Tantolis." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_030_bda = {
+	"QC05",                 // Output file path
+	"EVENT_MESSAGE_QC05_030",// Output file name
+	QC05_030_EMS,           // The variable
+};

@@ -1,0 +1,13 @@
+BalloonData MM09_010_EMS[] = {
+	// ▼Occurs when an assignment deadline is approaching (warning message)
+	// ★I think the lines change for each assignment. Repurpose what you can
+	// ▼When the protagonist is at the atelier
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh right. The deadline for the castle job is coming up.<CR>I need to get prepared before I forget" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM09_010_bda = {
+	"MM09",                 // Output file path
+	"EVENT_MESSAGE_MM09_010",// Output file name
+	MM09_010_EMS,           // Above variable
+};

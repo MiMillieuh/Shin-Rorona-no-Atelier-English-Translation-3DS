@@ -1,0 +1,27 @@
+﻿BalloonData QN07_040_EMS[] = {
+	// ▼コオルから一度にたくさん買った時に発生
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "This one, and this one, and that one too...<CR>Oh, this is nice too!<CR>And a little more..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Okay, that's everything for today!" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "...Look. I'm happy you're buying stuff,<CR>but are you sure you can afford<CR>to spend that much?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Money? Now that you mention it... well, it's fine.<CR>I'll figure it out somehow, probably." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Haah, I don't really want to<CR>be saying this to a customer or anything,<CR>but take a seat over there for a sec." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "What's going on?<CR>You got all serious suddenly..." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_IKA,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I said sit! You're the shop owner of<CR>this Atelier, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Yes, well... I mean, I suppose I am." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "You see, the money you're spending isn't yours.<CR>It's the shop's money, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "You shouldn't just spend it without thinking!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "But I'm just filling in for Master,<CR>and besides..." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_IKA,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Stop making excuses!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Eek! S-Sorry!" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Looks like I've got a lot of work to do<CR>teaching you the basics of being a merchant!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Huh...? Wait, are you giving me a lecture?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Shut up and listen.<CR>You see, business is all about..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Ugh, this is gonna take a while...<CR>Why? I just wanted to buy stuff..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN07_040_bda = {
+	"QN07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN07_040",// 出力ファイル名
+	QN07_040_EMS,           // 上記変数
+};

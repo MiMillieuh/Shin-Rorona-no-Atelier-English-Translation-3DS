@@ -1,0 +1,26 @@
+﻿BalloonData QC05_530_EMS[] = {
+	// ▼ステルクと一緒に雇って、採取に行こうとした時
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "...Hmm?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Howdy, pleased to meet you" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "Pleased to meet you...? <CR>I feel like we've met somewhere before" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Didn't you meet when you were kids?<CR>Tantoris-san, didn't you used to live in this town?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Well, I suppose... but it's probably just your imagination.<CR>I wasn't the kind of kid who'd play<CR>with a knight's son, after all" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "My parents were ordinary citizens.<CR>Knights in this country don't pass down titles by blood" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Oh, you're right. My apologies" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Um... you're both being really tense.<CR>No fighting, okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "...I'm not looking to start a fight.<CR>I have no intention of getting close either" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "My, you're harsh...<CR>But same here, I guess" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Come on, you two. Honestly..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "My apologies. The moment I saw him, I knew.<CR>We'll never see eye to eye" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "So we're even. Still,<CR>I don't make a habit of troubling young ladies,<CR>so let's at least pretend to get along?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "...I'll try" },
+	// ▼先に歩き出す二人
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Ah... hmm. This is going to be<CR>really awkward, isn't it? This job..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_530_bda = {
+	"QC05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC05_530",// 出力ファイル名
+	QC05_530_EMS,           // 上記変数
+};

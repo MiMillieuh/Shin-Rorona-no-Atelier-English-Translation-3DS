@@ -1,0 +1,25 @@
+﻿BalloonData QN03_099_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Alright, done!<CR>Behold: the Cloak of Midnight!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh my... it's a bit plain,<CR>but it has a nice, calm vibe" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Oh, you can see the appeal!<CR>Not bad for someone your age" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "The world isn't only lit<CR>by the dazzling sun, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "The soft glow of the moon on a dark night<CR>is full of romance, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "The moon's glow, huh..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "...Hey, missy.<CR>Why are you staring at my head?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Eh? I-I'm not! I'm not staring!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_IKA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Liar!<CR>You were totally staring right at it!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_IKA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "What is it?<CR>If you have something to say, say it.<CR>Go on, come on!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Th-That's not it!<CR>It was just reflexes, you know..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Oh, reflexes? Well, my head would<CR>definitely reflect even the moon's light...<CR>Missy, you're pretty witty!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Ah, i-is that right?<CR>I wasn't thinking that far into it, though..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_IKA,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Is that what you think!? Who's got a head like the moon, huh!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Eeeek! S-Sorryyy!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN03_099_bda = {
+	"QN03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN03_099",// 出力ファイル名
+	QN03_099_EMS,           // 上記変数
+};

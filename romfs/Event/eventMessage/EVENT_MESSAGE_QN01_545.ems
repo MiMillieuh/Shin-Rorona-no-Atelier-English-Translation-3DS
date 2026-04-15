@@ -1,0 +1,24 @@
+BalloonData QN01_545_EMS[] = {
+	// ▼条件を満たしている時に、家に帰ったら発生（※父親、母親、その他の三択）
+	// ▼父親の時
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_NOR,    BUC_POSITION_TYPE_R2,       0, BALLOON_FRAME_TYPE_BUC,            "Oh, Rorona. Good timing, you just got back" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_WARA,   BUC_POSITION_TYPE_R2,       1, BALLOON_FRAME_TYPE_BUC,            "Here. It's a souvenir from our recent trip" },
+	// ▼母親の時
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_NOR,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Oh, Rorona. I was just<CR>about to go to the atelier" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_NOR,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Here, this. It's a souvenir from our recent trip.<CR>Use it carefully, okay?" },
+	// ▼どちらもいないパターン
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "I'm home... wait,<CR>of course neither of them are here" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Hmm? Looks like they left something" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "To Rorona,<CR>We'll both be out traveling again for a while." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "We're leaving this souvenir from our recent trip,<CR>so please use it carefully. Love, Mom" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Left behind again, just me...<CR>Haah. But I've gotten used to it..." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You received <CLGR>Adla's Feather<CLNR> x2, <CLGR>Mermaid's Tear<CLNR> x1, and <CLGR>Puni Puni Orb<CLNR> x2." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_545_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_545",// 出力ファイル名
+	QN01_545_EMS,           // 上記変数
+};

@@ -1,0 +1,21 @@
+BalloonData YZ01_010_EMS[] = {
+	// Sweeper（非常に長い
+	// アニメーションと画像の混合表现形式
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "Sweeper" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_NORMAL,         "A massive island floating in the sky, with giant wings and mysterious light" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_NORMAL,         "One alchemist arrived there" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_NORMAL,         "This girl's name is... Aster=risu·ati·zon...ahl·gi·torun·ati... Known as: Rorona" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_NORMAL,         "An alchemist who gives everyone headaches. An apprentice alchemist." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_NORMAL,         "The name is... Aster=ris·ati·zon... It seems like she is not well-reputed" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_NORMAL,         "Aster is an apprentice alchemist who is at the top of her class" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_NORMAL,         "She gives everyone headaches. An apprentice alchemist. I need to cheer her up." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_NORMAL,         "She gives everyone headaches. An apprentice alchemist." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     9, BALLOON_FRAME_TYPE_NORMAL,         "For some reason" },
+	// 
+};
+
+BALLOON_DATA_ALL YZ01_010_bda = {
+	"YZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YZ01_010",// 出力ファイル名
+	YZ01_010_EMS,           // 上記変数
+};

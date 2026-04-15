@@ -1,0 +1,24 @@
+BalloonData QC06_170_EMS[] = {
+	// ▼↑のイベント後、街に帰ってきて短いイベント
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Now then, I've left dealing with the bandits<CR>to Sterk, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I'm sorry for tonight.<CR>Not only did I ask for your help,<CR>I also dragged you into this mess" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Eh? Oh, no! Um... I was the one<CR>who said all sorts of rude things before...<CR>And, sorry!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "No, no, I should be the one apologizing.<CR>I lied to you and<CR>pretended to be someone I wasn't" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "My apologies. Bowing like this" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "N-no! Please stop!<CR>If the King is apologizing to me,<CR>I'll..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "There's a lot I should explain, but<CR>I don't have time tonight" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "I'll come to your atelier another day" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Y-yes! I'll be waiting!" },
+	// ▼立ち去るジオ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Gio is the King...<CR>Haah, I just don't understand anything anymore..." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Gio has left your party." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_170_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_170",// 出力ファイル名
+	QC06_170_EMS,           // 上記変数
+};

@@ -1,0 +1,20 @@
+BalloonData MA02_030_EMS[] = {
+	// ★※ゲーム開始から、早めの時限定
+	// ▼アトリエで調合中のロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...Alright.<CR>Now I just need to stir it for a while" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "...Hm? Huh?<CR>Something seems different from usual..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Waaaaaah?!" },
+	// ▼爆発音＋画面ホワイトアウト（爆発エフェクトっぽいものがあれば…）
+	// ▼明けて、煤だらけになっているロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "*cough* *cough*!<CR>Oh no...what was that...?" },
+	// ▼失敗アイテムを入手
+	// ▼システムメッセージで失敗時の説明
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Uuu, I wasted those materials...<CR>I need to be more careful next time..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA02_030_bda = {
+	"MA02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA02_030",// 出力ファイル名
+	MA02_030_EMS,           // 上記変数
+};

@@ -1,0 +1,27 @@
+BalloonData QC04_080_EMS[] = {
+	// ▼↑のイベントの後、ロロナがアトリエにいる時
+	// ▼リオネラが遊びに来ていて、二人で楽しくおしゃべりをしている
+	// ▼それを離れて眺めている師匠とくーちゃん
+	// ★台詞なしでBUCを何枚か表示するか、キャラ劇上で感情アイコンとかで
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "... Humph. They look like they're having fun" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Someone's in a bad mood, hmm, Kuu-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "That's not true.<CR>And don't call me Kuu-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Those two have become fast friends, haven't they?<CR>Perhaps their personalities just click" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "...You're awfully calm for someone<CR>whose cute student got stolen" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Watching a cheerful student from afar<CR>isn't so bad either, you know.<CR>I've grown up quite a bit myself" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "...Are you calling me childish?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "You're quick to catch on.<CR>As expected of Kuu-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC_SHOUT,      "You should at least deny it!<CR>And the nickname! You're doing it on purpose, aren't you!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "No need to shout like that.<CR>Even if you get flustered like that,<CR>it won't last forever, you know.<CR>Those two, I mean" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "What do you mean by that?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Exactly what I said.<CR>I can't say for certain which way it will go,<CR>good or bad" },
+	// ▼言うだけ言って立ち去る師匠
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Hey, explain yourself properly!<CR>I'm curious, you know!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC04_080_bda = {
+	"QC04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC04_080",// 出力ファイル名
+	QC04_080_EMS,           // 上記変数
+};

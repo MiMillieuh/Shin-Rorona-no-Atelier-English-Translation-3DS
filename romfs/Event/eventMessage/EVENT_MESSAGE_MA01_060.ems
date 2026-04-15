@@ -1,0 +1,66 @@
+BalloonData MA01_060_EMS[] = {
+	// ▼アトリエに戻ってくる主人公
+	// ▼なにやら作業している師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "I'm back.<CR>Oh, wow! Master is actually here!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Greeting me with 'wow,' are we?<CR>Oh my, and the young lady from the Feuerbach family is with you" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "I've told you to stop with that sarcastic way of addressing me!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I see. Then I'll have you call me Kuu-chan as well" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "Stop it!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "This is no good, that's no good...oh dear.<CR>Young ladies certainly have their hands full with their whims" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "Grrr! Wh-who's whiny?! Who's the whiny one?!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Please don't fight...<CR>B-but Master!<CR>I went to the castle and heard what you told me" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Yes, I was waiting to hear about it.<CR>Kuu-chan made me get sidetracked<CR>from the conversation" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L2,       9, BALLOON_FRAME_TYPE_BUC,            "Don't blame me!<CR>And stop calling me Kuu-chan!" },
+	// ▼また説明に入って…
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "...I see, I understand.<CR>I had a feeling they wouldn't just shut us down abruptly,<CR>but this is mostly as I expected" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "What's with that smug face?<CR>This isn't funny at all" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L2,      12, BALLOON_FRAME_TYPE_BUC,            "The Atelier's going to be shut down—<CR>you're going to be kicked out of the country—<CR>wouldn't you panic a little?!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Panicking won't solve anything.<CR>Speaking of which, haven't you been quite calm yourself, young lady?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L2,      14, BALLOON_FRAME_TYPE_BUC,            "Why would I be the one panicking?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Ah, Rorona does have cold friends, doesn't she?<CR>If the Atelier closes, Rorona would have to leave town,<CR>and yet here you are" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Huh? W-would I have to leave too?!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L2,      17, BALLOON_FRAME_TYPE_BUC,            "Wh-why should I be the one?!<CR>You should leave by yourself!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Why, you ask? Rorona owes me a debt, you know.<CR>I can't just let her go until<CR>she's paid it back" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Or perhaps you thought I would be<CR>so kind as to forgive Rorona's debt<CR>on this occasion?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L2,      20, BALLOON_FRAME_TYPE_BUC,            "Tch...right.<CR>I forgot that you're a thoroughly rotten,<CR>despicable human being..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "I'll take that as a compliment" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_L2,      22, BALLOON_FRAME_TYPE_BUC,            "But! Even you won't be able to keep slacking off<CR>like you always have, you know?<CR>Hmph, serves you right" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "As long as Master works hard, we'll be fine, right?<CR>She can do it if she puts her mind to it!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "That's true. If I put my mind to something,<CR>I can accomplish most anything" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "See? Great...<CR>Oh, by the way, what have you been working on this whole time?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "Ah, this is a new signboard for the Atelier.<CR>I thought we'd make a fresh start,<CR>so I decided to start with the appearance first" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_L2,      27, BALLOON_FRAME_TYPE_BUC,            "What?<CR>You're actually serious about this?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Alright, it's done.<CR>Time to put it up" },
+	// ▼アトリエの外に出て行く師匠。二人もそれに続く
+	// ▼アトリエの外。看板を取り付ける師匠
+	// ★取り付けたあと一枚絵に
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    29, BALLOON_FRAME_TYPE_BUC,            "What do you think? Not bad, right?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    30, BALLOON_FRAME_TYPE_BUC,            "Wow, what a cute sign.<CR>Hmm, 'Rorona's Atelier'?<CR>So the name changed too..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    31, BALLOON_FRAME_TYPE_BUC,            "Wait, EEEEEEEEH?!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    32, BALLOON_FRAME_TYPE_BUC,            "Starting today, this Atelier belongs to you.<CR>I'll leave it in your hands" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    33, BALLOON_FRAME_TYPE_BUC,            "In my hands?! No way!<CR>Absolutely impossible!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    34, BALLOON_FRAME_TYPE_BUC,            "That's right! There's no way!<CR>Like a goody-two-shoes, scatterbrained, airheaded,<CR>clueless girl could run an Atelier!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    35, BALLOON_FRAME_TYPE_BUC,            "Hey, you didn't have to say all that..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    36, BALLOON_FRAME_TYPE_BUC,            "B-but this is really impossible!<CR>I can't do alchemy at all, you know?<CR>Master never taught me anything!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    37, BALLOON_FRAME_TYPE_BUC,            "I've taken care of that part.<CR>Here, do this" },
+	// ▼一番初歩的な錬金術の本（レシピ）をもらう
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       38, BALLOON_FRAME_TYPE_BUC,            "Huh? What's this book?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       39, BALLOON_FRAME_TYPE_BUC,            "It's a book about the basics of alchemy.<CR>This was the first thing I received<CR>when I became the previous owner's apprentice" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       40, BALLOON_FRAME_TYPE_BUC,            "Huh? Aren't you giving away something really important?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       41, BALLOON_FRAME_TYPE_BUC,            "Of course. You're my first disciple, aren't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       42, BALLOON_FRAME_TYPE_BUC,            "Master...thank you so much!<CR>I'll do my best!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L2,      43, BALLOON_FRAME_TYPE_BUC,            "Doing your best?!<CR>Don't let yourself be swayed so easily!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_R,       44, BALLOON_FRAME_TYPE_BUC,            "Ah, one job tires me out so much.<CR>A nap is the perfect remedy for times like these, yes" },
+	// ▼店の中に戻っていく師匠
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L2,      45, BALLOON_FRAME_TYPE_BUC,            "Hey, wait! You can't just—<CR>And stop reading that book so happily!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       46, BALLOON_FRAME_TYPE_BUC,            "Huh? Oh no!<CR>Wait for me, Master!" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Received the reference book:<CR>"<CLGR>Illustrated Beginner Alchemy<CLNR>"." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA01_060_bda = {
+	"MA01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA01_060",// 出力ファイル名
+	MA01_060_EMS,           // 上記変数
+};

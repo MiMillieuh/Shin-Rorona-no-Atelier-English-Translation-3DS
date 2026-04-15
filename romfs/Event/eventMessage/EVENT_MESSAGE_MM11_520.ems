@@ -1,0 +1,25 @@
+﻿BalloonData MM11_520_EMS[] = {
+	// ▼
+	// ★Within a few days after the final request announcement. And only if nothing has been delivered yet
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Rorona, you got the final request, right?<CR>What did they ask you to do this time?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Yeah, um, well.<CR>I'm not really sure,<CR>but they told me to bring the ultimate secret of alchemy" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "What a vague request...<CR>So, do you think you can handle it? Is it okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Hmm... I'll probably figure something out. It'll be fine!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Where does that unfounded confidence come from...?<CR>Well, if you say so, I guess it's fine" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Haah~. And so,<CR>this being dragged around by you life will finally end, huh" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Sorry for having you help me all this time" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "It's fine. I did it because I wanted to" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "If you hadn't said you'd help me,<CR>I probably couldn't have<CR>done this far" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "So, really, thank you" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Hah? S-stop it!<CR>Don't say such embarrassing things all of a sudden!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "A-anyway!<CR>Since I helped you this much!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "If you come this far and say<CR>\"I couldn't do it\"<CR>I'm not letting you off the hook!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Yeah, I'll do my best. I'll definitely pass" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM11_520_bda = {
+	"MM11",                 // Output file path
+	"EVENT_MESSAGE_MM11_520",// Output file name
+	MM11_520_EMS,           // Above variable
+};

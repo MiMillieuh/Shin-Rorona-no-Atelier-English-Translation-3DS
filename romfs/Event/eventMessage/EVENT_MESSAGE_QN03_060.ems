@@ -1,0 +1,22 @@
+﻿BalloonData QN03_060_EMS[] = {
+	// ▼かつらが完成した時のイベント
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "It's done... it's done, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Finished? Let me see" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Ah, yes" },
+	// ▼アイテム画像表示。ヘルメットの上にアフロの髪の毛
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "...Why is it an afro?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "When I was attaching the hair,<CR>the cauldron fire jumped onto it,<CR>and it just singed and frizzled..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "That is clearly beyond \"a little\"<CR>off the mark" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Uuu... I knew it wouldn't work" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "...No, this has its own charm. We'll use it.<CR>Now hurry and go tell Hageru" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "...I feel bad saying this, but<CR>is this really okay...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "...We've done what we could.<CR>Even if the customer gets angry,<CR>there's nothing to be ashamed of" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Getting scolded is basically a given...<CR>Sigh, I feel so heavy-hearted..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN03_060_bda = {
+	"QN03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN03_060",// 出力ファイル名
+	QN03_060_EMS,           // 上記変数
+};

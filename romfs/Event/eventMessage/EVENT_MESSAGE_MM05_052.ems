@@ -1,0 +1,22 @@
+BalloonData MM05_052_EMS[] = {
+	// ▼Common below
+	// ▼Display task details on system screen
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Exterminating Valtores, is it..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Yes. The cause is unknown, but<CR>they've been abnormally spawning recently" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Honestly, the knights alone have been struggling with them.<CR>That's why we came to you with this request" },
+	// ▼Branch if player has done monster hunting requests before
+	// ▼Hasn't done it
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Hmm... I'm not very<CR>good at that kind of thing..." },
+	// ▼Has done it
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Sigh... Esty-san asked me something similar,<CR>but honestly, I'm not very<CR>good at it either..." },
+	// ▼Common below
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Combat may not be your specialty,<CR>but there are other ways to go about it.<CR>That's the alchemist's way" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "The alchemist's way...<CR>Understood. I'll think of something" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM05_052_bda = {
+	"MM05",                 // Output file path
+	"EVENT_MESSAGE_MM05_052",// Output file name
+	MM05_052_EMS,           // Above variable
+};

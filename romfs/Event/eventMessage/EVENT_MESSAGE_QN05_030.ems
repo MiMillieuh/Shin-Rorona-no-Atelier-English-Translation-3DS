@@ -1,0 +1,18 @@
+BalloonData QN05_030_EMS[] = {
+	// ▼↑の採取地にてクマのぬいぐるみを発見した時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Huh? A teddy bear?<CR>...It's completely clean.<CR>I wonder who dropped it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "...Someone might be looking for it,<CR>so I'll take it home for now" },
+	// ▼ぬいぐるみを拾って歩き出す主人公
+	// ▼かばん？の中から小さく寝息が聞こえる
+	{ BALLOON_MODE_CHARA,  CHARA_CAT_A,      0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_NORMAL,         "Nn~...muyaah...kuu..." },
+	// ▼驚いて振り返る主人公
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_NORMAL,         "Eh? W-What was that sound?!" },
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_NORMAL,         "...No one's here...j-just my imagination, right?<CR>...L-Let's hurry!" },
+	// ▼足早に立ち去る主人公
+};
+
+BALLOON_DATA_ALL QN05_030_bda = {
+	"QN05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN05_030",// 出力ファイル名
+	QN05_030_EMS,           // 上記変数
+};

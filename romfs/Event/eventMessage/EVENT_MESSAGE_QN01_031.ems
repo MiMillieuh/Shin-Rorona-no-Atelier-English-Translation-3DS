@@ -1,0 +1,18 @@
+BalloonData QN01_031_EMS[] = {
+	// ▼最初に作った時に、いきなり高品質だった場合に↑の代わりに発生
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "I did it!<CR>Great, I actually made a pie!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "I hope it tastes okay?<CR>Let me just try a little taste... *chomp*" },
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            ".........Delicious!<CR>Wow, this might be the best one I've ever made...<CR>Amazing! Alchemy is amazing!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "I wonder if the other pies<CR>would taste even better<CR>made with alchemy..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Alright, let me try making<CR>all the pies I've made before!" },
+	// ▼パイのレシピが４つ追加される
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You obtained the reference book<CLGR> 'Pie Basics' <CLNR>!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_031_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_031",// 出力ファイル名
+	QN01_031_EMS,           // 上記変数
+};

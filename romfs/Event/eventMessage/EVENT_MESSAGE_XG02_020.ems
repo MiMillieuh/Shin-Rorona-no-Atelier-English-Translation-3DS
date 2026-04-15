@@ -1,0 +1,11 @@
+﻿BalloonData XG02_020_EMS[] = {
+	// ▼キャベツ祭を途中でやめる時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "I've gotten a bit bored...<CR>Should we just quit?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL XG02_020_bda = {
+	"XG02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_XG02_020",// 出力ファイル名
+	XG02_020_EMS,           // 上記変数
+};

@@ -1,0 +1,23 @@
+﻿BalloonData QC06_050_EMS[] = {
+	// ▼有无を言わさず街の外～そのまま採取地へ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Wh-wh-wh-where are we going!?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Stop with those pathetic cries. We're almost there" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Whew... honestly, you know?<CR>Without even explaining anything..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Don't complain so much.<CR>Think of it as part of the job" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "...But you didn't mention anything about bodyguard work" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Then, would you prefer to go back alone?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "...Fine" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Don't make that face.<CR>I apologize for being a bit forceful. Here" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "I just thought it'd be faster to explain<CR>by showing you rather than explaining" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Then please explain already.<CR>What do you need me to do..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Shh. No more talking. And try not to make any noise.<CR>If they get alerted, it'll be troublesome" },
+	// ▼先に歩いていくジオ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "...What exactly is going to happen to me?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_050_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_050",// 出力ファイル名
+	QC06_050_EMS,           // 上記変数
+};

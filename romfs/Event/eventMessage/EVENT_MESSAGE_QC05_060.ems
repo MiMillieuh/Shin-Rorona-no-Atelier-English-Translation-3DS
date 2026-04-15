@@ -1,0 +1,30 @@
+BalloonData QC05_060_EMS[] = {
+	// ▼
+	// ★Timing undecided
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "By the way, Tanta-san,<CR>didn't you used to live in Arland?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "I did... why do you ask?<CR>Finally interested in me?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "N-no way!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "I just, I've lived in this town my whole life,<CR>but I've never met you before... that's all!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "You don't have to be so shy about it...<CR>Well, I left town when you were still young" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "If I'd known a wonderful girl like you existed,<CR>I never would have left" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "S-so please stop<CR>saying things like that!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Um, so... what about your family?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_ODO,   BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Family?<CR>You want me to introduce you to them?<CR>My, moving rather fast..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Introduce me to your family? No!<CR>Why would you take it that way!?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "I'm just joking...<CR>Actually, I haven't been on good terms with my family" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "I'd appreciate it if you didn't<CR>bring that up" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Oh... I'm sorry" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Instead, I can tell you anything about myself<CR>as much as you want" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Even personally tutoring you..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Nooooo! I'm good, thanks!<CR>P-please stop approaching slowly!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Ah, what a shame. Am I that unlikable? Ahahaha" },
+	// ▼Tantolis goes ahead
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Good grief, that's bad for my heart...<CR>But for a moment, he looked so serious...<CR>Did I imagine it?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_060_bda = {
+	"QC05",                 // Output file path
+	"EVENT_MESSAGE_QC05_060",// Output file name
+	QC05_060_EMS,           // The variable
+};

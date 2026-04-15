@@ -1,0 +1,55 @@
+﻿BalloonData QN02_060_EMS[] = {
+	// ▼↑の後、しばらく経過後
+	// ▼ロロナがアトリエにいる時、調合中の炉路按
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hmm, hmm-hmm... hm?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Huh? We're out of materials again...<CR>Hom-chan, could you... wait, what?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "That's quite the loud soliloquy.<CR>Could that be a signal that you want<CR>me to pay attention to you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "No way. Do you know where Hom-chan is?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Why would I know?<CR>I was sleeping just a moment ago" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Where could they have gone?<CR>They've been disappearing lately, you know..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "This isn't the time for that.<CR>I need to hurry and buy materials" },
+	// ▼アトリエを出て行くロロナ
+	// ▼アトリエを出てすぐ、家の裏のいでネコと戯れているホムを見つける
+	// ★普通に通り過ぎようとして、遅れて気づいて振り返る感じ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Ah" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Ah..." },
+	// ▼子ネコを抱きつつ、体育座りのホム
+	// ★一枚絵予定（差分が可能なら、イベントの続きも
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     9, BALLOON_FRAME_TYPE_BUC,            "Hom-chan, what are you doing here?<CR>...Is that the same cat from before?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CAT_A,      0, NAME_CAT_K_NA,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_BUC,            "Meow!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_BUC,            "It's not a cat, it's a Meow-meow" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    12, BALLOON_FRAME_TYPE_BUC,            "Oh right, sorry. Meow-meow" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    13, BALLOON_FRAME_TYPE_BUC,            "...I'm sorry, Master" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_BUC,            "Huh? Why are you apologizing?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    15, BALLOON_FRAME_TYPE_BUC,            "Hom couldn't obey the Grand Master's orders.<CR>Hom couldn't bring itself to abandon the Meow-meow" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CAT_A,      0, NAME_CAT_K_NA,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_BUC,            "Meooow..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_BUC,            "...You've been secretly<CR>raising it here this whole time?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    18, BALLOON_FRAME_TYPE_BUC,            "Yes. But now Master found out.<CR>If the Grand Master finds out too..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    19, BALLOON_FRAME_TYPE_BUC,            "It'll be fine! Master is pretty dense,<CR>they probably won't notice" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    20, BALLOON_FRAME_TYPE_BUC,            "Hom is a failed Homunculus<CR>who can't even follow orders" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    21, BALLOON_FRAME_TYPE_BUC,            "Today Hom played with Meow-meow<CR>instead of helping Master..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    22, BALLOON_FRAME_TYPE_BUC,            "Hom-chan is so depressed...<CR>Oh, I know! Let's do this then" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    23, BALLOON_FRAME_TYPE_BUC,            "Keep the Meow-meow here, secretly.<CR>That's an order from Master" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    24, BALLOON_FRAME_TYPE_BUC,            "Master..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CAT_A,      0, NAME_CAT_K_NA,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    25, BALLOON_FRAME_TYPE_BUC,            "Meow?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    26, BALLOON_FRAME_TYPE_BUC,            "If Master finds out, it's because I ordered<CR>you to do it, so it's not your fault, right?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    27, BALLOON_FRAME_TYPE_BUC,            "But then Master will get scolded" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    28, BALLOON_FRAME_TYPE_BUC,            "I'll be fine,<CR>I'm scolded all the time anyway!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    29, BALLOON_FRAME_TYPE_BUC,            "...Well, in a different sense,<CR>maybe I won't be fine" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    30, BALLOON_FRAME_TYPE_BUC,            "Master... thank you very much" },
+	// ★ここで笑顔のBUCを
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    31, BALLOON_FRAME_TYPE_BUC,            "Huh?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    32, BALLOON_FRAME_TYPE_BUC,            "What's the matter?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    33, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "（Did Hom-chan just... smile?<CR>　Must be my imagination...）" },
+	// ▼一方、その場を而喻の窓から見ている師匠（外の物陰でも可
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       34, BALLOON_FRAME_TYPE_BUC,            "Who is dense? Who?<CR>You're one to talk, not noticing<CR>until today" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "But this is a great and revolutionary discovery.<CR>To trigger emotions in a Homunculus,<CR>just give them a kitten... yes" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       36, BALLOON_FRAME_TYPE_BUC,            "Still, even if I leave these notes behind,<CR>no one in future generations will believe them" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN02_060_bda = {
+	"QN02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN02_060",// 出力ファイル名
+	QN02_060_EMS,           // 上記変数
+};

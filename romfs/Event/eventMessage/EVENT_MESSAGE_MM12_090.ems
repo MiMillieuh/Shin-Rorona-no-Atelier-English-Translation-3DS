@@ -1,0 +1,40 @@
+ BalloonData MM12_090_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     1991, BALLOON_FRAME_TYPE_BUC,            "Tomorrow's the results day...<CR>Whether I pass or fail, it'll all be over tomorrow..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,     1992, BALLOON_FRAME_TYPE_BUC,            "Uuuu...<CR>I'm so nervous, I can't calm down..." },
+	// ▼ドアがノックされる音
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,     2065, BALLOON_FRAME_TYPE_BUC,            "Hmm? Who is it... Come in!" },
+	// ▼ドアが開いてリオネラが入ってくる
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,     2066, BALLOON_FRAME_TYPE_BUC,            "Hey, sorry to bother you" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,    2067, BALLOON_FRAME_TYPE_BUC,            "Sorry for coming at such an hour" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,     2068, BALLOON_FRAME_TYPE_BUC,            "G-Good evening..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2069, BALLOON_FRAME_TYPE_BUC,            "Oh, good evening.<CR>Wait, what's wrong? At this hour?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,     2070, BALLOON_FRAME_TYPE_BUC,            "U-Um... Er..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,    2071, BALLOON_FRAME_TYPE_BUC,            "It's a bit embarrassing to say...<CR>This child couldn't sleep from nerves.<CR>She was worried about you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,     2072, BALLOON_FRAME_TYPE_BUC,            "Huh? Rio-chan is?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,     2073, BALLOON_FRAME_TYPE_BUC,            "Yaaah!<CR>I-I told you not to say that!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,     2074, BALLOON_FRAME_TYPE_BUC,            "...Pff, ahahaha!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NAKI,   BUC_POSITION_TYPE_R,     2075, BALLOON_FRAME_TYPE_BUC,            "She laughed at me!?<CR>That's it, I hate you! She thinks I'm weird..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2076, BALLOON_FRAME_TYPE_BUC,            "Ha-ha... S-Sorry. That's not it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2077, BALLOON_FRAME_TYPE_BUC,            "I couldn't sleep either because I was nervous, so<CR>when I thought about how Rio-chan must be feeling the same,<CR>I just..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R,     2078, BALLOON_FRAME_TYPE_BUC,            "Rorona-chan was also...?" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,     2079, BALLOON_FRAME_TYPE_BUC,            "Well, you being nervous is to be expected, but<CR>in her case..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,    2080, BALLOON_FRAME_TYPE_BUC,            "Hey... Coming here when someone's<CR>even more nervous than you are,<CR>what exactly do you plan to do..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,     2081, BALLOON_FRAME_TYPE_BUC,            "Uuu... Even if you say that..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,     2082, BALLOON_FRAME_TYPE_BUC,            "Ah, laughing made me feel better somehow.<CR>Thanks, Rio-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_TERE,   BUC_POSITION_TYPE_R,     2083, BALLOON_FRAME_TYPE_BUC,            "Eh... O-Oh, you're welcome..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2084, BALLOON_FRAME_TYPE_BUC,            "Hey, why don't you stay over tonight?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R,     2085, BALLOON_FRAME_TYPE_BUC,            "Eh? Stay over...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2086, BALLOON_FRAME_TYPE_BUC,            "I might get nervous again if I'm alone, and<CR>I think I could sleep better knowing<CR>Rio-chan's here... Is that okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,     2087, BALLOON_FRAME_TYPE_BUC,            "N-No! Not at all! It's not like I mind!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,     2088, BALLOON_FRAME_TYPE_BUC,            "Great! Then I'll get ready right away.<CR>Come on, come on up!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_WARA,   BUC_POSITION_TYPE_R,     2089, BALLOON_FRAME_TYPE_BUC,            "...Y-Yeah!" },
+	// ▼長めの黒フェードで終わり、次のイベントへ
+	// ▼
+};
+
+BALLOON_DATA_ALL MM12_090_bda = {
+	"MM12",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MM12_090",// 出力ファイル名
+	MM12_090_EMS,           // 上記変数
+};

@@ -1,0 +1,18 @@
+BalloonData YM03_190_EMS[] = {
+	// ▼錬金術士、未来よりきたる
+	// ●延長戦開始
+	// ▼冒頭巻頭言
+	// ▼エスティの声でナレーション＆テロップ
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "In Arland, there is a small Atelier" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "It was an alchemy shop that was once on the verge of being shut down by the castle" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "However, one girl rose up to protect the shop. That girl, Rorona, fought hard for three years to keep the shop alive" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "As a result, the Atelier was saved, and Rorona was finally free to run the shop however she wished" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Rorona would go on to walk various paths into the future... But what follows is just one of those countless stories--" },
+	// ▼ナレーション終了
+};
+
+BALLOON_DATA_ALL YM03_190_bda = {
+	"YM03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM03_190",// 出力ファイル名
+	YM03_190_EMS,           // 上記変数
+};

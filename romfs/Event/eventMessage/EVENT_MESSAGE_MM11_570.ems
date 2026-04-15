@@ -1,0 +1,19 @@
+﻿BalloonData MM11_570_EMS[] = {
+	// ▼When speaking to Gio after knowing he's the king, after the final request has started
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "So the final request has finally begun, I hear" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Yes. It feels like it went by so fast,<CR>more than it being \"finally\"" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "...This may be jumping the gun, but when you<CR>successfully complete your request, I, as the king of this country,<CR>promise to give you my utmost support" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Eh...?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "I was only able to help you<CR>as an individual until now" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I'd like to see the state where<CR>the kingdom treats alchemy with respect change" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Gio-san... thank you!<CR>I'll definitely pass!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "That's the spirit. Do your best" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "...But still, no matter what I do now,<CR>I wonder if Master will forgive me..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM11_570_bda = {
+	"MM11",                 // Output file path
+	"EVENT_MESSAGE_MM11_570",// Output file name
+	MM11_570_EMS,           // Above variable
+};

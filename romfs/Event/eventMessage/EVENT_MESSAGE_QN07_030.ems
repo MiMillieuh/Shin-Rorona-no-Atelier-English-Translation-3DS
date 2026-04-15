@@ -1,0 +1,32 @@
+﻿BalloonData QN07_030_EMS[] = {
+	// ▼一定期間経過後、ココルから買い物をした時
+	// ★可能なら問合せ先に買い物している、という条件も…
+	// ★ここで教えてもらう採取地でしか取れない物が売られている、など
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, hey! Hey hey, Corm-kun.<CR>Where did you get this Sunstone from?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, that? That's... a trade secret." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "No way~ Please, there's gotta be something... pretty please?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Hmm... well, you're a regular customer,<CR>so what the heck." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Yes! Thank you!" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Keep going west from town and<CR>you'll find a place called Shtohl Plateau." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Nobody goes there 'cause it's so far away,<CR>so I've basically got a monopoly on<CR>the materials from there, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "I see... Okay, then I'll go check it out right away..." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "It's fine to go, but NEVER go alone!<CR>There are tons of dangerous monsters<CR>out there, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "If something happens to you,<CR>I'm not taking responsibility!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "It's that dangerous...?<CR>Got it, I'll be careful!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "...Wait, but Corm-kun,<CR>you go there by yourself, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Well yeah. I don't really like<CR>going with other people." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Why are you okay with it then?<CR>Do you have some special method or something?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Now that's a trade secret, you know. See ya!" },
+	// ▼立ち去るコオル
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Wait!<CR>Hmm, if he'd just tell me,<CR>I wouldn't have to worry so much..." },
+	// ▼イベント結果：新しい採取地追加
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can now go to <CLBL>Shtohl Plateau<CLNR>." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN07_030_bda = {
+	"QN07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN07_030",// 出力ファイル名
+	QN07_030_EMS,           // 上記変数
+};

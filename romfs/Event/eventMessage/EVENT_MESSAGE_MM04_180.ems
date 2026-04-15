@@ -1,0 +1,30 @@
+BalloonData MM04_180_EMS[] = {
+	// ★※Geo, Sterk, Esty only. Several patterns depending on content
+	// ★Each occurs only during the 1-2 weeks after the Kingdom Festival ends
+	// ▼After participating in the first year Kingdom Festival, talk to Esty
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, Rorona-chan. Thanks for last time.<CR>Because of you, the event<CR>was a huge hit!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Ah, no, you're welcome" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "...But please don't force me to participate again next time" },
+	// ▼Branch based on whether you won
+	// ★----------------------------------------
+	// ▼If won
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Oh? Why not?<CR>You seemed to be really into it, Rorona-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "And you even won first prize...<CR>Yo! Cabbage Girl!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Waaaah! Please stop!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Ahaha, sorry, sorry.<CR>Well, I'm sure there'll be some kind of event at next year's Kingdom Festival too,<CR>so I hope you'll join us again" },
+	// ▼Event ends
+	// ★----------------------------------------
+	// ▼If lost
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Ahaha, sorry, sorry.<CR>Next year, I'll think of events<CR>that are easier for you to participate in" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "That's not what I'm saying!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Uuu, I feel like next year too,<CR>I'll definitely get forced into participating..." },
+	// ▼
+	// ★----------------------------------------
+	// ▼
+};
+
+BALLOON_DATA_ALL MM04_180_bda = {
+	"MM04",                 // Output file path
+	"EVENT_MESSAGE_MM04_180",// Output file name
+	MM04_180_EMS,           // Above variable
+};

@@ -1,0 +1,36 @@
+BalloonData YM04_120_EMS[] = {
+	// ▼竜の砂時計作成時
+	// ●送られてきた手紙２が発生している
+	// ●完全版の竜の砂時計を作ると発生（ここで作る砂時計の効果（使用時効果はなし）に、
+	// ●「時空の扉を開く」みたいな確定的な文言が入るとよりよい）
+	// ●竜の砂時計はキーアイテム。使えない、捨てられない売れない
+	// ▼竜の砂時計が完成すると
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "I did it!<CR>This is the real deal, the Dragon's Hourglass..." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_ODO,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "This definitely feels different from the last one.<CR>The sheen on it, just looking at it..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R2,       2, BALLOON_FRAME_TYPE_BUC,            "I only vaguely remember, but this one<CR>feels the same as the hourglass that sent us<CR>to this world. The way it feels when you touch it, at least" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Then..." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_WARA,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Yes, I think... this should be it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "I'm glad..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_WARA,    BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "So, are we really going back this time?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "...What should we do?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX4,     BUC_POSITION_TYPE_R2,       8, BALLOON_FRAME_TYPE_BUC,            "Now that we have a way to get back,<CR>I feel like I can finally relax a little..." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "You're right, aren't you? We said we'd be back in about a year,<CR>and Astrid did say she'd come pick us up<CR>when the time came..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "We've had such a rare and wonderful experience here,<CR>so why don't we take it easy for a while longer?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "You're right, let's do that.<CR>I had fun too" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Then, when the time is right and it seems like<CR>Astrid is about to come get us,<CR>we'll use this hourglass to go back and surprise her!" },
+	// ▼アストリッド登場
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "Hmm, is this the time-jumping<CR>item? I'd like to borrow it for research" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_IKA,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "W-wait, please!<CR>Without that, we..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KANA,    BUC_POSITION_TYPE_R2,      15, BALLOON_FRAME_TYPE_BUC,            "We'll get in trouble!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      16, BALLOON_FRAME_TYPE_BUC,            "Calm down. I'm just borrowing it for a little while.<CR>And besides, you two have accomplished what you set out to do -<CR>that much I've seen with my own eyes" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      17, BALLOON_FRAME_TYPE_BUC,            "It'll still be a while before the me from the future comes to get you, right?<CR>I'll return it by then, so until then, take it easy" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Is that... okay, then?<CR>If you insist like that..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX1,     BUC_POSITION_TYPE_R2,      19, BALLOON_FRAME_TYPE_BUC,            "Then we'll just keep having fun here<CR>until then!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM04_120_bda = {
+	"YM04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM04_120",// 出力ファイル名
+	YM04_120_EMS,           // 上記変数
+};

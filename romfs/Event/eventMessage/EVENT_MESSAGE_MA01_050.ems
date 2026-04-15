@@ -1,0 +1,44 @@
+BalloonData MA01_050_EMS[] = {
+	// ★※タウンマップでアトリエor街のどこかを選択したら
+	// ▼城を出て、街の中を歩いて帰る主人公
+	// ▼とぼとぼ歩いてる主人公に気づいて、こっそり幼馴染（クーデリア）が近づいてくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Sighhh...<CR>Something really big has happened..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, but maybe this is the push Master needs<CR>to start taking things seriously!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "...Yeah, that's definitely not going to happen...<CR>Sighhhhh..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "What's with that long face?!" },
+	// ▼至近距離から体当たりをかますクーデリア
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Oof!" },
+	// ▼身長差でもろに腹部に食らい悶える主人公
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "U-uggh...Kuu-chan...<CR>You shouldn't just body-check people out of nowhere..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "What? I was just trying to cheer you up<CR>since you were walking around with such a gloomy face.<CR>You should be grateful!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Oh, were you? Thanks for cheering me up...<CR>Yep! I feel better now!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "...Either she's simple-minded or just plain stupid..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Eh? What do you mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Never mind that.<CR>So, why were you walking around looking so glum?<CR>Did that woman pick on you again?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "No, well...actually maybe yes. I mean, not really.<CR>Um, you see..." },
+	// ▼黒画面で事情説明を省略
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "...I see. Well, I suppose it's to be expected.<CR>Your Atelier doesn't get any customers anyway" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Uuu...well, I mean, you're not wrong..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_WARA,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Well, who cares?<CR>It's not like anyone would be bothered if it closed down" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "I would be bothered!<CR>Kuu-chan! That's so cold!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "...Hey, do you remember why<CR>you started working at that Atelier<CR>in the first place?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "I haven't forgotten. When I was little,<CR>my mom and dad got sick,<CR>and Master made medicine for them..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Right, and then?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "But I didn't have money, so<CR>I ended up saying 'I'll pay with my body!'<CR>And that's how I ended up working there living quarters and all..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "That's right. So what happens to you<CR>if the Atelier closes down?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "What do you mean...I won't be able to work at the Atelier anymore,<CR>so I'll have to go back home...oh no!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Exactly. The only person who would be troubled is HER, right?<CR>If anything, it would be better if she<CR>just left this country while she's at it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Th-that might be a bit too harsh on Master..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Hmph, you feel sorry for her, do you?<CR>...So, does she already know about this?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "No, not yet. That's where I'm headed now" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_WARA,   BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "I see. Then I'm coming with you.<CR>I'd love to see the look on her face...ah, I can't wait!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "Kuu-chan...<CR>You could try being nicer to Master, you know..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_WARA,   BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "That's never going to happen!<CR>Come on, let's go already!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA01_050_bda = {
+	"MA01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA01_050",// 出力ファイル名
+	MA01_050_EMS,           // 上記変数
+};

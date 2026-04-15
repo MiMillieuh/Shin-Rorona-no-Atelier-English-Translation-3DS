@@ -1,0 +1,13 @@
+BalloonData MM06_050_EMS[] = {
+	// ▼Rorona called to the castle on presentation day
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Once again, you've done well.<CR>Though I imagine it was hard work for someone unfamiliar with such tasks" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "It's nothing, I didn't really work that hard.<CR>Though I don't know if I actually did it right..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I see. Well then, let us examine your evaluation.<CR>Your evaluation for this assignment is..." },
+	// ▼↓
+};
+
+BALLOON_DATA_ALL MM06_050_bda = {
+	"MM06",                 // Output file path
+	"EVENT_MESSAGE_MM06_050",// Output file name
+	MM06_050_EMS,           // Variable above
+};

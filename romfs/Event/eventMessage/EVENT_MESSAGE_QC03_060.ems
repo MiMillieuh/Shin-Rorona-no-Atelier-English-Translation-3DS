@@ -1,0 +1,21 @@
+BalloonData QC03_060_EMS[] = {
+	// ▼↑のイベントの後、料理勝負までの間の期間
+	// ▼イクセルの店で買い物をしようとしたら発生
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Welcome... Oh, it's you, Rorona. What do you want?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "What do you mean? I want to buy stuff." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Are you an idiot?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Huh!? You called me an idiot all of a sudden!?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_IKA,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "We're in the middle of a cooking competition! What world has a kind soul that sells stuff to their rival?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "B-but! If you don't sell to me, I can't do my work..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Hmph, serves you right. For this competition, I'll become a demon if I have to." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "If you need something, go gather it yourself." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "That's not fair..." },
+	// ★※以降、勝負が終わるまで物を売ってくれない
+	// ▼
+};
+
+BALLOON_DATA_ALL QC03_060_bda = {
+	"QC03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC03_060",// 出力ファイル名
+	QC03_060_EMS,           // 上記変数
+};

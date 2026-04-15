@@ -1,0 +1,20 @@
+﻿BalloonData MZ02_620_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Roronah! Roroona!<CR>You are in there, aren't you! At least answer me!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_BUC,            "Mmm... Kuu-chan?<CR>What is it~?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "What do you mean \"what\"!<CR>We agreed to go out together today, didn't we!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "Oh, was that today?<CR>Hmm... Sorry, I'll pass" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Wha--! Are you kidding me!<CR>Do you have any idea how much I was looking forward to...<CR>Just show your face!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_BUC,            "Ehh. Moving is such a hassle~" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Grrr... That's it! You idiot!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Haah, you've really become a total recluse...<CR>I should give you a real lecture<CR>one of these days..." },
+	// ▼Cuderira leaves
+	// ★Picture display
+	// ★Contents are common to everyone
+};
+
+BALLOON_DATA_ALL MZ02_620_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_620",// Output file name
+	MZ02_620_EMS,           // Variable name
+};

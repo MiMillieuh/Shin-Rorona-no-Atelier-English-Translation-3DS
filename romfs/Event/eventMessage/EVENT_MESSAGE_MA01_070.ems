@@ -1,0 +1,40 @@
+BalloonData MA01_070_EMS[] = {
+	// ▼翌日、一人床で寝ている主人公（黒画面と効果音で、一日経ったと分かるように
+	// ▼鳥の鳴き声かなんかで目を覚ます
+	// ★※オープニングムービーorアバンとか挟むと丁度良かったりする。
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_BUC,            "...Hm? Huh, is it morning...?<CR>Why am I sleeping on the floor..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_BUC,            "That's right, in the end Master never<CR>came out of her room yesterday.<CR>So I had no choice but to read on the floor..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_BUC,            "Wait! Master?!" },
+	// ▼隣の部屋のドアを叩くロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Master? Master—!? ...No one. She's escaped...<CR>Uuu, do I really have to be the one to do this..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "This is absolutely impossible...<CR>But if I don't, the Atelier will...hm?<CR>I wonder what this is" },
+	// ▼テーブルの上に手紙を見つける主人公
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "A letter? That's Master's handwriting...let's see" },
+	// ▼手紙を読む主人公
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "You'll be fine.<CR>You can do it.<CR>I believe in you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "........<CR>........<CR>........" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "So that's how it was...<CR>Master believed in me all along..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "I understand! Watch me!<CR>I will honor your legacy<CR>and carry it forward with pride!" },
+	// ▼その様子を、外からこっそり窺っている師匠
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "I'd appreciate it if you didn't go around<CR>declaring me dead...but I suppose that'll do.<CR>She is quite simple-minded, after all" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Now then, I wonder how long this will entertain me..." },
+	// ▼去っていく師匠
+	// ▼再び部屋の中に戻り
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "But, when it comes to running the Atelier,<CR>where should I even begin?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Let me think..." },
+	// ▼以下、選択式でチュートリアルを
+	// ▼選択先のイベントに飛ぶ
+	// ★選択肢
+	// ▼錬金術のやり方は？
+	// ▼街の人の評判をあげるには？
+	// ▼錬金術の材料はどうしよう？
+	// ★※もう大丈夫、などの選択肢も入れて、選んだら即ゲーム開始に
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Alchemy cauldron and bed(?) access explanation<CR>placeholder" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA01_070_bda = {
+	"MA01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA01_070",// 出力ファイル名
+	MA01_070_EMS,           // 上記変数
+};

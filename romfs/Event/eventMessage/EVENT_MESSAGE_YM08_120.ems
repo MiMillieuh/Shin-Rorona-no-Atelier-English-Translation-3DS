@@ -1,0 +1,14 @@
+BalloonData YM08_120_EMS[] = {
+	// ▼チュートリアル・カゴとコンテナ
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The basket can hold up to 60 items,<CR>and you cannot store more than that." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The container is installed in the Atelier<CR>and can hold many more items than the basket." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Another advantage is that items stored<CR>in the container will never deteriorate." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Items you don't need to carry around<CR>should be stored in the container." },
+};
+
+BALLOON_DATA_ALL YM08_120_bda = {
+	"YM08",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM08_120",// 出力ファイル名
+	YM08_120_EMS,           // 上記変数
+};

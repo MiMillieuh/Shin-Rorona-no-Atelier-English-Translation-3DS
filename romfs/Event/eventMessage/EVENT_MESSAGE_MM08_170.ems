@@ -1,0 +1,20 @@
+BalloonData MM08_170_EMS[] = {
+	// ▼With Tantris
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, Tantori-san! Tantori-san!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh my. Finding me in this crowd...<CR>I'm honored" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Well, Tantori-san does stand out, after all.<CR>Are you here to see the festival too?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Well, something like that.<CR>It brings back memories" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Right, you used to live in this town...<CR>Well then, since we're both here,<CR>want to look around together?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "What an honor. I didn't expect<CR>you to ask me on a date" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "A da- Eh, no! That's not what I meant!<CR>It's not like that, so..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Just kidding, just kidding. Of course I'll come.<CR>It would be rude to refuse<CR>when a girl asks me out" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Yes, so let's go" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "...I wonder if this<CR>counts as a date...?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM08_170_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_170",// Output file name
+	MM08_170_EMS,           // Variable above
+};

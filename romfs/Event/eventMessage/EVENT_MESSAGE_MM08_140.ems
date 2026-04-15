@@ -1,0 +1,15 @@
+BalloonData MM08_140_EMS[] = {
+	// ▼With Ixcel
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, Ixcel-kun" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, Rorona. You here for the festival too?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Yeah. I'm taking the day off from work<CR>to hang out all day" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Same here, the shop's closed for the festival.<CR>Well then, let's look around together" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Yeah!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM08_140_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_140",// Output file name
+	MM08_140_EMS,           // Variable above
+};

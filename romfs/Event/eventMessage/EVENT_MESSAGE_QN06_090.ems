@@ -1,0 +1,24 @@
+﻿BalloonData QN06_090_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, um, Rorona-chan..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Yes? Oh, let me guess..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Yes, that's right.<CR>I have another favor to ask..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Oh, it's fine! Whatever it is, go ahead and tell me!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "...When you agree that quickly and cheerfully,<CR>it actually scares me a little. But anyway, about that request..." },
+	// ▼依頼内容をシステムメッセージで表示
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "I see, I understand.<CR>I'll get it done as quickly as possible!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Thanks... And Rorona-chan,<CR>about what Astrid-san said the other day..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "No, it's fine! Please don't say it!<CR>I really don't mind at all!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "...Don't mind? Don't mind what?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "S-So, like, even if Estiy-san has<CR>this hobby or that hobby...<CR>S-So anyway, I'm going home now!" },
+	// ▼走って帰るロロナ
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Wait!<CR>You're getting more and more mistaken...<CR>This is all Astrid-san's fault!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Honestly!<CR>What on earth did you tell her?!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN06_090_bda = {
+	"QN06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN06_090",// 出力ファイル名
+	QN06_090_EMS,           // 上記変数
+};

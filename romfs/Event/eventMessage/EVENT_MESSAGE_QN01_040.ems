@@ -1,0 +1,16 @@
+BalloonData QN01_040_EMS[] = {
+	// ▼追加されたパイを全部高品質で作りあげた時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...Alright, done. Yeah, perfect if I say so myself!<CR>I think I've mastered<CR>how to make every pie delicious now" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "...But somehow it feels incomplete, you know?<CR>If I changed up the ingredients or methods,<CR>I feel like I could make them even better..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Hmm... there's no point just thinking about it,<CR>so let's just try making some!<CR>Yeah!" },
+	// ▼おいしいパイのレシピ１個追加
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You obtained the reference book<CLGR> 'Cabbage Pie' <CLNR>!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_040_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_040",// 出力ファイル名
+	QN01_040_EMS,           // 上記変数
+};

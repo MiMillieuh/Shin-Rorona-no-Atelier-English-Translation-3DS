@@ -1,0 +1,61 @@
+ BalloonData MZ01_060_EMS[] = {
+	// ▼
+	// ★- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	// ▼好感度高い
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, Tantris-san!<CR>Perfect timing!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh my, you're in a much better mood today.<CR>Which means..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Yes! I passed!<CR>I can keep running the atelier!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I see... Congratulations.<CR>Well, I had no doubt you'd pass,<CR>though" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Thank you very much!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Ah, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Yes, I suppose it means<CR>our parting is drawing near" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "That's... true, isn't it..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "I'm happy you're sad to see me go, but<CR>let's not have that kind of face today" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "It's not like I'm going to disappear right this moment" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "...You won't just disappear suddenly,<CR>right?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Don't worry. Do you really think I'd do that?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Ah, no. That's not what I meant!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "When that day comes,<CR>I'll be the one to contact you.<CR>So today, smile. Come on" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "...Yes!" },
+	// ▼最後の台詞で分岐させる。最初に来たか否かで（アストリッドのとこに行くのを促す台詞
+	// ▼最初に来た時
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Well then,<CR>shall we celebrate, just the two of us..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "But wait, have you told<CR>the master yet?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Not yet, I'm about to go..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Then I guess that will have to wait.<CR>She's probably home,<CR>waiting anxiously for you" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "If I took you away right now,<CR>I couldn't even imagine what she'd say to me later" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "The teacher is worried about me?<CR>I can't imagine it..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Well, that's just my guess.<CR>But you should go home quickly" },
+	// ▼
+	// ▼二回目以降
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "So, have you told everyone else yet?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Not yet. I still need to tell the teacher..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "I see... That's too bad.<CR>I guess I can't have you all to myself<CR>on this day" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "Let's talk again, just the two of us, soon" },
+	// ▼
+	// ★- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	// ▼好感度普通
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "Ah, Tantris-san! Listen to this!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "Hmm? What's wrong?<CR>You look so happy" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "I passed! The job from the castle!<CR>I can keep running the atelier!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "My, oh my...<CR>Congratulations. You worked hard" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "Thank you!<CR>What were you doing, Tantris-san?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "I was shopping for supplies.<CR>I was about to leave town" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       32, BALLOON_FRAME_TYPE_BUC,            "Eh? You're... leaving town...? Eeeeeh!?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "Is that really such a surprise?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       34, BALLOON_FRAME_TYPE_BUC,            "Of course it is! What happened all of a sudden..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "I've been thinking about it for a while now.<CR>Since you've passed, my job here is done..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "Eh? What do you mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       37, BALLOON_FRAME_TYPE_BUC,            "Don't worry about it. That's how it is.<CR>I'm a bit busy today, so<CR>sorry for not being able to talk longer" },
+	// ▼立ち去るタントリス
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       38, BALLOON_FRAME_TYPE_BUC,            "Tantris-san is leaving...<CR>I'm gonna miss this..." },
+	// ▼
+	// ★※これは分岐なしで
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ01_060_bda = {
+	"MZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MZ01_060",// 出力ファイル名
+	MZ01_060_EMS,           // 上記変数
+};

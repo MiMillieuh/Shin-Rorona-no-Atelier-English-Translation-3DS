@@ -1,0 +1,27 @@
+﻿BalloonData MZ02_680_EMS[] = {
+	// ▼Common below
+	// ▼Picture display
+	// ▼Gold and silver treasures spread throughout the atelier
+	// ▼Rorona lying on them (or slumped over a desk) happily lazing around
+	// ▼Homu fanning Rorona with a palm leaf fan-like thing next to her
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_BUC,            "Fuhee, bliss~...<CR>With this much money, I don't feel like working~" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_BUC,            "Homu wants to work" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_BUC,            "You're so serious. Homu-chan...<CR>You've been busy for three years,<CR>so let's take it easy for a while" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "I think I've relaxed<CR>more than enough already" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_BUC,            "What would the Grand Master<CR>say if she saw you like this?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_BUC,            "Umm, that's...<CR>But come on, just a little more? Okay?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_BUC,            "...Understood.<CR>I'll keep you company a little longer" },
+	// ▼Text on picture
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Rorona, who had worked so hard for three years, realized she had become the richest person in town" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "When she realized this, as a reaction to all the busyness, she decided to live a leisurely, decadent lifestyle..." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "But the story of Rorona, who got tired of relaxing so early on..." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Using her overflowing funds, she would go on to transform Arland into a great alchemical city..." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "But that is still a ways off..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_680_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_680",// Output file name
+	MZ02_680_EMS,           // Variable name
+};

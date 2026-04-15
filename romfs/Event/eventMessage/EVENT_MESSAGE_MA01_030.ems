@@ -1,0 +1,21 @@
+BalloonData MA01_030_EMS[] = {
+	// ▼お城に移動するとイベント
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Honestly, Master...<CR>Why do I always have to be the one to go to the castle...<CR>And Master never comes with me anyway..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "But while I was complaining, I already got here...<CR>Come to think of it, this might be my first time coming to the castle" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Uugh, I'm getting nervous.<CR>That person from before had such an intimidating face..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_NAZO,        BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Intimidating? Who's that?" },
+	// ▼後ろから受付のお姉さん（エスティ）に声をかけられる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Waaaaa! Th-that scared me..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_NAZO,        BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Sorry, didn't mean to startle you.<CR>Did you need something?<CR>Doesn't seem like you're my type of customer, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Oh, I came from the Atelier,<CR>and someone at the castle told me to come..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Oh wait, I forgot to ask that person's name...<CR>So, um..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_NAZO,        BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "The Atelier...? Ohhh, I see, I see. Got it.<CR>Follow me. I'll show you where to go" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "O-okay. Thank you very much!" },
+	// ▼二人連れ立ってお城の中へ入っていく
+};
+
+BALLOON_DATA_ALL MA01_030_bda = {
+	"MA01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA01_030",// 出力ファイル名
+	MA01_030_EMS,           // 上記変数
+};

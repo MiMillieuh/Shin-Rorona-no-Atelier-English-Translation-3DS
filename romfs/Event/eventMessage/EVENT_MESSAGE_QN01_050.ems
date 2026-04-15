@@ -1,0 +1,17 @@
+BalloonData QN01_050_EMS[] = {
+	// ▼おいしいパイを初めて作った時、最初から品質が高かった場合
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Done! Yeah, the baking is just right!<CR>This should taste good too... maybe" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Well then, let's eat! *chomp*!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            ".........T-this is... delicious!<CR>Amazing, amazing! My talent is terrifying..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "I feel like I can make even more delicious pies<CR>right now... Alright!<CR>Using this as a base, let me try making various other things!" },
+	// ▼おいしいレシピが４つ？追加
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You obtained the reference book<CLGR> 'Delicious Pie' <CLNR>!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_050_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_050",// 出力ファイル名
+	QN01_050_EMS,           // 上記変数
+};

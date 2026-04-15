@@ -1,0 +1,24 @@
+﻿BalloonData QC01_020_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Yes, thank you.<CR>Here, this is your reward" },
+	// ▼System message about receiving money
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Um... Is it really okay to take this?<CR>I'm getting so much..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Of course. You did your job properly,<CR>so it's strange not to take it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "But... everyone's staring at me..." },
+	// ▼NPCs around murmuring jealously
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_A,      0, NAME_GUEST_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_NORMAL,         "Hey hey. What's with that?<CR>Man, look at all that money!" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_B,      0, NAME_GUEST_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_NORMAL,         "What kind of job did she do?<CR>Doesn't look like she's that good at it..." },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_C,      0, NAME_GUEST_C,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_NORMAL,         "Nah, I heard it was an easy job.<CR>The client's just being eccentric" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_A,      0, NAME_GUEST_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_NORMAL,         "What's that supposed to mean? Unbelievable..." },
+	// ▼Back to normal
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Ah, well... you shouldn't worry about it.<CR>It's just jealousy. Right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Haah..." },
+	// ★Event result: Popularity decreases slightly, etc.
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_020_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_020",// Output file name
+	QC01_020_EMS,           // Variable name
+};

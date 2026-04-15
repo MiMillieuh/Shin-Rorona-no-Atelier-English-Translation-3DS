@@ -1,0 +1,25 @@
+﻿BalloonData QN07_050_EMS[] = {
+	// ▼発生条件未定。何回かココルから買い物をしてから
+	// ▼ある日、街中でコルを見かける
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, Corm-kun! Hey-o!" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Huh? Oh, it's you.<CR>Weird running into you here." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Yeah.<CR>What are you doing all the way out here?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Nothing much, just walking around, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Hmm? Wait, do you live in this town?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_AKI,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Duh, what are you even asking? That's so weird." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "B-But I've never seen you anywhere<CR>except at the Atelier, so I thought..." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "I've actually seen you around<CR>a few times, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Really?<CR>You could have just said hi!" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_AKI,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "I don't like chatting with customers<CR>outside of business, you know?<CR>It gets too familiar. So yeah, later!" },
+	// ▼立ち去るコオル
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Aww, but...<CR>Wish you'd be a little friendlier,<CR>you know?" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can now receive requests<CR>from Corm." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN07_050_bda = {
+	"QN07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN07_050",// 出力ファイル名
+	QN07_050_EMS,           // 上記変数
+};

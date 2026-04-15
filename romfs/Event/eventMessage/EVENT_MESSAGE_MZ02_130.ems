@@ -1,0 +1,61 @@
+BalloonData MZ02_130_EMS[] = {
+	// ▼In front of the atelier. From where many customers are lined up...
+	// ▼Display text while showing only the scene, dialogue after text ends
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Rorona, who completed the three-year work from the kingdom and protected the atelier" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Her earnest work ethic and passionate attitude toward everything earned her tremendous popularity from the townspeople" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "However, the kingdom's evaluation of her was not at all high, and her alchemy skills were lacking..." },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_A,      0, NAME_GUEST_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_NORMAL,         "Oh no! Here it comes" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_B,      0, NAME_GUEST_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_NORMAL,         "Again today!? Run, run!" },
+	// ▼Customers scatter like spiders
+	// ▼After a few seconds, a big explosion and blackout
+	// ▼After a short pause, Rorona and Hom summoned to the castle
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "...Did it again, didn't you?<CR>How many times this month?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX6,     BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "Um, probably 3 times...<CR>Eh? Was it 4?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_EX1,      BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "It's the 6th time.<CR>Combined with last month, that makes 19 times" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX3,     BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "What!? That many!?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Honestly, why do you keep making the same mistakes..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "At this rate,<CR>even the customers will lose patience soon" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX7,     BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "I know, right... but,<CR>I'm not doing it on purpose..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_EX1,      BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "The only way to solve this is for Master<CR>to improve her alchemy skills" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX6,     BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "Easy for you to say,<CR>but if I could do that, I would..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "...I've decided" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX3,     BUC_POSITION_TYPE_L2,      15, BALLOON_FRAME_TYPE_BUC,            "Decided? Decided what?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Before Astrid left town,<CR>she asked me to look after you" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "I was planning to just observe for a while,<CR>but I've reached my limit. To keep my promise,<CR>starting today I'll be staying at the atelier" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX4,     BUC_POSITION_TYPE_L2,      18, BALLOON_FRAME_TYPE_BUC,            "The master said that... wait, stay over? EhEEEEH!?<CR>Th-that's not possible!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX4,     BUC_POSITION_TYPE_L2,      19, BALLOON_FRAME_TYPE_BUC,            "Look, our atelier is really small!<CR>And it's really dirty from the explosion!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "That's true. First we need to clean up.<CR>We also need to buy necessary supplies..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_EX1,      BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Hom will help with the cleaning" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "That helps.<CR>Let's finish by sundown" },
+	// ▼The two leave the castle first
+	{ BALLOON_MODE_CHASYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    23, BALLOON_FRAME_TYPE_NORMAL,         "W-wait, Hom-chan too!<CR>Are you serious? Really?<CR>Good grief! Wait for me--!" },
+	// ▼Rorona chases after them and leaves
+	// ▼Time passes during long black screen. Conversation only on black screen
+	// ★May add "A few days later" text
+	// ▼
+	{ BALLOON_MODE_BUCSYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    24, BALLOON_FRAME_TYPE_BUC,            "...I see.<CR>Living together like this,<CR>you learn new things" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    25, BALLOON_FRAME_TYPE_BUC,            "Um, Sterk-san.<CR>If you figured it out, then..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    26, BALLOON_FRAME_TYPE_BUC,            "Don't look away!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    27, BALLOON_FRAME_TYPE_BUC,            "Y-yes sir!" },
+	// ★Illustration display
+	// ▼Rorona synthesizing and Sterk, at extremely close range, peering into the cauldron together with an alchemy book in hand
+	// ▼Their foreheads are practically touching
+	// ▼Rorona is flustered and bright red for a different reason. Sterk doesn't notice
+	{ BALLOON_MODE_BUCSYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    28, BALLOON_FRAME_TYPE_BUC,            "You fail because you're not paying attention.<CR>If you just follow the book, there shouldn't be any problems" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    29, BALLOON_FRAME_TYPE_BUC,            "G-g-give me a break!<CR>It's not usually like this!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    30, BALLOON_FRAME_TYPE_BUC,            "Look, it's starting to boil.<CR>Next ingredient. Hurry up" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    31, BALLOON_FRAME_TYPE_BUC,            "Eh, um, is, is it this one?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    32, BALLOON_FRAME_TYPE_BUC,            "Wrong!<CR>If you put that in, it'll explode again!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    33, BALLOON_FRAME_TYPE_BUC,            "Waaaa! S-sorry!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    34, BALLOON_FRAME_TYPE_BUC,            "Honestly, you're so reckless I can't take my eyes off you" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    35, BALLOON_FRAME_TYPE_BUC,            "Um... I'd like you to stay a bit further away,<CR>you're too close..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    36, BALLOON_FRAME_TYPE_BUC,            "Stop talking nonsense. Focus on the work" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    37, BALLOON_FRAME_TYPE_BUC,            "Uuu... there's no way<CR>I can focus like this--!!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_130_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_130",// Output file name
+	MZ02_130_EMS,           // The above variable
+};

@@ -1,0 +1,20 @@
+﻿BalloonData MM09_060_EMS[] = {
+	// ▼Only when Sterk is hospitalized, Estiy evaluates in his place
+	// ★※Can occur during 9 and 10. Both won't occur together
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "I came to hear the results of the request, but...<CR>Sterk is injured, so...<CR>I wonder what will happen..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Rorona-chan, sorry to keep you waiting~" },
+	// ▼Estiy arrives
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Ah, Estiy-san" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Today I'm filling in for Sterk-kun.<CR>Nice to meet you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "I see... That makes sense.<CR>Sterk is injured after all..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Don't make such a lonely face.<CR>Don't worry, he'll be all better by the next time" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "N-no way! It's not like I'm lonely or anything!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "There, there.<CR>Now then, let's start with this request's evaluation" },
+	// ▼↓
+};
+
+BALLOON_DATA_ALL MM09_060_bda = {
+	"MM09",                 // Output file path
+	"EVENT_MESSAGE_MM09_060",// Output file name
+	MM09_060_EMS,           // Above variable
+};

@@ -1,0 +1,35 @@
+BalloonData YM03_070_EMS[] = {
+	// ▼ＤＬＣを入れていること
+	// ●ある程度本編が進行していること（王宮廊下に行ける程度には）
+	// ▼王宮廊下に行くと発生
+	// ▼ステルクのところにギゼラが来ている
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_NAZO,        BUC_GISELA_KAN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hmm, I wonder what I should do now..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "What's the matter? Is there something I can help with?" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_NAZO,        BUC_GISELA_SIN,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Ah, are you one of the people around here?<CR>Could I get you to listen to my situation for a bit?" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "I'm Gisela.<CR>I'm an adventurer looking for strong enemies,<CR>but I've run out of travel funds.<CR>I wonder if there's any work I could do" },
+	// ▼ギゼラテロップ表示
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "I've been kicking ass and came all the way here,<CR>but my travel funds ran out, you know.<CR>I wonder if there's any good work around" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Hmm... You seem to have quite<CR>the confidence in your abilities, I wonder.<CR>Where are you from? I haven't seen you around these parts" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_WARA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "From Aranya, way down south.<CR>It's a tiny village, so you probably haven't heard of it" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_WARA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "My kids have grown up enough now,<CR>so I decided to get back into adventuring<CR>and sharpen my skills again" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "I see. Well, if that's the case,<CR>how about working as a bodyguard<CR>for the people going outside?" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_KAN,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "A bodyguard? ...Well, rather than doing it alone,<CR>defending while doing some actual fighting<CR>would be more practical, I suppose" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "I just so happen to know of a girl<CR>who might be in need of a bodyguard..." },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Got it, I'll look into it" },
+	// ▼ギゼラ立ち去る
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Hey, at least let me finish the conversation..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Good grief.<CR>She'll probably come back when she's in trouble..." },
+	// ▼ロロナやってくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Huh? What's the matter?<CR>You looked like you were deep in thought" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "If only you'd come a little earlier.<CR>...Well, I suppose there's no use<CR>saying that to you now" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Honestly, I wish people would<CR>let me finish talking" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "??" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM03_070_bda = {
+	"YM03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM03_070",// 出力ファイル名
+	YM03_070_EMS,           // 上記変数
+};

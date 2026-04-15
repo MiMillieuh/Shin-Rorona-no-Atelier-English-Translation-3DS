@@ -1,0 +1,38 @@
+﻿BalloonData MM11_510_EMS[] = {
+	// ▼When Rorona is at the atelier
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hmm. The ultimate secret, huh...<CR>What even is the ultimate secret... hmm..." },
+	// ▼Master returns from outside
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "What are you grumbling about?<CR>I could hear you from outside" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Eh? No way! Did I really talk that loud!?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Ah, but it was a cute grumble.<CR>I felt like installing a loudspeaker and<CR>letting the whole town hear it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "P-please don't!<CR>If you did that, I'd really get angry!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Oh right! Master,<CR>what is the ultimate secret of alchemy?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "The ultimate secret? What a sudden question.<CR>Explain the situation properly" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "For the castle's final request,<CR>they told me to bring the ultimate secret of alchemy" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "But I have no idea what to make..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Hmm. I can't believe the castle people<CR>had the nerve to ask for the ultimate secret of alchemy" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Eh?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Never mind.<CR>Now, the term 'ultimate secret' is quite vague,<CR>so to speak" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Even I don't know what exactly<CR>constitutes the ultimate secret" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Even Master doesn't know...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "But well, tricking a layperson<CR>wouldn't be that difficult" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Just make something that looks and feels<CR>like the ultimate secret of alchemy!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Trick them... that doesn't sound good..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "It'd be pointless to dress it up in fancy words alone." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "But...<CR>why are you asking me about alchemy now?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Why, you ask...<CR>Because you're my master, aren't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Master, huh..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "I'd like you to call me<CR>Lady Master, or at least Big Sister" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Ah, it's been a while since I heard that" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,       BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Well, the one running this atelier is you.<CR>Just make something you believe is<CR>the ultimate secret with confidence" },
+	// ▼Master returns to her room
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Hmm... I feel like<CR>something is off about Master" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "Not just about Master,<CR>I need to think about the request too.<CR>Hmmm, the ultimate secret..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM11_510_bda = {
+	"MM11",                 // Output file path
+	"EVENT_MESSAGE_MM11_510",// Output file name
+	MM11_510_EMS,           // Above variable
+};

@@ -1,0 +1,35 @@
+﻿BalloonData QC06_040_EMS[] = {
+	// ▼↑のイベントの後、比較的早く発生（連続ではない
+	// ▼アトリエにて。本棚などで調べ物をしているロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hmm, it's not in any of these books... What do I do?<CR>The master isn't here either..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Pardon the intrusion... Oh?" },
+	// ▼アトリエに入ってくるジオ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Ah, welcome. Do you have a request?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "That was my intention, but...<CR>Seems like you're busy" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Yes, well, you know..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Something troubling you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Um... it's about the request from the castle..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "The minister asked me to find<CR>something, but it's an item I've never seen<CR>or even heard of..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "If an alchemist doesn't know it,<CR>it must be quite a rare material" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "There's still lots of materials<CR>I'm not familiar with" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Hey, do you know about it, Gio-san?<CR>It's called Raptor Stine" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Raptor Stine?<CR>...I see. That sounds like something that one would do" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Gio-san?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Ah, no. Just thinking to myself. Hmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Changing the subject, I'd like to request your services after all" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Yes, of course. It'd be a nice change of pace" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Good. Shall we head out?" },
+	// ▼ロロナの手を掴んで、外に出ようとするジオ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Huh? Where are we going?<CR>Weren't you here to request something?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "No. This time, I'd like to<CR>hire you as my bodyguard" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Bodyguard? But, um,<CR>I'm not very good at fighting..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Time is precious. Come on, let's go" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Wh-what!?<CR>Don't just pull me like that!" },
+	// ▼連れて行かれるロロナ
+};
+
+BALLOON_DATA_ALL QC06_040_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_040",// 出力ファイル名
+	QC06_040_EMS,           // 上記変数
+};

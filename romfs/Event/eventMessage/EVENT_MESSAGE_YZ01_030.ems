@@ -1,0 +1,67 @@
+BalloonData YZ01_030_EMS[] = {
+	// アFetcher
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Now, as for this person who gives everyone headaches, their talent surpasses even the great alchemists." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "If this person were to master it...<CR>the pinnacle of alchemy and the ultimate goal..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "The future they could see and the possibilities would be endless... They truly are remarkable." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "However... they are still but an apprentice.<CR>They still have a long way to go." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Where could they be..." },
+	//  Sterk's Apprentice enters
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Got a minute?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Oh, I'm quite busy.<CR>If you're here about the Apprentice, I can't help you." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "About that name, it won't do if I don't accept it.<CR>I think I'll keep going for now." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "It's not about that, it's about the Apprentice.<CR>More importantly, let's go somewhere." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Ah yes, that's wonderful... It's not about being convenient or anything. I think I should give them some advice for now." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "I apologize for the wait. Though I'm not sure why I should apologize." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "If you keep acting like that, I'll have to put you in your place.<CR>Perhaps I should scold them and make them work harder?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Oh?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "This and that, and other things.<CR>It might be hard for me to do alone.<CR>What could be causing this?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Oh no...<CR>The important discussions about alchemy's future...<CR>And the person at the center of it all!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "The cause of this situation and other important things... Whether there are other reasons for this. It might not be the only thing." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "By the way, see you later.<CR>I'm ro~na..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Return to your original position." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Hmm... I wonder... Not yet...<CR>About the current situation...<CR>We're at an impasse..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Now then, let's hurry." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Really?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "It's been quite a while since I've run like this." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "In order to prepare for the upcoming situation,<CR>we must act now!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "What could have happened to this person,<CR>I wonder if it might affect the future?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Ah...<CR>Just hold on a moment..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "What kind of person do you think I am?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "I understand.<CR>We should proceed." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "I see.<CR>For now, let's wait and see if anything changes." },
+	//  Sterk and Astrid return
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Now then... Is this the situation we're in?<CR>Hmm... It's quite complicated..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "Where are they?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "Hmm......" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "Ah..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       32, BALLOON_FRAME_TYPE_BUC,            "Could it be... The person who I was searching for actually found something?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "By the way, see you later." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L,       34, BALLOON_FRAME_TYPE_BUC,            "This is about personal connections.<CR>Based on their relationship with their parent, I'm quite concerned.<CR>Where could they be?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_TERE,     BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "Ah... Please wait...<CR>...Please." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "That seems to be the case." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       37, BALLOON_FRAME_TYPE_BUC,            "By the way, I'm feeling rather confident right now..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       38, BALLOON_FRAME_TYPE_BUC,            "The conversation has become quite interesting." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       39, BALLOON_FRAME_TYPE_BUC,            "However, I find myself thinking about the apprentice,<CR>who should be working hard and pushing forward,<CR>and I think of them often." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       40, BALLOON_FRAME_TYPE_BUC,            "This is a problem...<CR>The person I'm searching for has been affected<CR>by the rumors about them. And I still don't understand what's going on." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       41, BALLOON_FRAME_TYPE_BUC,            "Ah... I wonder if they will ever arrive." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       42, BALLOON_FRAME_TYPE_BUC,            "Yes, if we had the chance to meet them...<CR>If you have time, I think we should work on this together." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,       43, BALLOON_FRAME_TYPE_BUC,            "All of these are unpredictable." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       44, BALLOON_FRAME_TYPE_BUC,            "Should I try to understand them?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       45, BALLOON_FRAME_TYPE_BUC,            "No, it's fine. Using the original method,<CR>we should be able to succeed easily. There's nothing to worry about." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       46, BALLOON_FRAME_TYPE_BUC,            "What could have caused this situation?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       47, BALLOON_FRAME_TYPE_BUC,            "Not yet." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       48, BALLOON_FRAME_TYPE_BUC,            "Hmm... It might be that you don't understand what I'm trying to say." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,       49, BALLOON_FRAME_TYPE_BUC,            "Heading to a special location for work,<CR>without a care..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       50, BALLOON_FRAME_TYPE_BUC,            "I understand.<CR>However, as time goes on, there might be more complications.<CR>We might not be able to return." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       51, BALLOON_FRAME_TYPE_BUC,            "Not that I mind, but this might be the most appropriate solution.<CR>I don't think I'm the type to run away from a problem." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       52, BALLOON_FRAME_TYPE_BUC,            "This is an important situation...<CR>The reason I'm ro~na,<CR>the situation that makes everyone worry,<CR>and the current circumstances that are being discussed..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,       53, BALLOON_FRAME_TYPE_BUC,            "I don't think I can explain it well right now.<CR>But there's still a need for caution." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       54, BALLOON_FRAME_TYPE_BUC,            "All I can do is work hard with all my heart...<CR>As for the path forward, I'm thinking..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YZ01_030_bda = {
+	"YZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YZ01_030",// 出力ファイル名
+	YZ01_030_EMS,           // 上記変数
+};

@@ -1,0 +1,44 @@
+﻿BalloonData MZ02_250_EMS[] = {
+	// ▼街の外への門とかで離してるロロナとホム
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "Alright... I haven't forgotten anything, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Yes. I checked everything last night" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "Yeah. So, what's left..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "I'm sorry... I'm late...!" },
+	// ▼リオネラが慌てて走ってくる
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "Yesterday I was so nervous I couldn't sleep...<CR>And then I overslept, so, um..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "Calm down.<CR>You don't need to rush like that" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "Y-yeah..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "But are you sure? I'm happy that<CR>Rio-chan is coming with me,<CR>but..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "It's fine. We're not even<CR>from this town anyway" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Besides, if you weren't here,<CR>we wouldn't have any reason to be in this town.<CR>Right, Lionela?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_SIN,    BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "Yeah!<CR>I want to go with you, Rorona-chan!<CR>So..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "...Thanks.<CR>It's a bit embarrassing, though" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,      12, BALLOON_FRAME_TYPE_BUC,            "Well then, shall we go?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_WARA,   BUC_POSITION_TYPE_R2,      13, BALLOON_FRAME_TYPE_BUC,            "Yeah!" },
+	// ▼黒フェード。長めの間を置いて、黒画面のまま会話
+	// ★少しテロップ挟むかも。状況説明＋数ヵ月後～みたいな
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_BUC,            "Uh, um...<CR>Rio-chan, you're really going to do it...?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    15, BALLOON_FRAME_TYPE_BUC,            "Yeah. We need to earn money..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_BUC,            "I understand that,<CR>but this is a bit..." },
+	// ▼一枚絵表示
+	// ▼どこかの街角。人形劇をやるため、リオネラと似たような衣装を着させられてるロロナ
+	// ▼恥ずかしげなロロナと対照に、リオネラはどこか嬉しそう
+	{ BALLOON_MODE_BUCSYS, CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_BUC,            "It really suits you, Rorona-chan" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    18, BALLOON_FRAME_TYPE_BUC,            "Th-thanks... wait, that's not<CR>what I meant!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HORO,       0, NAME_HORO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    19, BALLOON_FRAME_TYPE_BUC,            "Stop your whining. Just give up already" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RANYA,      0, NAME_RANYA,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    20, BALLOON_FRAME_TYPE_BUC,            "That's right. You were the one who said it'd be<CR>mean to make Lionela work alone, weren't you?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    21, BALLOON_FRAME_TYPE_BUC,            "I know, but...<CR>It's way more embarrassing than I expected..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_HORO,       0, NAME_HORO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    22, BALLOON_FRAME_TYPE_BUC,            "Are you roundaboutly saying<CR>that Lionela is embarrassing?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    23, BALLOON_FRAME_TYPE_BUC,            "Really? You were watching me like...that...?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    24, BALLOON_FRAME_TYPE_BUC,            "N-no, that's not it! Not at all!<CR>I just meant you should try it on yourself,<CR>not anything about you..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RANYA,      0, NAME_RANYA,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    25, BALLOON_FRAME_TYPE_BUC,            "Don't shout so loud.<CR>The customers will hear you" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    26, BALLOON_FRAME_TYPE_BUC,            "Uuuu... fine, I get it!<CR>I'll do plays, dances, anything!<CR>If that's how it's going to be!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    27, BALLOON_FRAME_TYPE_BUC,            "Yeah! Let's do our best together, Rorona-chan!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_250_bda = {
+	"MZ02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MZ02_250",// 出力ファイル名
+	MZ02_250_EMS,           // 上記変数
+};

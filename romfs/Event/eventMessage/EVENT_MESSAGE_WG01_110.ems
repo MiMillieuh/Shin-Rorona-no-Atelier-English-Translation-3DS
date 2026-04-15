@@ -1,0 +1,29 @@
+BalloonData WG01_110_EMS[] = {
+	// ▼アイテム拾い開始時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, something's lying here" },
+	// ▼選択肢「拾う/拾わない」
+	// ▼「拾わない」を選択
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Hmm... I'll skip it" },
+	// ▼「拾う」を選択
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Whoa! I found something amazing!" },
+	// ▼いいものを拾った
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Whoa, this might be pretty good! Yes!" },
+	// ▼普通の物を拾った
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Hehe. Lucky me" },
+	// ▼そこそこの物を拾った
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "I'll go ahead and pick it up" },
+	// ▼いらない物を拾った
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Hmm... I don't really need this..." },
+	// ▼トラップに引っかかった
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Ow ow ow! W-what is this? A mantrap?" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Obtained <CLGR>%s<CLNR>." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "My HP decreased..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL WG01_110_bda = {
+	"WG01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_WG01_110",// 出力ファイル名
+	WG01_110_EMS,           // 上記変数
+};

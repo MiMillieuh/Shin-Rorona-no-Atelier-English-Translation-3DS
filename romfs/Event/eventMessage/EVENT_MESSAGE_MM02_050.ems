@@ -1,0 +1,15 @@
+﻿BalloonData MM02_050_EMS[] = {
+	// ▼発表当日。城に呼び出されているロロナ
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Meeting like this here,<CR>this is the second time now. Are you getting used to it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Y-yes! I'm all ready...<CR>Ow! I bit my tongue..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "...It seems like it'll still be a while" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Eee... Sorry..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "No need to force yourself to talk.<CR>While we wait for the pain to go away,<CR>let me share the evaluation for this request" },
+	// ▼↓
+};
+
+BALLOON_DATA_ALL MM02_050_bda = {
+	"MM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MM02_050",// 出力ファイル名
+	MM02_050_EMS,           // 上記変数
+};

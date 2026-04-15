@@ -1,0 +1,27 @@
+BalloonData YM02_050_EMS[] = {
+	// ▼本篇中以后发生
+	// ●值得关注的状态发生
+	// ●过一会儿去王宫接待处发生
+	// ▼进入王宫接待处发现库德利亚在
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, is that you there... Ku-chan?" },
+	// ▼罗罗娜显示消失
+	// ▼显示库德利亚、艾斯蒂
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Yes yes, exactly like that.<CR>You're quick to catch on" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "This much is normal, you know?<CR>It's only obvious" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Wouldn't this kind of work suit you?<CR>I'd really like to ask for your help" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Even if you ask me, I'm a busy person.<CR>Besides, at the castle like this, aren't<CR>there any promising people?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "That's what I'm saying, there's no one.<CR>Even at the castle, people's talents<CR>vary wildly, and the capable ones are few" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Can't be helped.<CR>Even with so many people around.<CR>I wonder if it's okay" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "...Well, I'm really busy too, but<CR>I guess I could help out sometimes.<CR>Just sometimes, though" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "As expected!<CR>Really, thank you" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Flattery won't get you anywhere.<CR>...Well then, I'm busy so<CR>I still have things to do" },
+	// ▼两人消失
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "(What were they talking about... well, whatever)" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM02_050_bda = {
+	"YM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM02_050",// 出力ファイル名
+	YM02_050_EMS,           // 上記変数
+};

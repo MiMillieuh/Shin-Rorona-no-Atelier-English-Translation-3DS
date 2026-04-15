@@ -1,0 +1,43 @@
+﻿BalloonData QN02_070_EMS[] = {
+	// ▼↑からさらに時間経過後（半年くらい
+	// ▼ロロナがアトリエにいる時、やはり調合中
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Alright, just need to finish up...<CR>And again, we're out of materials..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "And when we're out of materials..." },
+	// ▼後ろを振り返るロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "As expected, Hom-chan isn't here either.<CR>Probably with the Meow-meow again?" },
+	// ▼アトリエを出て行くロロナ
+	// ▼アトリエの裏手で、やはりネコに囲まれているホム
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "As expected, here they are... Huh!?" },
+	// ▼一枚絵の差分ができれば。先の絵に子ネコ分増量
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_BUC,            "Master. What can Hom help you with?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_BUC,            "Y-yes. That was the plan anyway, but..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_BUC,            "What's with all these cats?<CR>Could they be Meow-meow's children?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_BUC,            "No, that's not it.<CR>And the Meow-meow is gone now" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_BUC,            "Gone... You don't mean..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     9, BALLOON_FRAME_TYPE_BUC,            "The Meow-meow grew up, so<CR>it's not a Meow-meow anymore. It's a Meow" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_BUC,            "And these aren't Meow-meow's children,<CR>they're Meow's children" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_BUC,            "Huh? Oh, I see.<CR>This is getting complicated..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    12, BALLOON_FRAME_TYPE_BUC,            "Um, did you name these ones too?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    13, BALLOON_FRAME_TYPE_BUC,            "Yes. This one is \"Meow-nyau.\"<CR>This one is \"Meow-myu.\"<CR>And the one on Hom's head is..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CAT_A,      0, NAME_CAT,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_BUC,            "Migiyaaa~" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    15, BALLOON_FRAME_TYPE_BUC,            "Ah, that would be \"Migiya.\"<CR>Because it cried out \"Migiya\"" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_BUC,            "No, it's \"Meow-na.\"<CR>It's feeling under the weather today<CR>and its throat isn't doing well" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_BUC,            "R-right... Um, so this one's \"Meow-nyau,\"<CR>this one's \"Meow-myu,\" and that one is \"Meow-nu...\"?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    18, BALLOON_FRAME_TYPE_BUC,            "That's not right.<CR>It's \"Meow-nyau,\" \"Meow-myu,\" and \"Meow-na\"" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    19, BALLOON_FRAME_TYPE_BUC,            "Hu- huh?<CR>Meow-nyau, meow-myu, meow-na...?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CAT_B,      0, NAME_CAT_K_NYAU,  BUC_NONE,           BUC_POSITION_TYPE_NONE,    20, BALLOON_FRAME_TYPE_BUC,            "Nyau~" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CAT_C,      0, NAME_CAT_K_MY,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    21, BALLOON_FRAME_TYPE_BUC,            "Myu~" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CAT_D,      0, NAME_CAT_K_UNA,   BUC_NONE,           BUC_POSITION_TYPE_NONE,    22, BALLOON_FRAME_TYPE_BUC,            "Migiyaaa~" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    23, BALLOON_FRAME_TYPE_BUC,            "More importantly, Master,<CR>didn't you have something you needed?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    24, BALLOON_FRAME_TYPE_BUC,            "Oh right, um...<CR>What was I going to ask again...?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    25, BALLOON_FRAME_TYPE_BUC,            "S-sorry. I'll come back when I remember..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    26, BALLOON_FRAME_TYPE_BUC,            "Alright. Until then, Hom will be playing<CR>with Meow-nyau, Meow-myu, and Meow-na" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    27, BALLOON_FRAME_TYPE_BUC,            "Please stop naming them!<CR>My head is all mixed up!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN02_070_bda = {
+	"QN02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN02_070",// 出力ファイル名
+	QN02_070_EMS,           // 上記変数
+};

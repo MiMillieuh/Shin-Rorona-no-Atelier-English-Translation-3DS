@@ -1,0 +1,32 @@
+BalloonData MM01_020_EMS[] = {
+	// ▼ゲーム開始後しばらく（１～２ヶ月経過時）
+	// ▼主人公がアトリエにいない時（＝探索地にいる時）
+	// ▼どこからともなくハトが飛んでくる
+	{ BALLOON_MODE_BUCSYS, CHARA_CAT_A,      0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_BUC,            "Flap flap" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Hm? What's that sound...<CR>Whoa!?" },
+	{ BALLOON_MODE_BUC,    CHARA_CAT_A,      0, NAME_DOVE,        BUC_DOVE_NOR,       BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Doo-doo!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "A-A dove? That startled me...<CR>Oh? There's a letter tied to its leg...<CR>Did it deliver this to me?" },
+	{ BALLOON_MODE_BUC,    CHARA_CAT_A,      0, NAME_DOVE,        BUC_DOVE_NOR,       BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Doo-doo!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Thanks. But I wonder who it's from?<CR>I don't know anyone who keeps doves...<CR>Oh, it's from Sterk-san. Let's see..." },
+	// ★※ここまでは、以降でも初めてハトが来た時共通で
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I'm contacting you by letter for urgent matters.<CR>The details of the request from the castle have been decided.<CR>See below for details" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "So it's finally here...my heart is pounding..." },
+	// ▼専用のシステムウィンドウかなんかで、課題内容を表示
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Daily goods, huh...<CR>I might be able to handle this, maybe...?" },
+	{ BALLOON_MODE_BUC,    CHARA_CAT_A,      0, NAME_DOVE,        BUC_DOVE_NOR,       BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Doo-doo?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Oh, yeah. Thanks.<CR>Can you tell Sterk-san that<CR>I'll definitely get it done?" },
+	{ BALLOON_MODE_BUC,    CHARA_CAT_A,      0, NAME_DOVE,        BUC_DOVE_NOR,       BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Doo!" },
+	// ▼羽音とともに去るハト
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Sigh, it's really starting...<CR>If I fail this, the Atelier will..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "No, no, no! I can't start weak!<CR>It's okay, I'll definitely pass. Yeah!" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The first request from the kingdom has begun." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Once you've made the <CLGR>Settl<CLNR>, <CLGR>Alchemy Coal<CLNR>, and <CLGR>Polishing Agent<CLNR>,<CR>go to Sterk at the <CLBL>Castle<CLNR>." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM01_020_bda = {
+	"MM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MM01_020",// 出力ファイル名
+	MM01_020_EMS,           // 上記変数
+};

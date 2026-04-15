@@ -1,0 +1,12 @@
+BalloonData MM06_520_EMS[] = {
+	// ▼After the promise above, when trying to synthesize after the deadline
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...If I start now, I won't make it<CR>in time for my promise with the master" },
+	// ★Synthesis is cancelled
+	// ▼
+};
+
+BALLOON_DATA_ALL MM06_520_bda = {
+	"MM06",                 // Output file path
+	"EVENT_MESSAGE_MM06_520",// Output file name
+	MM06_520_EMS,           // Variable above
+};

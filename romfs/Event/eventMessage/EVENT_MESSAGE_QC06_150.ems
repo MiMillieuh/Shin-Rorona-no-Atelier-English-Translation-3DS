@@ -1,0 +1,51 @@
+BalloonData QC06_150_EMS[] = {
+	// ▼ジオと二人で採取地に
+	// ★※↑で誘われた後、はいを選んだ時の続き
+	// ▼街の近くの採取地を歩く二人
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Um... are we still walking?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Quiet. We're almost there... there it is" },
+	// ▼足を止める二人。視線の先に数人の盗賊達
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "W-wow, there are so many of them...<CR>What do we do, Gio?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "First, let me hear what they have to say.<CR>If they willingly submit to our authority,<CR>that's the ideal outcome" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "And if they don't?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Then we beat them down by force" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Is that all?<CR>What about strategy or plans or..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Plans are unnecessary. Come, let's go" },
+	// ▼先に歩き出すジオ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "W-wait for meee!" },
+	// ▼ロロナもついていく
+	{ BALLOON_MODE_CHARA,  CHARA_THIEF_EV_A, 0, NAME_THIEF_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     9, BALLOON_FRAME_TYPE_NORMAL,         "Hmm? Hey, stop right there!<CR>Who the heck are you!?" },
+	{ BALLOON_MODE_CHARA,  CHARA_GIO_SPEV,   0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_NORMAL,         "Pardon the intrusion.<CR>I have a few questions for you" },
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_NORMAL,         "G-Gio. Maybe don't provoke them so much..." },
+	{ BALLOON_MODE_CHARA,  CHARA_THIEF_EV_B, 0, NAME_THIEF_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    12, BALLOON_FRAME_TYPE_NORMAL,         "A grandpa and a kid, huh?<CR>Did you get lost or something?" },
+	{ BALLOON_MODE_CHARA,  CHARA_THIEF_EV_C, 0, NAME_THIEF_C,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    13, BALLOON_FRAME_TYPE_NORMAL,         "For being old, you sure are cocky" },
+	{ BALLOON_MODE_CHARA,  CHARA_GIO_SPEV,   0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_NORMAL,         "My, my. A bunch of bandits,<CR>yet you have quite nice weapons.<CR>Where did you get them?" },
+	{ BALLOON_MODE_CHARA,  CHARA_THIEF_EV_A, 0, NAME_THIEF_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    15, BALLOON_FRAME_TYPE_NORMAL,         "Huh? What are you babbling about, old man..." },
+	{ BALLOON_MODE_CHARA,  CHARA_THIEF_EV_B, 0, NAME_THIEF_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_NORMAL,         "You know we're bandits, right?<CR>Obviously we stole 'em" },
+	{ BALLOON_MODE_CHARA,  CHARA_GIO_SPEV,   0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_NORMAL,         "I see. So the bombs and firearms you have stored over there<CR>are also stolen goods, I take it" },
+	{ BALLOON_MODE_CHARA,  CHARA_THIEF_EV_A, 0, NAME_THIEF_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    18, BALLOON_FRAME_TYPE_NORMAL,         "What...? Hey, who the heck are you?" },
+	{ BALLOON_MODE_CHARA,  CHARA_GIO_SPEV,   0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    19, BALLOON_FRAME_TYPE_NORMAL,         "I'm the one asking questions here. Answer me" },
+	{ BALLOON_MODE_CHARA,  CHARA_THIEF_EV_C, 0, NAME_THIEF_C,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    20, BALLOON_FRAME_TYPE_NORMAL,         "Don't give us orders! You old geezer!" },
+	{ BALLOON_MODE_CHARA,  CHARA_THIEF_EV_B, 0, NAME_THIEF_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    21, BALLOON_FRAME_TYPE_NORMAL,         "I was gonna let you go, but... guess we'll finish you off" },
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    22, BALLOON_FRAME_TYPE_NORMAL,         "W-wow. Gio, you're really ticking them off!" },
+	{ BALLOON_MODE_CHARA,  CHARA_GIO_SPEV,   0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    23, BALLOON_FRAME_TYPE_NORMAL,         "If they won't answer, I'll change my approach" },
+	{ BALLOON_MODE_CHARA,  CHARA_GIO_SPEV,   0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    24, BALLOON_FRAME_TYPE_NORMAL,         "The person who provided you with those weapons...<CR>is Meliodas, the minister of Arland Kingdom...<CR>Correct?" },
+	{ BALLOON_MODE_CHASYS, CHARA_THIEF_EV_A, 0, NAME_THIEF_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    25, BALLOON_FRAME_TYPE_NORMAL,         "H-how the heck do you know that!?" },
+	{ BALLOON_MODE_CHASYS, CHARA_THIEF_EV_B, 0, NAME_THIEF_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    26, BALLOON_FRAME_TYPE_NORMAL,         "Idiot, you said too much!" },
+	{ BALLOON_MODE_CHASYS, CHARA_THIEF_EV_A, 0, NAME_THIEF_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    27, BALLOON_FRAME_TYPE_NORMAL,         "Ah, darn it!" },
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    28, BALLOON_FRAME_TYPE_NORMAL,         "Eh? A minister is supplying bandits?<CR>W-why would that be?" },
+	{ BALLOON_MODE_CHARA,  CHARA_GIO_SPEV,   0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    29, BALLOON_FRAME_TYPE_NORMAL,         "I'll hear the details from him later.<CR>But first..." },
+	// ▼盗賊達が二人を取り囲む
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    30, BALLOON_FRAME_TYPE_NORMAL,         "W-w-wow! We're surrounded..." },
+	{ BALLOON_MODE_CHARA,  CHARA_THIEF_EV_C, 0, NAME_THIEF_C,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    31, BALLOON_FRAME_TYPE_NORMAL,         "We don't care who you are,<CR>but we can't let you leave" },
+	{ BALLOON_MODE_CHARA,  CHARA_THIEF_EV_B, 0, NAME_THIEF_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    32, BALLOON_FRAME_TYPE_NORMAL,         "We'll take you out here.<CR>Don't take it personally!" },
+	{ BALLOON_MODE_CHARA,  CHARA_GIO_SPEV,   0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    33, BALLOON_FRAME_TYPE_NORMAL,         "Enough talk. Come at me" },
+	{ BALLOON_MODE_CHASYS, CHARA_GIO_SPEV,   0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    34, BALLOON_FRAME_TYPE_NORMAL_SHOUT,   "I won't let scum like you<CR>run rampant in my country any longer!" },
+	// ▼イベントバトル
+};
+
+BALLOON_DATA_ALL QC06_150_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_150",// 出力ファイル名
+	QC06_150_EMS,           // 上記変数
+};

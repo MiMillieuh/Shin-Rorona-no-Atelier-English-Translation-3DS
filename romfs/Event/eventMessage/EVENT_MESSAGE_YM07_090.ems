@@ -1,0 +1,30 @@
+BalloonData YM07_090_EMS[] = {
+	// ▼延長戦後に発生
+	// ●戻ってきた師匠が発生している
+	// ●失われた民の都に行ったことがある
+	// ●条件は未定。やりこみダンジョンなので、それに適した状態で発生か
+	// ▼アトリエで発生
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Rorona, wouldn't you like to go somewhere interesting?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "An interesting place...? I do want to go, but what's the catch?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I suspect so. A place where unknown alchemy materials lie dormant in great quantities." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "That's amazing! Where is it?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "It's the City of the Lost People. I found something like a tower submerged in water in its depths." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Master found it? Did you see inside?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I had a bad feeling about it and came back here before checking. I'll give you the right to investigate in my place." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "So you want me to go in your place..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "As expected of my capable apprentice. Your understanding makes me happy. But there's probably something there." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "I've seen some of the patterns—they closely resemble towers left behind by an ancient civilization that I've read about in documents." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "From what I've heard, there seem to be several of those towers in this region. I believe that's one of them." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Sounds like an amazing place." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "But what the tower was for, its purpose—still unknown. But now you understand why I said there were alchemy materials sleeping there, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Yes, it does intrigue me." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Why, I've heard there are similar towers beyond the eastern horizon, across the sea. I'd been thinking of checking them out, but..." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLBL>Abyssal Ancient Tower<CLNR> is now accessible." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM07_090_bda = {
+	"YM07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM07_090",// 出力ファイル名
+	YM07_090_EMS,           // 上記変数
+};

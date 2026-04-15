@@ -1,0 +1,22 @@
+BalloonData MA02_010_EMS[] = {
+	// ▼結果発表当日、城で対面しているロロナとステルク
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "...Whew. I didn't need to tell you,<CR>you probably already know, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Uuu...could it be that..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Yes.<CR>It is with regret that I must inform you of this result..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Effective today,<CR>the Atelier's shop permit is hereby revoked. That is all" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC_SHOUT,      "N-no way...NOOOOOO!!" },
+	// ▼以下、黒画面でテロップ
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Rorona was unable to complete<CR>the kingdom's requests until the very end" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The Atelier was shut down" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "In the place where the Atelier once stood, a magnificent factory was built," },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "and even now, the townspeople<CR>sweat and toil away at their work" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "And Rorona, who was taken away by her master<CR>and departed from this town," },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "never returned..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA02_010_bda = {
+	"MA02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA02_010",// 出力ファイル名
+	MA02_010_EMS,           // 上記変数
+};

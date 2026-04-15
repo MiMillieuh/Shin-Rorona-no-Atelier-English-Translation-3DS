@@ -1,0 +1,9 @@
+// テスト・０４・ＰＧ・宮２
+BalloonData ZZ01_040_EMS[] = {
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,      0, NAME_RORONA,     BUC_RORONA_NOR,   BUC_POSITION_TYPE_NONE,   -1,    BALLOON_FRAME_TYPE_SYSTEM, "Arlvis Academy - The supreme institute of alchemy, built on a remote island floating in the sky." },
+};
+BALLOON_DATA_ALL ZZ01_040_bda = {
+	"ZZ01",			// 出力ファイルパス
+	"EVENT_MESSAGE_ZZ01_040",		// 出力ファイル名
+	ZZ01_040_EMS,		// 上記変数
+};

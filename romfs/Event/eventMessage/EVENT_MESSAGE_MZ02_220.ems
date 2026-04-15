@@ -1,0 +1,36 @@
+BalloonData MZ02_220_EMS[] = {
+	// ▼After the common part
+	// ▼The three talking in front of the atelier or at the castle gate
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "Well then, I'll be off" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "...Be off? Idiot" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "Yeah... sorry, Kuu-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "What are you apologizing for. Idiot" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "You don't have to say idiot over and over..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "What's wrong with calling you an idiot, idiot?<CR>After all that hard work for three years..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KANA,   BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "It makes me wonder<CR>why I even helped you<CR>in the first place" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "...But I want to know more about alchemy,<CR>and see more things" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Hmph, fine then. If you want to go,<CR>then just go wherever you want" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,       9, BALLOON_FRAME_TYPE_BUC,            "...See you later, Kuu-chan. Well then, let's go" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Yes" },
+	// ▼After Rorona starts walking slowly, quietly
+	{ BALLOON_MODE_CHARA,  CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_NORMAL,         "...The pendant" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L2,      12, BALLOON_FRAME_TYPE_BUC,            "Eh?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "...Make sure you wear it every day, okay?<CR>If you lose it, I won't forgive you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L2,      14, BALLOON_FRAME_TYPE_BUC,            "...Yeah!" },
+	// ▼Rorona starts walking again. Black fade + pause then illustration
+	// ★Illustration. Rorona and Hom leaving on a journey, looking back at the town
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    15, BALLOON_FRAME_TYPE_BUC,            "Well then... which way should we go?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_BUC,            "Did you not decide anything before leaving?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_BUC,            "Well... I think deciding things as you go<CR>is more fun" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    18, BALLOON_FRAME_TYPE_BUC,            "Then please decide.<CR>Hom will just follow along" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    19, BALLOON_FRAME_TYPE_BUC,            "Hmm... I wonder which way the master went..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    20, BALLOON_FRAME_TYPE_BUC,            "The Grand Master said she was heading south.<CR>Because she hates the cold" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    21, BALLOON_FRAME_TYPE_BUC,            "I see... alright.<CR>Then we'll go north.<CR>It would be boring to go the same way" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_220_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_220",// Output file name
+	MZ02_220_EMS,           // The above variable
+};

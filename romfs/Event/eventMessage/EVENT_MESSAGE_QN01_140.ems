@@ -1,0 +1,33 @@
+BalloonData QN01_140_EMS[] = {
+	// ▼ドラゴンパイを初めて作った時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Done! Using parts of a dragon's body...<CR>I call it, Dragon Pie!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Dragon Pie, is it...<CR>It looks really hard,<CR>it'll probably be hard to eat" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "You can't expect something like this to be easy to eat!<CR>I mean, it IS a Dragon Pie!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Haah..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "...Mmph. Hom-chan, isn't your reaction a bit underwhelming?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Hom doesn't understand<CR>what there is to be impressed by in a Dragon Pie" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Because it's a dragon, you know?<CR>They're strong! They're the strongest!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "How does being strong relate to pies,<CR>I wonder" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "W-well...<CR>If there was a competition where pies fought each other,<CR>it would probably win by a landslide!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "This is the first I've heard of such a competition" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "U-uuu... fine then!<CR>I'm not letting you have any!" },
+	// ▼立ち去るロロナ
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Ah... I made her angry" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "I wonder why Master becomes<CR>such a strange person when it comes to pies..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "What a shame, Hom" },
+	// ▼入れ替わりにやってくる師匠
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Grand Master.<CR>What do you mean by 'shame'?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "From what I saw,<CR>that pie has dragon's life force<CR>condensed into it" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "If she eats it, even if only temporarily,<CR>her physical abilities might improve" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Physical abilities... then Master,<CR>did she make the Dragon Pie<CR>with this in mind?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "No, it was probably just a coincidence.<CR>They say genius and idiot are just a thin line" },
+	// ▼言うだけ言って立ち去る師匠
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Is Master a genius or<CR>just an idiot...<CR>Hom really can't tell" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_140_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_140",// 出力ファイル名
+	QN01_140_EMS,           // 上記変数
+};

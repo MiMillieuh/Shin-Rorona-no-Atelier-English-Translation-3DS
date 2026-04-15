@@ -1,0 +1,43 @@
+BalloonData QC06_520_EMS[] = {
+	// ▼二人を一緒に雇って、初めて採取に行こうとした時
+	// ▼主人公は遅刻して、先に二人が鉢合わせ
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "I came a little too early... ah" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "...Mu" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "W-what... what are you doing here?<CR>In a place like this" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "What about you... what are you doing?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "I'm helping the girl from the atelier...<CR>the young lady from Roronan's workshop.<CR>I've been tasked with guarding her on a field gathering" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "...What a coincidence. Me too" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "You...<CR>What are you thinking!?<CR>Have some sense of your own position and responsibility..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "H-hey! Don't shout!<CR>What about you, isn't it past your work hours?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "I've finished all my duties.<CR>I'm just helping her on my own time" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L2,       9, BALLOON_FRAME_TYPE_BUC,            "Grr, you're so thorough..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Now come on, let's go.<CR>If we don't deal with all this work<CR>that's been piling up today..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "W-wait! If we leave now,<CR>we'll only cause her trouble" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Nu... then you at least..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "Are you asking me to become a man<CR>who can't keep his promises?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "I just don't want you to become a man<CR>who doesn't fulfill his responsibilities" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L2,      15, BALLOON_FRAME_TYPE_BUC,            "You've gotten better with words...<CR>Fine. Once this job is done, I'll come back" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "...I can trust you on this?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_L2,      -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Why are you staying silent!?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_L2,      19, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Enough, enough! It's not like I came here<CR>to listen to your lectures!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC_SHOUT,      "It's not like I wanted to do this either!<CR>It's because you're like this that I...!" },
+	// ▼黒画面でしばらく時間経過
+	// ▼遅れてやってくるロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Sorry! I'm late!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_L2,      -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Ah, um... Could it be...<CR>Are you both really angry?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L2,      25, BALLOON_FRAME_TYPE_BUC,            "Not particularly, I'm not angry at all" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "Then let's get going shall we?<CR>It's going to be very busy from here on" },
+	// ▼さっさと歩きだす二人
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "They're definitely angry...<CR>They look so scary..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "I'm sorry!<CR>I won't be late again, I promise!<CR>Please forgive me!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_520_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_520",// 出力ファイル名
+	QC06_520_EMS,           // 上記変数
+};

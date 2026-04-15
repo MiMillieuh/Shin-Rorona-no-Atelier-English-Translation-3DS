@@ -1,0 +1,30 @@
+BalloonData YM07_110_EMS[] = {
+	// ▼延長戦後に発生
+	// ●夜の領域に行ったことがある
+	// ●条件は未定。やりこみダンジョンなので、それに適した状態で発生か
+	// ▼アトリエで発生
+	// ▼ステルクがアトリエに飛び込んでくる
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Pardon my intrusion. Did you all do something in the Night Realm?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "The Night Realm...? No, not particularly. What's wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Is that so... Apparently a strange spatial distortion has appeared in the Night Realm." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I thought only an alchemy master could do something like that, so I came to check." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "If it wasn't you, that's fine. Sorry to bother you. There may be dangerous creatures around. I advise you not to get too close." },
+	// ▼ステルク立ち去る
+	// ▼トトリとメルルやってくる
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_SIN,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "He said spatial distortion, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Yeah, that's what he said. Do you know something, Meruru?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Yes, there's a place called the Makina Realm that I know of." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KOMA,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "It was a strange place where time and space were all jumbled up too. Maybe it's the same location..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Whoa, there's such a place? But why would it suddenly appear?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_AKI,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "I'm not sure... but could it have something to do with us being sent to the past?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R2,      11, BALLOON_FRAME_TYPE_BUC,            "I don't think it would have that big of an impact, but places where space is warped could be related to all sorts of things." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "So in the end, we just don't know, right?" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLBL>Makina Realm - Mutation<CLNR> is now accessible." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM07_110_bda = {
+	"YM07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM07_110",// 出力ファイル名
+	YM07_110_EMS,           // 上記変数
+};

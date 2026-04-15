@@ -1,0 +1,16 @@
+BalloonData MM07_050_EMS[] = {
+	// ▼Rorona called to the castle on the day results are announced
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "I apologize for making you come so often.<CR>But, well.<CR>It has gotten quite cool lately, hasn't it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Yes, it's already September...<CR>Um, Sterk-san.<CR>About this request..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I know. Don't say anything" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Of all people, I can't believe<CR>I didn't notice when I made the request..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "I feel like<CR>I did something really wasteful..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Well, now...<CR>Let's put that aside for now and<CR>discuss your evaluation, yes" },
+	// ▼↓
+};
+
+BALLOON_DATA_ALL MM07_050_bda = {
+	"MM07",                 // Output file path
+	"EVENT_MESSAGE_MM07_050",// Output file name
+	MM07_050_EMS,           // Variable above
+};

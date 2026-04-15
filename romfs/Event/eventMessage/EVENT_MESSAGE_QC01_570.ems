@@ -1,0 +1,28 @@
+﻿BalloonData QC01_570_EMS[] = {
+	// ★The Gio subplot might be removed entirely in the end
+	// ▼When you have Gio in your party, just as you try to gather
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Kuu-chan, sorry to keep you waiting~!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Finally! I've been waiting!<CR>What were you... hmm? Hmm?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "Sorry. I took some time preparing.<CR>It seems I've kept you waiting.<CR>This young lady is, your friend?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Yes. This is my childhood friend, Kuu-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "Kuu-chan... what an unusual name.<CR>I'm Gio. Nice to meet you" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Y-Yes! Likewise!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "Today's traveling companions are two lovely ladies.<CR>This calls for a little extra effort" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "Shall we be on our way?" },
+	// ▼Gio starts walking ahead
+	// ★Clear Gio's BUC
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Kuu-chan? What's wrong, you're spacing out" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "............He's cool" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Eh?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_WARA,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Gio-sama~!<CR>Please wait for me~!" },
+	// ▼Cuderira runs after Gio
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Gio-sama...<CR>I've never seen Kuu-chan like this before..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_570_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_570",// Output file name
+	QC01_570_EMS,           // Variable name
+};

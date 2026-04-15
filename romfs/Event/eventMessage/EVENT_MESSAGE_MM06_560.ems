@@ -1,0 +1,37 @@
+BalloonData MM06_560_EMS[] = {
+	// ▼Continuation of the event above
+	// ★Got too long, so I cut it here
+	// ▼Tired from playing, evening comes
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ahh, that was fun~!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KANA,    BUC_POSITION_TYPE_R2,       1, BALLOON_FRAME_TYPE_BUC,            "Mmmyaaah~... So sleepy~...<CR>I'm going to sleep, so the rest is up to you~..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Yes. Hom will<CR>responsibly carry the plushie home" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KANA,   BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "I'm the tired one here...<CR>I feel like my life force was drained..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "U-um, so, Cuderia-san,<CR>should I carry you home..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "I can walk on my own, thank you!" },
+	// ★Clear BUC except master and Rorona
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I'm glad you enjoyed yourself, but<CR>don't let your guard down yet.<CR>The excursion isn't over until you're home" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "We didn't come here on an excursion or anything..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Ah! I completely forgot!<CR>Materials! I have to gather materials!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "You never fail to...<CR>Why do you forget such important things?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "B-but that's because you...<CR>Well, I did forget, but still..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Here. I kept it safe for you" },
+	// ▼Receiving the materials from master (lots of it)
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Eh... when did you...?<CR>And so much of it too" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Not 'when did I'... Look.<CR>The water's bubbling all over the place, isn't it?<CR>I just scooped some up" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Huh? Eh?<CR>Ahhh! It's true!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "I'm more surprised that you<CR>didn't notice despite playing all evening" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "An alchemist must always<CR>keep their eyes on their surroundings" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Uuh... I can't argue back..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Well, for today you can be happy that<CR>you got plenty of materials<CR>on top of all the fun you had" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "You can reflect on things anytime, after all" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Yes...<CR>Master really is... an amazing person, I guess" },
+	// ▼Event result: Lake added to gathering spots
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLGR>Bubbling Water<CLNR> acquired.<CR><CLBL>Lake Nebel<CLNR> is now accessible." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM06_560_bda = {
+	"MM06",                 // Output file path
+	"EVENT_MESSAGE_MM06_560",// Output file name
+	MM06_560_EMS,           // Variable above
+};

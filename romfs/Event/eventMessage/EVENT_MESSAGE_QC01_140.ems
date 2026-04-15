@@ -1,0 +1,69 @@
+﻿BalloonData QC01_140_EMS[] = {
+	// ▼Some time has passed since the above, when Rorona is at the atelier
+	// ★Might add alchemy level or hidden conditions
+	// ▼Sound of knocking on the door
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Yes~" },
+	// ▼Wait a moment but no response
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Um, come in?<CR>It's open" },
+	// ▼Wait a bit more, then Cuderira enters
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KANA,   BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Eh? E-Eh!? K-Kuu-chan?<CR>Um, what's..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Don't be so surprised" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Ah, okay..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KANA,   BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(W-What should I do...<CR> I have to say something... but...)" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "S-Sorry... ...me" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "What?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Why aren't you listening properly!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "B-But... your voice was so quiet..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "So, I said... s-sorry..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Eh? Eh? Um...<CR>I still couldn't hear you..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC_SHOUT,      "~~~~~~~~~~!!<CR>How many times do I have to say it!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Th-That's not true!<CR>I really couldn't hear" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC_SHOUT,      "I said I was sorry!<CR>I'm sorry! Did you hear me this time!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Eh...? Oh, yeah. Sorry..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "You're apologizing right now!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Y-Yes!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "This time, it's 100%,<CR>completely my fault! Got it!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "B-But, I also..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Is that okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "...Okay" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KANA,   BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "Good. So, about that... The stone you gave me...<CR>it broke, so I tried to fix it,<CR>but in the end I couldn't..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "I-It's okay. Don't worry about it.<CR>It's not like you broke it on purpose" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "Even if you're okay with it, I'm not!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "So, I... it's not an apology or anything, but here..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "Eh...?" },
+	// ▼Picture display. Cuderira shyly offers a pendant, and Rorona is happily crying
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    30, BALLOON_FRAME_TYPE_BUC,            "It was about the right size, so I<CR>made it into a pendant...<CR>There are two, so one's for Rorona..." },
+	// ★It would be nice to have it as equipment...
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    31, BALLOON_FRAME_TYPE_BUC,            "...Kuu-chan made this?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    32, BALLOON_FRAME_TYPE_BUC,            "W-Well, yeah.<CR>Something like that is nothing for me..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    33, BALLOON_FRAME_TYPE_BUC,            "...That's what I wanted to say,<CR>but it was my first time making something like this,<CR>so it took a while. That's why I couldn't come sooner, but..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    35, BALLOON_FRAME_TYPE_BUC,            "S-Say something already.<CR>You don't... want to match with me...?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    36, BALLOON_FRAME_TYPE_BUC,            "What are you saying!<CR>I'm so hap... *sniff*... *hya*..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    37, BALLOON_FRAME_TYPE_BUC,            "Wh-Why are you crying!?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    38, BALLOON_FRAME_TYPE_BUC,            "Because... I thought<CR>you hated me..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    39, BALLOON_FRAME_TYPE_BUC,            "But Kuu-chan made something for me...<CR>*hyaaaa*..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    40, BALLOON_FRAME_TYPE_BUC,            "Aah, stop it already!<CR>You're making me embarrassed!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    41, BALLOON_FRAME_TYPE_BUC,            "*sniff*... Sorry, sorry..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    42, BALLOON_FRAME_TYPE_BUC,            "You're the one who should be apologizing...<CR>Oh, fine, whatever" },
+	// ▼Master and Homu watching the two from outside
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       43, BALLOON_FRAME_TYPE_BUC,            "They made up successfully, it seems.<CR>My strategy worked" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       44, BALLOON_FRAME_TYPE_BUC,            "Grand Master.<CR>Why are Homu and the others outside?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       45, BALLOON_FRAME_TYPE_BUC,            "Emergency evacuation. If we stayed in<CR>such a sugary space listening to such a sugary conversation,<CR>our brains would melt" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_IKA,      BUC_POSITION_TYPE_R,       46, BALLOON_FRAME_TYPE_BUC,            "Such a dangerous space... Homu will remember it" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       47, BALLOON_FRAME_TYPE_BUC,            "Well, I got some material to tease Kuu-chan with,<CR>so I'll leave them alone for today" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       48, BALLOON_FRAME_TYPE_BUC,            "Let's go, Homu" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       49, BALLOON_FRAME_TYPE_BUC,            "Yes, I'll keep you company" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLGR>Friendship Pendant<CLNR> was<CR>received." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_140_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_140",// Output file name
+	QC01_140_EMS,           // Variable name
+};

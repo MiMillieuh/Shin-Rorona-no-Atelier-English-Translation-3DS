@@ -1,0 +1,25 @@
+BalloonData YM01_150_EMS[] = {
+	// ▼超问任务解放（后）的替换事件
+	// ●第一个课题内容A发生后隔一段时间发生
+	// ▼进入王宫接待处或从王宫走廊出来时发生
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, you brought it. As expected of Rorona-chan, good girl" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Ehehe... it's nothing special..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "This request was from me, but from now on,<CR>all requests will have this kind of order attached,<CR>so do your best when you can, okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Alright then, here you go.<CR>This is the exchange ticket for your reward" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Oh, I can get them here too, huh" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "That's right. It's set up so that you receive<CR>them when you complete tasks and requests<CR>involving the castle" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Lately there aren't many people who will<CR>accept requests, you see...<CR>Well, some deficit is to be expected" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Estiy-san has it rough too, huh..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Well, it's not like I'm paying<CR>for it or anything" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Anyway, the more exchange tickets you have,<CR>the better rewards you get,<CR>so try to collect as many as you can" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Got it. Alright, I'll do my best!" },
+	// ▼之后会插入系统消息
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLGR>Exchange Ticket<CLNR> received." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM01_150_bda = {
+	"YM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM01_150",// 出力ファイル名
+	YM01_150_EMS,           // 上記変数
+};

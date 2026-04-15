@@ -1,0 +1,20 @@
+﻿BalloonData MZ02_640_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Excuse me. You are in there, aren't you?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_BUC,            "Mmm... Is that you, Sterk-san?<CR>What's going on~?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I heard you were<CR>hiding inside the atelier without working.<CR>I had my doubts, but I came to see for myself..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "Ah, yes. That's right.<CR>I'm hiding out here~" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Wha-- What on earth happened to you?<CR>Just a little while ago, you were working<CR>so earnestly..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_BUC,            "Ah, sorry.<CR>Save the lecture for another time~" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Gu... I understand. I'll come again.<CR>At that time, I would appreciate it if<CR>you would at least show your face" },
+	// ▼Sterk leaving the atelier
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "I thought it was just a rumor,<CR>but to think it was true... Could this be<CR>a reaction to being too busy for three years..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "I'll keep watching for a while.<CR>If nothing changes...<CR>I'll have to think of something" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_640_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_640",// Output file name
+	MZ02_640_EMS,           // Variable name
+};

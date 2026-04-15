@@ -1,0 +1,31 @@
+BalloonData MM03_051_EMS[] = {
+	// ▼Display results on system screen
+	// ▼Branch based on results
+	// ▼When evaluation is highest
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Eh? I-is that okay?<CR>Such a high evaluation..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "We don't know much about alchemy, but apparently this is deemed sufficient" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "It sounds like \"presumably\" and \"apparently\"...<CR>It doesn't feel like much of a compliment..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "...Indeed, there are many vague expressions.<CR>I sincerely apologize" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "However, depending on your future achievements,<CR>it will prove that this evaluation was not wrong" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "I hope so..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I look forward to seeing that happen.<CR>Now then, let me explain the next task" },
+	// ▼When evaluation is average
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Um... it's an average evaluation, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "That would be correct. We don't know much about alchemy, but apparently you could have tried a bit harder" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Sorry...<CR>I thought I was trying quite hard, though" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "On the contrary, it means you're being expected to do that much more work.<CR>I hope you'll meet those expectations next time" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Now then, about the contents of the next task..." },
+	// ▼When evaluation is low
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Ooh... this is..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "This is an extremely harsh evaluation.<CR>I think you know the reason better than anyone" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Yes... I'm sorry..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "I don't intend to criticize you too much,<CR>but please don't forget that if these evaluations continue,<CR>the Atelier's survival will be in jeopardy" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Now then. Shall we move on to the next task?" },
+	// ▼↓
+};
+
+BALLOON_DATA_ALL MM03_051_bda = {
+	"MM03",                 // Output file path
+	"EVENT_MESSAGE_MM03_051",// Output file name
+	MM03_051_EMS,           // Above variable
+};

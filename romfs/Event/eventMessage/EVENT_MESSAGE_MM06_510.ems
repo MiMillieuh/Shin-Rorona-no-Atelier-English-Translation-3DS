@@ -1,0 +1,27 @@
+BalloonData MM06_510_EMS[] = {
+	// ▼The 7th task (planned) has been announced, and Rorona knows recipes for items used there
+	// ▼Other female characters have high affection conditions met
+	// ▼Rorona researching at the atelier
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "It's not here either...<CR>It's not in this book either..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Research, huh? How admirable.<CR>Were you thinking of new dinner menu ideas?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "No, that's not it. I was researching materials<CR>I might use for the castle job" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "It's called Bubbling Water..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Oh, it's work, is it? How dull...<CR>Wait. Bubbling Water, you say?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Yes! Since you're my master,<CR>you should know where to find it..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "But you're not just going to tell me<CR>right away, are you..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "When a dear disciple is in trouble,<CR>it is a master's duty to lend a hand.<CR>Very well. I'll show you the gathering spot" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "I knew you'd help! I have to research things myself...<CR>Wait, you'll really tell me?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "However, that place is extremely dangerous...<CR>You must prepare thoroughly" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "We depart early morning, one week from now.<CR>Besides you and me, we'll bring a few companions" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Y-yes, sir..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Once we've decided, there's no time to waste.<CR>I haven't had a good workout in a while.<CR>Fufufu, this will be exciting" },
+	// ▼Master returns to her room
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "The master is getting pumped up...<CR>That actually makes me more worried..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM06_510_bda = {
+	"MM06",                 // Output file path
+	"EVENT_MESSAGE_MM06_510",// Output file name
+	MM06_510_EMS,           // Variable above
+};

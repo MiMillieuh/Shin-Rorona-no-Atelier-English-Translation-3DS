@@ -1,0 +1,50 @@
+BalloonData QC06_530_EMS[] = {
+	// ▼ジオが王様だと分かってから、ステルクと一緒に誘って採取へ
+	// ▼↑が起きてるかどうかで、最初が分岐
+	// ▼起きている時
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "Mu... It's you again" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	// ▼起きてない時
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "Mu...? Why are you here?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "She asked me to help her out" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "Your work? What about your work?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I've completed all my duties.<CR>I have no interest in being told about work<CR>by someone like you" },
+	// ▼共通
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "...Are you still angry?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "I'm not angry at all.<CR>I've given up. On various things" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "Then stop making such an annoyed face.<CR>It's a bit frightening" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Wha... who do you think<CR>is making me make this face!?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L2,      10, BALLOON_FRAME_TYPE_BUC,            "So you ARE angry after all.<CR>How narrow-minded of you" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC_SHOUT,      "The person who got me angry is saying this!?<CR>To begin with, you..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_L2,      12, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Then let me have my say too!<CR>You always..." },
+	// ▼黒画面で時間経過
+	// ▼遅れてロロナやって디어
+	// ▼ここも分岐
+	// ▼↑のイベントを見ている時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "S-sorry!<CR>I'm late again!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_L2,      -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Ah, um? Is it just me, or is there<CR>an awkward atmosphere...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "W-well, um. Remember what<CR>happened the other day?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "So I was thinking, I wanted you two to make up,<CR>so I went ahead and invited you both<CR>today but..." },
+	// ▼見ていない時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Ah, sorry.<CR>You both were already here" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_L2,      -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Ah, um? Is it just me, or is there<CR>an awkward atmosphere...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "W-well, um. Remember what<CR>happened the other day?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "So I was thinking, I wanted you two to make up,<CR>so I went ahead and invited you both<CR>today but..." },
+	// ▼共通
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L2,      25, BALLOON_FRAME_TYPE_BUC,            "Let's get this over with then.<CR>I don't want to spend much time with this guy" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "I'll say exactly the same thing to you" },
+	// ▼ロロナを置いて先に行ってしまう二人
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "Huh, um, excuse me?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "Hmm, maybe I made things worse..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_530_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_530",// 出力ファイル名
+	QC06_530_EMS,           // 上記変数
+};

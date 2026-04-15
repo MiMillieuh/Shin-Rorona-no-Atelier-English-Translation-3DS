@@ -1,0 +1,38 @@
+BalloonData YM02_090_EMS[] = {
+	// ▼艾斯蒂的友好度相当高
+	// ●想要结婚！发生
+	// ▼进入王宫接待处发生
+	// ▼眼神飘远的艾斯蒂
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Hfff..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "What's wrong?<CR>You seem to be staring into the distance?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Oh, Rorona-chan.<CR>Was I staring off into space?<CR>How embarrassing" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "...Earlier, a really handsome-looking male customer<CR>came to the castle. Someone I've never seen before,<CR>looked like a merchant or traveler from his dress..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Either way, I think he's already left town by now,<CR>but... he was really charming" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Was he really that great?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Yeah. He had a mature aura, but also a boyish side...<CR>don't you think that sounds nice?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Hmm... I'm not really sure" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Fufu, maybe this is too early for you?<CR>No, it shouldn't be.<CR>Rorona-chan should be more proactive" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Y-yeah" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Rorona-chan, do you have someone you're<CR>interested in?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "No, not really" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Don't be ridiculous. What about Ixel-kun?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Eh? Why would Ixel-kun be there?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Oh, was I wrong? Then Sterk-kun maybe?<CR>He has a stern face but the ingredients he brings<CR>aren't bad. That's actually a good choice" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "N-no, that's not it at all" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Oh? Could it be Hagerel-san?<CR>Rorona-chan, you have interesting taste...<CR>rather, unique, I should say" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "So I'm not-- that's not it either!<CR>Estiy-san, we were talking about<CR>your thing, weren't we?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Besides, Estiy-san is beautiful, so I'm sure<CR>there are lots of men who would approach you, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "........Ah?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Oops, if you don't want an unhappy experience,<CR>don't say another word" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Y-yes..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM02_090_bda = {
+	"YM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM02_090",// 出力ファイル名
+	YM02_090_EMS,           // 上記変数
+};

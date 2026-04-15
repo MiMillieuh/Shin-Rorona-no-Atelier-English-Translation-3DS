@@ -1,0 +1,23 @@
+﻿BalloonData QC01_110_EMS[] = {
+	// ▼When you're in the state of having fought with Cuderira, at the castle reception
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Rorona-chan, I heard.<CR>You had a fight with Cuderira-chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Ah... yes..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Oh, it's so gloomy... Sorry.<CR>It's probably my fault, isn't it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "No, that's not it.<CR>I said too much, and<CR>that's why Kuu-chan got upset..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "I see..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(Ugh... the air is so heavy...<CR>I thought I was doing the right thing by telling her,<CR>but I think I made it worse...)" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "A-Anyway, cheer up.<CR>I'll do what I can to help you<CR>make up quickly, okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Yes... thank you" },
+	// ▼Rorona leaves
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Hmm.<CR>Being thanked makes me feel even more guilty..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "What should I do...<CR>If I meddle too much it'll only make things worse...<CR>What to do" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_110_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_110",// Output file name
+	QC01_110_EMS,           // Variable name
+};

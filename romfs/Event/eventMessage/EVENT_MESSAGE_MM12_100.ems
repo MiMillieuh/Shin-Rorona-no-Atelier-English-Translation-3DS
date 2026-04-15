@@ -1,0 +1,39 @@
+ BalloonData MM12_100_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     1991, BALLOON_FRAME_TYPE_BUC,            "Tomorrow's the results day...<CR>Whether I pass or fail, it'll all be over tomorrow..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,     1992, BALLOON_FRAME_TYPE_BUC,            "Uuuu...<CR>I'm so nervous, I can't calm down..." },
+	// ▼アトリエのタントリスの演奏が聴こえてくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,     2090, BALLOON_FRAME_TYPE_BUC,            "Huh? This melody... Could it be" },
+	// ▼アトリエの外に出て行くロロナ
+	// ▼アトリエの前にタントリスがいる
+	// ★アトリエの真っ前じゃなくて、そこそこ離れたとこにいると嬉しい
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2091, BALLOON_FRAME_TYPE_BUC,            "As I thought, it's you, Tantris" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_EX1,   BUC_POSITION_TYPE_R,     2092, BALLOON_FRAME_TYPE_BUC,            "Oh my, what a surprise" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_EX1,   BUC_POSITION_TYPE_R,     2093, BALLOON_FRAME_TYPE_BUC,            "I was just playing a tune under the starry sky,<CR>and it seems the moon fairy was drawn to it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2094, BALLOON_FRAME_TYPE_BUC,            "You always say things like that...<CR>Why are you playing your instrument out here?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,     2095, BALLOON_FRAME_TYPE_BUC,            "Well, I've been thinking lately...<CR>Is there something I could do for you?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,     2096, BALLOON_FRAME_TYPE_BUC,            "I wanted to play something to help you sleep peacefully...<CR>But I suppose I ended up waking you instead?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,     2097, BALLOON_FRAME_TYPE_BUC,            "No. I was so nervous,<CR>there was no way I could sleep anyway..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2098, BALLOON_FRAME_TYPE_BUC,            "Um, would it be okay if I<CR>stayed here and listened for a while?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,     2099, BALLOON_FRAME_TYPE_BUC,            "I'd be delighted... but it's the cold season.<CR>It'd be better if you listened from inside the atelier" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,     2100, BALLOON_FRAME_TYPE_BUC,            "But you're cold too, Tantris...<CR>Oh! Why don't you just play inside<CR>the atelier?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,     2101, BALLOON_FRAME_TYPE_BUC,            "My, getting an invitation at this hour...<CR>Should I get my hopes up?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     2102, BALLOON_FRAME_TYPE_BUC,            "Huh? Hopes?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,     2103, BALLOON_FRAME_TYPE_BUC,            "N-No! That's not what I meant!<CR>What are you saying?!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,     2104, BALLOON_FRAME_TYPE_BUC,            "Haha, I'm just teasing.<CR>I don't want to get scolded by the scary master, so<CR>don't worry about me" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,     2105, BALLOON_FRAME_TYPE_BUC,            "I'll keep playing<CR>right here until you fall asleep" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2106, BALLOON_FRAME_TYPE_BUC,            "...Okay.<CR>Thank you, Tantris" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,     2107, BALLOON_FRAME_TYPE_BUC,            "You're welcome.<CR>Well then, good night. Sweet dreams" },
+	// ▼アトリエに戻っていくロロナ
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_EX1,   BUC_POSITION_TYPE_R,     2108, BALLOON_FRAME_TYPE_BUC,            "...Playing my instrument like this<CR>might be the last time" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_EX1,   BUC_POSITION_TYPE_R,     2109, BALLOON_FRAME_TYPE_BUC,            "Today, I'll play until my heart is content..." },
+	// ▼また楽器を弾き始めるタントリス
+	// ▼長めの黒フェードで終わり、次のイベントへ
+	// ▼
+};
+
+BALLOON_DATA_ALL MM12_100_bda = {
+	"MM12",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MM12_100",// 出力ファイル名
+	MM12_100_EMS,           // 上記変数
+};

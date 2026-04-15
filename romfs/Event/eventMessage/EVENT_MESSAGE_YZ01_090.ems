@@ -1,0 +1,24 @@
+BalloonData YZ01_090_EMS[] = {
+	//  Astrid's story and Sterk's story
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ah... This is what I wanted to tell you about,<CR>the situation seems to be developing in a good direction..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "That seems to be the case!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "I think the situation has been resolved..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Not being able to act freely is quite frustrating..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Astrid!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "However, for this particular apprentice,<CR>the path forward is quite unclear..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Yes! Astrid! Everything is going according to plan!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Ah! I think I understand now!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Ah!" },
+	//  After solving the Sterk problem
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Yes, in this time, the person at the center of the problem<CR>is me... I'm quite concerned about this..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "It might be difficult to handle this alone..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "However, about this situation..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Oh... I'm not sure about that.<CR>The investigation is still ongoing...<CR>this is quite concerning..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YZ01_090_bda = {
+	"YZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YZ01_090",// 出力ファイル名
+	YZ01_090_EMS,           // 上記変数
+};

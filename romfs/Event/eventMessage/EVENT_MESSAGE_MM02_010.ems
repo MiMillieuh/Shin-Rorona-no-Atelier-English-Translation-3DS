@@ -1,0 +1,13 @@
+﻿BalloonData MM02_010_EMS[] = {
+	// ▼課題の締め切り間近に発生（警告メッセージ）
+	// ▼主人公がアトリエにいる時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, right. The deadline for the castle work is soon.<CR>I should get ready before I forget" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "If I fail, the Atelier gets shut down, you know...<CR>Uuu, will I be okay..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM02_010_bda = {
+	"MM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MM02_010",// 出力ファイル名
+	MM02_010_EMS,           // 上記変数
+};

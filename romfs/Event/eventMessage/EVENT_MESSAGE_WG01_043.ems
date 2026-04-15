@@ -1,0 +1,22 @@
+﻿BalloonData WG01_043_EMS[] = {
+	// ▼湧き水を発見した時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, a natural spring!<CR>I was just getting thirsty..." },
+	// ▼選択肢「飲んでみる/飲まない」
+	// ▼「飲まない」の時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "I'll pass. They say untreated water can be dangerous." },
+	// ▼「飲んでみる」を選択
+	// ▼湧き水がおいしかった
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Aah, so delicious! I feel completely revived~!" },
+	// ▼湧き水がまずかった
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Ugh, I'm starting to get a stomachache..." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "HP restored!" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "HP decreased..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL WG01_043_bda = {
+	"WG01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_WG01_043",// 出力ファイル名
+	WG01_043_EMS,           // 上記変数
+};

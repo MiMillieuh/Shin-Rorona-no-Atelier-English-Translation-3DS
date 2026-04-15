@@ -1,0 +1,53 @@
+﻿BalloonData QN06_100_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Estiy-san.<CR>I brought what you asked for!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, thank you. By the way, Rorona-chan..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Um... I'll just leave this here.<CR>So, I'll be going now..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Huh? What's with that attitude...<CR>Am I being super suspicious? Me...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "No, oh, well, it's not that..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Look here, Rorona-chan. I don't know what<CR>Astrid-san told you...<CR>But it's all lies, you hear me! I can assure you!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Huh? Lies...? Oh, oh I see!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "R-Right! Come to think of it,<CR>there's no way Estiy-san would be like that... ahahahaha!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Just out of curiosity,<CR>what exactly did she tell you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "T-That would be...<CR>a little hard for me to say..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Hmm, so she told you something<CR>you can't even repeat.<CR>Well, I suppose it can't be helped." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "I'll change the items you can exchange<CR>your vouchers for again, so when you have time,<CR>be sure to check them out!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "O-Okay...<CR>Um, Estiy-san, I'm...<CR>sorry!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "It's fine, it's fine. You weren't in the wrong,<CR>so don't worry about it.<CR>Looking forward to your work in the future, okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Yes... Well then, if you'll excuse me." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Okay, see you~" },
+	// ▼帰っていくロロナ
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Now then... Hm!<CR>What are you hiding in the shadows<CR>and grinning about?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Ah, my apologies. Your apprentice's<CR>embarrassed reactions were<CR>more adorable than I expected." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "You see, I'm the one who asked you to<CR>give Rorona-chan these jobs, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Oh, I didn't think it required confirmation at this point." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "You're kidding me!<CR>To think you'd say that after what you did!<CR>You're making me out to be some kind of weirdo!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Ah, my apologies, my apologies.<CR>I may have gotten a bit carried away with my joking." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Honestly... I was helping to<CR>train her as an alchemist,<CR>and this is how you repay me..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Maybe I should just tell her everything." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "I already apologized, didn't I?<CR>I'll explain to Rorona properly.<CR>Tell her not to believe everything I say." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "...I've been meaning to ask,<CR>why go through all these<CR>roundabout methods if you say that?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "If you wanted to help your dear apprentice,<CR>you could just teach her yourself!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "When it comes to alchemy,<CR>I'm not so shameless that I can<CR>put on airs as a master anymore." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Oh my, a surprisingly proper answer... should I accept that?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "Rorona-chan, despite what you may think,<CR>is actually starting to become<CR>a splendid alchemist." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "Despite what you may think?<CR>What do you mean by that?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "Because, don't you think that<CR>the cuter the girl, the more of a handful?<CR>Astrid-san?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       32, BALLOON_FRAME_TYPE_BUC,            "That's not quite right.<CR>Being just a handful only gets you about 60 points." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "A clumsy but excellent apprentice alchemist.<CR>This is what Rorona should aim to be,<CR>or we'll be in trouble." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       34, BALLOON_FRAME_TYPE_BUC,            "What an extravagant thing to aim for...<CR>Anyway, we've been standing here talking,<CR>why don't we change locations?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "Astrid-san, you do drink, don't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "I can drink, but... two women going out together?<CR>It would be a lonely and melancholy drinking session." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       37, BALLOON_FRAME_TYPE_BUC,            "It's not like it's a bad thing, you know.<CR>Allow me to speak from experience." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       38, BALLOON_FRAME_TYPE_BUC,            "As compensation for all this trouble,<CR>this one will be on you!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       39, BALLOON_FRAME_TYPE_BUC,            "You make it hard to refuse when you say it like that.<CR>Oh dear, I hope it doesn't end up being too expensive." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You received <CLGR>3000 cole<CLNR>." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN06_100_bda = {
+	"QN06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN06_100",// 出力ファイル名
+	QN06_100_EMS,           // 上記変数
+};

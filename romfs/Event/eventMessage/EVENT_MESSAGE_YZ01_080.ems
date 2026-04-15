@@ -1,0 +1,31 @@
+BalloonData YZ01_080_EMS[] = {
+	//  Astrid's story
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Not being able to act freely is quite frustrating..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "This is what I wanted to discuss with you,<CR>about the person I'm searching for..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Are you perhaps not feeling well?<CR>Could this be a problem with your health?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "The person at the center of this situation and the 'kuro~' are actually<CR>the same person..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "'kuro~'?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "This person is someone who works in the shadows and is quite mysterious.<CR>They might be someone I can't understand..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Hmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "This is... not the person we're looking for..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Hmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Oh, is that so?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Yes, that's what I wanted to tell you about..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "In that case, why not just explain it in a way that's easy to understand?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "I'm sorry." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "For now, I think we should work together and work towards a solution.<CR>The person at the center might be the only one who can do this... but can they really do it?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Not yet... I think we should wait a bit longer.<CR>We shouldn't jump to conclusions." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "All of these are unpredictable..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "I think I understand... The person at the center might be the only one who can help..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "If this person were to do something about it,<CR>maybe they could help..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Where could they be? The person at the center is..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Let's go." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "But I'm still concerned..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YZ01_080_bda = {
+	"YZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YZ01_080",// 出力ファイル名
+	YZ01_080_EMS,           // 上記変数
+};

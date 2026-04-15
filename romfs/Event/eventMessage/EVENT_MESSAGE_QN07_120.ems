@@ -1,0 +1,11 @@
+BalloonData QN07_120_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "Dummy" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN07_120_bda = {
+	"QN07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN07_120",// 出力ファイル名
+	QN07_120_EMS,           // 上記変数
+};

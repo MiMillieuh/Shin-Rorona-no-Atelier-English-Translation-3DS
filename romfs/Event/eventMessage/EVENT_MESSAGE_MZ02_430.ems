@@ -1,0 +1,33 @@
+BalloonData MZ02_430_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Honestly, what is with Rorona.<CR>She suddenly calls me out here..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Something about starting a new shop<CR>and whatever..." },
+	// ▼黒画面に
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_BUC,            "Oh, there are actually quite a few customers.<CR>Hey, I made it here!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "Welcome!<CR>Welcome to Rorona's Pie Shop!" },
+	// ▼一枚絵に
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_BUC,            "Rorona's... Pie Shop?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_BUC,            "Ah, Iksel-kun. You came!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_BUC,            "Yeah, well... Wait, what is THIS?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_BUC,            "Ehehe, it's a pie shop.<CR>It was my dream when I was little!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_BUC,            "Oh right, now that you mention it,<CR>you did say something like that before...<CR>So you quit alchemy?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     9, BALLOON_FRAME_TYPE_BUC,            "Not at all.<CR>I make about half the pies with alchemy." },
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_BUC,            "Hmm...<CR>Well, congratulations then, I guess.<CR>It's gonna be tough, but do your best." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_BUC,            "Yeah, thanks!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    12, BALLOON_FRAME_TYPE_BUC,            "This means we're rivals in name and reality now,<CR>you and I.<CR>Heh, I'm actually getting excited." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    13, BALLOON_FRAME_TYPE_BUC,            "...Eh? Why rivals?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_BUC,            "This town doesn't need two food places.<CR>The loser quietly closes their shop...<CR>That's how it goes, right?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    15, BALLOON_FRAME_TYPE_BUC,            "That's not it! I never thought that!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_BUC,            "It's fine, it's fine.<CR>You don't have to say it.<CR>I'm accepting your challenge!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_BUC,            "I can't just sit around.<CR>I gotta hurry up and come up with<CR>some new pie recipes...!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    18, BALLOON_FRAME_TYPE_BUC,            "Wait, hold on! ...Well,<CR>I guess that's just like Iksel-kun." },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    19, BALLOON_FRAME_TYPE_BUC,            "Master, please return to work.<CR>We're almost running out of pies." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    20, BALLOON_FRAME_TYPE_BUC,            "Ah, sorry. I'll make more right away!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_430_bda = {
+	"MZ02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MZ02_430",// 出力ファイル名
+	MZ02_430_EMS,           // 上記変数
+};

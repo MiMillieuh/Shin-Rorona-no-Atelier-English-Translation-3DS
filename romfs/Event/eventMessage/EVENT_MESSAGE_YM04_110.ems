@@ -1,0 +1,17 @@
+BalloonData YM04_110_EMS[] = {
+	// ▼古き竜の角の所持数が１個以上になると発生
+	// ●（ドラゴンがユニークボスになるのか量産ザコになるのか分からないので起動条件的にはこの形が無難か）
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Could this be...<CR>the Horn of the Ancient Dragon?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "It does look a little different from a normal dragon's horn, doesn't it?<CR>It has a certain gravitas, an air of dignity,<CR>an old-world feel to it..." },
+	// ▼トトリがパーティに入っている場合
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_WARA,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Then let's head back to the atelier right away<CR>and try making the Dragon's Hourglass!" },
+	// ▼メルルがパーティに入っている場合
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX1,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Yes! Let's head back to the atelier right away!<CR>Let's make the correct Dragon's Hourglass this time!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM04_110_bda = {
+	"YM04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM04_110",// 出力ファイル名
+	YM04_110_EMS,           // 上記変数
+};

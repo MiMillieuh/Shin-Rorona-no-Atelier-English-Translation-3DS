@@ -1,0 +1,23 @@
+BalloonData MM06_535_EMS[] = {
+	// ▼After the event above, when returning to the atelier
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Um... I'm back~" },
+	// ▼Rorona looking around the atelier
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Let's see... is anyone here?<CR>Hom-chan, is the master around?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "The Grand Master has gone out" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Ah, I see... I wonder where she went" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "I don't know where she went.<CR>She said she was going on a journey to heal<CR>the wounded heart of being betrayed by her dear disciple" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "This is a first...<CR>I bet she's really angry..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Hm? Hom-chan, what are you holding?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "It's a travel guidebook the Grand Master prepared.<CR>There's one for the master too" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "She even prepared this much...<CR>Ah, but maybe I can find out where the gathering spot is from this" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "...When the master comes back, I have to properly apologize" },
+	// ▼Gathering spot added, master disappears for about a month
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLBL>Lake Nebel<CLNR> is now accessible." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM06_535_bda = {
+	"MM06",                 // Output file path
+	"EVENT_MESSAGE_MM06_535",// Output file name
+	MM06_535_EMS,           // Variable above
+};

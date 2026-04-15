@@ -1,0 +1,31 @@
+﻿BalloonData YM06_050_EMS[] = {
+	// ▼新たに思い描く夢１が発生している
+	// ●戻ってきた師匠が発生している
+	// ▼職人通りに行くと発生
+	// ▼アトリエのすぐ近くにリオネラがいる
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "Come on, make a decision already!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Don't rush me...!<CR>I need to prepare myself mentally!" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "You keep saying that, but you're<CR>frozen stiff again! Jeez,<CR>you're such a handful~" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       3, BALLOON_FRAME_TYPE_BUC,            "...Can't be helped. If it's come to this,<CR>I'll go call her for you." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "W-wait! I'll go!<CR>I need to say it myself!" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "If you're that set on it,<CR>then come on, hurry up!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_SIN,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Unn... I'm ready...!" },
+	// ▼アストリッド、背後から通りかかる
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Hmm? Isn't that Miss Lionela?<CR>Did you need something from me?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Hyyaaah!" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       9, BALLOON_FRAME_TYPE_BUC,            "Oh, it's you." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "I don't know what you needed,<CR>but Rorona should be at the Atelier." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "U-um! I have something to...!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "S-sorry!" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "Hey, wait up!" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      14, BALLOON_FRAME_TYPE_BUC,            "...I guess we're starting over from scratch." },
+	// ▼リオネラたち走り去る
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "...She's as confusing as ever." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM06_050_bda = {
+	"YM06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM06_050",// 出力ファイル名
+	YM06_050_EMS,           // 上記変数
+};

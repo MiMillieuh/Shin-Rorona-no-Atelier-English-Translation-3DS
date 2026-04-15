@@ -1,0 +1,22 @@
+﻿BalloonData QN03_092_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Um, pops?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Yeah? What's up?<CR>Not to your liking?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "It's not that it's unlikable...<CR>It's just a normal frying pan, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Sheesh, this is why amateurs..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "This isn't just any frying pan.<CR>It's a frypan that will NEVER stick food to it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Never stick? <CR>You can really do that? How?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "That's a trade secret.<CR>Well, I can tell you that it's had<CR>a special surface treatment applied to it" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "With this, even a cooking novice can<CR>become a top chef in no time!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "W-Wow... I'll try it out right away when I get home!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Right. Take good care of it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Yes, thank you very much!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "...Wait, but isn't this a weapon... you know?<CR>Not very useful, maybe?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN03_092_bda = {
+	"QN03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN03_092",// 出力ファイル名
+	QN03_092_EMS,           // 上記変数
+};

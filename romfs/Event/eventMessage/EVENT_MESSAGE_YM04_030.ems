@@ -1,0 +1,39 @@
+BalloonData YM04_030_EMS[] = {
+	// ▼アストリッドの部屋に入ると発生
+	// ●アストリッドの部屋の画像なり専用の物が必要
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KAN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "This is Master's room.<CR>The key is locked, so I'll open it now" },
+	// ▼黒画面に
+	// ▼鍵が開く音
+	// ▼扉が開く音
+	// ▼アストリッドの部屋
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "So this is... Astrid's room" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "To be honest, it's been a while since I last entered myself.<CR>...Whoa, I told them to use it, but<CR>the more I look around, the worse this room is" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KOMA,    BUC_POSITION_TYPE_R2,       3, BALLOON_FRAME_TYPE_BUC,            "It seems dusty too,<CR>and there's a weird smell.<CR>...What is this?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Ah, don't touch that!<CR>That suspicious-looking thing over there - if you touch it carelessly,<CR>something bad will surely happen!" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX4,     BUC_POSITION_TYPE_R2,       5, BALLOON_FRAME_TYPE_BUC,            "S-sorry!<CR>This is Astrid's room after all...<CR>You never know what might be in here" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I can kind of guess at some things,<CR>but there are others I have absolutely no idea about either.<CR>Better safe than sorry, it seems" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "...I feel bad saying 'relax in a room' like this,<CR>but if it's okay with you..." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_WARA,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Thank you so much, Rorona-sensei.<CR>This helps me a lot!" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "...But maybe we should clean up a bit first" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_WARA,    BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "You're right.<CR>Let's get to it right away!" },
+	// ▼黒画面に
+	// ▼アトリエに戻る
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Well then, I'll be in your care.<CR>But I feel bad staying here rent-free,<CR>so..." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "If you ever need our help,<CR>please don't hesitate to ask.<CR>We'll even go out with you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Thanks. If I need anything,<CR>I'll let you know" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_SIN,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Oh, and there's one more thing I wanted to ask..." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "You seem so formal around us.<CR>It would put us more at ease if you talked<CR>to us a little more casually. We're your apprentices, after all" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "O-oh... But..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX1,     BUC_POSITION_TYPE_R2,      17, BALLOON_FRAME_TYPE_BUC,            "Me too, please!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Alright then... I will.<CR>Nice to meet you" },
+	// ▼発生後はショートカットに「師匠の部屋」が追加される
+	// ▼師匠の部屋にトトリとメルルが配置される
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can now hire Totori and Meruru." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM04_030_bda = {
+	"YM04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM04_030",// 出力ファイル名
+	YM04_030_EMS,           // 上記変数
+};

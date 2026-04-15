@@ -1,0 +1,25 @@
+BalloonData QC06_560_EMS[] = {
+	// ▼１１個目の依頼中、一緒に闇の領域に来た時
+	// ▼採取に来た時
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "I have a question for you.<CR>Did you come here on a commission from the kingdom?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Yes. I was told to gather<CR>some rare plants from here" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Hmph... I'm not impressed.<CR>Of all places, here...<CR>Is this Meliodas's idea again...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Is this really a dangerous place after all?<CR>...Um, by any chance Gio,<CR>did you not know about the commission details?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "That's right, I had no involvement whatsoever" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Eh? But I thought it was a commission from the kingdom" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "If I had been involved,<CR>I certainly wouldn't have come to help you" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "As for Sterk,<CR>he shouldn't have had any involvement<CR>in reviewing or judging the commission details either" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "I see... I didn't know that..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Have you never once wondered about it?<CR>Whether you should ask Sterk or me<CR>for details on the evaluation criteria" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Eh? Um...<CR>Ahaha, I never really thought about it" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Well, I suppose that's like you.<CR>It's precisely because you're like this<CR>that Sterk and I decided to help" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Haah..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Alright, let's end the chitchat here.<CR>It is indeed a dangerous place.<CR>Don't let your guard down" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_560_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_560",// 出力ファイル名
+	QC06_560_EMS,           // 上記変数
+};

@@ -1,0 +1,39 @@
+BalloonData QC03_040_EMS[] = {
+	// ▼↑からしばらく経過後
+	// ▼イクセルが勢い込んでアトリエに
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_IKA,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Rorona!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Whoa!? I-Ixsel?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Heh heh... I brought it like I promised." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Promise? Did we make a promise about something?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_IKA,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "You forgot!? This whole thing from before!? Do you have any idea the feelings I put into making this!?" },
+	// ▼料理を取り出すイクセル
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "S-sorry... Wow, it smells amazing. It looks delicious too." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Right? Cooking isn't just about taste— appearance and aroma are important too..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "C-can I eat this?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Go ahead. Eat up. And be so amazed by the incredible taste that you lose the ability to stand!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Yay! Thanks for the food~ *chomp*" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Whoa, it's so delicious! How did you make this!?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_TERE,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "I can't exactly teach you that easily... If I had to say, it's the combination of spices that I experimented with, and the preparation of the ingredients..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "I see I see... *chew*... *cough*! G-guuh...!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Whoa, idiot! Don't eat so fast!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Ugh, choking... w-water..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_IKA,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Hold on! Alright, alright..." },
+	// ▼水をとりにいってあげるイクセル
+	// ▼黒画面で時間経過
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "...Phew, thank you. That was delicious!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Seeing you eat it that enthusiastically makes it worth the effort." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Well then, I'm heading back." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Already? Oh, I need to wash the dishes." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Don't worry about it. I'll wash them at the shop with the others. See ya!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Okay. Thanks for the food!" },
+	// ▼帰っていくイクセル
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Sigh... Ixsel's cooking is really amazing. I need to learn..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Huh? Come to think of it... What did Ixsel actually come here for?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC03_040_bda = {
+	"QC03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC03_040",// 出力ファイル名
+	QC03_040_EMS,           // 上記変数
+};

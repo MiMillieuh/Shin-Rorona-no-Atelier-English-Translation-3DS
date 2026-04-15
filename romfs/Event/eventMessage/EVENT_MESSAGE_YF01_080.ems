@@ -1,0 +1,11 @@
+锘BalloonData YF01_080_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Save data for Meruru's Atelier Plus was found." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You obtained Meruru's costume '<CLGR>Summer Blossom<CLNR>' and accessory '<CLGR>Bunny Ear Headband<CLNR>'." },
+};
+
+BALLOON_DATA_ALL YF01_080_bda = {
+	"YF01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YF01_080",// 出力ファイル名
+	YF01_080_EMS,           // 上記変数
+};

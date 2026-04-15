@@ -1,0 +1,30 @@
+BalloonData MZ01_120_EMS[] = {
+	// ▼Last line branches. Whether you came first or not (lines prompting you to go to Astrid
+	// ▼When you came first
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, Rorona-chan.<CR>Congratulations on passing!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, thank you so much.<CR>You already knew, didn't you" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Ufufu. I just couldn't help but wonder" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Actually, last night I<CR>cornered the person in charge and asked" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Is that so?<CR>Uugh, I was so nervous I<CR>couldn't sleep at all..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Ahaha. Sorry about that.<CR>I mean, I couldn't exactly<CR>tell you beforehand" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "But really, congratulations.<CR>It looks like we'll be seeing a lot of each other<CR>for a long time to come, so please take care of me" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Yes, likewise" },
+	// ▼When speaking to them for the first time
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Now, I'd love to chat more, but<CR>you should probably hurry and go<CR>see Astrid-san" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "More than me, that is...<CR>No, I think she's probably more worried<CR>about the results than even you, Rorona-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "The master? You think so?<CR>I mean, they seemed fine and slept peacefully yesterday..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Well, they're not the type to show their emotions.<CR>But I'm sure they'll be<CR>overjoyed today" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Hmm. I can't imagine it..." },
+	// ▼
+	// ▼When speaking to them for the second time onwards
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Now then, Rorona-chan must be busy today too,<CR>so let's have a nice long talk<CR>when you come by on business, okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "But I don't think I can really chat<CR>when I'm working...<CR>Well then, goodbye" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ01_120_bda = {
+	"MZ01",                 // Output file path
+	"EVENT_MESSAGE_MZ01_120",// Output file name
+	MZ01_120_EMS,           // The above variable
+};

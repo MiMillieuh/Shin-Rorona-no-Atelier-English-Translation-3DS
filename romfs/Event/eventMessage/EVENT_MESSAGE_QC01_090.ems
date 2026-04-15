@@ -1,0 +1,24 @@
+﻿BalloonData QC01_090_EMS[] = {
+	// ▼After the above event, while synthesizing
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Haah..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Master has been sighing repeatedly" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Eh? I was?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "That was 29 times since this morning" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "No way, that many!?<CR>Wait, why are you counting my sighs?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "It's Grand Master's orders" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Master! Don't make Homu-chan<CR>do weird things!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "You talk too fast, Homu.<CR>If you'd kept that up for a day,<CR>you might have hit a hundred sighs" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Come on, I'm not in the mood<CR>for Master's jokes today!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R2,       9, BALLOON_FRAME_TYPE_BUC,            "You talk as if you usually are<CR>in the mood for them" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "I don't know what happened,<CR>but if you're lonely,<CR>you can always come running to my chest, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "I said I'm not in the mood for jokes...<CR>Leave me alone!<CR>...Haah" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "That's 30, Master" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R2,      13, BALLOON_FRAME_TYPE_BUC,            "This is serious.<CR>This is entertaining too, though.<CR>What should I do..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_090_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_090",// Output file name
+	QC01_090_EMS,           // Variable name
+};

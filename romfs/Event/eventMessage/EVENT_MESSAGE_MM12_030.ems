@@ -1,0 +1,15 @@
+﻿BalloonData MM12_030_EMS[] = {
+	// ▼Warning message when assignment deadline is near
+	// ▼When trying to go exploring
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "If I head out now,<CR>I'll never make it in time for the castle request..." },
+	// ▼
+	// ▼When trying to synthesize
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "If I start now,<CR>I won't make it in time for the castle request..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM12_030_bda = {
+	"MM12",                 // Output file path
+	"EVENT_MESSAGE_MM12_030",// Output file name
+	MM12_030_EMS,           // Above variable
+};

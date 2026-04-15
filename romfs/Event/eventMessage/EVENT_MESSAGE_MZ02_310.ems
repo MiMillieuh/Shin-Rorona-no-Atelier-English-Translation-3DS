@@ -1,0 +1,14 @@
+BalloonData MZ02_310_EMS[] = {
+	// ▼
+	// ★※これの時は、結果発表イベントの後直で飛ぶ
+	// ★テロップのみで、限りなくバッドエンドに近い扱い
+	// ★音声もなしだから後回し
+	{ BALLOON_MODE_CHARA,  CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "Dummy" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_310_bda = {
+	"MZ02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MZ02_310",// 出力ファイル名
+	MZ02_310_EMS,           // 上記変数
+};

@@ -1,0 +1,15 @@
+BalloonData YZ01_075_EMS[] = {
+	//  Astrid's return
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Yes, I understand." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Yes, about that... I think this is fine." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "I think the situation has been resolved." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Yes, I don't think there's any need to worry about it now." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "I think the situation is under control." },
+	// ▼それ以降、同じ場合は繰り返す
+};
+
+BALLOON_DATA_ALL YZ01_075_bda = {
+	"YZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YZ01_075",// 出力ファイル名
+	YZ01_075_EMS,           // 上記変数
+};

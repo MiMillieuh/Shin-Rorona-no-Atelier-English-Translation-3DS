@@ -1,0 +1,29 @@
+﻿BalloonData QN03_098_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, that's a cool-looking coat" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Right? Every man dreams of<CR>wearing a coat like this, you know?<CR>You too, don't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Huh? But I'm a girl..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Ahaha, if I'd worn something like this<CR>in my younger days, I'd never have been<CR>a bachelor until this age, that's for sure" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "It'd still suit you, pops.<CR>You're a sturdy guy" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I don't need flattery.<CR>I mean, just imagine me trying to wear this.<CR>No way I'd look like a blacksmith" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "At best, people would think<CR>a criminal was on the run.<CR>Hahahaha!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Ah-ha... I see what you mean..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Ah, no, missy. That was a joke.<CR>That was the part where you're supposed to laugh, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Huh? A joke...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Oh, I get it now.<CR>AHAHA. That's enough for me!<CR>I totally got it!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Y-You think so?<CR>I thought you'd get it right away" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Because, pops,<CR>you already have that scary<CR>hitman face, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "And I got so surprised because<CR>I thought it was for real" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Ah, um... hitman face?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Ahaha, that was funny.<CR>Well then, I'll take this and go.<CR>See you later, pops" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Yeah, later..." },
+	// ▼帰っていくロロナ
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "...Hitman face, what kind of face is that?<CR>Wait, is my face really that scary?<CR>Man, do I really look that frightening...?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN03_098_bda = {
+	"QN03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN03_098",// 出力ファイル名
+	QN03_098_EMS,           // 上記変数
+};

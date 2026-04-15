@@ -1,0 +1,22 @@
+BalloonData YM03_130_EMS[] = {
+	// ▼ロロナ・ギゼラのパーティでの出発イベント
+	// ●本編中以降で発生
+	// ●ギゼラ参戦が発生している
+	// ▼ギゼラのみを雇って、初めて採取に行こうとした時
+	// ▼ギゼラのレベルが高い状態でスタートした場合
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_WARA,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Alright, let's go all out.<CR>Oh right, when I get into it,<CR>I tend to go overboard a bit" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_SIN,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "I might accidentally punch you too<CR>if I mistake you for an enemy,<CR>so be careful when we fight" },
+	// ▼ギゼラのレベルが低い状態でスタートした場合
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_WARA,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Yeah, this bracelet is great.<CR>This should be good training" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Is that the bracelet from Master?" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_NOR,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Yeah, it's a wonderful thing.<CR>I can't use any strength at all. But don't worry,<CR>I'll protect you properly. Relax" },
+	// ▼ここから共通
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "O-Okay...<CR>I believe in you..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM03_130_bda = {
+	"YM03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM03_130",// 出力ファイル名
+	YM03_130_EMS,           // 上記変数
+};

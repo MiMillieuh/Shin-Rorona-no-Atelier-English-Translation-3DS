@@ -1,0 +1,27 @@
+BalloonData QC02_115_EMS[] = {
+	// ▼条件を満たして、モンスターのいるマップに入った時
+	// ★満たしてない時は、何が足りないかのヒントイベントいれるかも
+	// ▼ステルクがいない時のバージョン
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Tiptoeing... Shushu! I wonder if it'll come out soon... It's not here, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Gosh, I'm really jumping at shadows..." },
+	// ▼と言ってる間に、背後からモンスターが近づいてきてる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "I can't get the materials without defeating it, so I need to get it together... Okay!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Come at me from wherever you want!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "...Just kidding. Ah ha. I definitely went too far that time, you know?" },
+	{ BALLOON_MODE_CHASYS, CHARA_NONE,       0, NAME_MONSTER,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_NORMAL,         "Guroo  " },
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_NORMAL,         "Oh no. Were you listening? I'm so embarrassed for shouting like that... hm?" },
+	// ▼振り返りモンスターに気づく
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Ah, um... That's not it! That was just, you know, getting carried away, or... a figure of speech, I guess..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "So, could we maybe settle this peacefully..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_NONE,       0, NAME_MONSTER,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Guooooo!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Waaah! I knew it was impossible!" },
+	// ▼戦闘開始
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_115_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_115",// 出力ファイル名
+	QC02_115_EMS,           // 上記変数
+};

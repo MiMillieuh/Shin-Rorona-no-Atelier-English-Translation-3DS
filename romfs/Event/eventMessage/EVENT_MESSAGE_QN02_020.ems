@@ -1,0 +1,70 @@
+BalloonData QN02_020_EMS[] = {
+	// ▼↑からしばらく経過後、アトリエに戻ってきた時
+	// ▼見知らぬ子供（ホム）がアトリエの中にいる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ahh, I finally made it back home. I'm tired today..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_NAZO,        BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Welcome back, Master" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Ah, um... I'm home... wait, huh?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Oh no, I'm so sorry! I got the wrong house!" },
+	// ▼慌てて外に出て行くロロナ
+	// ▼しばらくの間の後、ゆっくりと戻ってくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "I'm not wrong...?<CR>This is my atelier... right?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_NAZO,        BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Yes. This is Master's atelier" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Master? Me? Why...<CR>And who are you? Why are you in my atelier...?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_BUC,            "Took you long enough. I've been waiting" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Ah, Master!<CR>There's some kid I don't know here..." },
+	// ▼前回の選択肢で分岐
+	// ▼弟を選んでいた時
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R2,       9, BALLOON_FRAME_TYPE_BUC,            "Calling them 'some kid' is a bit harsh.<CR>This child is your little brother, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "...Huh? Little brother?" },
+	// ▼妹を選んでいた時
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R2,      11, BALLOON_FRAME_TYPE_BUC,            "Calling them 'some kid' is a bit harsh.<CR>This child is your little sister, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "...Huh? Little sister?" },
+	// ▼以下共通
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R2,      13, BALLOON_FRAME_TYPE_BUC,            "You said you wanted one before, didn't you?<CR>So I went and made one for you.<CR>Be grateful" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "M-made?<CR>W-wait just a moment.<CR>My head is in a whirl..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R2,      15, BALLOON_FRAME_TYPE_BUC,            "They're called Homunculi.<CR>Look at this - you can't tell<CR>them apart from a real human, can you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Homunculus... what is that?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R2,      17, BALLOON_FRAME_TYPE_BUC,            "You don't even know what a Homunculus is...<CR>If you're an alchemist too, you should look that up yourself" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Okay...<CR>Um, you..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_NAZO,        BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "What is it, Master?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "What's your name?<CR>What should I call you?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_NAZO,        BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "I don't have a name yet.<CR>Please call me whatever you like" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R2,      22, BALLOON_FRAME_TYPE_BUC,            "Mmm, how fortunate.<CR>You can name them whatever you like" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "That's so sudden...<CR>Let me think..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_NAZO,        BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R2,      -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "Hmm... ah, but... well...<CR>No no... hmm, I'm struggling..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R2,      27, BALLOON_FRAME_TYPE_BUC,            "Come on, you're killing me here!<CR>This child's name is now Hom!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "What!?<CR>Weren't you going to let me decide!?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "Hom... Understood.<CR>Hom's name from now on is Hom" },
+	// ★名前テロップ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "Ah, it's already decided!<CR>Master! That's such a lazy name!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "Hom... Hom-chan... Hom-chan.<CR>Oh, wait, that might be kind of cute" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "Now that a name has been decided,<CR>Hom wishes to work.<CR>Master, please give Hom any order" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "An order? You mean like commanding you?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R2,      34, BALLOON_FRAME_TYPE_BUC,            "Hom is absolutely obedient to mine and your orders.<CR>I've also taught them the basics of alchemy.<CR>Feel free to use them however you like" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       35, BALLOON_FRAME_TYPE_BUC,            "Use them... That's a bit much. I can't<CR>just order around someone so small" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R2,      36, BALLOON_FRAME_TYPE_BUC,            "Looking like a child is purely my preference.<CR>There's no need to worry about that" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R2,      37, BALLOON_FRAME_TYPE_BUC,            "Their mental processing speed and athletic ability<CR>are far above yours, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORona,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       38, BALLOON_FRAME_TYPE_BUC,            "...That doesn't leave me in a very good position, does it" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       39, BALLOON_FRAME_TYPE_BUC,            "Working for Master's sake<CR>is Hom's reason for existence.<CR>Master, please give your order" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       40, BALLOON_FRAME_TYPE_BUC,            "If you insist on it that much...<CR>But this doesn't feel like having a sibling at all..." },
+	// ★※ホムンクルスの使い方について、システム的な説明が入る
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Hom has started helping out<CR>with Atelier work." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Would you like to check the<CR>tutorial about Hom?" },
+	// ▼選択肢「はい/いいえ」
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The tasks Hom can help with are<CR>\"Synthesis\" and \"Gathering.\"" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "In \"Synthesis,\" Hom will perform it<CR>instead of items Rorona has made." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Hom has levels, and leveling up<CR>lets them make higher Effect items<CR>and work faster." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "In \"Gathering,\" Hom travels to places<CR>Rorona has explored, taking the same<CR>time to collect materials found there." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can recall them mid-task by<CR>checking the Atelier's Hom Board." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "For details, please check the Hom<CR>help section in the menu's encyclopedia." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN02_020_bda = {
+	"QN02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN02_020",// 出力ファイル名
+	QN02_020_EMS,           // 上記変数
+};

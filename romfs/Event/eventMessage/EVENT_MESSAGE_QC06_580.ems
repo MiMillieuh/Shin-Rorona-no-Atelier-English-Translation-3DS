@@ -1,0 +1,12 @@
+BalloonData QC06_580_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     9509, BALLOON_FRAME_TYPE_BUC,            "But if I rest this much,<CR>I'll miss the deadline I promised..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     9576, BALLOON_FRAME_TYPE_BUC,            "...If I start now,<CR>I'll definitely miss the deadline" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_580_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_580",// 出力ファイル名
+	QC06_580_EMS,           // 上記変数
+};

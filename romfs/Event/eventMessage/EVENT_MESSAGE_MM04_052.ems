@@ -1,0 +1,16 @@
+BalloonData MM04_052_EMS[] = {
+	// ▼Common below
+	// ▼Display task details on system screen
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Nutrients to make the soil fertile..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Yes, apologies, but we're short on time, so I'll skip the detailed explanation.<CR>Oh, and one more thing" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Y-yes? What is it?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I'd like you to forget about work and enjoy yourself during the Kingdom Festival, at least for a while.<CR>That's why I'm going through all this trouble" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "...Yes. Thank you very much!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM04_052_bda = {
+	"MM04",                 // Output file path
+	"EVENT_MESSAGE_MM04_052",// Output file name
+	MM04_052_EMS,           // Above variable
+};

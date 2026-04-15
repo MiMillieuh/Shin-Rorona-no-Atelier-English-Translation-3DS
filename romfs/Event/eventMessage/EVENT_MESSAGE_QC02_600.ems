@@ -1,0 +1,38 @@
+BalloonData QC02_600_EMS[] = {
+	// ▼ゲーム終盤、ロロナがアトリエにいる時
+	// ▼ステルクがアトリエを訪ねてくる
+	// ▼ドアをノックする音
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Excuse me. Is Astrid in?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Master? Um, today is..." },
+	// ▼部屋から師匠が出てくる
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "What lucky timing. I was rarely home, but what do you want?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Don't call yourself lucky. I came to tell you that the permit you asked for before has been approved." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "Hmm? Did I ask you to do something?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "The investigation of Oltgaraxen. You forgot?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "Oh yes, that. But I asked you four years ago. Expecting me to remember is unreasonable." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "I admit it took long, but I submitted the permit application almost every week!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "What a conscientious man. But with this much delay, my gratitude has also faded." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Gah... I was a fool to expect sincere thanks from you. Forget it!" },
+	// ▼怒って出て行くステルク
+	// ★一旦BUCクリア
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "My my, he never changes, does he? Still so quick to anger." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "What was that about... I think Master is always the one at fault." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "But you know, even if I got the permit now, I don't feel like researching anymore... Hey, Rorona." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Yes yes. I can go investigate in Master's place, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "She's quick to understand. Yes, that's a good sign." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "I've been Master's apprentice for years now, after all..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "No need to explain. That place is mostly unexplored ruins. You'll probably find materials you've never seen before." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Of course, there will also be unknown monsters crawling everywhere. Well, be careful and come back safely." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Okay..." },
+	// ▼イベント結果：遗迹に行けるようになる
+	// ★システムメッセで、遗迹から行ける旨を説明
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLBL>Oltgaraxen<CLNR> can now be reached." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_600_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_600",// 出力ファイル名
+	QC02_600_EMS,           // 上記変数
+};

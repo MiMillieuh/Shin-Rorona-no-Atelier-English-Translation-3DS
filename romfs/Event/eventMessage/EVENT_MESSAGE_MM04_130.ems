@@ -1,0 +1,45 @@
+BalloonData MM04_130_EMS[] = {
+	// ★※Occurs continuously after ↑↑ or ↑ events (can't walk around town)
+	// ▼At the event venue? Gets approached by Esty
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Rorona-chan! Over here, over here!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Ah, Esty-san.<CR>Are you here to see the festival too?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I'm here for work. Are you having fun, Rorona-chan?<CR>You are, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Haah, I'm so jealous, honestly!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Eh, a-ah... sorry.<CR>I don't really understand, but I'm sorry..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Ahaha, I'm just joking.<CR>I was just venting a little" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Oh right.<CR>Since you happened to find me here,<CR>you should join in too, Rorona-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Join in? Are you doing some kind of event?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Yes! This year's main event...<CR>It's called the Cabbage Festival!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Ha...h? Cabbage... festival?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "And so, here you go! One entry, please~!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Eh? I didn't say I would enter...<CR>W-wait, please~!" },
+	// ▼Black screen with some time passing
+	// ▼Participants lined up in front of Esty
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX8,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Okay, everyone's here.<CR>Now I'll explain the rules of the Cabbage Festival<CR>to you all~!" },
+	// ▼Clapping and cheers SFX
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Uugh, so I ended up participating after all..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX10,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Hey, you there, if you don't listen carefully,<CR>you won't understand the rules!" },
+	// ▼Explain rules via system message
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX8,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Got it, everyone~?<CR>No questions or anything else will be accepted~!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX8,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "We're a bit pressed for time, so!<CR>Kingdom Festival main event, the Cabbage Festival!<CR>Start!!" },
+	// ▼Shouts of excitement as everyone rushes forward at once
+	// ★※Dialogue and atmosphere alone since the performance would be tough
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Eh? A-already start?<CR>W-what the heck!?<CR>Don't push meeee!!!" },
+	// ▼Another black screen, then player appears at the nearby forest starting point
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Uugh, my head is spinning..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Ha! Everyone's already gone?<CR>I-I need to get started too!" },
+	// ▼Mini-game starts
+	// ▼Cabbage Festival tutorial additions
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The Kingdom Festival main event,<CR>the Cabbage Festival, has begun!<CR>Would you like to check the Cabbage Festival rules?" },
+	// ▼Choices: Yes/No
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The Cabbage Festival is a festival<CR>where you compete to see how many<CR>cabbages you can harvest within the time limit." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The time limit is 2 minutes.<CR>The person who harvests the most cabbages<CR>from the special venue wins." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "However, since Rorona was brought here without time to prepare,<CR>the basket contents are as they are.<CR>Please be very careful about the basket's capacity." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM04_130_bda = {
+	"MM04",                 // Output file path
+	"EVENT_MESSAGE_MM04_130",// Output file name
+	MM04_130_EMS,           // Above variable
+};

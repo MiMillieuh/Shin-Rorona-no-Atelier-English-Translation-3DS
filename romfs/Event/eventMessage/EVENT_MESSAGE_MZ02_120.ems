@@ -1,0 +1,68 @@
+BalloonData MZ02_120_EMS[] = {
+	// ▼In front of the atelier. From where many customers are lined up...
+	// ▼Display text while showing only the scene, dialogue after text ends
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Rorona, who completed the three-year work from the kingdom and protected the atelier" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Her earnest work ethic and passionate attitude toward everything earned her tremendous popularity from the townspeople" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "However, the kingdom's evaluation of her was not at all high, and her alchemy skills were lacking..." },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_A,      0, NAME_GUEST_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_NORMAL,         "Oh no! Here it comes" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_B,      0, NAME_GUEST_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_NORMAL,         "Again today!? Run, run!" },
+	// ▼Customers scatter like spiders
+	// ▼After a few seconds, a big explosion and blackout
+	// ▼After a long black screen, pitch black Rorona arrives at Ixel's shop
+	// ★Soot face versions to be made
+	// ★Model to be considered as needed
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX6,     BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "Uuu... hello..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_EX1,      BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Excuse us" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Oh, welcome...<CR>That's some face. Did it again?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX7,     BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "Don't say \"again.\"<CR>I do mind it quite a bit..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Because the number of times you exploded,<CR>since the start of this month... was it 6 times?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX6,     BUC_POSITION_TYPE_L2,      10, BALLOON_FRAME_TYPE_BUC,            "Nope. Eight times..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Well, even with that many failures,<CR>you're still going strong, so that's saying something" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_EX1,      BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "The Grand Master often said that,<CR>her occasional failures are also endearing" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX3,     BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "Eh? She said that?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "I see, so that's how it is... hmm" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX6,     BUC_POSITION_TYPE_L2,      15, BALLOON_FRAME_TYPE_BUC,            "Anyway I'm tired, so feed me something.<CR>Sigh, when I get back I have to clean up..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "………." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX3,     BUC_POSITION_TYPE_L2,      17, BALLOON_FRAME_TYPE_BUC,            "Ixel-kun? What's wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "...Hey.<CR>I might have come up with something amazing" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX3,     BUC_POSITION_TYPE_L2,      19, BALLOON_FRAME_TYPE_BUC,            "Something amazing?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "A way to make use of your popularity.<CR>Rorona, work at my shop starting today! How about it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX4,     BUC_POSITION_TYPE_L2,      21, BALLOON_FRAME_TYPE_BUC,            "At Ixel-kun's shop?<CR>N-no way.<CR>I have my own work to do..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "So you'll do alchemy<CR>at my shop" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX3,     BUC_POSITION_TYPE_L2,      23, BALLOON_FRAME_TYPE_BUC,            "Eh? Eh? Sorry, I don't really understand..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "The restaurant and atelier that compete for<CR>first or second in popularity in town<CR>are joining hands.<CR>It's going to be amazing..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "Alright, if that's decided, let's start moving.<CR>You too, little one, help out" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_EX1,      BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "Not \"little one,\" please call me Hom" },
+	// ▼The two leave the restaurant
+	{ BALLOON_MODE_CHASYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    27, BALLOON_FRAME_TYPE_NORMAL,         "W-wait just a second!<CR>I haven't even said I was going to do it...<CR>Wait, hey--!" },
+	// ▼Rorona chases after them and leaves
+	// ▼After a long black screen
+	// ▼Conversation only while on black screen
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    28, BALLOON_FRAME_TYPE_BUC,            "Here you go, sorry for the wait!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HAGERU,     0, NAME_HAGERU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    29, BALLOON_FRAME_TYPE_BUC,            "I've been waiting.<CR>Oh, that looks delicious" },
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    30, BALLOON_FRAME_TYPE_BUC,            "Be careful. It's Rorona's cooking,<CR>so even if it looks normal, don't let your guard down" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HAGERU,     0, NAME_HAGERU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    31, BALLOON_FRAME_TYPE_BUC,            "That's mean to say.<CR>Well then, thanks for the meal!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HAGERU,     0, NAME_HAGERU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    32, BALLOON_FRAME_TYPE_BUC,            "Ahguk... nmph? nmphg, g... guaaaaaaa!!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    33, BALLOON_FRAME_TYPE_BUC,            "Eh? O-oi! Old man! Are you okay!<CR>Hey, wake up!" },
+	// ▼Illustration display
+	// ★In the restaurant, Hageru collapsed eating the cooking, foaming at the mouth
+	// ▼While taking care of Hageru, Ixel yells at Rorona
+	// ▼Rorona stirring the alchemy cauldron installed in the restaurant, laughing as if to cover things up
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    34, BALLOON_FRAME_TYPE_BUC,            "Rorona! What did you feed him!?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    35, BALLOON_FRAME_TYPE_BUC,            "Eh? Well, um, ahahaha.<CR>...I thought maybe he'd be okay<CR>since he's a tough guy..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    36, BALLOON_FRAME_TYPE_BUC,            "He's clearly not okay!<CR>Old man!!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HAGERU,     0, NAME_HAGERU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    37, BALLOON_FRAME_TYPE_BUC,            "...hehe, uhehehehe...<CR>wow, my hair is so fluffy..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    38, BALLOON_FRAME_TYPE_BUC,            "Wake up! Open your eyes!<CR>Hey, Rorona!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    39, BALLOON_FRAME_TYPE_BUC,            "I-it's fine, it's fine.<CR>I'll make an antidote right away" },
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    40, BALLOON_FRAME_TYPE_BUC,            "Antidote? Is your cooking even food or poison..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    41, BALLOON_FRAME_TYPE_BUC,            "I-it's not!<CR>It just accidentally turned into poison from a failure!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    42, BALLOON_FRAME_TYPE_BUC,            "Umm, the antidote materials are, let's see...<CR>Ah, maybe I'll try using this ingredient over here" },
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    43, BALLOON_FRAME_TYPE_BUC,            "Make it normally! Normally!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_120_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_120",// Output file name
+	MZ02_120_EMS,           // The above variable
+};

@@ -1,0 +1,23 @@
+BalloonData MM04_530_EMS[] = {
+	// ▼When visiting Tifana's store
+	// ★※When entering the shopping screen and leaving
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Huh? Tifana-san.<CR>The Magic Glasses are<CR>already sold out?" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_KANA,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Yes, that's right.<CR>A customer has been coming to the shop first thing in the morning,<CR>and buying everything..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "I see... that's too bad.<CR>I was planning to use them...<CR>Do I need to gather them myself?" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Ah, if you're going to gather them,<CR>could you perhaps spare some for my shop?" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "I can buy them at a higher price right now" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Really?" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_WARA,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Yes. Since they'll sell at a premium anyway,<CR>wouldn't it be better to earn a little extra?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Sigh..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(She's definitely a businesswoman through and through...<CR>when it comes to stuff like this...)" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Understood.<CR>I'll bring some if I have extra" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Yes. Please do" },
+	// ▼Event result: Magic Glasses remain sold out for a while. In exchange, selling price increases
+	// ★※There might be an event where the minister gets angry
+};
+
+BALLOON_DATA_ALL MM04_530_bda = {
+	"MM04",                 // Output file path
+	"EVENT_MESSAGE_MM04_530",// Output file name
+	MM04_530_EMS,           // Above variable
+};

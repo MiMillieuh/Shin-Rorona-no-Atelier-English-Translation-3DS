@@ -1,0 +1,17 @@
+BalloonData MM08_050_EMS[] = {
+	// ▼Rorona called to the castle on the day of the announcement
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "He's late, Sterk-san.<CR>I wonder if he's busy again this year..." },
+	// ▼After a while. Sterk comes running in a hurry
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Haa, haa... sorry.<CR>I was... late... again..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "A-are you okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "I'm fine...<CR>Not really fine, but I'm fine" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "We're short on time, so let me get right to it...<CR>We requested stage equipment for the<CR>Kingdom Festival this year. Now then..." },
+	// ▼↓
+};
+
+BALLOON_DATA_ALL MM08_050_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_050",// Output file name
+	MM08_050_EMS,           // Variable above
+};

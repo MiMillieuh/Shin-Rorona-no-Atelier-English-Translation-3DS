@@ -1,0 +1,11 @@
+﻿BalloonData MZ02_660_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_CHARA,  CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "Dummy" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_660_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_660",// Output file name
+	MZ02_660_EMS,           // Variable name
+};

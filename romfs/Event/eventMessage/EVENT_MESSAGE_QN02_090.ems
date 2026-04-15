@@ -1,0 +1,62 @@
+﻿BalloonData QN02_090_EMS[] = {
+	// ★※これもおそらくホム絡みということで、後で移す
+	// ▼両親からのお土産イベントを１回以上見ていて、かつホムがいる状態
+	// ▼ロロナの留守中、両親がアトリエに
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_WARA,   BUC_POSITION_TYPE_R2,       0, BALLOON_FRAME_TYPE_BUC,            "Hey there, Rorona!<CR>We brought you more souvenirs... oh my?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Welcome." },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_ODO,    BUC_POSITION_TYPE_R2,       2, BALLOON_FRAME_TYPE_BUC,            "Oh, h-hello there.<CR>Umm, is Rorona not home, I wonder?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Master has gone out shopping.<CR>Hom has been entrusted with watching the house." },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_NOR,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "By 'Master', do you mean Rorona?<CR>And your name is Hom-chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Yes. Hom is Hom from 'Homunculus'." },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_SIN,    BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "Homunculus... what's that?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_SIN,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Don't ask me...<CR>But if you call Rorona 'Master',<CR>does that make you Rorona's apprentice?" },
+	// ▼一応男女で分岐
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "That is incorrect. Hom is Master's little brother." },
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "That is incorrect. Hom is Master's little sister." },
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_WARA,   BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "Oh, is that so... hmm? Rorona's..." },
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_ODO,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Little brother?" },
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_ODO,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Little sister?" },
+	// ▼夫婦、お互いの方を向いて同時に
+	// ▼BUC、L2に父の真剣、R2に母の怒り
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_PARENTS,     BUC_RORO_PA_SIN,    BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC_SHOUT,      "You!! When did this happen!?<CR><CR>Honey!! When did this happen!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_IKA,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Dear!! When did this happen!?" },
+	// ▼黒画面でしばし時間経過
+	// ▼ロロナがアトリエに帰ってくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "I'm home~. Sorry I'm la—..." },
+	// ▼両親が同時にロロナに駆け寄ってくる
+	// ▼二人同時に。BUC、R2に父の真剣、Rに母の怒り
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_SIN,    BUC_POSITION_TYPE_R2,      16, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Rorona!!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_IKA,    BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Rorona!!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Whoa!? You startled me!<CR>You both came to visit!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_SIN,    BUC_POSITION_TYPE_R2,      19, BALLOON_FRAME_TYPE_BUC,            "Rorona's coming home with Daddy, right!?<CR>Isn't she!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_SIN,    BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "What are you saying! If you follow this cheating husband,<CR>you'll only end up miserable!<CR>You'll come with Mommy, won't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Wha!? W-what? You can't just spring that on me all of a sudden!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_SIN,    BUC_POSITION_TYPE_R2,      22, BALLOON_FRAME_TYPE_BUC,            "Who's the cheater here!<CR>I keep telling you, I don't know anything about this!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_IKA,    BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Don't play innocent with me!<CR>The evidence is standing right here in front of us,<CR>and you still say that!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_SIN,    BUC_POSITION_TYPE_R2,      24, BALLOON_FRAME_TYPE_BUC,            "Those are my words to say! You're the one who—!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_IKA,    BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "My goodness!<CR>Are you saying you can't even trust your own wife!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "W-w-wait,<CR>can you both please just calm down—!" },
+	// ▼そんな親子のやり取りを傍観しているホムと師匠
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "Grand Master. Did Hom say<CR>something wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "Indeed. I don't mind trouble or accidents,<CR>but driving a wedge into a happy marriage<CR>does leave a slightly bad taste." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "I am sorry.<CR>There are still many things<CR>that Hom doesn't understand." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "Never mind. I am the root cause, after all.<CR>I'll step in to mediate once they've cooled down a bit." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    31, BALLOON_FRAME_TYPE_BUC,            "Master!<CR>Stop standing there watching and please help me—!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    32, BALLOON_FRAME_TYPE_BUC,            "Come on, Rorona! You're coming with me!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    33, BALLOON_FRAME_TYPE_BUC,            "Absolutely not!<CR>Rorona is living with me!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    34, BALLOON_FRAME_TYPE_BUC,            "Ow, ow!<CR>Stop pulling me from both sides—!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "Will Master's body hold out until they cool down?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "She'll be fine.<CR>Despite appearances, her body is quite resilient." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    37, BALLOON_FRAME_TYPE_BUC_SHOUT,      "M-my body is being torn apart—!<CR>H-heeeelp meeeee—!!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN02_090_bda = {
+	"QN02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN02_090",// 出力ファイル名
+	QN02_090_EMS,           // 上記変数
+};

@@ -1,0 +1,53 @@
+BalloonData YM05_110_EMS[] = {
+	// ▼苦悩の騎士が発生している（しばらく経過）
+	// ●ジオの持論が発生している
+	// ▼王宮廊下に行くと発生
+	// ▼ステルクが頭を抱えている
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Haa..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "What should I do" },
+	// ▼ロロナ|月てくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "What's wrong, Sterk-san?<CR>You're sighing like that" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Oh, it's you.<CR>I made quite a fool of myself, didn't I" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Is something on your mind?<CR>If it's something I can help with, I'll lend an ear" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Hmm, whether or not the answer to that<CR>would come from asking someone else... wait" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "...What do you think a knight is supposed to be?<CR>For example... someone who protects others?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "...I can't think of anything else, though.<CR>Isn't a knight someone who protects<CR>the townspeople,<CR>I wonder?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Yes, the townspeople... THE TOWNSPEOPLE!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Huh? Isn't that right?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "A knight's job is to protect the king.<CR>Not the townspeople" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "So then, who protects the townspeople<CR>, I wonder?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "That's...<CR>Hmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_WARA,       BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "Ha ha ha - that's far enough" },
+	// ▼ジオ登場
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_L2,      14, BALLOON_FRAME_TYPE_BUC,            "I heard the whole conversation.<CR>It looks like you've lost" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Wh-what...!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Oh, Gio-san. Were you listening,<CR>, I wonder?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,      17, BALLOON_FRAME_TYPE_BUC,            "I've known about your troubles for a while now.<CR>And yet here you are, being taught the same thing<CR>by a young girl. How long are you going to keep worrying?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "But!<CR>A knight's duty is to protect the king!<CR>That is indisputable!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_L2,      19, BALLOON_FRAME_TYPE_BUC,            "You're quite stuck in your old ways,<CR>aren't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L2,      20, BALLOON_FRAME_TYPE_BUC,            "Besides, there have been knights in the past who protected<CR>ladies of noble birth, not just the king. The king isn't the only one" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,      22, BALLOON_FRAME_TYPE_BUC,            "There are plenty of others out there for you to protect,<CR>aren't there?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,      23, BALLOON_FRAME_TYPE_BUC,            "For example, the people of the country. Not a specific person,<CR>but all the people of the country as a whole.<CR>I think that's a fine way to be a knight, don't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,      24, BALLOON_FRAME_TYPE_BUC,            "Eliminating threats to the country's people and giving them peace<CR>is also a knight's duty, isn't it?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "...You're right" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,      27, BALLOON_FRAME_TYPE_BUC,            "Very well. Then what will you do?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "...There are still many threats remaining in Arland.<CR>I've reconsidered my position somewhat,<CR>and I think I'll start by defeating those" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_L2,      29, BALLOON_FRAME_TYPE_BUC,            "That's good enough for me.<CR>Then go at it with full force" },
+	// ▼ジオ、立ち去る
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "From a knight who only protects the king,<CR>to a knight who protects everyone -<CR>Yes, this is it...!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "...Thanks to you,<CR>a light has begun to shine through. My thanks" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "No, I just had a conversation with you... and that's about it, ehehe" },
+	// ▼ステルク去る
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       34, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       35, BALLOON_FRAME_TYPE_BUC,            "(It looks like Gio-san was able to talk some sense into him,<CR>　but I guess he's convinced...<CR>　That's fine, right?)" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM05_110_bda = {
+	"YM05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM05_110",// 出力ファイル名
+	YM05_110_EMS,           // 上記変数
+};

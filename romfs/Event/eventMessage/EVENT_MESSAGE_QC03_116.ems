@@ -1,0 +1,27 @@
+BalloonData QC03_116_EMS[] = {
+	// ▼イクセルを連れて夜の領域に来た時・初回
+	// ★※↑のイベントを見ていること
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Another dark, damp place..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Yeah, it's a strange place." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "When I heard rumors, I expected to find<CR>something rare,<CR>but to think it would be a place like this..." },
+	// ▼ごそごそと辺りを調べるイクセル
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_AKI,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "As expected, it's mushrooms. Sigh..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "It's a mushroom... Oh, but<CR>this one looks better than the last one.<CR>I think!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Is that so? They look about the same to me." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "That's not true!<CR>I'm sure it'll be delicious if cooked properly." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Besides, mushrooms are healthy,<CR>and girls love them!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "You're really singing their praises.<CR>Are you that into mushrooms?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Not really, but<CR>I feel kind of sorry for them..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Hmm... Alright.<CR>If you insist that much,<CR>maybe I'll think of a mushroom dish." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Really? I'll look forward to it!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Well, don't get your hopes up.<CR>They are just mushrooms, after all." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLGR>Mysterious Mushroom<CLNR> was obtained." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC03_116_bda = {
+	"QC03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC03_116",// 出力ファイル名
+	QC03_116_EMS,           // 上記変数
+};

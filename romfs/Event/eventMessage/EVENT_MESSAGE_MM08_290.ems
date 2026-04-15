@@ -1,0 +1,36 @@
+BalloonData MM08_290_EMS[] = {
+	// ▼When trying to invite Geou to go gathering
+	// ★────────────────────────────────────────
+	// ▼When winning the championship by beating Geou
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "...Geou is late.<CR>I wonder what happened..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "My apologies...<CR>It seems I made you wait..." },
+	// ▼Geou comes staggering in
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Oh, Geou. Finally... wait,<CR>you look really tired though" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "No, it's nothing serious.<CR>I was just swinging my sword<CR>outside town since yesterday..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Since yesterday?! That's a big deal!<CR>Why would you... never mind helping me,<CR>please rest a bit!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I'm fine. At this rate,<CR>I'll still never catch up to you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Huh? To me?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "That's not what I meant. Now then, shall we get going?" },
+	// ▼Geou walks ahead
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Ah, wait!<CR>Please don't overdo it. Geou!" },
+	// ▼
+	// ★────────────────────────────────────────
+	// ▼When losing to Geou
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Oh, Geou.<CR>I look forward to working with you today" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Ah... by the way,<CR>is it really safe for you to be going outside town?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Huh? Why do you ask?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "You just finished<CR>such an intense battle at the martial arts tournament.<CR>I thought you might still have injuries or fatigue..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Oh, I'm fine.<CR>My body is pretty tough, you know.<CR>Let's go" },
+	// ▼Rorona walks ahead
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Hmm... she really went all out in that fight.<CR>If I let my guard down, she might really surpass me<CR>in just two or three years" },
+	// ▼
+	// ★────────────────────────────────────────
+	// ▼
+};
+
+BALLOON_DATA_ALL MM08_290_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_290",// Output file name
+	MM08_290_EMS,           // Above variable
+};

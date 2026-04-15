@@ -1,0 +1,63 @@
+BalloonData QC06_190_EMS[] = {
+	// ▼↑のあとしばらく経過後、ロロナがアトリエにいる時
+	// ▼ジオがアトリエを訪ねてくる
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Excuse me" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Waaah, w-welcome...!<CR>Um, Gio... I mean, Gio-sama?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Aaaah, something's wrong with me.<CR>Um, um..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Please don't worry about it.<CR>I'd like you to treat me the same as always.<CR>Bowing like this" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "S-so please stop bowing!<CR>Uwaaah, what should I do!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "You don't need to grovel before a man like this.<CR>This guy's just a hobbyist king who's slacking off<CR>from his actual duties, you know" },
+	// ▼師匠が出てきて会話にまざる
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "That's harsh.<CR>I'm not exactly doing this because I want to,<CR>you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Um... Did you know, Master?<CR>That Gio is the King" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "Yes. When I was young,<CR>I met him a few times with my master" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Master's master and... wait,<CR>if you knew, why didn't you tell me!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L2,      10, BALLOON_FRAME_TYPE_BUC,            "It wouldn't be fun if I told you, would it?<CR>I was carefully biding my time,<CR>waiting for the perfect moment to reveal it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "You didn't need to wait for that!<CR>That kind of thing!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Ah, I can see you two get along well,<CR>so I'd appreciate it if you could listen to what I have to say" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "A man's jealousy is unsightly.<CR>But even with a royal order,<CR>Rorona wouldn't do it anyway" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      14, BALLOON_FRAME_TYPE_BUC,            "Having my precious things<CR>taken away so many times... I won't stand for it" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "...I can't tell if your sarcasm is<CR>serious or a joke, so it's hard to deal with" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      16, BALLOON_FRAME_TYPE_BUC,            "That wasn't sarcasm, it was a retort.<CR>The ratio of serious to joking is about 3:7,<CR>if I had to say" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Um... what are you guys talking about?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      18, BALLOON_FRAME_TYPE_BUC,            "Just boring adult talk" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      19, BALLOON_FRAME_TYPE_BUC,            "So, what business does the King of this country<CR>have in this tiny atelier that could blow away<CR>in a strong wind?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "That's what I'm saying, can't you phrase it differently... fine, never mind" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "First, I wanted to apologize again<CR>for deceiving you.<CR>Bowing like this" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Please stop! It's fine!<CR>I'm the one who should apologize for making<CR>the King help out and such" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Really, I could be sentenced to execution by beheading<CR>and I wouldn't have any room to complain!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Execution by beheading?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,      25, BALLOON_FRAME_TYPE_BUC,            "She's just influenced by a book she read recently.<CR>Please ignore it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "Anyway, so, um...<CR>We're even! We're even!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "Even, is it... that's a good way to think about it" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "If we're even, then neither of us<CR>has anything to worry about" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "That's right, yes! ...Wait, what?<CR>Am I being unreasonably bold?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "Good. Then let's continue as before,<CR>shall we? Our relationship hasn't changed" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "I'm just an ordinary old man,<CR>and I'll keep helping with your work as usual.<CR>Yes, that way there's no problem" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       32, BALLOON_FRAME_TYPE_BUC,            "Eh? But that means..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "Is that not okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       34, BALLOON_FRAME_TYPE_BUC,            "If that's what you want, it's fine with me...<CR>But there's one thing I want to ask" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       35, BALLOON_FRAME_TYPE_BUC,            "Why do you keep<CR>helping me?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       36, BALLOON_FRAME_TYPE_BUC,            "It's really just coincidence, I suppose.<CR>Or fate, if you prefer" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       37, BALLOON_FRAME_TYPE_BUC,            "I just happened to meet you,<CR>and when I saw you, I wanted to help.<CR>That's all" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      38, BALLOON_FRAME_TYPE_BUC,            "Taking the long way around, aren't you?<CR>You're in a position where you could order Rorona out of all this trouble with a single command, yet you're dancing around it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       39, BALLOON_FRAME_TYPE_BUC,            "Most of my suffering is Master's fault anyway..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       40, BALLOON_FRAME_TYPE_BUC,            "Indeed, if I gave an order as King,<CR>it would be a simple matter" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       41, BALLOON_FRAME_TYPE_BUC,            "But would she actually accept it, I wonder?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       42, BALLOON_FRAME_TYPE_BUC,            "Eh, me? Um..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       43, BALLOON_FRAME_TYPE_BUC,            "I can't say it well, but... maybe not..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       44, BALLOON_FRAME_TYPE_BUC,            "Yes, exactly" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,      45, BALLOON_FRAME_TYPE_BUC,            "I know without being told.<CR>I am Rorona's master, after all" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       46, BALLOON_FRAME_TYPE_BUC,            "I see. Well then, feeling somewhat lighter in heart,<CR>I'll take my leave for today. Farewell" },
+	// ▼帰っていくジオ
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,      47, BALLOON_FRAME_TYPE_BUC,            "Hmph, leaving with a satisfied smile... how unpleasant" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       48, BALLOON_FRAME_TYPE_BUC,            "...What an odd king.<CR>Gio, I mean..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      49, BALLOON_FRAME_TYPE_BUC,            "Agreed. As long as someone like him sits on the throne,<CR>this country will manage nothing more than peaceful times, I suppose" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_190_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_190",// 出力ファイル名
+	QC06_190_EMS,           // 上記変数
+};

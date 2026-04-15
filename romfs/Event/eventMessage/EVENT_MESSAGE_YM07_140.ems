@@ -1,0 +1,20 @@
+BalloonData YM07_140_EMS[] = {
+	// ▼タイムカプセルリアクション
+	// ▼トトリア風ブランチが届いた場合
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_WARA,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, isn't this the Totori-style branch! How nostalgic!" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_ODO,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "What is that?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "It's a dish I used to make. It's my original recipe, you know." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I first made it for a cooking contest..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_IKA,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "A cooking contest! That's amazing!" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_TERE,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Yeah. And after winning it, it's been my specialty ever since. Ah, thinking back makes me so nostalgic." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "...But why is it here?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Hmm...? Could it be that Astrid made it..." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Imitation or not, to actually recreate it... as expected of Astrid!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM07_140_bda = {
+	"YM07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM07_140",// 出力ファイル名
+	YM07_140_EMS,           // 上記変数
+};

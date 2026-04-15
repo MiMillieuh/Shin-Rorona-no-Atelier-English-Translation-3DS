@@ -1,0 +1,28 @@
+ BalloonData MZ01_100_EMS[] = {
+	// ★お酒のイベント見てること条件で
+	// ▼最後の台詞で分岐させる。最初に来たか否かで（アストリッドのとこに行くのを促す台詞
+	// ▼最初に来た時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Tifana-san, Tifana-san!" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Rorona-chan. You took so long to come,<CR>I was starting to worry.<CR>But looking at your face..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Yes! I passed!<CR>I can keep running the atelier" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_WARA,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Yes! Thank goodness!<CR>...Oh, I feel so relieved<CR>my energy just drained out of me" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Sorry. It seems I made you worry" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "No, no, it's fine.<CR>Congratulations, Rorona-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_WARA,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Since it's a celebration,<CR>how about we open a special bottle?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Eeeeh? Ahhh, um,<CR>shouldn't we maybe not drink...?" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_KANA,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Oh? And why not?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Well, you know...<CR>Tifana-san loses her memory when she drinks!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "I want you to remember today<CR>and what I'm feeling right now..." },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_WARA,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Hmm... You're right.<CR>If you say so, I'll hold back for today" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Phew... That's a relief..." },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "When you become a proper adult,<CR>let's drink together then, okay?<CR>Ah, I can't wait~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Uuu, I feel like I just made a really big promise..." },
+	// ★ここは分岐なしで
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ01_100_bda = {
+	"MZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MZ01_100",// 出力ファイル名
+	MZ01_100_EMS,           // 上記変数
+};

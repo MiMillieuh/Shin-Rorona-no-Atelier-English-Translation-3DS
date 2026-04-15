@@ -1,0 +1,30 @@
+BalloonData QC02_510_EMS[] = {
+	// ▼１年目か２年目の王国祭の前。
+	// ★メインに移行するかも
+	// ▼ジオと知り合っていて、ロロナが街にいる時
+	// ▼街中をきょろきょろしながら走り回っているステルク
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, it's Sterk. He's looking around nervously... Are you looking for someone?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, it's you. Have you seen His Majesty around here?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Huh? Huh? His Majesty?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Apparently not. Honestly, running away right before the Royal Festival..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Ehhh? He ran away?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Shh! Keep your voice down! It's not something we should be discussing publicly." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "S-sorry. But, the King... he's the most important person, right? Why would he run away?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Probably some trivial reason like being bored with the meetings." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "For a reason like that...?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "That's just how he is..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "In any case, if you find him, either let me know or help me catch him by force. I don't care if he gets a bit roughed up at this point." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "That's probably a bad idea..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Without that level of determination, catching him is impossible." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "So, I'm counting on you." },
+	// ▼急ぎ足で去っていくステルク
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Sterk seems to have his hands full." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Come to think of it, what kind of person is the King? I've never even seen his face..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_510_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_510",// 出力ファイル名
+	QC02_510_EMS,           // 上記変数
+};

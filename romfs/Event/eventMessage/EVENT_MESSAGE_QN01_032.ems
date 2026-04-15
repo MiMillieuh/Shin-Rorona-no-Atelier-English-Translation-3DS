@@ -1,0 +1,15 @@
+BalloonData QN01_032_EMS[] = {
+	// ▼※一度失敗した後に、高品質を作った場合
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Alright, did I make it tasty this time?<CR>Let me try it... *chomp*" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            ".........Yeah, it's delicious!<CR>Alright, I think I'm getting the hang of it!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "I wonder if I can make the other pies...?<CR>Alright, let me try making<CR>all the pies I've made before!" },
+	// ▼パイのレシピが４つ追加される
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You obtained the reference book<CLGR> 'Pie Basics' <CLNR>!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_032_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_032",// 出力ファイル名
+	QN01_032_EMS,           // 上記変数
+};

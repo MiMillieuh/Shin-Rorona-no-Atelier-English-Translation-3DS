@@ -1,0 +1,26 @@
+BalloonData YM02_020_EMS[] = {
+	// ▼本篇中发生
+	// ●来自感叹肉太的连锁事件
+	// ●Sterk处于可以成为同伴的状态
+	// ▼进入王宫接待处时发生
+	// ●之后可以让艾斯蒂成为同伴
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, Rorona-chan.<CR>About what we talked about before" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "The talk we had...? What was it again?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "You know, about my body getting soft" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Oh right, we talked about that" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "If you're okay with it, could I tag along?<CR>No wait, let me come with you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Eh? But wasn't there work at the reception<CR>desk and you were complaining about it...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Fufu, that was the biggest issue, but I worked<CR>some behind-the-scenes magic and got more<CR>flexibility now!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "From now on I can go out with you,<CR>and I can train my body again too.<CR>So call me if you need anything, okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "If Estiy-san is okay with it, sure.<CR>...But are you really okay?<CR>There are some pretty dangerous enemies out there, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Aah, you don't trust my skills, do you?<CR>Don't let looks fool you, I'm pretty good.<CR>Let me show you for real if you call me" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can now hire Estiy." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM02_020_bda = {
+	"YM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM02_020",// 出力ファイル名
+	YM02_020_EMS,           // 上記変数
+};

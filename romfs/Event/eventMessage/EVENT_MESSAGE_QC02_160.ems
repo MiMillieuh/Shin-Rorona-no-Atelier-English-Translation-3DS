@@ -1,0 +1,53 @@
+BalloonData QC02_160_EMS[] = {
+	// ▼↑↑の後、数週間経過後
+	// ▼ロロナがアトリエにいる時
+	// ▼ドアがノックされる音
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Coming~ Oh, Sterk!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Been a while. I've fully recovered, so I came to say hello." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "That's great... If you'd stayed injured like that, I..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "No crying today, please." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Yes... But I'm really glad you're okay." },
+	// ▼ひょっこり師匠が顔を出して
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "Oh, you're alive. Tougher than I thought, Sterkenberg." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I told you not to call me that... Hmph, I'll let it slide today." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "I should thank you too. I owe you one." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "No need to mention it. I was well compensated for my services." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Compensation? I don't recall doing anything for you..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      10, BALLOON_FRAME_TYPE_BUC,            "You were unconscious, after all. But having an excuse to work on you sure opened a lot of doors." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "Stripping you bare and examining you was quite entertaining, I must say. Quite satisfying." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Wha...! You're impossible! Here I am, sincerely thanking you...!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "But time is cruel, isn't it? Ten years ago, your muscles were so supple... Now look at them, all hard and sinewy..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Eh...? M-Master. Ten years ago... you saw Sterk's body...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L2,      15, BALLOON_FRAME_TYPE_BUC,            "Oops. Not a story for the children, I suppose. Ask me again in five years for details." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Sterk..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "No! It's a misunderstanding! He's just phrasing things weirdly!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "He forced me to be his test subject for medicine against my will back then..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Forced you... against your will...!?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Don't react to that! Listen to the whole story...!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC_SHOUT,      "That's enoough! This is disgusting! Both of you!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L2,      22, BALLOON_FRAME_TYPE_BUC,            "Hm? Rorona?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Hey! Don't push! Let me explain...!" },
+	// ▼ロロナに追い出される師匠とステルク
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Haah, haah... I don't want to hear any more!" },
+	// ▼一方、アトリエの外に追い出された二人
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "Kuh... How did it come to this..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L2,      26, BALLOON_FRAME_TYPE_BUC,            "Well, I didn't expect Rorona to act like that toward me..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "Stop muttering! This is your fault!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,      28, BALLOON_FRAME_TYPE_BUC,            "No, I'd say it's your fault. Should I be happy or sad... What a complicated parental heart." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "What are you talking about? I don't understand a word." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      30, BALLOON_FRAME_TYPE_BUC,            "Just thinking out loud... Well, doesn't look like we're getting in today. Shall we go celebrate your recovery with a drink?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "...Are you asking a recovering patient to go drinking?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      32, BALLOON_FRAME_TYPE_BUC,            "Don't be such a stick in the mud. How often do I treat someone? Very rarely, you know." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "...Fine, then I have no reason to refuse." },
+	// ▼二人連れ立って歩き出す
+	// ▼イベント結果：再びステルクが雇えるように
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can hire Sterk again." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_160_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_160",// 出力ファイル名
+	QC02_160_EMS,           // 上記変数
+};

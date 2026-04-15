@@ -1,0 +1,54 @@
+BalloonData YM04_090_EMS[] = {
+	// ▼残念砂時計が発生している、多少時間経過後
+	// ●帰ってきた師匠が発生している
+	// ●オルトガラクセンに行っている
+	// ●アトリエで発生
+	// ●新規ダンジョン（オルトガラクセン深層）登場
+	// ●ここに古き竜の角を落とすドラゴン（色替え）がいる。
+	// ●竜は中ボスとして１体だけ 나오는でもいいし、
+	// ●保険をかねて新規ザコ（強いけど）として何体も��てくるでも可
+	// ▼アトリエにいるとステルク|月てくる
+	// ▼ドアをノックする音
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Excuse me. Is Astrid in?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Sterk? Oh, she's here" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I see. I'd heard she left on a journey and such,<CR>so I thought I'd check, since she usually<CR>isn't around all that much" },
+	// ▼アストリッド登場
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "What is all this noise? And if you're going to drop by,<CR>you could at least put on a less gloomy face.<CR>Today is not a good day" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Now, I thought I'd hear something like that. You never change, do you?<CR>...I came because I finished the investigation<CR>you asked me to do" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "Oh? Did I ask you to do something for me,<CR>I wonder?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "To be precise, it wasn't me but the castle.<CR>About the survey of the area around Orthogalaxen" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Based on the surrounding terrain, there should be<CR>ruins that are still buried and hidden...<CR>You remember, don't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "Ah, that. Yes, I did ask the castle to look into it. How did it go?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "An unexplored section of the ruins was found. It's not very big,<CR>but it appears to be untouched since the time<CR>it was built" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Whether it's part of Orthogalaxen or something else,<CR>I don't know, but apparently<CR>it's ruins from the same era" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "Oh? That's quite interesting" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "We've gotten permission to explore, so you can go freely.<CR>However, the ruins are quite old, so please be careful<CR>of collapses and such. And besides..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "...According to the advance party, it seems like<CR>a dragon-like creature has been spotted" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Personally, I wouldn't want to just waltz in there,<CR>but I'll leave it up to the individual to decide.<CR>Well then, excuse me" },
+	// ▼ステルク立ち|月る
+	// ●いったんここで暗転リセット
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Dragons, huh. This suddenly got troublesome.<CR>Hey, Rorona" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Yes yes. You want me to go in your place, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "As expected of my disciple. You're so quick on the uptake,<CR>I almost want to hug you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "This has happened before, though..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "You said there were unexplored areas, right? That means<CR>there's a high possibility that completely unknown<CR>materials are buried there. I'm counting on you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX1,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "But there are dragons there, you know..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "They're annoying because they're stubborn,<CR>but nothing to worry about, really.<CR>You don't need to worry about it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Even if you say that so easily..." },
+	// ▼二人、立ち去る
+	// ▼トトリ、メルル登場
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Dragons...?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "They said no one had ever entered,<CR>and that it was very old ruins, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "A dragon living in old ruins...<CR>That means it's probably an ancient dragon too" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KOMA,    BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "Could there be a Horn of the Ancient Dragon there...?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_SIN,     BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "That's very possible.<CR>We need to go at least once" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLBL>Orthogalaxen Deep<CLNR> can now be accessed." },
+	// ▼ゆっくり黒画面へ
+	// ▼
+};
+
+BALLOON_DATA_ALL YM04_090_bda = {
+	"YM04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM04_090",// 出力ファイル名
+	YM04_090_EMS,           // 上記変数
+};

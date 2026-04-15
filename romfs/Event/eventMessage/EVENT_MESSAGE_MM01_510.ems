@@ -1,0 +1,39 @@
+BalloonData MM01_510_EMS[] = {
+	// ▼一つ目の課題が終わった後。細かい発生タイミング未定
+	// ▼城のどこかで
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_NAZO,        BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Hey, you knight over there!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_NAZO,        BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Hey! I'm calling you. Can't you hear me, knight over there?!" },
+	// ▼呼び止められ振り返るステルク
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Minister... My name is Sterkenberg. It would be nice if you could remember that properly" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Hmph. I have no interest in remembering names like yours" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_HOHO,  BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Now then, what happened to that Atelier? Today was supposed to be the results announcement, wasn't it?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "They magnificentcally fulfilled our request" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_ODO,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "What...? You wouldn't happen to have gone easy on them, would you?" },
+	// ▼一つ目のクリア仕方によって分岐が必要…かも
+	// ▼まともにこなした場合
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "I merely deliver the results. I haven't conducted the evaluation myself. If you have doubts, why not see for yourself?" },
+	// ▼救済でこなした場合
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "T-there's no way I would do something like that!" },
+	// ▼共通
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Tch, how annoying. Those Atelier brats" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "If the King hadn't gone and said he would give them more time, I would have shut down that Atelier long ago" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Honestly! You little girls are always running around playing, but when it actually matters, you submit your reports..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Even for a minister, I cannot overlook such insults against the King" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Hmph, you clearly don't understand. Neither you nor the King does" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "If we converted the entire region where the Atelier stands into factory land and built a mass production system, just think of how much it would benefit the country..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Indeed, as a mere knight, I cannot comprehend such talk" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "However, since the minister himself accepted the King's proposal, isn't it improper to complain now?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Perhaps you thought they would fail soon anyway and were just waiting to see it happen" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Gah... Very well. You did well this time, but you'll surely slip up sooner or later" },
+	// ▼立ち去る大臣
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Whew, so he's backing down for today. He is a capable man, but sometimes his vision becomes extremely narrow, which is troubling" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "... He'll probably keep nagging me about things in the future too. If I'm going to be criticized either way, I might as well do things my way... Alright" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM01_510_bda = {
+	"MM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MM01_510",// 出力ファイル名
+	MM01_510_EMS,           // 上記変数
+};

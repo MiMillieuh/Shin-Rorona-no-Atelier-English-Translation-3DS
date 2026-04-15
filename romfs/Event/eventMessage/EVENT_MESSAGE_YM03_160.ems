@@ -1,0 +1,15 @@
+BalloonData YM03_160_EMS[] = {
+	// ▼全部のボスを倒すと発生
+	// ▼ボス退治直後に発生
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_SIN,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "...I wonder if most of the notable enemies<CR>around here are taken care of?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "I'm not sure, but I feel like<CR>we've taken down a lot" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_KAN,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Hmm, that's a bit lonely, I suppose.<CR>Maybe I'll have to think about going<CR>to other lands soon..." },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_NOR,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "If I'm going... there's a rumor about someone strong<CR>in the western border kingdom, and<CR>I hear the east is still unexplored, so maybe there?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM03_160_bda = {
+	"YM03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM03_160",// 出力ファイル名
+	YM03_160_EMS,           // 上記変数
+};

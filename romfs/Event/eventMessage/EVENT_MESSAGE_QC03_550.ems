@@ -1,0 +1,23 @@
+BalloonData QC03_550_EMS[] = {
+	// ▼ If the above event happened and you still didn't invite them for 3 years to late 3rd year
+	// ★Or if you invited them once or twice at first but then stopped
+	// ▼ Happens when you go to Iksel's shop
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hello...<CR>Oh? There are barely any customers?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_AKI,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "...What is it. Coming to a dump like this,<CR>what kind of eccentric are you, oh wait, it's you." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Iksel! What happened?<CR>You look down, and your complexion's bad.<CR>And the shop is..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_AKI,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "...I've just lost all motivation, I guess." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Why? Iksel, you used to love cooking so much." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_KANA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I'm just sick of it.<CR>Making the same dishes with the same ingredients every day..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_KANA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I started thinking, why am I even cooking in the first place..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Don't say things like that... Oh. Maybe it's because<CR>I haven't invited Iksel at all this whole time..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_AKI,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Who knows, the cause doesn't matter anymore at this point...<CR>Yaaawn... I've got nothing to do,<CR>might as well go take a nap." },
+	// ▼ Iksel retreats to the back of the shop
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Iksel's become a total failure...<CR>Could it be my fault..." },
+	// ▼ Event result: NPCs disappear from the shop
+};
+
+BALLOON_DATA_ALL QC03_550_bda = {
+	"QC03",                 // Output file path
+	"EVENT_MESSAGE_QC03_550",// Output file name
+	QC03_550_EMS,           // Above variable
+};

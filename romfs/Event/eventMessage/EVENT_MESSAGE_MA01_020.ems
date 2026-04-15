@@ -1,0 +1,65 @@
+BalloonData MA01_020_EMS[] = {
+	// ▼アトリエに入ってくる主人公
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "I'm back—" },
+	// ▼アトリエ内を軽く見回して（可能なら、持ってた買い物袋をテーブルに置く、とか
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Master isn't back yet...<CR>Every single day, where could she be running off to?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Well, it's quieter when she's not here anyway.<CR>If she's here, she'll lecture me<CR>or tease me..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "It's not like we're getting any customers today anyway, so I don't need Master to be here..." },
+	// ▼アトリエのドアがノックされる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Oh, is that her back?<CR>Wait, but there's no way Master would knock..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_NAZO,        BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Excuse me" },
+	// ▼アトリエにお城の騎士（ステルク）が入ってくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Huh? Um, who might you be...<CR>Wait! C-could it be, a customer?!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "No way! W-w-w-what do I do!<CR>Um, let me see, um...oh, um, you see!<CR>The shopkeeper is away right now..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Wait, but I AM the shopkeeper...well, sort of! What I mean is, the owner—<CR>I mean, Master is away..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Ah! Look at me!<CR>Not offering tea to a guest..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Please, let's continue this inside...wait, you're already inside!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_NAZO,        BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "...Perhaps you should calm down first" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Ah, s-sorry about that.<CR>I need to calm down...calm down, me" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Right, when I'm like this, I should take deep breaths!<CR>Breath in, breath out, breath in, haaaa..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_NAZO,        BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Better now?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Y-yes. Thanks to you, somehow" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_NAZO,        BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Good. Now then, I am not a customer.<CR>I came here today on behalf of the castle" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "From the castle...did you say?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_NAZO,        BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "That's right. Astrid...<CR>The owner isn't here, is she?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Yes.<CR>I don't know where she went, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_NAZO,        BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "I see...then I have no choice.<CR>Please give her this message" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Oh, wait a moment please.<CR>Let me get something to write with...okay, ready!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_NAZO,        BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "By order of the Minister and the King,<CR>the shop permit for this Atelier<CR>will be revoked" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "The shop permit will be revoked...<CR>EEEEEEEH?!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_NAZO,        BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "For details, she must speak directly.<CR>Tell her to come to the castle when she returns.<CR>Now if you'll excuse me" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "W-wait! You can't just tell me something like that!" },
+	// ▼アトリエから立ち去るステルク
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "Ahhh, they're gone...<CR>Having the shop permit revoked...<CR>does that mean the Atelier is going to close...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "Waaaaah! W-w-what do I do?!<CR>Is this my fault?! Is it?!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "Why does this always happen when Master isn't here...<CR>Waaa! Please come home already!" },
+	{ BALLOON_MODE_CHARA,  CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    29, BALLOON_FRAME_TYPE_NORMAL,         "Hmm, I suppose I couldn't just leave you crying and hoping for the best" },
+	// ▼いつの間にかいる（隣の部屋からひょっこり出てくる）アストリッド
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "He...hyaaa!<CR>M-Master, when did you get there?!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "When did I...I was just sleeping in the next room the whole time..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "And I've told you many times to call me 'Big Sister' instead of 'Master'" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "That's embarrassing, so no thank you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       34, BALLOON_FRAME_TYPE_BUC,            "But this isn't the time for that!<CR>Someone from the castle just came by, and—" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "No need to say more. I heard everything" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "Oh, you heard...wait, if you heard everything,<CR>why didn't you come out?!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_R,       37, BALLOON_FRAME_TYPE_BUC,            "My bad, my bad.<CR>Watching my dear disciple run around in a panic<CR>was more endearing than I expected, so I couldn't help myself" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       38, BALLOON_FRAME_TYPE_BUC,            "But revoking the shop permit, huh?<CR>Well, well..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       39, BALLOON_FRAME_TYPE_BUC,            "'Well, well' isn't going to cut it!<CR>Hurry up and go to the castle<CR>to get the details" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       40, BALLOON_FRAME_TYPE_BUC,            "The castle, huh...I'm not particularly thrilled about that.<CR>Would you go in my place?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       41, BALLOON_FRAME_TYPE_BUC,            "That won't do.<CR>They specifically asked for you, Master" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       42, BALLOON_FRAME_TYPE_BUC,            "No thank you. I'm still sleepy.<CR>Well then, I'm counting on you" },
+	// ▼隣の部屋に入って鍵をかけて閉じこもる師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       43, BALLOON_FRAME_TYPE_BUC,            "Hey! Master, you can't just—wait!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       44, BALLOON_FRAME_TYPE_BUC,            "Ehh...do I really have to go...?<CR>Come on..." },
+	// ▼イベント終了
+	// ▼セーブポイントをカメラでアップにして
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "When you examine the diary on the desk,<CR>you can save and load game data." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "This game supports cross-save.<CR>You can share your game progress<CR>between different platforms." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA01_020_bda = {
+	"MA01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA01_020",// 出力ファイル名
+	MA01_020_EMS,           // 上記変数
+};

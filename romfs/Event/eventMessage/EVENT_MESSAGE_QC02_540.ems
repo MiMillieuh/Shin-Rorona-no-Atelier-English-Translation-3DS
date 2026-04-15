@@ -1,0 +1,24 @@
+BalloonData QC02_540_EMS[] = {
+	// ▼↑のイベントの後、次の課題の時
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Excuse me. I came to check on the request progress, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Welcome, Sterk—" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Ah! The pigeon! You really brought it!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I promised I would. Now, about the request..." },
+	{ BALLOON_MODE_BUC,    CHARA_CAT_A,      0, NAME_DOVE,        BUC_DOVE_NOR,       BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "Coo-coo!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "It said coo-coo! It's so cute. I want to keep it..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "We can talk about the pigeon later. First..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Oh, right! Do pigeons eat cookies? I made some yesterday!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Ah, it likes sweet things, so..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "I'll be right back! Wait for me, Mr. Pigeon!" },
+	{ BALLOON_MODE_BUC,    CHARA_CAT_A,      0, NAME_DOVE,        BUC_DOVE_NOR,       BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "Coo-coo?" },
+	// ▼アトリエの奥に走っていくロロナ
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "...This isn't a good time to talk. Bringing it here may have been a mistake." },
+	{ BALLOON_MODE_BUC,    CHARA_CAT_A,      0, NAME_DOVE,        BUC_DOVE_NOR,       BUC_POSITION_TYPE_R2,      12, BALLOON_FRAME_TYPE_BUC,            "Coo-coo?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_540_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_540",// 出力ファイル名
+	QC02_540_EMS,           // 上記変数
+};

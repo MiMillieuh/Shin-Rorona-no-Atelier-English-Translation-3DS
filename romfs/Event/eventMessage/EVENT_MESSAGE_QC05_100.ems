@@ -1,0 +1,31 @@
+BalloonData QC05_100_EMS[] = {
+	// ▼2-3 requests after being able to recruit
+	// ▼When Tantoris is a companion and you're about to go gathering
+	// ▼In the minister's room or somewhere in the castle
+	// ▼Tantoris visits the minister
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "What is it? Summoning me like this.<CR>I have a date planned, so<CR>let's make this quick" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "A date, you say...?<CR>You haven't forgotten your role,<CR>have you?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Of course not.<CR>Isn't it to charm the atelier owner?<CR>And that's what I'm doing..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Wrong! It's to SHUT DOWN that atelier!<CR>Honestly, why did I even bother calling you back..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Just joking. But you know,<CR>being mean to girls really goes against my principles" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Your principles are none of my concern!" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Converting that whole district to factories would boost the city's productivity so much.<CR>Do you have any idea how much good it would do!?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "One or two factories wouldn't<CR>make that much of a difference" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Besides, a town filled with factories?<CR>Wouldn't want to live there myself" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Hmph, a fool like you wouldn't understand" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Fine then. If you won't do it willingly,<CR>I won't hesitate in my methods either.<CR>...Use this" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "...What? This suspicious-looking medicine is?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_HOHO,  BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Medicine, food, anything works.<CR>Put it in whatever the atelier makes.<CR>You could even give it to the girl directly" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Wow, what a proper villain move" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Make sure no one finds out it was you" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "I'll be careful. By the way,<CR>is there any of this medicine in reserve?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "No, it's not something we have lying around.<CR>So absolutely no mistakes..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Oh, I see. Well then, I'll handle it carefully" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_100_bda = {
+	"QC05",                 // Output file path
+	"EVENT_MESSAGE_QC05_100",// Output file name
+	QC05_100_EMS,           // The variable
+};

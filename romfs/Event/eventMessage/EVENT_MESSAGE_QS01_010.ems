@@ -1,0 +1,9 @@
+﻿// キャラ・補助１・１
+BalloonData QS01_010_EMS[] = {
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,      0, NAME_RORONA,     BUC_RORONA_NOR,   BUC_POSITION_TYPE_NONE,   -1,    BALLOON_FRAME_TYPE_SYSTEM, "\"Arlvis Academy\" The pinnacle of alchemy education,<CR>floating on a remote island<CR>in the distant skies" },
+};
+BALLOON_DATA_ALL QS01_010_bda = {
+	"QS01",			// 出力ファイルパス
+	"EVENT_MESSAGE_QS01_010",		// 出力ファイル名
+	QS01_010_EMS,		// 上記変数
+};

@@ -1,0 +1,17 @@
+BalloonData MA02_140_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The Atelier has a storage container<CR>that can hold many more items<CR>than your basket can." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Items in the container cannot be used<CR>during gathering expeditions,<CR>but synthesis can be performed on them<CR>just like items in your basket." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "So, it would be more efficient to transfer items<CR>like materials that can't be used<CR>to the container whenever possible." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Also, when you return from gathering,<CR>you can optionally transfer all the materials<CR>you collected into the container." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "For more details, please check the container help<CR>section in the menu's encyclopedia." },
+	// ▼↑のメッセージ終了後に、汎用のメッセージ
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Would you like to transfer<CR>the gathered materials into the container?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA02_140_bda = {
+	"MA02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA02_140",// 出力ファイル名
+	MA02_140_EMS,           // 上記変数
+};

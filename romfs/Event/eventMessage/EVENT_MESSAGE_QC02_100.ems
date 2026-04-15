@@ -1,0 +1,23 @@
+BalloonData QC02_100_EMS[] = {
+	// ▼↑のイベントが起きた後、ステルクと一緒に噂の採取地へ
+	// ▼採取地に着いた時
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "...I'd appreciate an explanation." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "A-ah ha... You're still angry, aren't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I warned you not to go near this place. Don't you think I have a right to be upset when you ignore that?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Sorry... But I really needed those dragon scales, so..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "S-say something, please~" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "...Why did you invite me, knowing you'd get scolded?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "I didn't really think about it... I just automatically assumed Sterk would come with me like always..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "...I see. Just know, this is a really dangerous opponent. Are you prepared for that?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "It's not exactly courage or anything, but... I'll be fine! If things get scary, I'll run away with all I've got!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "...Fine, I understand. Just promise me you won't leave my side." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Yes!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_100_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_100",// 出力ファイル名
+	QC02_100_EMS,           // 上記変数
+};

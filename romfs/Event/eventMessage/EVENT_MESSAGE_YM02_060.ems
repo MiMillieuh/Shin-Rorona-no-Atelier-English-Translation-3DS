@@ -1,0 +1,29 @@
+BalloonData YM02_060_EMS[] = {
+	// ▼本篇中以后发生
+	// ●库德利亚、工作帮助发生
+	// ▼过一会儿去王宫接待处发生
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, so Cuderia-chan's here too this time.<CR>Thanks for last time, it helped a lot" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "Hmm, that was nothing special" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "What's going on? What are you talking about?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Oh, you didn't know, Rorona-chan?<CR>I've been having Cuderia-chan help out<CR>here sometimes" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Eh? Ku-chan is?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Yes, accepting requests.<CR>She's very punctual and clear about<CR>what she says, so I thought she'd be good at it" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "And just as I thought, she does a<CR>really good job,<CR>so I've been counting on her" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "Anyone could do that much.<CR>Are the castle people really that unreliable?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "There you go again with the modesty.<CR>With this, I can take a break anytime,<CR>so don't worry" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L2,       9, BALLOON_FRAME_TYPE_BUC,            "Wha-- I never heard about that!<CR>I'm a busy person, you know!<CR>I won't do it if I'm being pushed!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "So you're telling me to do this until<CR>I'm an old lady?<CR>That's cruel" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "Are you telling ME to do it until<CR>I'm an old lady!?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "See, here's the thing, before that happens,<CR>we just need to find the next person" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "Uaaargh!<CR>Don't say such ridiculous things!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Hehe, but seriously, I really do<CR>rely on you for various things" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Ku-chan can definitely do it.<CR>She seems perfect for it to me" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_L2,      16, BALLOON_FRAME_TYPE_BUC,            "...Hmph.<CR>W-well, depending on what it is,<CR>I might consider it" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM02_060_bda = {
+	"YM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM02_060",// 出力ファイル名
+	YM02_060_EMS,           // 上記変数
+};

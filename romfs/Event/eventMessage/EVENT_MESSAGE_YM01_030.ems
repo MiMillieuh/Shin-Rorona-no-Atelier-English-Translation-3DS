@@ -1,0 +1,21 @@
+BalloonData YM01_030_EMS[] = {
+	// ▼与同伴对话・艾斯蒂篇
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "This is the final request, isn't it?<CR>So, what do you think? Can you do it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Yes, well..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "You look kinda conflicted about it.<CR>Well, this assignment does look tough,<CR>I understand why you might not be confident..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "No, the request itself is fine, but...<CR>Ugh, it's hitting me that it'll all be over soon..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "I see. But thinking that way right now<CR>is a LITTLE premature, don't you think?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Huh?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "That's something to think about AFTER<CR>you've finished everything. Even if you fail, the trouble you've endured so far won't just DISAPPEAR" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "If anything, it'll be harder if you<CR>give up now after all this buildup. You'll be devastated. The end is the most important part" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Y-You're right..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "...Just kidding. I believe you can<CR>do it, Rorona-chan. So do your best!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Yes, thank you!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM01_030_bda = {
+	"YM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM01_030",// 出力ファイル名
+	YM01_030_EMS,           // 上記変数
+};

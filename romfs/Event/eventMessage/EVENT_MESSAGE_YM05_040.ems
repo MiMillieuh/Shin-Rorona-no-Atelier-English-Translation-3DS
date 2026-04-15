@@ -1,0 +1,33 @@
+BalloonData YM05_040_EMS[] = {
+	// ▼延長戦で発生
+	// ●イクセルと仲良くなっていなくても出る
+	// ▼イクセルに話しかける
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_KOMA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "......<CR>What's wrong, Yksel?<CR>You look spaced out" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Oh, is that you, Rorona.<CR>I was wondering who it was" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "That's my line.<CR>What's wrong? You don't seem like yourself" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_AKI,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Hmm, just a little something" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Are you thinking about something?<CR>If you're in trouble, want to talk about it?<CR>I might be able to help, if it's something I can do..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "It's not really the kind of thing you can ask someone else about,<CR>but... the owner of this shop,<CR>apparently they're planning to open a second shop in another location" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "In that case, the owner will be tied up with the new shop<CR>until it gets up and running on its own,<CR>so they won't be able to come by here as much, apparently" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "So what happens to this shop?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_AKI,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "...Apparently, I'm going to be the shop manager" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "What! You, Yksel!?<CR>That's amazing!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_KANA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Honestly though...<CR>You're asking me to manage a big shop like this?<CR>That's a huge responsibility." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "But you've always said you wanted<CR>to have your own shop someday and work hard<CR>to make it succeed, haven't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "That's true, but...<CR>If I was building my own small shop from scratch and slowly growing it,<CR>that would be one thing, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_AKI,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Being suddenly put in charge of someone else's big shop<CR>is a whole different story. If I mess up,<CR>there's no way I could face anyone,<CR>I wonder? It's a lot of pressure" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Now that you mention it...<CR>But I'm sure you'll be fine! After all,<CR>your cooking is delicious!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Oh, thanks. You know, hearing you say that<CR>made me feel a little better,<CR>I wonder" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "You're right - your cooking is really good, after all.<CR>And you've always got so many customers,<CR>so I don't think anything will change" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "You're right... I don't think I need to worry so much.<CR>Thanks - you're every bit my rival, aren't you!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "We're not rivals, though..." },
+	// ▼そのままショップモードへ
+	// ▼
+};
+
+BALLOON_DATA_ALL YM05_040_bda = {
+	"YM05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM05_040",// 出力ファイル名
+	YM05_040_EMS,           // 上記変数
+};

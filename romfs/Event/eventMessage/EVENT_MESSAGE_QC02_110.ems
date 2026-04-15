@@ -1,0 +1,19 @@
+BalloonData QC02_110_EMS[] = {
+	// ▼ステルクと一緒の時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Tiptoeing... Almost... H-h-here it goes!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "...That's some suspicious behavior. Honestly, if you're that scared, you shouldn't have come in the first place." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Well, that's... true, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "If you're defeated mentally before it even starts, you won't win even the battles you could win." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Sterk... Okay! Alright, I'll—" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Looks like our chitchat is over. Here it comes!" },
+	// ▼モンスターが近づいてくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Eh? Already? I'm still not mentally prep— Waaaaah!" },
+	// ▼戦闘開始
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_110_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_110",// 出力ファイル名
+	QC02_110_EMS,           // 上記変数
+};

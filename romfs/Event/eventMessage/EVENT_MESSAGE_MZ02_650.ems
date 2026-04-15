@@ -1,0 +1,24 @@
+﻿BalloonData MZ02_650_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R2,       0, BALLOON_FRAME_TYPE_BUC,            "Um... Rorona-chan" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_BUC,            "Mmm...? Rio-chan?<CR>What's wrong~?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R2,       2, BALLOON_FRAME_TYPE_BUC,            "Um, well...<CR>You didn't come see my play today either,<CR>so I was wondering what happened..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "Ah... Sorry.<CR>Going out is such a hassle~" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "That's..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Hey. Isn't that a bit too much?" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "We came all the way here.<CR>At least show your face, it's polite" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "P-Please, you two, stop it!<CR>Um... I'll come again" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_BUC,            "Okay, see you~" },
+	// ▼Lionela leaving the atelier
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R2,       9, BALLOON_FRAME_TYPE_BUC,            "Rorona-chan... I hope she's okay" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Okay's she's fine.<CR>She's just being lazy" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Maybe it's a reaction to being so busy before...<CR>But this is a bit much..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R2,      12, BALLOON_FRAME_TYPE_BUC,            "...I hope she gets better soon...<CR>I want to see her and talk..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_650_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_650",// Output file name
+	MZ02_650_EMS,           // Variable name
+};

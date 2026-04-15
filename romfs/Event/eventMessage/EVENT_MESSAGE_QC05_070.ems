@@ -1,0 +1,62 @@
+BalloonData QC05_070_EMS[] = {
+	// ▼Late afternoon/evening, somewhere in town
+	// ▼Ixsel is being accosted by a drunk minister
+	// ★This event happens relatively late in the story
+	{ BALLOON_MODE_CHASYS, CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL_SHOUT,   "Let go! Let me go!<CR>Listen here, you little rascal, I am...!" },
+	{ BALLOON_MODE_CHARA,  CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_NORMAL,         "Yes yes, we established that already.<CR>Man, just cut me a break..." },
+	// ▼The protagonist accidentally passes by
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "What's wrong, Ixsel-kun?<CR>I could hear loud voices" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Rorona, perfect timing!<CR>Old man here, he's all yours!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Huh? You can't just dump him on me..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_AKI,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "He's completely drunk, I can't handle him.<CR>I still have work to do...<CR>So yeah, good luck!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "But I have work too too...!<CR>Hellooo?" },
+	// ▼Ixsel runs off
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_EX2,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "What's the matter, little miss!<CR>You telling me you can't even hold your liquor!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "A-alcohol is not allowed!<CR>I'm not even of legal age yet..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_EX3,   BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Oh my, such a serious young lady. I like that!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Oh, thank you...?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_EX1,   BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Compared to that idiotic son of mine,<CR>who's been gallivanting around for nearly ten years,<CR>not lifting a finger to help..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "You have a son, grandfather...?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_EX2,   BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Who are you calling grandfather!<CR>I'm only in my forties!!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Hyaa! I-I'm so sorry!" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_EX1,   BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Calling me elderly when you're just a kid...<CR>Well, I suppose I wouldn't mind being<CR>a little more coddled..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Eh? Which is it?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_EX1,   BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "You see... it's been tough. My wife passed away,<CR>I raised the kids alone..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_EX1,   BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "I mean, sure, I was so busy with work<CR>that I might not have given him enough attention" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_EX1,   BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "But that doesn't mean he had to run away from home, right?<CR>He needs to work to get paid,<CR>and without money, everyday life..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "That's... that sounds really hard..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_EX1,   BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "I could just retire and let my son take over,<CR>but he won't listen to me..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_EX1,   BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Then again, if I'm going to do it myself,<CR>I can't cut corners...<CR>So tell me, what should I do?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "E-even asking me...<CR>Um, about your son?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "I don't know what kind of person he is,<CR>but maybe if you talked more often..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_EX1,   BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "………." },
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    26, BALLOON_FRAME_TYPE_NORMAL,         "Grandfather?" },
+	{ BALLOON_MODE_CHARA,  CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    27, BALLOON_FRAME_TYPE_NORMAL,         "*snore*... *snore*..." },
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    28, BALLOON_FRAME_TYPE_NORMAL,         "Asleep?<CR>You can't sleep here!<CR>Grandfaaather!" },
+	{ BALLOON_MODE_CHASYS, CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    29, BALLOON_FRAME_TYPE_NORMAL,         "Dealing with drunks isn't worth it,<CR>trust me" },
+	// ▼Tantolis shows up
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "Tanta-san!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "Man, what a mess.<CR>Come on, let's get you home. Can you walk?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    32, BALLOON_FRAME_TYPE_BUC,            "zzz..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "No good... I guess I'll have to carry him.<CR>Man, what's so tragic about<CR>having to carry a man..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       34, BALLOON_FRAME_TYPE_BUC,            "Um..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "Oh, sorry for the trouble. I'll<CR>come by later to thank you properly" },
+	// ▼Tantolis leaves with the minister
+	// ★Everything happens within BUC events
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "Oh, okay. See you..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       37, BALLOON_FRAME_TYPE_BUC,            "Was that old man actually<CR>Tanta-san's acquaintance...?" },
+	// ▼Meanwhile, Tantolis on his way home
+	{ BALLOON_MODE_CHARA,  CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    38, BALLOON_FRAME_TYPE_NORMAL,         "He's lighter than I expected... sheesh,<CR>he just lazes around in the castle all day,<CR>no wonder he's so skinny" },
+	{ BALLOON_MODE_CHARA,  CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    39, BALLOON_FRAME_TYPE_NORMAL,         "*snore*... zzz..." },
+	{ BALLOON_MODE_CHARA,  CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    40, BALLOON_FRAME_TYPE_NORMAL,         "Sleeping so peacefully..." },
+	{ BALLOON_MODE_CHARA,  CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    41, BALLOON_FRAME_TYPE_NORMAL,         "...I wish people would say stuff like that<CR>when I'm sober, you know" },
+	{ BALLOON_MODE_CHARA,  CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "………." },
+	// ▼Tantolis drags the minister home
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_070_bda = {
+	"QC05",                 // Output file path
+	"EVENT_MESSAGE_QC05_070",// Output file name
+	QC05_070_EMS,           // The variable
+};

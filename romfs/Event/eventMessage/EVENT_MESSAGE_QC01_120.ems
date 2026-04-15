@@ -1,0 +1,51 @@
+﻿BalloonData QC01_120_EMS[] = {
+	// ▼After the fight has occurred, some time has passed
+	// ▼When Rorona is about to leave the atelier
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Okay, I'm off. *sigh*..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "Be careful.<CR>Make sure to come back before dinner" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	// ▼Rorona leaves
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "She walked right past me.<CR>Who do you think makes dinner!?<CR>I wanted her to retort sharply" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "She didn't have the energy to retort.<CR>It's not that Grand Master's jokes<CR>weren't worth responding to" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "An accurate analysis, but<CR>that's a poor way to comfort someone. Now then..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "Hey, you can come in now" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_BUC,            "*gasp*!" },
+	// ▼A moment later, Cuderira cautiously enters the atelier
+	// ★Clear Hom's BUC
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "...How long have you known?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Since last night.<CR>You were pressed against the window,<CR>trying to peek at Rorona sleeping, weren't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "There's no way I'd do something like that!<CR>Who do you think I am!<CR>It was just a few hours ago that I came!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Oh my, so you were there that long?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KANA,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Mmph...!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "My my. The usually stubborn Kuu-chan<CR>has become so patient.<CR>I wonder what changed her heart" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Mind your own business!<CR>And don't call me Kuu-chan!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "...I came today because I have a job for you" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Not Rorona, but came to me instead?<CR>What can I do for you?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "...Can you fix this?<CR>You're good at these things, right? Please?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "...This stone that Rorona made" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "It's split right in half.<CR>It's just like the friendship<CR>of you two, isn't it?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC_SHOUT,      "You~!<CR>You should know what to say and what not to...!!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "I was just joking around a little.<CR>But if you have the energy to yell,<CR>you're doing better than my stupid disciple" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KANA,   BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "...Rorona isn't doing so well, is she..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Now then, let me say this first -<CR>I can't fix it" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "...What? Why not!<CR>I'll pay you properly if I have to!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "It's not about the money.<CR>There is no way to fully<CR>bond this material back together" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "Even if we force it together,<CR>the cracks and fractures will remain" },
+	// ▼Cuderira bursts into tears while yelling
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "Wh-What do you mean, what do you mean!<CR>You're always saying how amazing you are--<CR>yet you can't do anything when it counts!?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NAKI,   BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "You're useless when it really matters...<CR>So what should I do..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "Now now, don't cry.<CR>If you make that face, I'm going to<CR>think you're cute, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NAKI,   BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "I'm not crying!<CR>And don't call me cute! *sniff*..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KANA,   BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "...Forget it. It was stupid of me<CR>to rely on someone like you" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       32, BALLOON_FRAME_TYPE_BUC,            "Wait, wait. I can't fix it,<CR>but that doesn't mean I have no ideas" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "...What is it. Tell me already.<CR>I'll hear you out" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       34, BALLOON_FRAME_TYPE_BUC,            "The usual Cuderira has returned, I see.<CR>Well then, um... it's a bit of a girlish idea<CR>and a bit embarrassing, but..." },
+	// ▼Master whispers something to Cuderira
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_120_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_120",// Output file name
+	QC01_120_EMS,           // Variable name
+};

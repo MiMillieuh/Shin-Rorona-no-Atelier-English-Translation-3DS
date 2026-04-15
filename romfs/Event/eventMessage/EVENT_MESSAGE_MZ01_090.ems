@@ -1,0 +1,39 @@
+ BalloonData MZ01_090_EMS[] = {
+	// ▼最後の台詞で分岐させる。最初に来たか否かで（アストリッドのとこに行くのを促す台詞
+	// ▼最初に来た時
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "Pamela! Pamela!<CR>...Huh? Is she not here?" },
+	// ▼急に目の前に現れるパメラ
+	{ BALLOON_MODE_CHARA,  CHARA_PAMELA,     0, NAME_PAMELA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_NORMAL,         "Boo~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Waaaaaah!?" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_WARA,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Ahahaha! Success! That was amazing!<CR>Your face, Rorona - I haven't seen it in forever~!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Biiig...! What did you do!?" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_NOR,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Hehe. I knew you were gonna come tell me today,<CR>so I was hiding here<CR>waiting since morning" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Mmph... Well, I was going to tell you,<CR>but now I'm not telling you anymore!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_ODO,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Eeeeh~! No fair~!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KANA,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Don't be mean like that.<CR>I'm sorry, please forgive me.<CR>Come on, Rorona~!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "...Fine, I can't stay mad.<CR>I passed.<CR>I can keep running the atelier!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_WARA,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Really? Yay~!<CR>Congratulations, Rorona!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_WARA,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "It's all thanks to me helping you out, right~?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "That's right! Pamela, you..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Huh? Did you actually help me with anything...?" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_IKA,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Aah! So mean!<CR>There's lots of things, like, um..." },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KOMA,    BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "………." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "………." },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_IKA,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "See!? There's lots of things!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Aah, okay, whatever. That works" },
+	// ▼一番目に来た時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Oh right.<CR>I need to go tell the teacher...<CR>Well then, see you!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_IKA,     BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Aah! We weren't done talking yet~!" },
+	// ▼
+	// ▼二番目以降に来た時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Oh right.<CR>I need to go tell the others...<CR>Well then, see you!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_IKA,     BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Aah! We weren't done talking yet~!" },
+	// ▼
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ01_090_bda = {
+	"MZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MZ01_090",// 出力ファイル名
+	MZ01_090_EMS,           // 上記変数
+};

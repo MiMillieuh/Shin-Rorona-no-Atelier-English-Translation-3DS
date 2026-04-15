@@ -1,0 +1,12 @@
+BalloonData MA02_120_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Travel to exploration sites is done<CR>using the world map. Currently, you can only go to the <CLBL>Nearby Forest<CLNR>,<CR>but as the story progresses, more places will become available." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "To travel to an exploration site,<CR>it takes a number of days depending on the location.<CR>For the <CLBL>Nearby Forest<CLNR>, it takes 1 day one way,<CR>so a round trip takes 2 days." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA02_120_bda = {
+	"MA02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA02_120",// 出力ファイル名
+	MA02_120_EMS,           // 上記変数
+};

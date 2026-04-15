@@ -1,0 +1,59 @@
+﻿BalloonData QC06_090_EMS[] = {
+	// ▼
+	// ★※それなりに仲良くなってから。可能なら、依頼をいくつ以上受けているとかそんな条件も
+	// ▼主人公がアトリエにいる時
+	// ▼珍しく忙しく働き回っている主人公
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Done! Next up is... twenty potions!?<CR>Twenty!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Why are there so many..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,       2, BALLOON_FRAME_TYPE_BUC,            "Pardon the intrusion, but<CR>this request is also approaching its deadline" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Ah! I forgot!<CR>Homunculus, can you help?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "Homunculus is currently in the middle<CR>of another request.<CR>Which should be prioritized?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Ah, right... of course...<CR>Of course my master's not here when I need her!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "If the Grand Master were here,<CR>inefficiency would drop by 30% due to meaningless interference.<CR>Her absence is actually beneficial right now" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "Also, Master,<CR>the cauldron has been overflowing for a while now" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Huh? Kyaaaa! Oh no...<CR>Ugh, I have to start over from scratch..." },
+	// ▼そこに客としてやってくるジオ
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "...Seems like I came at a bad time" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Oh,Gio-san.<CR>Sorry, I'm a bit overwhelmed..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "I can see that.<CR>...Alright, let me help with something" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Really? Is that okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Yes. I may not know alchemy,<CR>but I can certainly do physical labor and simple tasks" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Thank you so much!<CR>Um, could you help with Homunculus's tasks?<CR>Like sorting and transporting materials" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,      15, BALLOON_FRAME_TYPE_BUC,            "Please sort and transport the materials<CR>as Homunculus instructs" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Got it. Give me all the instructions you've got" },
+	// ▼しばらく時間経過
+	// ★黒画面から空け、作業を終えてぐったりな面々
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "We... finished......" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Thank you for your hard work, Master" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R2,      19, BALLOON_FRAME_TYPE_BUC,            "Wow, it's been a while since I worked this hard.<CR>Swinging a sword outside is far more<CR>relaxing than this" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Sorry...<CR>for making you help out all of a sudden..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R2,      21, BALLOON_FRAME_TYPE_BUC,            "No, I offered.<CR>But do you work this hard every day?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Not usually.<CR>Today's busyness is the result of Master accepting<CR>requests without thinking them through" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "But... you know, the town's people are counting on me,<CR>so I have to do it when I can..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_IKA,      BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Failure would also damage your reputation,<CR>which should be taken into consideration" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R2,      25, BALLOON_FRAME_TYPE_BUC,            "The town's reputation, huh. Hmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R2,      26, BALLOON_FRAME_TYPE_BUC,            "Forgive the sudden question,<CR>but do you hold a grudge against the castle?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "Huh? W-what brought this up?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R2,      28, BALLOON_FRAME_TYPE_BUC,            "I was just wondering" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R2,      29, BALLOON_FRAME_TYPE_BUC,            "After being given unreasonable orders and<CR>working like this, wouldn't you have<CR>a complaint or two?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "Hmm...<CR>Sure, it's tough every day,<CR>but it all started because of my master anyway..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R2,      31, BALLOON_FRAME_TYPE_BUC,            "Your master, huh... if anything,<CR>I'd say the complaints should be directed at her" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       32, BALLOON_FRAME_TYPE_BUC,            "Besides, when people in town are happy<CR>with my alchemy, it makes me happy" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "And there are lots of people<CR>who help me out, likeGio-san" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_IKA,      BUC_POSITION_TYPE_R,       34, BALLOON_FRAME_TYPE_BUC,            "Relying on help from the start is a mistake.<CR>If Homunculus hadn't helped,<CR>finishing today's work would have been completely impossible" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       35, BALLOON_FRAME_TYPE_BUC,            "Right... I'll reflect on this..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R2,      36, BALLOON_FRAME_TYPE_BUC,            "Hmm... forgive my silly question.<CR>I should get going now" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       37, BALLOON_FRAME_TYPE_BUC,            "Oh,Gio-san. Did you need something...?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R2,      38, BALLOON_FRAME_TYPE_BUC,            "Nothing urgent.<CR>I just felt bad making you work" },
+	// ▼帰っていくジオ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       39, BALLOON_FRAME_TYPE_BUC,            "Ah... maybe I made things worse..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       40, BALLOON_FRAME_TYPE_BUC,            "I believe there's no need to worry.<CR>Homunculus observed a very happy expression" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       41, BALLOON_FRAME_TYPE_BUC,            "Gio-san was?<CR>If that's the case, I'm glad..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_090_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_090",// 出力ファイル名
+	QC06_090_EMS,           // 上記変数
+};

@@ -1,0 +1,46 @@
+BalloonData MM02_510_EMS[] = {
+	// ▼About half a year after game start
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Hey there, lass. Perfect timing.<CR>The thing you asked me about the other day, I think I can make it happen" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "The other day...?<CR>Um, did I ask you for something?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_ODO,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "You forgot already!?<CR>Come on, you said you wanted a weapon and armor that even a girl like you could use, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Ah, now that you mention it, I might have asked for something like that..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Man, I can't believe you forgot.<CR>I've been thinking about all kinds of things for you this whole time..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "S-sorry!<CR>Um, have you already made it for me?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Nah, I'm gonna make it now" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Now?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Yeah, I've been thinking about it, see.<CR>Making a weapon for you is easy, but cheap weapons won't sell to other customers" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "But if I do it that way, it won't be good for business,<CR>so I'd have no choice but to sell it to you at an ridiculous price..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "I-I don't have much money, you know!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "I know how much you've got in your pockets.<CR>So then, how can I make it cheaper..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "There's only one answer.<CR>If you gather the materials yourself" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Gather the materials myself... I see, I get it!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Now then, this is going to take a while,<CR>so perk up your ears and listen carefully" },
+	// ▼Entering system explanation from here
+	// ▼After explanation ends
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "...and that's the gist of it.<CR>Do you have any questions?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Oh, just one thing.<CR>Ingots for making weapons, right?<CR>Where can I gather those materials..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Well, around here, it'd be the Arland Royal Mine" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Arland Royal... Mine?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "It's a mine a little ways west of here" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "It's run down now, but not too long ago,<CR>all the metal used in this town came from there" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Heh... Okay, got it.<CR>I'll go check it out later!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Alright, be careful. I'm making this weapon just for you, lass.<CR>Go gather the best materials!" },
+	// ▼Event result: Weapon synthesis can begin. Can now go to the mine
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can now perform Weapon Synthesis." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Would you like to check the Weapon Synthesis tutorial?" },
+	// ▼Choice: Yes/No
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Weapon Synthesis is a synthesis that creates weapons and armor." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Talk to Hager and select \"Weapon Synthesis\",<CR>give him the required materials and money,<CR>and you can have equipment made." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "While the required materials are determined by the equipment,<CR>just like regular synthesis,<CR>no days will pass." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "For details, check the help for<CR>Weapon Synthesis from the index in the menu." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You received the reference book \"<CLGR>Basics of Forging<CLNR>\".<CR>You've gained access to <CLBL>Arland Royal Mine<CLNR>." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM02_510_bda = {
+	"MM02",                 // Output file path
+	"EVENT_MESSAGE_MM02_510",// Output file name
+	MM02_510_EMS,           // Above variable
+};

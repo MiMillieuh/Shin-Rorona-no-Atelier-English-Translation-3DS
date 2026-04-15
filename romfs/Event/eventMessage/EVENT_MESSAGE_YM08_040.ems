@@ -1,0 +1,12 @@
+BalloonData YM08_040_EMS[] = {
+	// ▼チュートリアル・タイムカプセル
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The Time Capsule is a box of distorted<CR>spacetime that allows you to exchange<CR>items with Astrid from the future." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "When you put in an item,<CR>Astrid from the future will send<CR>back a different item." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Items sent to the future cannot be retrieved,<CR>but sometimes you'll receive rare items<CR>that can't be obtained in the present." },
+};
+
+BALLOON_DATA_ALL YM08_040_bda = {
+	"YM08",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM08_040",// 出力ファイル名
+	YM08_040_EMS,           // 上記変数
+};

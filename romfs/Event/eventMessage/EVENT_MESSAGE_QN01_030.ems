@@ -1,0 +1,22 @@
+BalloonData QN01_030_EMS[] = {
+	// ▼錬金術で初めてパイを作ったとき
+	// ★※ある程度時期で区切って、遅すぎた時は発生せずで
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "I did it!<CR>Great, I actually made a pie!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "I hope it tastes okay though?<CR>Let me just try a little taste... *chomp*" },
+	// ★完成品の質で分岐できれば
+	// ▼そこそこ上手く作れた時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "...It's not bad but,<CR>I think it tastes better when made normally" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Hmm. I should try<CR>experimenting with the ingredients or methods..." },
+	// ▼ダメな物ができた時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "...Oh, this is... not goo...<CR>Ugh! Water, water!" },
+	// ★一旦BUC消して
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "*gulp gulp*...<CR>Whew, I cooled down..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Alchemy is harder than I thought after all.<CR>I need more practice..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_030_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_030",// 出力ファイル名
+	QN01_030_EMS,           // 上記変数
+};

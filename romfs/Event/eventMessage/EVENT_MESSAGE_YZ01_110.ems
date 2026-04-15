@@ -1,0 +1,17 @@
+BalloonData YZ01_110_EMS[] = {
+	// ▼失われた民の都
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "アストリッド、なぜこんなところに来たのだ？" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "純度が究めて高い水が必要でな。" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "この失われた民の都…。<CR>人の手のつかない湖底であれば、<CR>その水が採取できるのではと思ったのだ。" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "そうか…。<CR>それにしても、<CR>このエアドロップというのは凄いものだな。" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "水中でいとも簡単に呼吸が出来るとは。<CR>しかも会話まで出来る…。" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "こんなのは錬金術の序の口だ。<CR>この程度で驚いていたら、肝がもたんぞ。" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "錬金術とは、本当に何でもアリだな…。" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YZ01_110_bda = {
+	"YZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YZ01_110",// 出力ファイル名
+	YZ01_110_EMS,           // 上記変数
+};

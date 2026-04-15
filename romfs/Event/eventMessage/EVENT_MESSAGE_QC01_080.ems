@@ -1,0 +1,44 @@
+﻿BalloonData QC01_080_EMS[] = {
+	// ▼After the above event. When Rorona is in town
+	// ★Might have something in between. Can't go gathering with her right after
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Rorona.<CR>What a coincidence, running into you here" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Ah... Kuu-chan..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_WARA,   BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Oh right, listen to this.<CR>About that stone you gave me the other day..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "I wanted to talk to you too, Kuu-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Oh, really?<CR>Wait, you look pale. Are you okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Kuu-chan, you put in that request at the castle, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Eh...? Wh-Whatever do you mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Esti-san told me. She said you asked them<CR>to make sure the request<CR>would go to me specifically..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "That jerk... I specifically told her not to say anything!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Hey, why?<CR>Why did you make that request?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Why, you ask... b-because you seemed troubled!<CR>When someone's in trouble, it's normal to<CR>ask the castle for help!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "But the reward was so high..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KANA,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "That's because... I had spare spending money.<CR>What I do with my money is<CR>my own business, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "So why would you..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Aaah, what's with all these questions?!<CR>Why do I have to be<CR>interrogated by you!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Interrogation? That wasn't my intention..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC_SHOUT,      "It's not like you lost out on anything, right?!<CR>You should be grateful!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "That's not it.<CR>I appreciate that you care about me,<CR>but this isn't the right way to do it..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC_SHOUT,      "What do you mean \"way\"!?<CR>But you gave ME<CR>that stone, didn't you!?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC_SHOUT,      "It's okay to give presents,<CR>but not to make requests!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "That's not...<CR>What you're saying doesn't make sense!<CR>I just wanted..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Shut up, shut up! I'm done listening!<CR>Just shu-- ah" },
+	// ▼Sound of stone falling from Cuderira's hand and breaking
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Ah..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "It broke..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KANA,   BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "...!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "Kuu-chan!" },
+	// ▼Cuderira picks up the pieces and runs away
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "I didn't mean to start a fight...<CR>Why did it turn out like this..." },
+	// ▼Event result: If Cuderira was in your party, she leaves
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Cuderira has left the party." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_080_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_080",// Output file name
+	QC01_080_EMS,           // Variable name
+};

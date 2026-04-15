@@ -1,0 +1,19 @@
+BalloonData MM03_052_EMS[] = {
+	// ▼Common below
+	// ▼Announce next task on system screen
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Preparing for the Kingdom Festival, is it..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "That's right. Due to scheduling, the deadline is earlier than usual, so please be advised" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Already that time of year, huh.<CR>It's been so busy since the start of the year,<CR>I'd completely forgotten" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Is that so... My apologies. Having a young girl like yourself running around busy all the time isn't exactly ideal..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Oh, that's not what I meant...<CR>It's okay. I'm actually enjoying the work,<CR>more or less" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "If that's the case, that's good... The castle is planning various events for the Kingdom Festival" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Once you finish your task, please do enjoy the festival as well" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Yes! I'm looking forward to it!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM03_052_bda = {
+	"MM03",                 // Output file path
+	"EVENT_MESSAGE_MM03_052",// Output file name
+	MM03_052_EMS,           // Above variable
+};

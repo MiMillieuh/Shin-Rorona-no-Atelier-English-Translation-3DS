@@ -1,0 +1,49 @@
+BalloonData YM01_060_EMS[] = {
+	// ▼结局（MZ02）
+	// ●
+	// ●1枚絵：普通（伊克/斯科/里奥/坦）
+	// ●
+	// ▼在王宫接待处的艾斯蒂
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Alright, today's schedule is done,<CR>time to call it a day" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "I do wonder if I'm going too far with this...<CR>But if I leave things alone, who knows<CR>what will happen" },
+	// ▼艾斯蒂离开接待处
+	// ▼黑画面转场
+	// ▼艾斯蒂来到アトリエ前面
+	// ▼アトリエ前面排着很长的队
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Haah, as busy as ever today..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Excuse me~. Yes yes, right this way~" },
+	// ▼艾斯蒂拨开人群从入口插队进去
+	// ▼アトリエ内部
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Alright, done!<CR>Hom-chan, please!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Yes, understood.<CR>I'll deliver it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Let's see, next is...<CR>what was it again" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "The request with the nearest deadline is<CR>this one, Master" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Let's see... wow, this looks like<CR>it's going to be troublesome..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Master. Perhaps you should take a break?<CR>You've been working non-stop since morning,<CR>and you haven't eaten" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Huh? I didn't eat?<CR>...Now that you mention it, maybe not.<CR>Ah, now that you say it, I'm suddenly hungry..." },
+	// ▼艾斯蒂登场
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Always busy, aren't you~<CR>The room is really dusty" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Ah, Estiy-san!<CR>You're right, I'm so busy I don't even<CR>have time to change clothes..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Fufu, speaking of that, here.<CR>My homemade bento. Want it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Oh! Looks delicious!<CR>Yes please, yes please!<CR>Then I'll take a break" },
+	// ▼1张图+字幕
+	// ▼旁白无声音
+	// ▼※旁白的文面和伊克塞尔的一样
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    15, BALLOON_FRAME_TYPE_NORMAL,         "Through three years of tasks from the castle, Rorona grew greatly as an alchemist" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_NORMAL,         "Her sincere and dedicated work earned high praise from the townspeople," },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_NORMAL,         "and today too, many people line up in front of the Atelier to ask for her help" },
+	// ▼旁白结束后对话
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Ahh, that was good!<CR>Okay, I'm recharged, let's keep at it.<CR>Hom-chan, you okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_HOHO,     BUC_POSITION_TYPE_R2,      19, BALLOON_FRAME_TYPE_BUC,            "No problem, Master" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "I guess I'll help out a little too" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "You don't have to. Just having that<CR>delicious bento is more than enough" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Don't worry about it.<CR>If it's just carrying things, even I can do that" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Really?<CR>Then I'll take you up on that!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM01_060_bda = {
+	"YM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM01_060",// 出力ファイル名
+	YM01_060_EMS,           // 上記変数
+};

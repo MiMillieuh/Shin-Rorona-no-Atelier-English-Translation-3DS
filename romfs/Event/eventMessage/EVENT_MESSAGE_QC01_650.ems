@@ -1,0 +1,44 @@
+BalloonData QC01_650_EMS[] = {
+	// ▼Master and Cuderira watching Rorona work
+	// ★※No special conditions
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "What a shame. I came all this way to visit,<CR>yet she can't even spare time for us" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "It's not like I came here to play or anything.<CR>I was just... bored, so I popped by" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Bored, huh. I see" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Why are you grinning like that? Gross" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "...By the way, since I have the chance...<CR>I have something I want to ask you" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Me? What is it?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Why did you take Rorona on as your disciple?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Because she's cute" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "...I'm being serious here" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "I am being serious.<CR>At least 60% of it is for that reason" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "So what's the other 40%?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Because she's an idiot" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "I told you I'm being serious!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "And I am answering seriously" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "If you don't like the word 'idiot',<CR>I can replace it with 'talented'.<CR>Though it is a bit of a cliché" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "How is being an idiot a talent?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Let me think of how to explain this..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Let's say there's a book called<CR>'Magic Casting for Dummies'" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "What kind of title is that..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "It's an example, that's all.<CR>Now, if you read that book,<CR>do you think you'd be able to cast magic?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Don't call me Kuu-chan in this example.<CR>Well, I mean, I COULD cast it, right?<CR>Since even a dummy could understand it" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Do you really think so?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Hmm... Well, if such a book existed,<CR>I probably wouldn't believe it anyway. Sounds sketchy" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Exactly. People with half a brain<CR>would be filled with doubt first. That's the problem" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "A genius would understand it instantly,<CR>and a fool would just try it<CR>without thinking" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "So you're saying alchemy<CR>can only be used by geniuses or idiots?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "That's not true. Alchemy is a craft.<CR>Anyone can learn it if they study properly" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "However, for someone with brains,<CR>I have to teach them from scratch,<CR>but for an idiot, there's no need" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "That doesn't quite make sense..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "So in short, Rorona is an idiot<CR>in a good way, you mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "Yes, she's a naturally pure and innocent fool.<CR>You don't find fools like that very often" },
+	// ▼Meanwhile, Rorona is working
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "I keep hearing the word 'fool'...<CR>I wonder if they're talking about me..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_650_bda = {
+	"QC01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC01_650",// 出力ファイル名
+	QC01_650_EMS,           // 上記変数
+};

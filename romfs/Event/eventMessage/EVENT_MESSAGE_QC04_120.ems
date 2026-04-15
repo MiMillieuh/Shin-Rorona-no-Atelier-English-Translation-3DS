@@ -1,0 +1,40 @@
+BalloonData QC04_120_EMS[] = {
+	// ▼↑のイベントの後、しばらく経過。ロロナが街中にいる時
+	// ▼また街中に人ごみができている
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_BUC,            "Wow, lots of people again.<CR>They're really popular, Rio-chan's show" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_BUC,            "Hmmm, I want to watch but<CR>I'm in the middle of an errand... I gotta resist today" },
+	// ▼立ち去る主人公
+	// ▼黒画面で客の歓声など。
+	// ▼黒画面空けて、街のどこかで会話してるリオネラと人形
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R2,       2, BALLOON_FRAME_TYPE_BUC,            "Whew..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "Good work today.<CR>The customers seemed happy today too" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Going wild over something this simple,<CR>they're a naive bunch, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "But hey, thanks to that,<CR>we don't go hungry, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "Don't talk badly about the customers!" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "By the way, Lionela.<CR>What are you going to do from here on?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R2,       8, BALLOON_FRAME_TYPE_BUC,            "From here on...?" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "You've saved up enough money by now, right?<CR>If it were like before, you'd have already<CR>slipped away before anyone noticed, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "Ah... Yeah, I guess...<CR>But, maybe a little longer..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "Well, as long as Lionela doesn't mind,<CR>we're not trying to rush you or anything" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "So it is that thing, huh. That line really got to you, didn't it?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_SIN,    BUC_POSITION_TYPE_R2,      13, BALLOON_FRAME_TYPE_BUC,            "Yeah...<CR>I still want to be with Rorona-chan..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_L2,      -1, BALLOON_FRAME_TYPE_BUC,            "………." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "………." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_TERE,   BUC_POSITION_TYPE_R2,      16, BALLOON_FRAME_TYPE_BUC,            "S-say something! This is embarrassing..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_L2,      17, BALLOON_FRAME_TYPE_BUC,            "Well, what can I say..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Thanks for the food~ is what I'd say.<CR>Ah, it's hot, it's hot" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_IKA,    BUC_POSITION_TYPE_R2,      19, BALLOON_FRAME_TYPE_BUC,            "J-just forget it! I don't know anything!" },
+	// ▼すねてそっぽを向くリオネラ
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_L2,      20, BALLOON_FRAME_TYPE_BUC,            "I'm sorry, Lionela.<CR>Cheer up" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Yeah, yeah. Don't be so shy about it.<CR>We'll warmly support you, okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_L2,      22, BALLOON_FRAME_TYPE_BUC,            "Don't say unnecessary things! ...But, what do you think?" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "I think...<CR>It might be time to give it a try" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_L2,      24, BALLOON_FRAME_TYPE_BUC,            "Yeah... I think it'll be okay now. Probably..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC04_120_bda = {
+	"QC04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC04_120",// 出力ファイル名
+	QC04_120_EMS,           // 上記変数
+};

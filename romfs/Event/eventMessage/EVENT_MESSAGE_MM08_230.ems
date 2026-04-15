@@ -1,0 +1,20 @@
+BalloonData MM08_230_EMS[] = {
+	// ▼Event before battle
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX9,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Oh my~! What a huge upset!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX9,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Defeating all the strong opponents,<CR>Rorona-chan has made it to the finals!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Haa, haa...<CR>Eh? The finals... me?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX7,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "But the opponent in the finals is,<CR>the greatest knight in Arland...<CR>Sterk-kun!" },
+	// ▼Sterk enters to applause
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "I never thought I'd be<CR>fighting you in a place like this..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "A-ah, I didn't expect it either,<CR>but um...<CR>Please take care of me!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "Yes, likewise" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "As I'm representing the knights,<CR>I can't hold back at all,<CR>but please don't take it personally" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX8,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "A noble greeting between fighters!<CR>Now then, let the...<CR>FINAL ROUND begin!!" },
+	// ▼Event battle, branches based on win/lose
+};
+
+BALLOON_DATA_ALL MM08_230_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_230",// Output file name
+	MM08_230_EMS,           // Variable above
+};

@@ -1,0 +1,12 @@
+BalloonData YY01_010_EMS[] = {
+	// ▼セーブデータ連動解放（タイトル画面）
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "A save file from Totori's Atelier Plus was found." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You obtained Totori's costume 'Apron Dress'<CR>Accessory 'White Brim'<CR>." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Starting a New Game will now add<CR>Totori's weapon 'Sacred Divine Wings Staff'<CR>to your container." },
+};
+
+BALLOON_DATA_ALL YY01_010_bda = {
+	"YY01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YY01_010",// 出力ファイル名
+	YY01_010_EMS,           // 上記変数
+};

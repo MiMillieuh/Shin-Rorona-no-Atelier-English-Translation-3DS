@@ -1,0 +1,39 @@
+BalloonData MM08_510_EMS[] = {
+	// ▼Rorona doing synthesis in the morning
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...Okay, now I just mix this in here...<CR>Yeah, this looks like it'll work!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_EX1,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Yaaawn... you're really going at it in the morning" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Oh, good morning.<CR>It's unusual for you to be up this early" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_EX1,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "The noise was keeping me awake.<CR>Anyway, why are you working so early in the morning?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Well... when I think that it's ending in one more year,<CR>I guess I got motivated,<CR>I just couldn't sit still..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "One more year? That's right, it's been that long already...<CR>They say time flies when you're having fun, and it's true" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Fun? You mean you, Master?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Hmm? Did I say fun?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Yes you did, just now" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Is that so. Hmm... I suppose I do contradict myself.<CR>Or perhaps I'd call it inner conflict, in a case like this" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "???" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Ah, don't mind me. Just rambling to myself" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "By the way, Rorona.<CR>Why do you practice alchemy?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Huh? What's with the sudden question...<CR>Because you told me to, Master?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Are you saying you do it just because I told you to?<CR>Is that the only reason?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "We-well, hmm... because,<CR>if I don't do it, the atelier will shut down,<CR>and then I'd have to leave town..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "I'm asking for your reasons, not your circumstances" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Let me rephrase the question.<CR>Do you like alchemy?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Huh? Well, that's...<CR>I don't really know" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "You don't know? It's about yourself, isn't it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Be-because...<CR>I've never really thought about whether<CR>I like it or not..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "I see, you've never thought about it..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Um, Master. Why are you suddenly asking all this..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_EX1,     BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Yaaawn... sorry, I seem to still be half asleep<CR>and asking strange questions.<CR>I should probably sleep this off" },
+	// ▼Master goes back to her room
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Ah, Master... I wonder what that was about,<CR>she didn't really seem half asleep though..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "When you ask me if I like alchemy or not... hmm..." },
+	// ▼Displayed when participating in Kingdom Festival and not doing Rorona solo party beforehand
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Since you participated in the Kingdom Festival,<CR>your companions have left your party.<CR>Please be careful when going out to gather." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM08_510_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_510",// Output file name
+	MM08_510_EMS,           // Above variable
+};

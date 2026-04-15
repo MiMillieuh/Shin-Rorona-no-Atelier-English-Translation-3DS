@@ -1,0 +1,12 @@
+﻿BalloonData MM11_020_EMS[] = {
+	// ▼Warning message when assignment deadline is near
+	// ▼When protagonist is exploring
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh no. The deadline for the castle work is almost here.<CR>I need to get back or I won't make it in time" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM11_020_bda = {
+	"MM11",                 // Output file path
+	"EVENT_MESSAGE_MM11_020",// Output file name
+	MM11_020_EMS,           // Above variable
+};

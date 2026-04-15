@@ -1,0 +1,37 @@
+﻿BalloonData QN03_010_EMS[] = {
+	// ▼ゲーム開始後、初めて武器屋に行った時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hey there, old man~" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Hey, welcome!" },
+	// ★名前テロップ
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "...Oh, it's just you, missy.<CR>Here to get your knives sharpened again?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "That's not it at all.<CR>Today I came to properly buy a weapon." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Say what?<CR>Hey now, a young lady wanting a weapon —<CR>can't say I'm too pleased about that." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(Hard to believe those words came from a weapon shop owner...)" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I don't really want one either,<CR>but..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "There's a story behind it, isn't there?<CR>Tell me the details, if you're willing." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Yes. You see..." },
+	// ▼黒画面で説明
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "I see. So you ended up having to<CR>run the Atelier all on your own, is it..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Yeah... I have to go outside town<CR>to gather materials and things,<CR>so..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Well, if that's the situation, I can't argue.<CR>But listen, our shop hardly carries<CR>any weapons a girl like you could handle." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "What? Why not?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Well, the thing is...<CR>The customers who usually come in for weapons<CR>are almost always big, burly men." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "So the weapons I make are built<CR>with those kinds of people in mind, you see." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "I see...<CR>Oh no, that's a problem..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Ah-ah, don't make that face now.<CR>Can't be helped — it's a request from you specifically." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "I'll have a weapon suited for you<CR>ready before long." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Really!?<CR>Thank you so much! Ha—..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Ha?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "...That's not what I meant to say. Thank you, old man." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Sure thing. Leave it all to me!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(That was close, that was close...<CR>　I forgot he gets mad when you call him by name.<CR>　I really need to be more careful...)" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Dummy" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN03_010_bda = {
+	"QN03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN03_010",// 出力ファイル名
+	QN03_010_EMS,           // 上記変数
+};

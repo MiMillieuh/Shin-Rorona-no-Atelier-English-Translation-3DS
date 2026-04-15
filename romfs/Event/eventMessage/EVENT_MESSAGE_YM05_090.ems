@@ -1,0 +1,28 @@
+BalloonData YM05_090_EMS[] = {
+	// ▼王政の終焉が発生している
+	// ●延長戦で発生
+	// ●戻ってきた師匠が発生している
+	// ▼大通りに行くと発生
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "(Oh, look - isn't that...<CR>　Master and Gio-san?)" },
+	// ▼ジオとアストリッドが会話している
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Ohhh, you want to step down as king?<CR>That's certainly a bold move" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "It took me a considerable amount of time<CR>and a great deal of deliberation, but<CR>this is the conclusion I've come to" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "...So, what do you think?<CR>Your disciple seemed to approve,<CR>but" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Oh, stop it, stop it.<CR>Why not just quit being king?<CR>No one would be troubled by that" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "That's a rather blunt way to put it,<CR>I must say" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "It's the truth, isn't it?<CR>I'm not one to talk about such things anyway" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "So what are you planning to do after this,<CR>I wonder?<CR>Does it worry you at all?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "I'm sure you asked Rorona the same thing, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Yes.<CR>She said everyone was so capable,<CR>so she wasn't worried at all" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Then there's no problem at all, is there?<CR>You didn't need to ask me in the first place" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Are we done here?<CR>I'm busy, you know. I'm leaving" },
+	// ▼アストリッド立ち去る
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Good grief...<CR>Even if my position changes, I wonder if some things<CR>never change..." },
+	// ▼ジオ立ち去る
+};
+
+BALLOON_DATA_ALL YM05_090_bda = {
+	"YM05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM05_090",// 出力ファイル名
+	YM05_090_EMS,           // 上記変数
+};

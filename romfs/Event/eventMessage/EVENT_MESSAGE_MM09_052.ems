@@ -1,0 +1,20 @@
+﻿BalloonData MM09_052_EMS[] = {
+	// ▼Common to all below
+	// ▼System screen shows request details
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Have you ever been to the Nightrealm?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "No, never. First time I'm hearing about it" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Let me explain briefly then.<CR>The Nightrealm refers to a region<CR>far to the north of town" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "It's called that because<CR>the sun never shines there and<CR>it's always covered in darkness" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "The kingdom's survey of the area has barely progressed,<CR>and I hear there are many dangerous monsters.<CR>Please be very careful when you go" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "...In your current unfocused state,<CR>who knows what could happen" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Y-yes... I'll be careful" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLBL>Nightrealm<CLNR> can now be accessed." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM09_052_bda = {
+	"MM09",                 // Output file path
+	"EVENT_MESSAGE_MM09_052",// Output file name
+	MM09_052_EMS,           // Above variable
+};

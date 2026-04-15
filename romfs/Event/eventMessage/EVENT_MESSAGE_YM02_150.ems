@@ -1,0 +1,19 @@
+BalloonData YM02_150_EMS[] = {
+	// ▼エスティ早着替え
+	// ●本編中以降で発生
+	// ▼はじめてエスティと一緒に戦闘をしたあとに発生
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Huh? Why did you go and<CR>change your clothes?" },
+	// ▼エスティ表示
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, this? This is just my formal attire<CR>for when I go to the castle" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "If I get it dirty or torn<CR>by fighting monsters, that would be bad, right?<CR>So I change quickly when it's time to fight" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Whoa, that seems like a hassle.<CR>Wouldn't it be easier to just<CR>wear fighting clothes from the start?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Unlike this dress, there's a lot of<CR>metal and other things attached to it,<CR>so it's hard to move around in" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "I understand the logic,<CR>but it still seems like a lot of trouble..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM02_150_bda = {
+	"YM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM02_150",// 出力ファイル名
+	YM02_150_EMS,           // 上記変数
+};

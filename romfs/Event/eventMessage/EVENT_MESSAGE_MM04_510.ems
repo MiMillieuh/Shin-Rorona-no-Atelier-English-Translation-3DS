@@ -1,0 +1,24 @@
+BalloonData MM04_510_EMS[] = {
+	// ▼When one year has passed since game start
+	// ★※The fourth task has some time in between since there's the Kingdom Festival later
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...Whew. After all this time,<CR>another year has passed" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "When Master first entrusted me with the Atelier...<CR>I mean, basically just tossed it at me, I was wondering how it'd turn out, but I somehow made it this far..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "No way! It's too early to be relieved.<CR>I still have two years left!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Alright, let me refocus. I'll start the next task.<CR>Here I go~!" },
+	// ▼Rorona heads to the synthesis cauldron
+	// ▼Meanwhile, Master watches from a corner of the room (or while lying down)
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Is that so... Time flies.<CR>Back then, I just let her try it out for fun" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "If she happens to make it to the end..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "No, I should think about that when the time comes" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "It wouldn't be so bad to enjoy being a<CR>master watching her disciple grow a little longer" },
+	// ▼Shown if you participated in Kingdom Festival and didn't solo it
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Since you participated in the Kingdom Festival,<CR>your party members have left your party.<CR>Please be careful when going out to gather materials." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM04_510_bda = {
+	"MM04",                 // Output file path
+	"EVENT_MESSAGE_MM04_510",// Output file name
+	MM04_510_EMS,           // Above variable
+};

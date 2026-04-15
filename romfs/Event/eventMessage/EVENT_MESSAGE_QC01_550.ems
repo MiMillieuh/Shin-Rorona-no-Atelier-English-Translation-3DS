@@ -1,0 +1,33 @@
+﻿BalloonData QC01_550_EMS[] = {
+	// ▼When first hiring both of them together, just as you go outside
+	// ★Only occurs early in the game
+	// ▼Cuderira talking in a low voice
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Hmm...? Rorona. Who is this person?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Um, well, this person is..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "I am Sterkenburg.<CR>Sterk will suffice" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Sterk-san is a knight from the castle" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "A knight? Then he's not an enemy!<CR>Why is he with you!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "He's not exactly an enemy, you know.<CR>And Sterk-san is a nice person" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "How do you know he's nice!?<CR>He might just be pretending to be nice<CR>to lower your guard!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "Your concerns are valid,<CR>but I'm not offering to help as a knight,<CR>but as an individual" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "I'm acquainted with her master,<CR>so it would pain me to just<CR>watch from the sidelines" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Hmph, anyone can say nice things" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Come on, Kuu-chan!<CR>I'm sorry, Sterk-san.<CR>She's not a bad person, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "No, her reaction is only natural.<CR>It's unrealistic to expect someone to trust a stranger.<CR>All I can do is show through my actions" },
+	// ▼Sterk goes on ahead alone
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Jeez! Why would you say something like that!?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "I-I'm sorry.<CR>I guess I went a little too far" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "That said, he does seem incredibly serious" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Yeah... But he's a nice person.<CR>He doesn't look as scary as he seems, and he's kind" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Hmm... He is somewhat presentable,<CR>and I thought he might be up to something,<CR>but given his personality, I doubt he'd try anything" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Try anything?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "It's nothing you need to know about.<CR>Come on, let's go" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Ehh, really? Tell me~" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_550_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_550",// Output file name
+	QC01_550_EMS,           // Variable name
+};

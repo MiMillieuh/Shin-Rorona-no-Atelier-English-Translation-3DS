@@ -1,0 +1,42 @@
+BalloonData MM06_570_EMS[] = {
+	// ▼The above event, version for when conditions aren't met
+	// ▼After summer of year 2, when holding a recipe that requires Bubbling Water
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hmm, it's not here either...<CR>It's not in this book either..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Research, huh? How admirable.<CR>Were you thinking of new dinner menu ideas?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "No, that's not it. I was researching materials<CR>I might use for the castle job" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "It's called Bubbling Water, you see..." },
+	// ★This point is the same as above
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Bubbling Water? You can get all you need<CR>at Lake Nebel<CR>to the east, a bit of a walk" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Lake Nebel?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Yes, there's a lake a short walk to the east" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "It's not well known since it's far from town,<CR>but it's quite a beautiful lake" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "I didn't know such a place existed...<CR>Thank you. I'll go try it out" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Hmm, shall I come along?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Eh? You'll help me?<CR>Master, that's unusual of you to say..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "When a dear disciple goes to a summer lake,<CR>how could I stay silent?<CR>I must personally tailor a swimsuit for you" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Now then, what kind of swimsuit would you like...<CR>Classic frills are tempting, but<CR>maybe I should go with a daring cut..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "No thanks. I'll pass. I'll go by myself" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "What's that... Hey, Hom.<CR>Rorona's being unusually defiant.<CR>Say something to her" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,      15, BALLOON_FRAME_TYPE_BUC,            "Yes.<CR>What should I say in this situation?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Well, you see... *whisper whisper*... *gossip gossip*..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,      17, BALLOON_FRAME_TYPE_BUC,            "...Understood... Understood... I see" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,      18, BALLOON_FRAME_TYPE_BUC,            "The child-like flat-chested body<CR>is embarrassed to wear a swimsuit.<CR>Is that what I should say?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC_SHOUT,      "W-W-W-W-WHAT!?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Hey, don't say it so loud.<CR>She heard it all" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R2,      21, BALLOON_FRAME_TYPE_BUC,            "My apologies. By the way, Grand Master,<CR>what does 'flat-chested' mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "That's difficult to explain in one word.<CR>There are similar terms like washboard and plank,<CR>but they have different usages..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "M-Master! Don't teach Hom-chan<CR>weird things!!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Oh, Rorona's mad.<CR>Retreat, Hom" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,      25, BALLOON_FRAME_TYPE_BUC,            "Understood, Grand Master" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "Hey, wait you two!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "...Fine, whatever.<CR>It's not like I need a swimsuit<CR>to gather materials..." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLBL>Lake Nebel<CLNR> is now accessible." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM06_570_bda = {
+	"MM06",                 // Output file path
+	"EVENT_MESSAGE_MM06_570",// Output file name
+	MM06_570_EMS,           // Variable above
+};

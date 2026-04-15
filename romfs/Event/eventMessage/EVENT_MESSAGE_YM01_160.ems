@@ -1,0 +1,49 @@
+BalloonData YM01_160_EMS[] = {
+	// ▼从游戏开始到成为同伴之间
+	// ▼去城堡时（接受通常委托时）
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,     4476, BALLOON_FRAME_TYPE_BUC,            "Sigh..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,     4477, BALLOON_FRAME_TYPE_BUC,            "Oh, are you in problem-solving mode? You're sighing" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,     4478, BALLOON_FRAME_TYPE_BUC,            "No, it's not that I'm tired or anything..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,     4479, BALLOON_FRAME_TYPE_BUC,            "I'm just worried that my reputation among<CR>the townspeople really is going up..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,     4480, BALLOON_FRAME_TYPE_BUC,            "Hmm, well, evaluation from people isn't<CR>something visible, you know..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,     4481, BALLOON_FRAME_TYPE_BUC,            "Well, it's fine. If you're doing your best sincerely,<CR>the people who are watching will see that" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R2,    4482, BALLOON_FRAME_TYPE_BUC,            "If you're already like this, the future looks grim" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,     4483, BALLOON_FRAME_TYPE_BUC,            "Ah, Sterk-san...<CR>Uuu, sorry..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,     4484, BALLOON_FRAME_TYPE_BUC,            "Sterk-kun, since you don't seem to realize,<CR>let me tell you, that's the kind of threatening<CR>way of speaking that makes people think you're scary" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R2,    4485, BALLOON_FRAME_TYPE_BUC,            "Hmm... I will reflect on this.<CR>By the way, I have a request for you today" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,     4486, BALLOON_FRAME_TYPE_BUC,            "For me?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R2,    4487, BALLOON_FRAME_TYPE_BUC,            "Yes. Make me a zettel.<CR>The sooner the better" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,     4488, BALLOON_FRAME_TYPE_BUC,            "Eh? Eh?<CR>Um... why me?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R2,    4489, BALLOON_FRAME_TYPE_BUC,            "I'm a resident of this town too.<CR>I think I have the right to make a request of you" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R2,    4490, BALLOON_FRAME_TYPE_BUC,            "Of course, you have the right to refuse.<CR>If you don't want to, I won't force..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     4491, BALLOON_FRAME_TYPE_BUC,            "No, I'll do it! Please let me do it!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R2,    4492, BALLOON_FRAME_TYPE_BUC,            "I see. Then I'll be in your care" },
+	// ▼Sterk离开
+	// ★关于个人委托，系统性地说明
+	// ▼说明结束后
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     4493, BALLOON_FRAME_TYPE_BUC,            "Um, could it be that Sterk-san is...<CR>a kind person?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,     4494, BALLOON_FRAME_TYPE_BUC,            "That's right. He's a character that gets<CR>misunderstood easily because of his personality.<CR>Actually, once you get used to him, he's kind of cute" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,     4495, BALLOON_FRAME_TYPE_BUC,            "Cute, is it..." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can now receive Friend Quests,<CR>personal requests from people." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Would you like to see the tutorial<CR>about Friend Quests?" },
+	// ▼选择项"是/否"
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Friend Quests are personal requests<CR>from townspeople." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "However, you can't receive them from everyone in town,<CR>only from shop staff and people<CR>you've become close with." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Completing these requests won't raise<CR>your popularity, but the friendship value<CR>with that person will increase." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Raising friendship value lowers the<CR>cost to hire them as a party member,<CR>and has various other benefits." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "For details, please check the Help section<CR>about Friend Quests in the menu's Encyclopedia." },
+	// ▼
+	// ▼现有角色任务开始事件的修改
+	// ▼只是用系统消息的改写对应，但准备台词以防万一
+	// ▼插入到Sterk即将离开前的部分
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R2,   20255, BALLOON_FRAME_TYPE_BUC,            "If it's done, bring it to Estiy-senpai like<CR>the other requests. That'll help me" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,    20256, BALLOON_FRAME_TYPE_BUC,            "Right. I'll manage all personal requests here,<CR>so if you have requests from other people,<CR>you can come here too" },
+	// ▼这之后连接角色任务相关的系统消息
+};
+
+BALLOON_DATA_ALL YM01_160_bda = {
+	"YM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM01_160",// 出力ファイル名
+	YM01_160_EMS,           // 上記変数
+};

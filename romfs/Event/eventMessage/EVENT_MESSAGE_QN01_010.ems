@@ -1,0 +1,36 @@
+BalloonData QN01_010_EMS[] = {
+	// ▼ゲーム序盤、アトリエにいる時
+	// ▼パイ作りに勤しんでいるロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hmmm, hmm hmm~...<CR>Alright, done!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, that smells good" },
+	// ▼匂いにつられて部屋から|ftてくる師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "I was just taking a break and<CR>baking a pie. Would you like some, Master?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Well then, I won't refuse... *slurp slurp*" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Please be careful not to burn yourself.<CR>It actually tastes better when it's cooled,<CR>but..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "*slurp slurp*... Wow, this is delicious!<CR>Your pie-making skills are really something" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Ehehe, it's nothing really" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "On the other hand,<CR>your alchemy, housework, studies, exercise,<CR>social skills, luck, and everything else are lacking" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "...I don't think that's<CR>entirely fair..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Whew, that was delicious. Thank you.<CR>But having a special skill is<CR>no good for you" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "It would damage my reputation as a<CR>'Trainer of Problem Children'" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "T-Trainer of Problem Children?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Alright, I've decided.<CR>From this moment on, baking pies is prohibited!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Huh?...Eeeeeh!? Why not!?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "You're an alchemist too, aren't you?<CR>Then cooking in the kitchen is beneath you!<CR>Everything should be made from the alchemy cauldron!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "That's ridiculous!<CR>Then what am I supposed to do for food?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "I'll allow regular meals.<CR>It's a matter of keeping you alive.<CR>But pies are forbidden!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "But... what about meat pies!?<CR>Meat pies ARE food!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Hmm, meat pies...<CR>The taste is hard to give up... Rejected!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "If you desperately want to make pies,<CR>then use alchemy to make them.<CR>This is a master's order" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "This is...<CR>My only hobby is making pies..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "This too is a trial<CR>to make you a first-rate alchemist.<CR>Please understand" },
+	// ▼部屋に帰っていく師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "...That's a lie. That face is definitely enjoying this...<CR>Mmm~..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_010_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_010",// 出力ファイル名
+	QN01_010_EMS,           // 上記変数
+};

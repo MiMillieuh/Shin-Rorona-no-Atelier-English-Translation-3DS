@@ -1,0 +1,21 @@
+﻿BalloonData QN06_040_EMS[] = {
+	// ▼↑の討伐を終えて、報告にきた時に発生
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Estiy-san, I've defeated the monsters!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, thank you! Well, well..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "W-Why are you saying 'well, well'...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "No reason, I mean, I did ask you to do it,<CR>but Rorona-chan, you really can<CR>defeat monsters after all!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Yep! The girl is amazing, amazing!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "H-Huh..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(Then why did you<CR>  ask me to do it...)" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Here, this is your reward for this time.<CR>From time to time, I'll have these kinds of requests,<CR>so I'd appreciate your help then too!" },
+	// ▼報酬をもらう
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You received <CLGR>500 cole<CLNR>." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN06_040_bda = {
+	"QN06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN06_040",// 出力ファイル名
+	QN06_040_EMS,           // 上記変数
+};

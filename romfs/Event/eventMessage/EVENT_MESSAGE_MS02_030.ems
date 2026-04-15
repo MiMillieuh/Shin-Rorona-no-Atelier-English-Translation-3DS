@@ -1,0 +1,9 @@
+// メイン・補助２・３
+BalloonData MS02_030_EMS[] = {
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,      0, NAME_RORONA,     BUC_RORONA_NOR,   BUC_POSITION_TYPE_NONE,   -1,    BALLOON_FRAME_TYPE_SYSTEM, "The 'Arlvis Academy' — A remote island<CR>floating in the distant sky, built as the<CR>highest institution of alchemy" },
+};
+BALLOON_DATA_ALL MS02_030_bda = {
+	"MS02",			// 出力ファイルパス
+	"EVENT_MESSAGE_MS02_030",		// 出力ファイル名
+	MS02_030_EMS,		// 上記変数
+};

@@ -1,0 +1,33 @@
+﻿BalloonData QC01_560_EMS[] = {
+	// ▼When you have Tantris in your party, just as you try to gather
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "Oh my, oh my..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Who is this guy?<CR>Another new friend?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Yeah, Tant-san.<CR>We became friends recently" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "Even in this soot-covered city,<CR>a noble flower blooms...<CR>Ah, I must give thanks for this encounter" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "...What are you saying? It's creepy.<CR>If you're hitting on her, I'm leaving" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Ahaha...<CR>He's always like this..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Honestly. Don't go getting caught up with<CR>such an obviously suspicious man" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "No, I'm the one who is caught.<CR>Even now, I'm trapped in the web called love<CR>and struggling..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "...Can I hit him?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "C-Calm down. Let's get along, okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L2,      10, BALLOON_FRAME_TYPE_BUC,            "Rorona is right.<CR>I wish to be friends with all women<CR>in the world" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "Yes, not just one person, but all women..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Yeah, yeah, just get away and let's go" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "O-Okay..." },
+	// ▼The two walk ahead
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "That kind of smooth-talker<CR>bothers me on a personal level. It grosses me out" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "I don't think he's just smooth-talking..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "You're really defending him. By the way,<CR>what was the first thing he said to you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Um, let me think.<CR>He said \"Lovely miss\"...ehehehe" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Ehehehe... No way! Are you kidding me!?<CR>You're such an easy girl!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Eh? Easy?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "In any case, you should<CR>be more cautious! Got it!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "O-Okay...<CR>I wonder why I'm getting scolded..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_560_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_560",// Output file name
+	QC01_560_EMS,           // Variable name
+};

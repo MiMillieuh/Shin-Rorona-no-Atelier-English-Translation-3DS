@@ -1,0 +1,17 @@
+BalloonData QN01_020_EMS[] = {
+	// ▼レシピでパイの作り方を知った時
+	// ★※どこで起きるか分からないのでどうしたものか
+	// ★一言二言しかないので、押し切ってしまっても
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, this is... how to make a pie?<CR>Wow, you can really make it with alchemy!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Let me check the ingredients...<CR>Yeah, it's almost the same as making it normally.<CR>Alright, I can make this pie!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Alright, I'll try making it later!" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You obtained the reference book<CLGR> 'Pie Made with Alchemy' <CLNR>!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_020_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_020",// 出力ファイル名
+	QN01_020_EMS,           // 上記変数
+};

@@ -1,0 +1,29 @@
+BalloonData QC06_540_EMS[] = {
+	// ▼ジオを仲間にして、採取に出かけようとした時
+	// ★※ステルクが仲間にいない、まだ王様だとばれてない時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...Gio is taking a while...<CR>I can't just leave without him,<CR>what should I do..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Hmmm... Oh!<CR>Finally here. Gio-!" },
+	// ▼すごい速さで走ってくるジオ
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Shh! Don't speak so loudly!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Mmpf!? Mmmph, mmmph-?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Stop dawdling! Hurry!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Pwah! W-what was that all about...<CR>Waaaaah!?" },
+	// ▼ロロナを引っ張って街の外へ。少し移動したところでイベント
+	// ★いっそ目的地まで。通常の倍くらい早く移動とかできたら
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "We should be safe here..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "*huff* *huff* *huff*... *huff*...<CR>*huff* *huff* *huff*..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Hm? What's wrong?<CR>You look exhausted" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "W-well...<CR>It's because you grabbed me and dragged me..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "A-ah. Sorry about that.<CR>You see, I was being followed" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Followed...? Eh?<CR>By who? Are you okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Ah, no need to worry.<CR>It's a usual thing. The heat should<CR>die down soon enough" },
+	// ▼先に歩き出すジオ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Usual thing...?<CR>Gio, are you always being chased by someone...?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_540_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_540",// 出力ファイル名
+	QC06_540_EMS,           // 上記変数
+};

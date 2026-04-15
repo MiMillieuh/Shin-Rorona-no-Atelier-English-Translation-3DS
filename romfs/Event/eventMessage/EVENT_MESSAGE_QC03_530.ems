@@ -1,0 +1,42 @@
+BalloonData QC03_530_EMS[] = {
+	// ▼ When you go gathering with Iksel for the first time
+	// ▼ Whether Cudelia is with you changes the content
+	// ▼ When she's with you
+	// ★First display BUC for all three
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "...Hey. Why is this person here?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "She said she'd help out.<CR>Besides, it's more reassuring with a boy around, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "Not just any boy will do, you know.<CR>Why of all people..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "What, you got a problem with me?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "Obviously.<CR>Can you even fight properly?<CR>This isn't a game, you know." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_IKA,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "You don't have to tell me that!<CR>I even brought my weapon ready.<CR>Ta-dah!" },
+	// ▼ Iksel takes out a frying pan
+	// ★Probably can't do a BUC with a frying pan, so this might be a character drama. Using battle motions
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Iksel...kun?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "...Hold on. What is that supposed to be?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "It's a frying pan. You don't know what that is?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L2,       9, BALLOON_FRAME_TYPE_BUC,            "Of course I know what a frying pan is!<CR>But why is your weapon<CR>a frying pan!?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Why? Because if you hit someone with it,<CR>it'd really hurt, obviously?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "Well yeah, it would hurt, but that's not the point...<CR>Argh! You're totally unreliable!<CR>This guy!" },
+	// ▼ Cudelia storms off ahead in anger
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "What's her problem? I don't get her at all..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Ahaha...<CR>I'm starting to feel a little uneasy too..." },
+	// ▼
+	// ▼ When she's not there
+	// ▼ Event after leaving town
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Um... Iksel." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Hm? Yeah?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "What are you holding there?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "What, a frying pan, obviously.<CR>You can't tell?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "No, I know what that is...<CR>But what is it for?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "It's my weapon, obviously.<CR>If a monster shows up, I'll whack 'em good with this.<CR>*BONK*!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "But for weapons,<CR>does it have to be a frying pan..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Oh, you don't know this, do you?<CR>A frying pan is incredibly painful, you know?<CR>Want me to try it on you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "No! Please don't!<CR>...Maybe it would've been better if<CR>Ku-chan came along after all..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC03_530_bda = {
+	"QC03",                 // Output file path
+	"EVENT_MESSAGE_QC03_530",// Output file name
+	QC03_530_EMS,           // Above variable
+};

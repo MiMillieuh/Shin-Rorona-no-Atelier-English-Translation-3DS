@@ -1,0 +1,21 @@
+﻿BalloonData YM05_150_EMS[] = {
+	// ▼トトリ、メルルの二人を初めて一緒に雇い、採取に出かけた時
+	// ▼延長戦で発生
+	// ●延長戦の序盤の方でしか発生しない
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_WARA,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Going out with you, Master Rorona,<CR>it's been so long—I'm happy!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "I don't know what the future holds,<CR>so it's a strange feeling...<CR>but we were together in the future, weren't we?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Yes, Meruru was always<CR>with us too." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R2,       3, BALLOON_FRAME_TYPE_BUC,            "Still, three alchemists together...<CR>This really is something special, isn't it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Ah, now that you mention it, yes.<CR>It was always just me and my Master before." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "That's right, there aren't many alchemists<CR>to begin with, so having all three of us together<CR>is quite rare!" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX1,     BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "If the three of us are together...<CR>I wonder if we could do something amazing?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Who knows? I can't think of anything<CR>right off the bat..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_WARA,    BUC_POSITION_TYPE_R2,       8, BALLOON_FRAME_TYPE_BUC,            "But when all of us are gathered,<CR>there's nothing we can't handle! <CR>Come on, let's go!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM05_150_bda = {
+	"YM05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM05_150",// 出力ファイル名
+	YM05_150_EMS,           // 上記変数
+};

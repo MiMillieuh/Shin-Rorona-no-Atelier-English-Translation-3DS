@@ -1,0 +1,58 @@
+﻿BalloonData QN03_070_EMS[] = {
+	// ▼↑の後、ハゲルに話しかけたら
+	// ▼入り口の物陰からひっそり話しかける主人公
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Pops, hey... pops..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, it's you, little miss.<CR>Why are you skulking around like that?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "It's just... probably better not to say it too loud..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Um, it's done. The thing you asked for" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_IKA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC_SHOUT,      "What!? The wig! MY wig!?<CR>Where is it? Where is it!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "W-Wow! Don't shout so loud!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Um, it was too heavy to bring,<CR>so it's at the Atelier..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_IKA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "The Atelier, got it! I'm on my way!<CR>I'm going! I'm running there!" },
+	// ▼あっという間に店の外に走り出すハゲル
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Whoa! W-Wait for meee!" },
+	// ▼追いかけていく主人公
+	// ▼場面転換、アトリエに走りこんでくる二人
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_IKA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Where is it!? Where's my wig!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Haa, haa... pops, you're too fast..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "It's on the floor over there, but... um..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_ODO,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "This one!? Whoa, it's heavy!!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "So this is what real hair feels like...<CR>I forgot how heavy it is...<CR>Sorry about that..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Normal hair isn't that heavy, you know.<CR>And um, before you put it on—" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_IKA,     BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Grrr... graooooh...<CR>If I put this on, I can finally...<CR>Whoaaa!!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "He's not listening at all..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_IKA,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Alright, here we go! How do I look!!" },
+	// ▼アフロを被りご満悦のハゲル
+	// ★ハゲルのBUCを特殊８に差し替え
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Fwah! Th-This is... beyond what I expected..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_EX8,     BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "That weight, that satisfying heft...<CR>Finally... finally there's hair on my head...!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      20, BALLOON_FRAME_TYPE_BUC,            "Oh my. It suits you rather well, Hageru" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_EX9,     BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Wh-Who are you calling bald!!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_EX12,    BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Ahem, I mean. I'm not bald anymore.<CR>That's right—a mirror! Where's a mirror!?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      23, BALLOON_FRAME_TYPE_BUC,            "It's in my room. This way" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_EX8,     BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Right, this way!<CR>As soon as possible, my shining new self..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "Ah, if you run like that you'll—" },
+	// ▼走り出すハゲル。と同時に、ゴキッといやな音
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_EX11,    BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC_SHOUT,      "*!%&$☆○♪?!!!!!!!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "Eek!!<CR>P-Pops! POPS!!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L2,      28, BALLOON_FRAME_TYPE_BUC,            "Pffft, kuh... ahahahahaha!!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L2,      29, BALLOON_FRAME_TYPE_BUC,            "The crack of doom!<CR>The crack of doom! It cracked! Ahahahahaha!!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "This isn't funny!<CR>Pops, please hang in there!!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_EX10,    BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "The mirror... the mirror... my...<CR>My fluffy, beautiful self... *grk*" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       32, BALLOON_FRAME_TYPE_BUC,            "POOPS!!" },
+	// ▼黒フェードして、しばらくの間
+	// ▼フェード明けて、武器屋の前の張り紙を呼んでいる主人公と師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "'Due to the shopkeeper's sudden illness,<CR>we will be closed for a while...' it says" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,       34, BALLOON_FRAME_TYPE_BUC,            "Don't give me those eyes. You'll ruin your cute face, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       35, BALLOON_FRAME_TYPE_BUC,            "Honestly! Even for you, Master, this prank went too far!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       36, BALLOON_FRAME_TYPE_BUC,            "I know.<CR>I do feel responsible for it.<CR>Hageru's treatment will be taken care of properly, so rest assured" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       37, BALLOON_FRAME_TYPE_BUC,            "That goes without saying!<CR>Sigh... and I was counting on getting<CR>a new weapon made..." },
+	// ▼イベント結果：しばらく武器屋がお休み
+	// ▼
+};
+
+BALLOON_DATA_ALL QN03_070_bda = {
+	"QN03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN03_070",// 出力ファイル名
+	QN03_070_EMS,           // 上記変数
+};

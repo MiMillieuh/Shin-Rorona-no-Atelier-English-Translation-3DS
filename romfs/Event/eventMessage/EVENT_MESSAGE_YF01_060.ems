@@ -1,0 +1,11 @@
+锘BalloonData YF01_060_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Save data for Totori's Atelier Plus was found." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You obtained Totori's costume '<CLGR>Rose Victorian<CLNR>' and accessory '<CLGR>Peach Blossom Veil<CLNR>'." },
+};
+
+BALLOON_DATA_ALL YF01_060_bda = {
+	"YF01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YF01_060",// 出力ファイル名
+	YF01_060_EMS,           // 上記変数
+};

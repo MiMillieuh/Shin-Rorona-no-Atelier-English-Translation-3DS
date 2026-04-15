@@ -1,0 +1,26 @@
+BalloonData QC03_114_EMS[] = {
+	// ▼イクセルを連れて高地に来た時・↑のイベントを見ている
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, there's another egg on the ground." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Whoa, another big egg.<CR>With this size, we could make<CR>how many fried eggs for how many people..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "A fried egg only makes one egg<CR>from one egg, you know..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Don't be a killjoy.<CR>Let's take it home. Come on." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Whoa, don't throw it!<CR>So, what kind of egg is this..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Some kind of egg." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "As I thought...<CR>Wow, it's pretty heavy." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Oh right. I don't know what kind of egg it is,<CR>but be careful with it." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Be careful, you say?<CR>Does that mean don't drop it?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "That's part of it.<CR>But this might be<CR>a monster's egg from around here, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "The parent might come<CR>to get it back." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Eeeeeek!?<CR>Th-Then Ixsel-kun, you carry it!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "If we find more eggs,<CR>I'll carry them.<CR>Come on, let's look for more." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "W-Wait a second.<CR>Wait for meee!" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLGR>Some Kind of Egg<CLNR> was obtained." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC03_114_bda = {
+	"QC03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC03_114",// 出力ファイル名
+	QC03_114_EMS,           // 上記変数
+};

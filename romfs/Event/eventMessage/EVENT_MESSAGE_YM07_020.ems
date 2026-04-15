@@ -1,0 +1,24 @@
+﻿BalloonData YM07_020_EMS[] = {
+	// ▼送られてきた手紙が発生している、発生から数日後
+	// ▼アトリエで発生
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_IKA,     BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "Totori-sensei! Rorona-san!<CR>Another capsule arrived!<CR>There's a letter inside!" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "A capsule? What does Astrid-san say this time?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "I'll read it! Let me see..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "'We are trying to create an item to bring you back,<CR> but we still need rare materials<CR> and haven't finished yet...'" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "'We estimate it will take<CR> nearly a year to get everything ready.'" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "'Then again, with your abilities,<CR> you might be able to find your way back on your own<CR> before then, so I have that to look forward to.'" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_SIN,     BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "...That's it?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX4,     BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "Yes, that's all." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "A year, huh. Really?<CR>The future's still far away..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_WARA,    BUC_POSITION_TYPE_L2,      10, BALLOON_FRAME_TYPE_BUC,            "But I was thinking, even if it takes time to make,<CR>if we jump back the same amount of time,<CR>wouldn't we arrive at the same moment?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Oh, you're right! And maybe actually<CR>it could be done right away and she's just<CR>taking a year off to have fun..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "(Even in the future, Master sure isn't<CR>trusted very much, huh...<CR>But that's what she gets for being so carefree...)" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM07_020_bda = {
+	"YM07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM07_020",// 出力ファイル名
+	YM07_020_EMS,           // 上記変数
+};

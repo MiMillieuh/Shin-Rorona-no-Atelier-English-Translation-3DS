@@ -1,0 +1,27 @@
+﻿BalloonData QC01_510_EMS[] = {
+	// ▼Cuderira surrounded by boys
+	{ BALLOON_MODE_CHARA,  CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "You guys, stop following me!" },
+	{ BALLOON_MODE_CHARA,  CHARA_BOY_A,      0, NAME_KID_A,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_NORMAL,         "Come on, just buy us something~" },
+	{ BALLOON_MODE_CHARA,  CHARA_BOY_B,      0, NAME_KID_B,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_NORMAL,         "I heard your family's loaded~.<CR>Don't be so stingy" },
+	{ BALLOON_MODE_CHARA,  CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_NORMAL,         "Leave me alone!<CR>If you don't stop, I'll tell my father... ah" },
+	{ BALLOON_MODE_CHARA,  CHARA_BOY_A,      0, NAME_KID_A,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_NORMAL,         "Oh no, there it is! Father again" },
+	{ BALLOON_MODE_CHARA,  CHARA_BOY_B,      0, NAME_KID_B,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_NORMAL,         "Right~. Your dad's so rich~,<CR>unlike our old man~" },
+	{ BALLOON_MODE_CHARA,  CHARA_BOY_C,      0, NAME_KID_C,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_NORMAL,         "Tch. Let's get out of here" },
+	{ BALLOON_MODE_CHARA,  CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "........." },
+	// ▼Kids scatter. Rorona appears in their place
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Ah, Kuu-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Rorona!<CR>Were you watching?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Watching? What do you mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KANA,   BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "...Nothing. Haah, this is the worst.<CR>Using father like that..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Kuu-chan, are you angry? What happened?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Nothing happened! I said!<CR>...I'm going home!" },
+	// ▼Cuderira leaves
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Eh? Kuu-chan?<CR>She seems upset..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_510_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_510",// Output file name
+	QC01_510_EMS,           // Variable name
+};

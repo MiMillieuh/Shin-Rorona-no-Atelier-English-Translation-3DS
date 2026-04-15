@@ -1,0 +1,24 @@
+﻿BalloonData QN03_030_EMS[] = {
+	// ★ある程度ハゲルの高感度があがってから
+	// ▼街中でハゲルを見かけるロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, isn't that... hey there, Hagel—..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_IKA,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Who're you calling bald!! RAAAAAAAGHHH!!!!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Yikes!? S-s-sorry!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "...Oh, it's just you, missy.<CR>Did I startle you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Y-yes. Very much so..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "My apologies for that.<CR>But I keep telling you,<CR>don't call me by that name." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I'm sorry, it just slipped out." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Um... you do mind it after all, don't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_ODO,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Wha—!? Y-you fool!!<CR>Who said anything about caring<CR>about their hair!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(I wasn't actually talking about his hair...)" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Oops. I raised my voice,<CR>so people are starting to crowd around.<CR>I'd better make myself scarce." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Oh, alright. See you." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "...He really does mind it after all." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN03_030_bda = {
+	"QN03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN03_030",// 出力ファイル名
+	QN03_030_EMS,           // 上記変数
+};

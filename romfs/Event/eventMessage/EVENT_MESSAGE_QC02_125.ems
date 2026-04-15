@@ -1,0 +1,13 @@
+BalloonData QC02_125_EMS[] = {
+	// ▼↑のモンスターに負けた後
+	// ▼強制で帰された後
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Uuu, I lost... My whole body hurts..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Maybe I should have listened to Sterk after all..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_125_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_125",// 出力ファイル名
+	QC02_125_EMS,           // 上記変数
+};

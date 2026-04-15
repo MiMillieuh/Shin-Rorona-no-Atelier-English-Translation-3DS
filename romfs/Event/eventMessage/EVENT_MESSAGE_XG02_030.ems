@@ -1,0 +1,11 @@
+﻿BalloonData XG02_030_EMS[] = {
+	// ▼キャベツ祭の時の通行禁止用
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "N-no, no way. Let's focus on the<CR>festival right now. Okay?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL XG02_030_bda = {
+	"XG02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_XG02_030",// 出力ファイル名
+	XG02_030_EMS,           // 上記変数
+};

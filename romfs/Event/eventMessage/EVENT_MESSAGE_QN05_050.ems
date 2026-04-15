@@ -1,0 +1,27 @@
+BalloonData QN05_050_EMS[] = {
+	// ▼パメラとホムがアトリエに同居している時だけ発生
+	// ▼主人公がアトリエにいる時
+	// ▼鼻歌を歌いながらふわふわ浮いてるパメラ。入り口で呆然と見上げているクーデリア
+	{ BALLOON_MODE_CHARA,  CHARA_PAMELA,     0, NAME_PAMELA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "Fuum~ fun fu fun fun~♪" },
+	{ BALLOON_MODE_CHARA,  CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "......." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Ah. Cue-kun, you came?" },
+	// ▼気づいて近づいてくる主人公
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "...What is that?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "It's Pamela, you know. The ghost" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I can see that. Why is a ghost<CR>at your place?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "W-Well, um...<CR>I just picked her up on impulse..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Why do you pick up everything?!" },
+	// ▼パメラ、ホム、師匠と順々に見回す。ホムは仕事中、師匠は居眠り
+	{ BALLOON_MODE_CHARA,  CHARA_PAMELA,     0, NAME_PAMELA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_NORMAL,         "Fufun~ fu fun fun~♪" },
+	{ BALLOON_MODE_CHARA,  CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     9, BALLOON_FRAME_TYPE_NORMAL,         "Zzz...z zz..." },
+	{ BALLOON_MODE_CHARA,  CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "......." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "What kind of haunted house is this?<CR>The only normal person here is you,<CR>just one person" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Master is a person too...I think" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN05_050_bda = {
+	"QN05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN05_050",// 出力ファイル名
+	QN05_050_EMS,           // 上記変数
+};

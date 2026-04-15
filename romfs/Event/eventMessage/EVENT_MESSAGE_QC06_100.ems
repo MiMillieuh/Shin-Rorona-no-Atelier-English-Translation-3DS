@@ -1,0 +1,20 @@
+﻿BalloonData QC06_100_EMS[] = {
+	// ▼ティファナの店に行った時
+	// ▼ティファナとステルクが話をしている
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hello!.<CR>Oh? Sterk-san" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Welcome, Rorona-chan.<CR>Perfect timing" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R2,       2, BALLOON_FRAME_TYPE_BUC,            "I was just about to head to<CR>your atelier next" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Is something wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "It seems a band of thieves has<CR>settled near the town lately.<CR>Several travelers have already been robbed" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_SIN,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "There haven't been any incidents in town yet,<CR>but they came all the way here to warn us,<CR>just so we'd be careful" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_KANA,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Me too, of course, but<CR>since Rorona-chan lives alone with no men around...<CR>please be careful" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "O-of course. I'll be careful" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Thieves, huh...<CR>That's scary to hear..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_100_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_100",// 出力ファイル名
+	QC06_100_EMS,           // 上記変数
+};

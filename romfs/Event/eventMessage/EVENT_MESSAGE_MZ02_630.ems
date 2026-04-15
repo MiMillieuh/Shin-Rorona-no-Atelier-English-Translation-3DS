@@ -1,0 +1,20 @@
+﻿BalloonData MZ02_630_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Rorona! Hey, Rorona!<CR>At least respond" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_BUC,            "Mmm... Iksel-kun?<CR>What is it~?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "\"What\"!? How long are you planning to keep hiding in there!?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "Let me see... until I get bored of it" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_IKA,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Wha--! Come on, get a grip!<CR>At least show your face!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_BUC,            "Ehh... Moving is such a hassle~" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_IKA,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "...Yeah, fine. Do whatever you want!" },
+	// ▼Iksel leaving the atelier
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_AKI,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Jeez... I guess maybe you're just<CR>slacking off after being so busy,<CR>but this is really too much..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "I think I'll have to<CR>take stronger measures soon..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_630_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_630",// Output file name
+	MZ02_630_EMS,           // Variable name
+};

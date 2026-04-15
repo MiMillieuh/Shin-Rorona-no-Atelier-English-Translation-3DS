@@ -1,0 +1,29 @@
+BalloonData QC02_570_EMS[] = {
+	// ★使えない可能性あり
+	// ▼そこそこ仲良くなってから、どこかに採取に行った時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh. Sterk, your shoelace is untied." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Hm? Oh, I didn't notice." },
+	// ▼しゃがみこんで靴ヒモを直すステルク
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(Ah, Sterk's neck... Now that I think about it, Master said... *stares*...)" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "All done. Sorry for making you wait..." },
+	// ▼立とうとするステルクの首をつつくロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "*poke*" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Gyaaaaaah!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Waaaaaah!?" },
+	// ▼お互い驚いて飛びずさる
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "W-what was that for!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "S-s-sorry!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Master told me it'd be funny if I poked your neck, so I couldn't help it!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Th-that woman! She remembers all the worst things!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Sorry! I'm really sorry!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "...You don't need to apologize. Just don't do it again. Understood?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Y-yes!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Uuu, I made him angry... But Master, how did you even know about that?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_570_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_570",// 出力ファイル名
+	QC02_570_EMS,           // 上記変数
+};

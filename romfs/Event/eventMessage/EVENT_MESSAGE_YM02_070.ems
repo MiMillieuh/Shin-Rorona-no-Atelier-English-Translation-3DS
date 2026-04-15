@@ -1,0 +1,25 @@
+BalloonData YM02_070_EMS[] = {
+	// ▼艾斯蒂的友好度相当高
+	// ●委托达成次数多（通过人气等判断？）
+	// ▼进入王宫接待处发生
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Hey, I wanted to ask you something,<CR>is that okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "What's wrong? If it's about me, I'm fine with it" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Well, I've been going outside with Rorona-chan<CR>and watching you this whole time, and<CR>you really are sociable, aren't you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Huh, am I? Rather, I've been at the Atelier<CR>all the time, so it's not like that much.<CR>I'm such a homebody" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "No no. A real recluse is like my sister,<CR>you know what I mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Oh, you have a sister" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "...Well, what I wanted to ask is about that sister" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "My sister is the opposite of me, very shy around people. I want to do something about it,<CR>but I can't think of any good ideas.<CR>What should I do?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Hmm... I was forced to do various things by the Master,<CR>and before I knew it I got used to talking with<CR>all kinds of people, I guess" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "I see... that's it!<CR>If I force her to do something, right?<CR>Great idea. Thanks!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Eh, is that okay!? <CR>What if your sister hates it..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "It's fine, it's fine. That child,<CR>would never move on her own,<CR>so this is just right" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "(Hmm... was that really okay...?)" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM02_070_bda = {
+	"YM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM02_070",// 出力ファイル名
+	YM02_070_EMS,           // 上記変数
+};

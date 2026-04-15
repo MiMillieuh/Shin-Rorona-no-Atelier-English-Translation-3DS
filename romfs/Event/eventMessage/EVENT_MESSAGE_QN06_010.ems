@@ -1,0 +1,33 @@
+﻿BalloonData QN06_010_EMS[] = {
+	// ▼話しかけて、依頼画面から抜けた時に発生
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Rorona-chan, you've really gotten<CR>the hang of this work, haven't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Not at all!<CR>I'm still struggling..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "No no, you're doing just fine.<CR>I'll vouch for you." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Actually, I have a request...<CR>Want to try taking on a job<CR>that's just a little bit harder than before?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Hard, is it?<CR>I wonder if I can do it..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Don't worry. Even though I said hard,<CR>it's basically the same as what you've been doing." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Actually, the jobs you've been doing<CR>have had some pretty luxurious requests attached to them." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Luxurious requests?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "That's right. For example, if a request's deadline<CR>is two weeks from now" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "They'd say, 'Could you bring it in a week<CR>if possible?' or something like that." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Or if it's something to bring, they'd say,<CR>'We'd prefer higher quality, if possible,'<CR>you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Of course, even if you can't meet them,<CR>you won't get complaints, but if you do,<CR>you'll get more rewards!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Oh... so those conditions existed, huh?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Well, it's faster to just<CR>try it out rather than explain.<CR>So here's my request this time." },
+	// ▼システム画面で、依頼内容を表示
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "It's like this.<CR>I'm not setting a specific deadline,<CR>but I'd appreciate it if you could bring it soon." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Also, this time you need to actually meet<CR>those luxurious requests to accept it,<CR>so please keep that in mind." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Understood, I'll give it a try!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "...But Estiy-san,<CR>what are you using these for?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Hehehe. That's a secret.<CR>Well then, I'm counting on you!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "...I'm a bit curious, but oh well.<CR>Let's just try it for now!" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You received a special request from Estiy.<CR>Please report on this request via<CLBL>Estiy's Request<CLNR>." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN06_010_bda = {
+	"QN06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN06_010",// 出力ファイル名
+	QN06_010_EMS,           // 上記変数
+};

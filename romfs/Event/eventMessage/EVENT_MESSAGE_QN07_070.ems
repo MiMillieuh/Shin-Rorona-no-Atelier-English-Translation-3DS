@@ -1,0 +1,34 @@
+﻿BalloonData QN07_070_EMS[] = {
+	// ▼↑のイベント後、コオルが訪ねて来た時
+	// ▼買い物が終わった後
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Um, hey, Corm-kun.<CR>Can I ask you something?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Hmm? Did you forget something?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "No, it's not that! Oh right!<CR>I baked a cake, want to eat some?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_ODO,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Huh? Sorry, but I'm still in the middle of work." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "I see... then how about an earthenware one?<CR>I'll go get it now!" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "It's okay, it'll get in the way.<CR>Seriously though, what's gotten into you<CR>all of a sudden? It's weird." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Well, it's just that... you seem to have it hard...<CR>And with your dad's illness and everything..." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_AKI,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Oh, that thing from before?<CR>I told you not to worry about it.<CR>He's already up and running around!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Oh, really? That's great...<CR>But you work so hard all the time..." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Well, I don't wanna end up like my old man,<CR>that's for sure." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "He apparently had a big score when he was young,<CR>and he's been lazing around living it up ever since." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_AKI,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "And him getting sick is<CR>his own fault for being unhealthy, you know?<CR>I've got zero sympathy for him." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "I see, so... wait, 'living it up'?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Ah, forget it, I gotta go.<CR>I can't be chatting all day. Later!" },
+	// ▼去っていくコオル
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "...Um, Master?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "What's the matter, you look so upset." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Master! What are you grinning about!<CR>That's not fair! Lying like that!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "How rude! I didn't lie at all.<CR>I just said you could imagine it." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "W-Well, yes, but...<CR>anyone would think the same thing with<CR>the way you said it!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Oh, alright, alright.<CR>I'll take full responsibility for eating<CR>the cake you baked for Corm-kun." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Will that satisfy you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "I'm not giving you a single bite!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN07_070_bda = {
+	"QN07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN07_070",// 出力ファイル名
+	QN07_070_EMS,           // 上記変数
+};

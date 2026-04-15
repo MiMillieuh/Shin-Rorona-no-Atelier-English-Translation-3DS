@@ -1,0 +1,27 @@
+BalloonData YM01_090_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...I was told a new shop opened, so come see it,<CR>but... did anything change from the old<CR>alchemy shop I wonder" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Well, you'll understand when you see it for yourself.<CR>Rorona-chan's probably waiting, let's hurry" },
+	// ▼黑画面
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_BUC,            "Heh, thought I'd be first, but<CR>it's already packed with people.<CR>Looks like it's doing well" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "Rorona-chan~ I came~" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_BUC,            "Welcome~!<CR>Welcome to Rorona's Pie Shop~!" },
+	// ▼变成图片
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_BUC,            "...Pie? Pie shop?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_BUC,            "Oh no, did I come to the wrong shop?<CR>But you did say Rorona, right?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_BUC,            "Ah, Estiy-san.<CR>You came, I'm so happy" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_BUC,            "Well, um...<CR>But what's this about pie?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     9, BALLOON_FRAME_TYPE_BUC,            "Ehehe. We opened a new shop today.<CR>It was my dream since I was little,<CR>to open a pie shop" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_BUC,            "I-I see... That's quite a bold move.<CR>So you're done with alchemy?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_BUC,            "Well... ah, but about half the pies are<CR>made with alchemy, so it's not like<CR>I completely quit" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    12, BALLOON_FRAME_TYPE_BUC,            "Heh... I was surprised by the sudden change,<CR>but if you're doing what you want,<CR>that's worth celebrating" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    13, BALLOON_FRAME_TYPE_BUC,            "So to celebrate your fresh start,<CR>I'll have something to eat as well.<CR>Which one looks the best?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_BUC,            "Thank you!<CR>I'll prepare something special for you!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM01_090_bda = {
+	"YM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM01_090",// 出力ファイル名
+	YM01_090_EMS,           // 上記変数
+};

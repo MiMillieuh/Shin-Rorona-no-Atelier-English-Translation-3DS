@@ -1,0 +1,19 @@
+BalloonData MM08_120_EMS[] = {
+	// ★※If the event above wasn't seen (if it was seen, this won't trigger)
+	// ▼Crowds gathered in town
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Whoa, so many people!<CR>I see, the festival has started" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Should I take a quick look..." },
+	// ▼Choice: Go see the Kingdom Festival / Don't go
+	// ▼Choose to go
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Alright, let's take a look.<CR>It only happens once a year, after all" },
+	// ▼Choose not to go
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Hmm, I'm curious, but...<CR>No way! I have work to do today!" },
+	// ▼
+	// ★※From here on, basically can only choose atelier and outside town
+};
+
+BALLOON_DATA_ALL MM08_120_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_120",// Output file name
+	MM08_120_EMS,           // Variable above
+};

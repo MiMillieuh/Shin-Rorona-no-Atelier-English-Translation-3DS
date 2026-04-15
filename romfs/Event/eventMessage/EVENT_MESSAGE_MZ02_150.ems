@@ -1,0 +1,50 @@
+BalloonData MZ02_150_EMS[] = {
+	// ▼Text comes in first. In front of the atelier, many customers in a long line
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Rorona, who completed the three-year work from the kingdom and protected the atelier" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "However, the kingdom's evaluation of her was not at all high, and her alchemy skills were lacking..." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Even so, her personality and earnest way of working earned her great popularity among the townspeople" },
+	// ▼Scene change inside the atelier. Rorona and Hom working busily
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Hom-chan. Are you done with your synthesis?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "My apologies. It will take a bit longer" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "I see... we're running out of time.<CR>Guess we have to rush! Here goes!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Please wait" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "If we wait, we'll run out of time!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "The ingredient Master just put in the cauldron<CR>is extremely dangerous if put directly over fire" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Heh...? But I already put it in..." },
+	// ▼Screen slowly turns white (the thing before the bomb explodes), loud explosion sound
+	// ▼Black screen with pause, then scene change
+	// ▼Inside the castle, Esti talking to working Tantoris
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Oh my, working seriously for once" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "That's mean. I'm always serious" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Yes, yes.<CR>If Tristan-kun is working,<CR>does that mean it's for Rorona-chan's atelier again?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Yeah, well.<CR>These are yesterday's though" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "It adds up to quite a bit...<CR>The atelier's repair costs" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Right...<CR>A normal atelier wouldn't explode so easily, though" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Wouldn't it be better if someone<CR>stayed by her side and looked after her?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "I gave up that role already.<CR>Besides, someone needs to process<CR>these documents..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    18, BALLOON_FRAME_TYPE_BUC,            "Add today's to those documents" },
+	// ▼Meriodas arrives and hands documents to Tantoris
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Ugh. Today too...?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R2,      20, BALLOON_FRAME_TYPE_BUC,            "It'll explode again anyway.<CR>Use the cheapest materials possible" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R2,      21, BALLOON_FRAME_TYPE_BUC,            "Honestly, if you don't crush them while you can,<CR>you just waste money..." },
+	// ▼Meriodas says that and leaves
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "...She's holding up, but<CR>that really takes a toll on her" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Right... Sigh.<CR>I'm not really the type to be<CR>this worried about someone, though" },
+	// ▼Black screen scene change
+	// ▼Illustration display
+	// ★The atelier, completely burnt from a synthesis failure
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    24, BALLOON_FRAME_TYPE_BUC,            "*cough* *cough*... uuu...<CR>Hom-chan, are you okay...?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    25, BALLOON_FRAME_TYPE_BUC,            "Yes. Somehow.<CR>Glad to see Master is safe too" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    26, BALLOON_FRAME_TYPE_BUC,            "I'm not really okay...<CR>Wow, I really did it big today..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_TANTORIS,   0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    27, BALLOON_FRAME_TYPE_BUC,            "You really did it big this time..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_TANTORIS,   0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    28, BALLOON_FRAME_TYPE_BUC,            "Fixing this, writing various documents,<CR>I'd appreciate it if you could think about<CR>the people who have to do all that work" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    29, BALLOON_FRAME_TYPE_BUC,            "Uuu, sorry..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    30, BALLOON_FRAME_TYPE_BUC,            "...Eh? Could that voice be...!?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_150_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_150",// Output file name
+	MZ02_150_EMS,           // The above variable
+};

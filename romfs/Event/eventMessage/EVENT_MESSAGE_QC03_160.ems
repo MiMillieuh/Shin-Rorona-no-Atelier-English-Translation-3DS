@@ -1,0 +1,20 @@
+BalloonData QC03_160_EMS[] = {
+	// ▼ When you have the requirements met and exit the shopping screen
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "...Hey. You've gotten pretty good at<CR>making all kinds of dishes by now, huh?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Huh? Yeah, well...<CR>There are some dishes you can only make with alchemy." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "If you want, how about I sell<CR>some of your cooking at my shop?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "At Iksel's shop?<CR>That'd be great, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Then it's settled.<CR>Let me know when you've decided what you'd like to sell." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "And so, let's have a competition to see whose dishes sell more!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "...I don't really think we need to<CR>make it into a competition..." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can now use the mass retailer<CR>at Iksel's shop." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "At Iksel's shop, you can now<CR>have them handle dishes, ingredients, and more." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC03_160_bda = {
+	"QC03",                 // Output file path
+	"EVENT_MESSAGE_QC03_160",// Output file name
+	QC03_160_EMS,           // Above variable
+};

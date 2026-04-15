@@ -1,0 +1,24 @@
+BalloonData QC06_140_EMS[] = {
+	// ▼↑で手伝いを断るか、約束をすっぽかした時に発生
+	// ▼約束に日よりさらに数日後、街中を歩いているロロナ
+	// ▼街の人達ががやがた噂話をしている
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hmm...? What's all this noise..." },
+	// ▼イクセルが見つけて声をかけてくる
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, Rorona. Did you hear?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Hear what?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Apparently the King collapsed.<CR>The whole town's buzzing about it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Ehh?<CR>He collapsed? Is he okay? Is he sick?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "No, it was an injury, I think. I don't know the details,<CR>but someone found him collapsed outside<CR>the town or something" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Outside the town?<CR>Why would the King be somewhere like that?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Huh? Actually, what kind of person<CR>is the King anyway?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_AKI,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Honestly, I don't know him very well either.<CR>The only memory I have is catching a glimpse<CR>of him at the kingdom festival when I was a kid..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "I see... but I'm worried.<CR>I hope he gets better soon..." },
+	// ▼以降、ジオが街からいなくなる
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_140_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_140",// 出力ファイル名
+	QC06_140_EMS,           // 上記変数
+};

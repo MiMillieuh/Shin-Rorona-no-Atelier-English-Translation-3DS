@@ -1,0 +1,41 @@
+﻿BalloonData QN06_020_EMS[] = {
+	// ▼↑の後、依頼の品を渡すとイベント
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, you brought it.<CR>As expected of you, Rorona-chan! Good job, good job!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Ehehe... it's nothing special..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "This was a request from me, but from now on,<CR>all requests will have these kinds of conditions.<CR>So please do your best!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Now, enough with the serious talk...<CR>Time for the reward you've been waiting for!!" },
+	// ▼なんか派手なＳＥ（あれば
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Huh? R-Reward time?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Didn't I tell you earlier?<CR>You get more rewards if you meet those conditions." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "And the reward is...<CR>you get to choose it yourself, Rorona-chan!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Me?!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "That's right. And the method to decide your reward is...<CR>this!" },
+	// ▼システム画面で、ルーレットやらなんならの説明
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "You understand the rules, right?<CR>Then let's begin...<CR>Roulette, start!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "Y-Yes!" },
+	// ▼ご褒美のルーレット開始。止めたらイベントの続き
+	// ▼ご褒美分のアイテムを貰い
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Congratulations! Here's your reward,<CR>and this is a gift from me!" },
+	// ▼報酬と工芸券を貰う
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "This voucher... is it?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "That's right. This voucher can be exchanged<CR>for various items depending on how many you've collected." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "As for what you can exchange it for,<CR>just ask me and I'll tell you!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Are... are these really okay?<CR>I feel so spoiled getting all this service..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "These days, if you don't offer a little extra,<CR>you can't find people willing to take requests...<CR>Well, some deficit is inevitable, I suppose." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Estiy-san, you have it tough too, don't you..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Well, it's not like I'm<CR>the one paying for it, though." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "The more vouchers you collect,<CR>the better items you can exchange them for,<CR>so try to collect as many as you can, okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "O-Okay. Thank you very much!" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Clearing a Front Quest under<CR>certain conditions lets you try the roulette." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Depending on where the roulette stops,<CR>you can receive cole or vouchers." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You received <CLGR>250 cole<CLNR> and<CR>a <CLGR>Voucher<CLNR>." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN06_020_bda = {
+	"QN06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN06_020",// 出力ファイル名
+	QN06_020_EMS,           // 上記変数
+};

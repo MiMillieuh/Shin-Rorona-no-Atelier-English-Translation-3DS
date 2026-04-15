@@ -1,0 +1,12 @@
+BalloonData YM03_150_EMS[] = {
+	// ▼特定のボスを倒すと発生（複数いる場合は同じ内容のイベントをその数だけ用意）
+	// ▼ボス退治直後に発生
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_SIN,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "That was a pretty tough enemy, I wonder.<CR>Good training.<CR>Alright, let's move on" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM03_150_bda = {
+	"YM03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM03_150",// 出力ファイル名
+	YM03_150_EMS,           // 上記変数
+};

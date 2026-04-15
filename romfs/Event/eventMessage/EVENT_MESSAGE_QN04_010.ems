@@ -1,0 +1,35 @@
+BalloonData QN04_010_EMS[] = {
+	// ▼ゲーム開始後、初めてティファナの店に行った時
+	// ▼男性客でごった返している
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Tifana-san, hello~" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh my, welcome. Rorona-chan" },
+	// ▼ティファナが出てくる
+	// ★名前テロップ
+	// ▼それを見てひそひそ話を始めるおじさん達
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_A,      0, NAME_GUEST_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_NORMAL,         "She came out! It's Tifana-chan!" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_B,      0, NAME_GUEST_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_NORMAL,         "Ah, beautiful as ever today...<CR>Right, gotta buy something!" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_C,      0, NAME_GUEST_C,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_NORMAL,         "Wait! I'm first!<CR>I'll be the one to receive<CR>the change from Tifana-chan's hands!" },
+	// ▼それを呆れ顔で眺めつつ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Hahaha...they're as lively as ever" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Thank goodness.<CR>We've managed to stay open somehow" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Sheesh...if only my Atelier<CR>had customers like this..." },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_WARA,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Fufu, you'll have a full shop in no time" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_WARA,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "After all, a cute girl like Rorona-chan<CR>became the shop owner" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Eh? You already know about it?" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Yes. I heard from a friend" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "I know it's tough, but<CR>if there's anything I can do, please don't hesitate to say" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Uuu, so kind...<CR>If only Tifana-san were my Master..." },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_WARA,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Now, now. You shouldn't say such things.<CR>That person might hear about it<CR>from who knows where, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Ah, right! Oh, and please keep<CR>what we talked about secret..." },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_WARA,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "I know, I know.<CR>Do your best from here on.<CR>Give my best to Astrid-san" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Yes!" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Dummy" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN04_010_bda = {
+	"QN04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN04_010",// 出力ファイル名
+	QN04_010_EMS,           // 上記変数
+};

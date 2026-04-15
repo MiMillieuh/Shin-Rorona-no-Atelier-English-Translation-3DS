@@ -1,0 +1,11 @@
+﻿BalloonData YG02_120_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_CHARA,  CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "Dummy" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YG02_120_bda = {
+	"YG02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YG02_120",// 出力ファイル名
+	YG02_120_EMS,           // 上記変数
+};

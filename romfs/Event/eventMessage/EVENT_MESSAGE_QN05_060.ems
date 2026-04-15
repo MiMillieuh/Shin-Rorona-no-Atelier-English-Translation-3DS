@@ -1,0 +1,20 @@
+BalloonData QN05_060_EMS[] = {
+	// ▼パメラがアトリエに来てからしばらく経過
+	// ▼仕事中の主人公にまとわりつくパメラ
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_WARA,    BUC_POSITION_TYPE_R2,       0, BALLOON_FRAME_TYPE_BUC,            "Hey~ Rorona~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "W-Waaah!<CR>D-Don't get so close~!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_NOR,     BUC_POSITION_TYPE_R2,       2, BALLOON_FRAME_TYPE_BUC,            "When you're that scared,<CR>it's a ghost's greatest pleasure~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "I've gotten used to it, but it's still scary...<CR>So, was there something?" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_NOR,     BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "Hey. I'm really bored. Do something" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "Do something, you say..." },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KANA,    BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "Even when I'm here, the only thing I can do<CR>to pass the time is surprise you...<CR>Well, that is fun though" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "Stop! Please!<CR>I'll think of something to do for fun,<CR>so please!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_WARA,    BUC_POSITION_TYPE_R2,       8, BALLOON_FRAME_TYPE_BUC,            "Really? I'm counting on you~" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN05_060_bda = {
+	"QN05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN05_060",// 出力ファイル名
+	QN05_060_EMS,           // 上記変数
+};

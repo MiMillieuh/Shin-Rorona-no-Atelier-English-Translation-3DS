@@ -1,0 +1,58 @@
+BalloonData QC04_130_EMS[] = {
+	// ▼↑のイベントの後、しばらく経過。ロロナがアトリエにいる時
+	// ▼鼻唄まじりで、ご機嫌に調合をしているロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hum hum~ Hum hum~..." },
+	// ▼ドアが騒々しく開けられ、リオネラが駆け込んでくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Wha-!? Wh-what? What happened?<CR>...Rio-chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "H-help... Ararnia and Horohoro...<CR>T-they stopped talking y-yesterday...!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "What's all this noise about" },
+	// ▼騒ぎを聞いて師匠も部屋から出てくる
+	// ★R2に師匠の通常表示
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Oh no, calm down!<CR>Um, did something happen to Horo-kun and Ranya-chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NAKI,   BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "They stopped talking...<CR>Both of them stopped talking...!!" },
+	// ▼黒画面挟んでしばらく時間経過
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Have you calmed down a bit?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Yeah..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "Indeed, they haven't made a sound.<CR>It's not like a simple beating would fix this...<CR>Let me see" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NAKI,   BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "*sniff*... Waaah..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Don'd don'd cry.<CR>Master will definitely figure something out. Okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "Don't make promises so easily.<CR>...But I do have some ideas. I'll be<CR>taking care of these puppets for a while" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "But..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "Even I cannot fix<CR>puppets that aren't even broken, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "I understand...<CR>Please, take care of them..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      15, BALLOON_FRAME_TYPE_BUC,            "For now, go home and rest.<CR>If I find anything, I'll contact you" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Yes..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Rio-chan, cheer up...<CR>It'll definitely be okay. Okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "………." },
+	// ▼すごすごと帰っていくリオネラ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Rio-chan... I hope she's okay..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "I need her to be okay, for my sake too.<CR>From the puppets' point of view, that is" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Eh? What do you mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Just thinking out loud. Don't worry about it.<CR>But still, what should I do... Hmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Um... Can you fix them? You can, right, Master?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "I'm an alchemyist, not a puppeteer.<CR>There are no puppets to fix in the first place" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "It's impossible to "fix" puppets<CR>that aren't even broken in the first place" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "If they're not broken, then why won't they talk?<CR>And Rio-chan was crying so much..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "I thought for sure you'd be able to fix it..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Shh, shh. Let me think...<CR>Alright, I've made my decision" },
+	// ▼机に向かい、なにやら書き始める師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "Master? What are you doing..." },
+	// ▼書き終えてロロナに振り向き
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "Make this medicine following the recipe.<CR>Once it's done, tell me" },
+	// ▼言うだけ言って、部屋に帰ろうとする
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "Eh? EH? What am I supposed to do with this all of a sudden...!<CR>Please explain it to me properly!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "Showing is faster than explaining.<CR>Just make it. That's all" },
+	// ▼部屋に入ってしまう師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "M-Master?<CR>...Sheesh, she never explains anything until the end..." },
+	// ★イベント結果：リオネラが仲間から外れる＆次のイベントまで雇えなくなる
+	// ★薬のレシピを入手
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Received the reference book <CLGR>Master's Notes<CLNR>." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Lionela has left your party." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC04_130_bda = {
+	"QC04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC04_130",// 出力ファイル名
+	QC04_130_EMS,           // 上記変数
+};

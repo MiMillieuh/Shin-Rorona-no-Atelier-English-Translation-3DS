@@ -1,0 +1,58 @@
+BalloonData QN05_070_EMS[] = {
+	// ▼パメラが退屈と騒いでからしばらく経過後。ロロナがアトリエにいる時
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KOMA,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Hey, Rorona~?<CR>Have you thought of something to do yet~?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "Eh? Oh...<CR>I've been thinking of a few things..." },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KOMA,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "A few things, like what?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "Well...um..." },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_IKA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "You're not thinking of anything~!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_IKA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Honestly! You don't care about me at all~!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "Waaah, no!<CR>I just happened to forget, that's all..." },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_IKA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "That's even worse~!" },
+	// ▼外から師匠が帰ってくる
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "What's all this noise about?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L2,       9, BALLOON_FRAME_TYPE_BUC,            "Ah, Master! Help me!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_IKA,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Hey~! Don't run away~!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Hmm. While I was away, you two were<CR>canoodling, weren't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "And right when I come back, you show it to me...<CR>How envious!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "Where do you see any canoodling?!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Well, we'll discuss this later..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Pamela, come with me.<CR>I've prepared something for you" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_ODO,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "For me?" },
+	// ▼黒フェードで場面転換。パメラの店に移動
+	// ▼師匠を先頭に部屋に入ってくる三人
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Here it is" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KANA,    BUC_POSITION_TYPE_L2,      18, BALLOON_FRAME_TYPE_BUC,            "What is this dirty room?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "It seems it's been left unused for years.<CR>Well, if we clean it up and decorate it a bit,<CR>it should be quite usable" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Use it for what?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Fufufu... I was thinking of having<CR>Pamela run a shop" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_ODO,     BUC_POSITION_TYPE_L2,      22, BALLOON_FRAME_TYPE_BUC,            "A shop?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "You were complaining about being bored, weren't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "So while I was thinking about what to do,<CR>I was walking around town,<CR>and found the perfect place" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_WARA,    BUC_POSITION_TYPE_L2,      25, BALLOON_FRAME_TYPE_BUC,            "A shop, a shop... sounds fun~!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "Then it's settled. I'll handle<CR>the stock and supplies.<CR>Do whatever you want with the interior" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "W-W-Wait just a second! Is it okay<CR>for Pamela to run a shop?!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Is there a problem?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "But Pamela's a ghost, right?!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "That's what makes it interesting, isn't it?<CR>There's no law against ghosts<CR>running a shop" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "M-Maybe, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "Most importantly, she's<CR>so motivated now.<CR>Can you really tell her \"never mind\" now?" },
+	// ▼店内うろうろするパメラ
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_WARA,    BUC_POSITION_TYPE_L2,      33, BALLOON_FRAME_TYPE_BUC,            "Let's see, let's see... the stuffed animal<CR>should go on the counter, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_NOR,     BUC_POSITION_TYPE_L2,      34, BALLOON_FRAME_TYPE_BUC,            "How should I decorate it?<CR>I don't want it to be gloomy, but<CR>what if it gets in the way..." },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_TERE,    BUC_POSITION_TYPE_L2,      35, BALLOON_FRAME_TYPE_BUC,            "I need more shelves too...<CR>Aaah! Where should I start~!" },
+	// ▼ロロナ達に戻り
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "Uuu...when I see that happy face..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       37, BALLOON_FRAME_TYPE_BUC,            "Right?<CR>Well, if any problems come up,<CR>you can deal with them, can't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       38, BALLOON_FRAME_TYPE_BUC,            "Ah. There you go again,<CR>delegating everything to me" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       39, BALLOON_FRAME_TYPE_BUC,            "No way! Master started this,<CR>so see it through to the end!" },
+	// ▼イベント結果：パメラの店が営業開始。パメラとぬいぐるみがアトリエからいなくなる
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Pamela's shop can now be used." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN05_070_bda = {
+	"QN05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN05_070",// 出力ファイル名
+	QN05_070_EMS,           // 上記変数
+};

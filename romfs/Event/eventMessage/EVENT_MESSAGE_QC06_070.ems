@@ -1,0 +1,31 @@
+﻿BalloonData QC06_070_EMS[] = {
+	// ▼↑の後、街に帰ってきた時
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "You were a great help today. Let me thank you properly" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "...Are you still upset?<CR>I did apologize for dragging you along<CR>without warning..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "No! That's not it at all!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "...I didn't do anything,<CR>yet I'm getting a reward..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I hired you to do a job.<CR>Paying for services rendered is only natural" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "But<CR>I wasn't useful at all..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Hmm... I made it a job so you wouldn't worry,<CR>but it seems that backfired. How about this instead?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "You fought bravely, even though you were defeated.<CR>I'm giving you this reward<CR>to honor that courage" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "...I still feel like I don't deserve it" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "You look different, but you're quite stubborn.<CR>What to do..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "I know. Next time, you hire me instead" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Hire Gio-san?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Yes. My skills were on display earlier, right?<CR>I think I could be of some use.<CR>Or is that level of skill not to your liking?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Are you kidding!<CR>If someone as strong as Gio-san helped me out,<CR>it'd be a huge relief!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Then let's call it even.<CR>If one side keeps feeling indebted,<CR>we can't build a friendly relationship" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "...Yes. Thank you so much" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "You finally smiled.<CR>I'll be looking forward to you calling on me" },
+	// ▼イベント結果：ジオが雇えるように
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Gio can now be hired." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_070_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_070",// 出力ファイル名
+	QC06_070_EMS,           // 上記変数
+};

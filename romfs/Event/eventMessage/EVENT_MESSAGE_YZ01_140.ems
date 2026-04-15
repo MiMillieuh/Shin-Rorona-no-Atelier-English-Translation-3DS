@@ -1,0 +1,12 @@
+BalloonData YZ01_140_EMS[] = {
+	//  Astrid's story, part two
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "The situation has finally been resolved.<CR>The main topic is no longer a concern." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "However, the person at the center seems to be quite worried about this situation.<CR>But I think we should work together to find the answer.<CR>I think the path forward is quite clear." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YZ01_140_bda = {
+	"YZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YZ01_140",// 出力ファイル名
+	YZ01_140_EMS,           // 上記変数
+};

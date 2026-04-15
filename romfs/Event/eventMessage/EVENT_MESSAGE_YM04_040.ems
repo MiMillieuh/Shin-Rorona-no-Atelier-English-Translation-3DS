@@ -1,0 +1,27 @@
+BalloonData YM04_040_EMS[] = {
+	// ▼パンドラの箱発生してからほどなくして発生
+	// ●レシピは延長戦開始時に知っていてもいいし、このイベント後知ってもいい
+	// ▼アトリエで発生
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hey, I've been wondering about something.<CR>How are you two planning to get back to the future?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "We have to make the Dragon's Hourglass...<CR>The reason we came to this world in the first place<CR>was because of the Dragon's Hourglass" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "I've never heard of an item like that" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "That's to be expected.<CR>The reason I know about it is that Astrid<CR> from the future suddenly came up with it" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Apparently, there's an item that lets you<CR>freely travel to the past or future. We just happened<CR>to end up in this era, so we flew here" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KANA,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "If we hadn't messed up the operation,<CR>this never should have<CR> happened in the first place..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KANA,    BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "If only we knew how to make it..." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Not only do we not know the recipe,<CR>but we don't even have the<CR>materials, either" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "I see...<CR>Hey, if I worked really hard, could I make it<CR>before Master does? I wonder?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_WARA,    BUC_POSITION_TYPE_R2,       9, BALLOON_FRAME_TYPE_BUC,            "She's your teacher's teacher, after all,<CR>so I think she probably could!" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Huh? But if you did that, wouldn't it mean Astrid<CR> never would have come up with the idea in the first place?<CR>That would mean she never thought of it at all" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KOMA,    BUC_POSITION_TYPE_R2,      11, BALLOON_FRAME_TYPE_BUC,            "But if we teach you here, that would mean<CR>Rorona-san came up with it, wouldn't it?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Huh?<CR>This is getting confusing..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "...But I've realized one thing.<CR>This seems like it could get really complicated,<CR>so maybe it's better not to look into it any further" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "I'm sorry, let's do that.<CR>The two of us will figure something out" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM04_040_bda = {
+	"YM04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM04_040",// 出力ファイル名
+	YM04_040_EMS,           // 上記変数
+};

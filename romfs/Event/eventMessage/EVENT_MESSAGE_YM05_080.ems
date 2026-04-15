@@ -1,0 +1,26 @@
+BalloonData YM05_080_EMS[] = {
+	// ▼ジオの持論が発生している
+	// ●延長戦で発生
+	// ●ジオがパーティにいる
+	// ▼ジオと一緒に採取地に行くと発生（出発イベントと同じ扱い）
+	// ▼街道で
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "By the way... just a quick question,<CR>I wonder" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "There's something I've been wondering about -<CR>if the King of Arland were to disappear,<CR>what would happen?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "What a sudden question!<CR>What brought this on?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "No reason, I was just thinking,<CR>I wonder. What would happen if the King<CR>of Arland were to disappear?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "What, are you saying you'd quit being king!?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "No no no no - this is still just a hypothetical.<CR>I'm just asking what would happen if that were the case" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Let me think...<CR>I know this is a weird thing to say to you, Gio-san,<CR>but I don't think anything would really change" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Oh? What makes you say that?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Because everyone around you is so capable,<CR>you know. Kuu-chan, Yksel-kun,<CR>Sterk-san..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "If everyone works together, I feel like<CR>they can accomplish anything. So I think you don't need<CR>to bear that burden all by yourself" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_WARA,       BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "...!<CR>Ha ha ha - you've got me there" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "...Very well. In that case, I'll feel at ease<CR>having you guard me. Shall we get going?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM05_080_bda = {
+	"YM05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM05_080",// 出力ファイル名
+	YM05_080_EMS,           // 上記変数
+};

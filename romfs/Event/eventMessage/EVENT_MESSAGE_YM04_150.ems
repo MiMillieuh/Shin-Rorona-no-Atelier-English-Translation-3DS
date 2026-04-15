@@ -1,0 +1,67 @@
+BalloonData YM04_150_EMS[] = {
+	// ▼自力帰還エンディング
+	// ●完成・竜の砂時計が発生している
+	// ●１年経過すると発生
+	// ●→Ａ１３Ｖの帰ってきた錬金術士たちへ続く
+	// ▼アトリエにいる
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_SIN,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "...Wow, I can't believe it's already<CR>been a year since we came to this world" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KANA,    BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "You're right...<CR>I wonder if everyone's doing okay.<CR>I wonder if they're worried" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "What should we do? Should we start thinking about..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "You're right, maybe it's about time we<CR>really thought about going back to the future.<CR>It's been fun here, though..." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "We can't keep staying in this world forever,<CR>I wonder. The Rorona-sensei from the future<CR>must be worried, right? Astrid too" },
+	// ▼ロロナ|月てくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "What's wrong?<CR>You look like you're thinking about something" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "We're thinking about finally going<CR>back to the future<CR>I wonder" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "You're leaving!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "...I see, I suppose you're right. It felt like<CR>you'd always be here with me,<CR>but you did come from the future, after all..." },
+	// ▼アストリッド|月てくる
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,       9, BALLOON_FRAME_TYPE_BUC,            "So you're going back to the future, then?<CR>How sudden" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "But it's already been a year, you know..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "Well, fine. If you're leaving, I won't try to stop you.<CR>It would only make it harder for you to leave" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_SIN,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Yes. Um, about the Dragon's Hourglass you<CR>borrowed from us before..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "Ah, that. I was able to conduct some very fruitful research.<CR>I was just thinking it was about time" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      14, BALLOON_FRAME_TYPE_BUC,            "Here, I brought it like I promised.<CR>Please give my regards to the me from the future as well" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "To me from the future too!" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_WARA,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Yes! I'll be sure to tell them.<CR>...Well then, we're heading back!" },
+	// ▼竜の砂時計使用
+	// ▼スチル表示
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_TOTORI,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_BUC,            "I'm sure we caused you a lot of trouble,<CR>but this year was really fun.<CR>I won't forget it, even when I'm back in the future" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_TOTORI,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    18, BALLOON_FRAME_TYPE_BUC,            "There were a lot of tough times too, though..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    19, BALLOON_FRAME_TYPE_BUC,            "Y-you're right... We went through a lot<CR>of hardships, didn't we... Like fighting dragons" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_TOTORI,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    20, BALLOON_FRAME_TYPE_BUC,            "But in the end, it all turned into<CR>precious memories for me" },
+	{ BALLOON_MODE_BUCSYS, CHARA_MERURU,     0, NAME_MERURU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    21, BALLOON_FRAME_TYPE_BUC,            "That's right! They're wonderful memories.<CR>...I also hope I'll be able to put to good use<CR>what I learned here in the future" },
+	{ BALLOON_MODE_BUCSYS, CHARA_MERURU,     0, NAME_MERURU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    22, BALLOON_FRAME_TYPE_BUC,            "There were so many things I wouldn't have known about<CR>if I hadn't come here, so I'm glad I did!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    23, BALLOON_FRAME_TYPE_BUC,            "I won't forget about you two, either.<CR>Let's meet again in the future!" },
+	// ▼ゆっくり白画面
+	// ▼ゆっくりと元の画面に戻る
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "...They're gone" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "Yes, it seems so" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "But we'll see them again, right?<CR>Because they came from the future, after all" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Yes, that's right. However, the two you meet next<CR>won't be these two - it'll be the two<CR>who have never met you before" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "You know them, but they have never<CR>met you before" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "Ah, that's right..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "But after some time passes, everything will connect.<CR>It won't be long now" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       32, BALLOON_FRAME_TYPE_BUC,            "You're right! I'm looking forward to it!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "...Well then, I shall set out on my journey again" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       34, BALLOON_FRAME_TYPE_BUC,            "What! You're leaving again!?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "Yes, there are some things I need to take care of" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX1,     BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,       37, BALLOON_FRAME_TYPE_BUC,            "...Come now, don't make that face.<CR>This time was the exception" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       38, BALLOON_FRAME_TYPE_BUC,            "I only came back because I had a strange feeling,<CR>but I was in the middle of my journey, you know.<CR>I'm just going to resume what I was doing" },
+	// ▼ホム|月てくる
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L2,      39, BALLOON_FRAME_TYPE_BUC,            "Grand Master. Everything is ready" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       40, BALLOON_FRAME_TYPE_BUC,            "Yes, good work. That was quick" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       41, BALLOON_FRAME_TYPE_BUC,            "...So, I'm counting on you to take care of things while I'm gone" },
+	// ▼アストリッド出て行く
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       42, BALLOON_FRAME_TYPE_BUC,            "...Everyone's gone again.<CR>It's going to get quiet again..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_HOHO,     BUC_POSITION_TYPE_R,       43, BALLOON_FRAME_TYPE_BUC,            "Don't worry. Hom is here, and<CR>there's a mountain of work to do" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       44, BALLOON_FRAME_TYPE_BUC,            "...You're right, aren't you?<CR>Alright, then I'll work hard until<CR>I can see everyone again!" },
+	// ▼フェードしてスタッフロール
+};
+
+BALLOON_DATA_ALL YM04_150_bda = {
+	"YM04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM04_150",// 出力ファイル名
+	YM04_150_EMS,           // 上記変数
+};

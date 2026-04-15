@@ -1,0 +1,31 @@
+BalloonData QN04_070_EMS[] = {
+	// ▼↑の発生後。やはり適当なタイミングで
+	// ▼イクセルの店に行った時に
+	// ▼店に入った瞬間、エスティとぶつかる
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX5,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Kyaah!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "W-W-Wah?! Estiy-san?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX4,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Ah, s-sorry!<CR>Rorona-chan!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Eh? Um...<CR>I wonder what happened, running around in such a panic..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_TIFANA,     0, NAME_TIFANA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_BUC,            "Ahahahaha~<CR>Rorona-chaaaaaaan!!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_BUC,            "Kyaaaaa?!<CR>T-Tifana-san?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_BUC,            "Noooo, wait,<CR>c-cuddle me please~!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TIFANA,     0, NAME_TIFANA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_BUC,            "No way.<CR>Since Estiy got away from me,<CR>I'm never letting go of Rorona-chan!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_BUC,            "S-Such...whaaa?!<CR>D-Don't touch there~!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TIFANA,     0, NAME_TIFANA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     9, BALLOON_FRAME_TYPE_BUC,            "Rorona-chan's so soft~.<CR>Being young really is wonderful~..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_BUC,            "S-Stop~! Please~!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_BUC,            "...Um.<CR>Could you not make weird noises in my shop?" },
+	// ▼イクセルが様子を見に来る
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    12, BALLOON_FRAME_TYPE_BUC,            "Ixel-kun! Help me!<CR>Tifana-san's, Tifana-san's~!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    13, BALLOON_FRAME_TYPE_BUC,            "...If I help you now,<CR>the damage will spread to the whole shop.<CR>Try to handle it yourself!" },
+	// ▼逃げるイクセル
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_BUC,            "N-No way!<CR>Ixel-kun! Ixel-kuuun!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TIFANA,     0, NAME_TIFANA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    15, BALLOON_FRAME_TYPE_BUC,            "Ufufufu...the competition is gone.<CR>Now I can be free...teehee~" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_BUC,            "Kyaah! N-No, that's...<CR>I can't, no more~! Someone help~!" },
+	// ▼イベント結果：強制で１日経過
+};
+
+BALLOON_DATA_ALL QN04_070_bda = {
+	"QN04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN04_070",// 出力ファイル名
+	QN04_070_EMS,           // 上記変数
+};

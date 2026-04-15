@@ -1,0 +1,18 @@
+ BalloonData QC02_060_EMS[] = {
+	// ★課題の方がどうなるか分からないので、 경우에는使わない
+	// ▼好感度がある程度あって、個人依頼を終えたの時や、話しかけた後
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Whew…" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "………." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Hmm? What's wrong? The errand should be done" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Ah, yes. That's true, but,<CR>you seemed like you were in low spirits,<CR>so I was wondering what happened" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Me? That's…<CR>no, it's nothing. Don't worry about it" },
+	// ▼先に退出するステルク
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Even if you tell me not to worry… I can't help but worry…" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_060_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_060",// 出力ファイル名
+	QC02_060_EMS,           // 上記変数
+};

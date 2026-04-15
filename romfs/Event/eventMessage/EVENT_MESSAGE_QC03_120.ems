@@ -1,0 +1,30 @@
+BalloonData QC03_120_EMS[] = {
+	// ★※↑のイベントの前に先に起きる
+	// ▼発生タイミングを迎えた時、イクセルとある程度仲がいい
+	// ▼ロロナがアトリエにいる時
+	// ▼イクセルがアトリエにやってくる
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Hey, Rorona.<CR>You don't happen to have a pig, do you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Eh? A pig? What do you mean<CR>all of a sudden..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I see. Then you can be my pig substitute instead.<CR>Keep me company when you have time." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Eh? Me, as a pig substitute?<CR>Wh-What do you mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Well,<CR>a customer told me an interesting story." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "They say if you keep going northeast,<CR>there's a place called the Black Tree Forest<CR>with all sorts of plants I've never seen." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Whoa, there's such a forest?<CR>But why a pig?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Hear me out first." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "They say you can find something called<CR>the Dreaming Truffle there -<CR>a top-quality truffle." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "You know pigs are good at finding truffles, right?<CR>That's why I'm asking." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "I see... So that's why I should be your pig substitute?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "If a pig can do it,<CR>I figured you could too. You two are similar." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "So let's go there together sometime.<CR>I'm counting on your nose!" },
+	// ▼言うだけ言って帰るイクセル
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "...Did you just say something incredibly rude?<CR>You said it so casually that<CR>I missed my chance to get angry, but..." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLBL>You can now go to the Black Tree Forest.<CLNR>" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC03_120_bda = {
+	"QC03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC03_120",// 出力ファイル名
+	QC03_120_EMS,           // 上記変数
+};

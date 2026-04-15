@@ -1,0 +1,25 @@
+BalloonData QC04_140_EMS[] = {
+	// ▼↑のイベントの後、レシピ通りに作った時にイベント
+	// ★従属とかを複雑にして、失敗した時のイベントというのはありかも
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "It's done... It's done, but... Is this really it...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, already? That was faster<CR>than I expected" },
+	// ▼いつの間にか背後にいる師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_R2,       2, BALLOON_FRAME_TYPE_BUC,            "Whoa!<CR>You should announce yourself when you're there!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "I didn't want to surprise you and ruin your work.<CR>Here, let me see it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "Okay... Um, Master.<CR>This medicine is a kind of sleeping drug... right?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Hypnotic would be more accurate.<CR>Yes, you did exactly as I said.<CR>Good work" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "Ehehe, thank you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "...But wait! So how does this fix<CR>Rio-chan's puppets?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "As I said before,<CR>those puppets aren't broken at all.<CR>There's nothing to fix" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_R2,       9, BALLOON_FRAME_TYPE_BUC,            "But then...!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Now then, bring that girl here.<CR>I'll prepare things on my end" },
+	// ▼部屋に戻っていく師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_R2,      11, BALLOON_FRAME_TYPE_BUC,            "Ah... Honestly!<CR>She never tells me anything until the very end!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC04_140_bda = {
+	"QC04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC04_140",// 出力ファイル名
+	QC04_140_EMS,           // 上記変数
+};

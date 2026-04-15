@@ -1,0 +1,40 @@
+﻿BalloonData MZ02_460_EMS[] = {
+	// ▼Tantoris walking around inside the castle
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Whew, I'm tired, I'm tired... Honestly,<CR>what's so terrible about having to do<CR>desk work all day long..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "You look bored" },
+	// ▼Meriodas appears
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_ODO,   BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Gah, Father..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I told you to call me Minister when we're in the castle" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Yes, yes.<CR>So, what do you need, Minister" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "It's that application from the atelier.<CR>You'll handle it" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_ODO,   BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "From the atelier? What does it say?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Beats me. I didn't read the details,<CR>but apparently she plans to quit the atelier" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Huh, she's quitting the atelier... Huh?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Honestly, what are young people thinking these days?<CR>She just quit so easily after<CR>three years of keeping it going..." },
+	// ▼Meriodas leaves while talking
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_ODO,   BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Hey, Father. Wait a minute!<CR>...What's this about?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Let me see, let me see...<CR>I want to quit alchemy,<CR>and start a new shop" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS_B,  BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "The new shop is... a pie shop?" },
+	// ▼Black screen, pause
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    13, BALLOON_FRAME_TYPE_BUC,            "Welcome! Welcome to Rorona's Pie Shop!" },
+	// ▼Picture appears
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_BUC,            "I'm glad - so many customers came.<CR>I was worried nobody would show up" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    15, BALLOON_FRAME_TYPE_BUC,            "Master's pie-making skills are top-notch.<CR>It's impossible for customers not to gather" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_BUC,            "Ahaha, thanks" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_BUC,            "Ah, if the shop keeps doing well like this,<CR>I might even open a second location someday.<CR>Homu-chan would be the manager, right?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    18, BALLOON_FRAME_TYPE_BUC,            "Homu would rather work<CR>right by Master's side" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    19, BALLOON_FRAME_TYPE_BUC,            "And and,<CR>maybe even expand to other countries...<CR>Then maybe someday you'll be able to eat them" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    20, BALLOON_FRAME_TYPE_BUC,            "...It's unclear who you're talking about,<CR>but I think it'll be fine without<CR>going that far" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    21, BALLOON_FRAME_TYPE_BUC,            "Eh? Why not?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    22, BALLOON_FRAME_TYPE_BUC,            "I sense something. Right nearby... in front of the door" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    23, BALLOON_FRAME_TYPE_BUC,            "Eh? Eh?" },
+	// ▼Sound of door opening
+	{ BALLOON_MODE_BUCSYS, CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,    24, BALLOON_FRAME_TYPE_BUC,            "Oh, sorry to bother you.<CR>I heard you started a new shop, so I came to check it out" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_460_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_460",// Output file name
+	MZ02_460_EMS,           // Variable name
+};

@@ -1,0 +1,27 @@
+BalloonData QN04_090_EMS[] = {
+	// ★ティファナが病気なのを知ってから、１～２週間以内に、ティファナの店に行った時
+	// ★ネクタルを持ってる時のみ
+	// ▼ティファナに話しかけた時、最初に選択肢
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh right. The medicine I have,<CR>should I give it to Tifana-san...?" },
+	// ▼選択肢「あげる／あげない」
+	// ▼あげない、の時は通常の買い物処理に
+	// ▼あげるの時。ネクタルの数が１個減る
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Um, Tifana-san, here's something..." },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_ODO,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Eh? This is...medicine?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Yes. I heard you were laid up again,<CR>so I brought it. Please use it if you'd like" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_KANA,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Oh my...sorry.<CR>I must be worrying you.<CR>Um, how much is it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "No no, it's fine!<CR>I just brought it on my own" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Besides, you've always been so kind to me,<CR>so this is just a thank you" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_WARA,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "But...okay. I'll gladly accept it.<CR>Actually, I'm still feeling a bit under the weather" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Please don't push yourself too hard,<CR>and get well soon" },
+	// ▼ティファナさんの好感度が少し上がる
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLGR>Nectar<CLNR> was handed over." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN04_090_bda = {
+	"QN04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN04_090",// 出力ファイル名
+	QN04_090_EMS,           // 上記変数
+};

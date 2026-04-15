@@ -1,0 +1,9 @@
+// テスト・１１
+BalloonData ZZ01_110_EMS[] = {
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,      0, NAME_RORONA,     BUC_RORONA_NOR,   BUC_POSITION_TYPE_NONE,   -1,    BALLOON_FRAME_TYPE_SYSTEM, "Arlvis Academy\" - The supreme school of alchemy, built upon a remote island floating in the distant sky" },
+};
+BALLOON_DATA_ALL ZZ01_110_bda = {
+	"ZZ01",			// 出力ファイルパス
+	"EVENT_MESSAGE_ZZ01_110",		// 出力ファイル名
+	ZZ01_110_EMS,		// 上記変数
+};

@@ -1,0 +1,30 @@
+﻿BalloonData QN07_080_EMS[] = {
+	// ★※・ゲーム時間、カゴが何回か満杯に、コオルとイベントいくつかが条件
+	// ▼採取から帰ってきた時（できればカゴが一杯か、それに近い時）
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Phew, I'm back~<CR>Now I need to transfer the materials<CR>from my basket to the container..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Phew, if only I had a bigger basket,<CR>I could bring back<CR>so much more..." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        2, BALLOON_MODE_BUC,            "I've been thinking the same thing - it is pretty small.<CR>And it's getting pretty worn out too." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Yeah, I've been using it for a long time..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Wait, waaaah!?<CR>C-Corm-kun!? Why are you here?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_MODE_BUC,            "Ah, sorry. You weren't here,<CR>so I just let myself in and waited." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "You just let yourself in!? That's not okay!<CR>You can't just walk into<CR>someone's house like that!" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_WARA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Don't worry about the small stuff.<CR>Here, I got something for you." },
+	// ▼新しいカゴをもらう
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Huh? Is this... a basket?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "It's my old one, but.<CR>It's more durable than that one,<CR>and it can hold a lot more, I think." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Oh, thank you! But are you sure?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Yeah, you're a good customer after all." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_WARA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "If you're grateful, then please<CR>continue to buy from my shop, okay?" },
+	// ▼立ち去るコオル
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Oh, Corm-kun!<CR>...Wait, did you wait here just<CR>so you could give me this basket?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "...Maybe he's actually<CR>a really nice guy, huh?" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The number of items<CR>that can be held in your basket<CR>has increased to 100." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN07_080_bda = {
+	"QN07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN07_080",// 出力ファイル名
+	QN07_080_EMS,           // 上記変数
+};

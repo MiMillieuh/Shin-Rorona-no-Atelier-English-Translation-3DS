@@ -1,0 +1,25 @@
+BalloonData XF01_010_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Loading saved data, transferring encyclopedia and inventory to start the game." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Would you like to skip the story from the opening to the tutorial?" },
+	// ▼選択肢「はい」「いいえ」表示
+	// ▼「はい」選択時
+	// ▼イベントをＯＰからチュートリアルの終わりまで１に
+	// ▼F.O.アトリエにロロナ配置F.I.で解放
+	// ▼「いいえ」選択時
+	// ▼イベントフラグを１つ立ててF.O.して終了
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can play from where you left off after clearing, or start the game from the beginning." },
+	// ▼⇒続きのお話を始める
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Continuing from where you left off.<CR>(Play period is 1 year)" },
+	// ▼⇒最初から始める
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Loading saved data, transferring encyclopedia, inventory, and equipped items to start fresh." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Would you like to skip the story from the opening to the tutorial?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL XF01_010_bda = {
+	"XF01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_XF01_010",// 出力ファイル名
+	XF01_010_EMS,           // 上記変数
+};

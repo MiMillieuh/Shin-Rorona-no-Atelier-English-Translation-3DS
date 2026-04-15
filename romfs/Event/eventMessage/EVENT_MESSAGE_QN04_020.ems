@@ -1,0 +1,22 @@
+BalloonData QN04_020_EMS[] = {
+	// ▼ゲーム後しばらく
+	// ▼店に行こうとすると、ちょうど出かけようとしていたティファナと出くわす
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Tifana-san, are you going out?" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_ODO,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh my. Were you coming to shop?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "No, that's not it, but...<CR>where are you going?" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_SIN,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I'm visiting my late husband's grave.<CR>I should visit on the anniversary,<CR>but it's been hard to find the time..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Ah...sorry. How insensitive of me..." },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Don't worry about it" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I think I'll be back by evening,<CR>but the shop will have to wait until tomorrow" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "No, not at all! It's perfectly fine!<CR>So, um, take your time..." },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_NOR,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Fufu, thank you. Well then, I'll be off" },
+	// ▼立ち去るティファナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "I shouldn't have asked...<CR>Tifana-san always seems so cheerful,<CR>I keep forgetting...I need to be more careful..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN04_020_bda = {
+	"QN04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN04_020",// 出力ファイル名
+	QN04_020_EMS,           // 上記変数
+};

@@ -1,0 +1,11 @@
+BalloonData MM04_125_EMS[] = {
+	// ★When trying to go to a store, message that they're closed due to the festival
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Huh? Are they closed today?<CR>I guess everyone's at the festival..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM04_125_bda = {
+	"MM04",                 // Output file path
+	"EVENT_MESSAGE_MM04_125",// Output file name
+	MM04_125_EMS,           // Above variable
+};

@@ -1,0 +1,36 @@
+BalloonData YM05_050_EMS[] = {
+	// ▼延長戦で発生
+	// ●本編中でジオが吐露するイベントが発生している、ジオが国王だとばれていること
+	// ▼大通りに行くと発生
+	// ▼ジオとステルク、エスティがなにやら話をしている
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R2,       0, BALLOON_FRAME_TYPE_BUC,            "You would say something like that...!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "That's right - this time,<CR>I'm on Sterk-kun's side!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "I didn't expect to get this much opposition<CR>from you two. Is it really that strange?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R2,       3, BALLOON_FRAME_TYPE_BUC,            "Of course! To think you'd consider stepping down as king!<CR>There are some things you shouldn't joke about,<CR>even in jest!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "Would I joke about something like this?<CR>Besides, it's not as strange as you think" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "Listen - think about it. A monarchy means<CR>the king has absolute power" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "But in a way, that means if something were to happen to him,<CR>everything would come crashing down.<CR>You could say it's very fragile" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "Th-that is...<CR>But I don't think you'd fall so easily" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "Of course - as the country's king, I intend to be<CR>stronger than anyone else" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_L2,       9, BALLOON_FRAME_TYPE_BUC,            "But you see... people grow old.<CR>I will inevitably grow old too.<CR>When that time comes, it'll be too late to panic" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "It's because of thinking about this that I came to<CR>question the very nature of monarchy itself.<CR>So tell me - is it really that strange?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R2,      12, BALLOON_FRAME_TYPE_BUC,            "That's... um...<CR>No! It's still reckless!<CR>The impact would be too huge!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "It's not as reckless as you think. For example, there are<CR>a number of small countries around Arland.<CR>And each one has its own leader" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,      14, BALLOON_FRAME_TYPE_BUC,            "There's a way to unite all those small countries into a republic.<CR>A system where many people govern together.<CR>You could do that, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,      15, BALLOON_FRAME_TYPE_BUC,            "In that case, even if one of the leaders were to disappear,<CR>it wouldn't much affect how the country is run.<CR>Don't you think that's a good idea?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "But that's easier said than done..." },
+	// ▼ロロナ通りかかる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "What an unusual combination.<CR>What's going on? Is this about countries or something...?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_L2,      18, BALLOON_FRAME_TYPE_BUC,            "Oh, it's you.<CR>Oh, just a trivial matter, that's all.<CR>No need to worry about it" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R2,      19, BALLOON_FRAME_TYPE_BUC,            "...Please give me some more time to think this over" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_L2,      20, BALLOON_FRAME_TYPE_BUC,            "Very well. I hope you'll consider it carefully" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "(What are they talking about?<CR>　I don't really understand, but oh well)" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM05_050_bda = {
+	"YM05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM05_050",// 出力ファイル名
+	YM05_050_EMS,           // 上記変数
+};

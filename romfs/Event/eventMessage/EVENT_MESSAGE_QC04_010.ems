@@ -1,0 +1,35 @@
+BalloonData QC04_010_EMS[] = {
+	// ▼ When triggered by game time, when the main character is in town
+	// ▼ There's a crowd gathered in town
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Wh-What is it?<CR>Wow, such a big crowd... I wonder what's going on?" },
+	// ▼ Lionela is doing a puppet show
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_BUC,            "Ah... It's a puppet show...<CR>Wow, how do they move those things?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_BUC,            "Is that girl about my age?<CR>Amazing..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "Hmm, I want to get a closer look...<CR>Oh. Um, p-please don't push..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Ugh, w-w-wait... Kyaaaaaaaaa!!" },
+	// ▼ The puppet show eventually ends
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_NAZO,        BUC_LIONELA_TERE,   BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Th-That's all!<CR>Ah, thank you very much!" },
+	// ▼ Applause and cheers from the audience
+	{ BALLOON_MODE_BUCSYS, CHARA_OZI_A,      0, NAME_GUEST_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_BUC,            "Wooooo! That was amazing, girl!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ONE_A,      0, NAME_GUEST_D,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_BUC,            "More! Do more!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_OZI_C,      0, NAME_GUEST_C,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_BUC,            "Encore! Encore!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_NAZO,        BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Eh, a-ahhmm...<CR>S-Sorry!" },
+	// ▼ Lionela runs away
+	{ BALLOON_MODE_BUCSYS, CHARA_OZI_A,      0, NAME_GUEST_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_BUC,            "Ah, she ran off" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ONE_A,      0, NAME_GUEST_D,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_BUC,            "Huh? Already over?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_OZI_C,      0, NAME_GUEST_C,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    12, BALLOON_FRAME_TYPE_BUC,            "Aww, can't be helped...<CR>I'll be looking forward to the next one!" },
+	// ★ This might be covered by a full-body image. Then black screen
+	// ▼ After clearing, Rorona is lying on the ground after being pushed around in the crowd
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "U-uuuugh... I got stepped on so hard..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Huh? Ah!<CR>The puppet show's already over?<CR>I wanted to see more..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Hmm? What's that..." },
+	// ▼ Gets up and goes to where Lionela was
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "A wallet...?<CR>Could this be hers? What should I do..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC04_010_bda = {
+	"QC04",                 // Output file path
+	"EVENT_MESSAGE_QC04_010",// Output file name
+	QC04_010_EMS,           // Above variable
+};

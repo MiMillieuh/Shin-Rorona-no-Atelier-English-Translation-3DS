@@ -1,0 +1,40 @@
+BalloonData MM08_300_EMS[] = {
+	// ▼When trying to invite Sterk to go gathering
+	// ★────────────────────────────────────────
+	// ▼When winning the championship by beating Sterk
+	// ▼Sterk is doing sword drills at the meeting spot
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "...Haah!...Haah!...Haah!" },
+	// ▼Rorona arrives a bit late
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Now, where should we go today—oh wait,<CR>is that you, Sterk?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Oh, that was quick" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "You're early too, Sterk...<CR>Oh no, am I late?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "I said you were quick.<CR>It's still a long time until the meeting time" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Really?<CR>Then why are YOU so early?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I just couldn't sit still.<CR>So I was just swinging my sword<CR>instead of waiting around" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "I need to catch up to you<CR>as soon as possible" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "To me... oh!<CR>So it's because I beat you that time?<CR>That was really just luck..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Shall we get going?<CR>Actual combat is better training<CR>than sword drills anyway" },
+	// ▼Sterk walks ahead
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Ah, Sterk!<CR>...He's really motivated, isn't he?<CR>I guess it's because I beat him..." },
+	// ▼
+	// ★────────────────────────────────────────
+	// ▼When losing to Sterk
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Oh, Sterk. You're late!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "M-my apologies...<CR>You seem more energetic than usual today" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Do I?<CR>I don't think I'm any different than usual..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Anyway, let's get going.<CR>We're wasting time" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "R-right..." },
+	// ▼Rorona walks ahead
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "...I was prepared for some awkwardness<CR>after our match, but<CR>it seems I was worried for nothing" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_BUC,            "Sterk, hurry up!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Yeah. I'm coming" },
+	// ▼
+	// ★────────────────────────────────────────
+	// ▼
+};
+
+BALLOON_DATA_ALL MM08_300_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_300",// Output file name
+	MM08_300_EMS,           // Above variable
+};

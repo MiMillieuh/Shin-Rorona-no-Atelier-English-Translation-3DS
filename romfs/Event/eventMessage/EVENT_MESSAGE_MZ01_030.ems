@@ -1,0 +1,64 @@
+ BalloonData MZ01_030_EMS[] = {
+	// ▼
+	// ★- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	// ▼好感度高い
+	// ▼イクセルの店に駆け込んでくるロロナ
+	// ★※店の中に客がいない
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Iksel! Iksel!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, you finally made it!<CR>So, how did it go?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Yeah! So, I...<CR>*cough* *hack* *cough*!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_KOMA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Aaaah, don't push yourself so hard!<CR>Here, drink this!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "*gulp*... mmph, *gulp*... whew" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Better? You better be!<CR>So, what was the result?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I passed! I passed!<CR>I can keep running the atelier!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Yeah! That's my girl!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Thank you!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "...Hey, Iksel.<CR>There are no customers today?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Ah... I was so worried about your results,<CR>I couldn't focus on work, so I<CR>closed the shop for the day" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Well, lucky for you,<CR>I stocked up on ingredients.<CR>Today I'm gonna cook you an awesome feast!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Eh, but... those are shop ingredients..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Don't worry about it.<CR>On a day like this, forget about being polite" },
+	// ▼最後の台詞で分岐させる。最初に来たか否かで（アストリッドのとこに行くのを促す台詞
+	// ▼最初に来た時
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "By the way,<CR>did you tell the master yet?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Nope, not yet..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Then go see her already.<CR>This is gonna take a while,<CR>so I'm sure she's worried sick" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Yeah, I'll go see her.<CR>But I wonder if the teacher is even worried..." },
+	// ▼
+	// ▼二回目以降に来た時
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Since you're here, why don't you tell the others too?<CR>It'll take me a while anyway" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Yeah!" },
+	// ▼
+	// ★- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	// ▼好感度普通
+	// ★※普通に客がいる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Iksel, Iksel!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Oh? What's wrong? You're so excited" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "So, I finished all the jobs from the castle!<CR>I can keep running the atelier!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Oh yeah! That's my girl!<CR>Well, I knew you'd be fine" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Ehehe, thanks" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_KOMA,     BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "I would treat you to a celebration,<CR>but,<CR>I'm a bit tied up right now" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "Ah... you have a lot of customers.<CR>Sorry for bothering you when you're busy" },
+	// ▼最後の台詞で分岐させる。最初に来たか否かで（アストリッドのとこに行くのを促す台詞
+	// ▼最初に来た時
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "No, I'm the one who should apologize.<CR>Hey, did you tell the master yet?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "Nope, not yet..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "Then wait at the atelier for me, okay?<CR>I'll bring something over later" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "That's okay, Iksel. You're busy..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "Don't be shy about it.<CR>It might take a while, but<CR>I'll hurry as fast as I can" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       32, BALLOON_FRAME_TYPE_BUC,            "Yeah... thanks. See you later" },
+	// ▼
+	// ▼二回目以降
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "No, I'm the one who should apologize.<CR>I'll bring something to the atelier<CR>when I'm done. That'll make up for it, okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       34, BALLOON_FRAME_TYPE_BUC,            "That's okay, Iksel. You're busy..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "Don't be shy about it.<CR>It might take a while, but<CR>I'll hurry as fast as I can" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "Yeah... thanks. See you later" },
+	// ▼
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ01_030_bda = {
+	"MZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MZ01_030",// 出力ファイル名
+	MZ01_030_EMS,           // 上記変数
+};

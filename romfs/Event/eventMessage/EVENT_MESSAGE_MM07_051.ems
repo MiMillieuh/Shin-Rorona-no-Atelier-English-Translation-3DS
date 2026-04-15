@@ -1,0 +1,26 @@
+BalloonData MM07_051_EMS[] = {
+	// ▼Evaluation announced on system screen
+	// ▼Branches based on evaluation
+	// ▼Highest evaluation
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "You seem to have delivered something quite useful.<CR>Though it may be a bit too cool for this season" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "That's because... it's already September..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "O-oh, that's right...<CR>I will be more careful in the future<CR>to avoid such oversights" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Now then, let us move on to the next request" },
+	// ▼Average evaluation
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "It seems it will be somewhat usable.<CR>We probably won't be able to confirm the effects<CR>until next summer, though" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "That's a rather long-term project..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Yes, well...<CR>I will be more careful in the future<CR>to avoid such oversights" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Now then, let us move on to the next request" },
+	// ▼Low evaluation
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "I couldn't really feel the effects, it seems.<CR>Although some said it was just right<CR>for the season, ironically" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Uuu... I'm sorry.<CR>It got cooler and I just<CR>went along with that..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Mm... that was our mistake, not yours.<CR>I do feel bad about it, but please<CR>do your best to make it up in the next request" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Now then, about the next request..." },
+	// ▼↓
+};
+
+BALLOON_DATA_ALL MM07_051_bda = {
+	"MM07",                 // Output file path
+	"EVENT_MESSAGE_MM07_051",// Output file name
+	MM07_051_EMS,           // Variable above
+};

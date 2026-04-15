@@ -1,0 +1,30 @@
+BalloonData MA01_010_EMS[] = {
+	// ★ワールドマップ～街の外観～街中～など、徐々に移していく感じで
+	// ★最後は、買い物をしながら街中を歩いているロロナ
+	// ★朗読が終わると同時に、アトリエに着く
+	// ★（朗読の方が少し先に終わり、ロロナがアトリエに入ったら次のイベントへ
+	// ★テロップ表示なので、文字数制限無視
+	// ▼エスティが昔話を朗読している、という雰囲気で
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "Arland—" },
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_NORMAL,         "Several hundred years ago, there was a very small nation built around a certain ancient ruin" },
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_NORMAL,         "They had little contact with other nations and no notable culture. The only thing they had was peace, but—" },
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_NORMAL,         "One day, from within the ancient ruins, a mysterious civilization was discovered, which would later be called 'Machinery'" },
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_NORMAL,         "The people of Arland had no idea what it was or what it was for" },
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_NORMAL,         "Just then, a lone traveler who was visiting the country taught the people of Arland the proper way to use the machinery" },
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_NORMAL,         "Within just a few short years, Arland achieved remarkable development thanks to the machinery" },
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_NORMAL,         "Every citizen was able to live very prosperous lives" },
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_NORMAL,         "The king of that time was deeply grateful to the traveler and said, 'I shall grant you any one wish'" },
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     9, BALLOON_FRAME_TYPE_NORMAL,         "Then the traveler answered thus" },
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_NORMAL,         "'Then, please let me create an Atelier of alchemy in this country,' he said—" },
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_NORMAL,         "Time flew by, and now—" },
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    12, BALLOON_FRAME_TYPE_NORMAL,         "In that Atelier, a young girl lives together with her alchemy master" },
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    13, BALLOON_FRAME_TYPE_NORMAL,         "The girl's name is Rororina Frixel" },
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_NORMAL,         "The townspeople call her Rorona—" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA01_010_bda = {
+	"MA01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA01_010",// 出力ファイル名
+	MA01_010_EMS,           // 上記変数
+};

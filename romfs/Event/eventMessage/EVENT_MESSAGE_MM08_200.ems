@@ -1,0 +1,25 @@
+BalloonData MM08_200_EMS[] = {
+	// ▼
+	// ★※Continuously from above. Assuming there's a map or background
+	// ★At the event venue where people have gathered
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX8,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Thank you all for waiting!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX8,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "With everyone gathered,<CR>the Kingdom Festival main event begins!<CR>We're holding a Martial Arts Tournament!" },
+	// ▼Applause and cheers
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "What!?<CR>A Martial Arts Tournament!? I wasn't told about this!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX9,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Didn't I tell you?<CR>Well, the rules are simple, so don't worry" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX8,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "You can do anything to defeat your opponent.<CR>Win three matches and you're the champion.<CR>See? Simple!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "I'm not asking about the rules!<CR>Why do I have to..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "I didn't expect to see you here as a participant" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "Sterk-san! It's not like I wanted to be here!<CR>I was dragged here against my will..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R2,       8, BALLOON_FRAME_TYPE_BUC,            "I see. I understand the situation.<CR>But since it's come to this, you'd better give up" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L2,       9, BALLOON_FRAME_TYPE_BUC,            "Uuu, seriously..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX8,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Now then, let's begin!<CR>First match, start!!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "Eh? Already!?<CR>...Ahhh, whatever!!" },
+	// ▼Battle begins. Continues to respective events
+};
+
+BALLOON_DATA_ALL MM08_200_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_200",// Output file name
+	MM08_200_EMS,           // Variable above
+};

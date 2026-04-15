@@ -1,0 +1,9 @@
+// サブ・雑多２・２
+BalloonData XS02_020_EMS[] = {
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,      0, NAME_RORONA,     BUC_RORONA_NOR,   BUC_POSITION_TYPE_NONE,   -1,    BALLOON_FRAME_TYPE_SYSTEM, "Arlvis Academy - The supreme academy of alchemy, built upon a remote island floating in the distant skies" },
+};
+BALLOON_DATA_ALL XS02_020_bda = {
+	"XS02",			// 出力ファイルパス
+	"EVENT_MESSAGE_XS02_020",		// 出力ファイル名
+	XS02_020_EMS,		// 上記変数
+};

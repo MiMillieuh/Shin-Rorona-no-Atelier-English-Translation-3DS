@@ -1,0 +1,13 @@
+BalloonData QC05_121_EMS[] = {
+	// ★This will be connected smoothly once the request number is decided
+	// ▼After the request announcement, one line after leaving the castle
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Sigh... I'm glad this time,<CR>but I need to try harder next time..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "But is the minister okay..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_121_bda = {
+	"QC05",                 // Output file path
+	"EVENT_MESSAGE_QC05_121",// Output file name
+	QC05_121_EMS,           // The variable
+};

@@ -1,0 +1,35 @@
+BalloonData YM05_010_EMS[] = {
+	// ▼アトリエで発生
+	// ●延長戦後割とすぐに発生？
+	// ●クーデリアと仲良くなっていなくても出る
+	// ▼アトリエにクーデリア|月てくる
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Rorona, do you have a minute?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, hello" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "...Oh? Could you be Cuderia-san?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "...That's right" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_WARA,    BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "I knew it!<CR>Your height hasn't changed at all since<CR>back then..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Hold it! RORONA!!" },
+	// ▼ロロナ登場
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Ah, Kuu-chan. What's wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "What's wrong, indeed!<CR>Who are these people!?<CR>And they know me too!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Oh, um, well..." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_L2,       9, BALLOON_FRAME_TYPE_BUC,            "Um... we're lodgers!<CR>We're lodgers, that's what we are" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX2,     BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "Y-yes! We came from a far-off place<CR>and we've been staying here as lodgers!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "I-it's a long story.<CR>The two of them are alchemists, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Alchemy!?<CR>I see - I bet it's because of that woman, right?<CR>Your Master" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "...I suppose that's not wrong" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Well, I suppose it can't be helped. She is who she is!<CR>And since you two are lodgers, I assume<CR>you'll be leaving eventually? I hope so" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX4,     BUC_POSITION_TYPE_R2,      15, BALLOON_FRAME_TYPE_BUC,            "You're right... truly" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "So, what brings you here<CR>today, Kuu-chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Nothing much. I was just bored, so I came by to see how things were going,<CR>but you all seem pretty busy,<CR>so I'll get going" },
+	// ▼クーデリア帰る
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "...We came from a time when<CR>she hadn't changed at all in terms of height,<CR>and that really surprised us" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "She gets really angry, so Totori-chan,<CR>please don't ever bring up<CR>her height in front of her..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM05_010_bda = {
+	"YM05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM05_010",// 出力ファイル名
+	YM05_010_EMS,           // 上記変数
+};

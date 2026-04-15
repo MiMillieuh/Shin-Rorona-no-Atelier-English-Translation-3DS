@@ -1,0 +1,9 @@
+// フラグ２・７
+BalloonData XF02_070_EMS[] = {
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,      0, NAME_RORONA,     BUC_RORONA_NOR,   BUC_POSITION_TYPE_NONE,   -1,    BALLOON_FRAME_TYPE_SYSTEM, "Arlvis Academy — the supreme institution of alchemy, built upon a lone island floating in the distant skies" },
+};
+BALLOON_DATA_ALL XF02_070_bda = {
+	"XF02",			// 出力ファイルパス
+	"EVENT_MESSAGE_XF02_070",		// 出力ファイル名
+	XF02_070_EMS,		// 上記変数
+};

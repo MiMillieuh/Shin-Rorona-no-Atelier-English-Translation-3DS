@@ -1,0 +1,76 @@
+BalloonData MM04_150_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,      729, BALLOON_FRAME_TYPE_BUC,            "Oh, Rorona.<CR>You participated too?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,      730, BALLOON_FRAME_TYPE_BUC,            "Ixcel-kun.<CR>You too, meaning you participated too?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,      731, BALLOON_FRAME_TYPE_BUC,            "Of course. When it comes to cabbages,<CR>no one can beat me" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,      732, BALLOON_FRAME_TYPE_BUC,            "I-I see..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,      733, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(Did Ixcel-kun really know that much about cabbages...?)" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,      734, BALLOON_FRAME_TYPE_BUC,            "Oh, looks like the results are out.<CR>Come on, say my name already!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,   735, BALLOON_FRAME_TYPE_BUC,            "Thank you for waiting~!<CR>The winner of the Cabbage Festival will now be announced!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,   736, BALLOON_FRAME_TYPE_BUC,            "The winner of the first annual Cabbage Festival is..." },
+	// ▼Drum roll SFX
+	// ▼Branch based on results
+	// ★----------------------------------------
+	// ▼If won
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,   737, BALLOON_FRAME_TYPE_BUC,            "The beautiful alchemist Rorona-chan!<CR>Everyone, give it up!" },
+	// ▼Cheering and applause
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,      738, BALLOON_FRAME_TYPE_BUC,            "H-huh? Me?<CR>W-wait, beautiful!?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_R,      739, BALLOON_FRAME_TYPE_BUC,            "What...<CR>I lost to Rorona...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,      740, BALLOON_FRAME_TYPE_BUC,            "I-it's gotta be some mistake!<CR>There's no way I could have won, I mean..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_IKA,      BUC_POSITION_TYPE_R,      741, BALLOON_FRAME_TYPE_BUC,            "Shut up, shut up!<CR>I don't want your sympathy!<CR>Come on, just go get your prize!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,      742, BALLOON_FRAME_TYPE_BUC,            "W-waaaaah!<CR>Stop pushing~!" },
+	// ▼Rorona gets pushed out in front of Esty
+	// ▼Award ceremony scene (common)
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,      703, BALLOON_FRAME_TYPE_BUC,            "Oh, you finally came out" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,      704, BALLOON_FRAME_TYPE_BUC,            "A-ah, um, I'm sorry!<CR>I can't believe I won!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX7,      BUC_POSITION_TYPE_R,      705, BALLOON_FRAME_TYPE_BUC,            "Why are you apologizing?<CR>Come on, straighten up! Chest out!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,      706, BALLOON_FRAME_TYPE_BUC,            "Y-yes!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX7,      BUC_POSITION_TYPE_R,      707, BALLOON_FRAME_TYPE_BUC,            "Excellent.<CR>Now, as the winner's prize, Rorona-chan will receive the Mercurius Eye" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX8,      BUC_POSITION_TYPE_R,      708, BALLOON_FRAME_TYPE_BUC,            "And as a bonus... would you believe it!<CR>The prestigious title of Cabbage Girl is hereby bestowed! Congratulations!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,      709, BALLOON_FRAME_TYPE_BUC,            "Th-thank you... eh!?C-cabbage girl!?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX8,      BUC_POSITION_TYPE_R,      710, BALLOON_FRAME_TYPE_BUC,            "Yes everyone!<CR>Let's give another big round of applause for the Cabbage Girl!" },
+	// ▼Huge applause and cheers
+	{ BALLOON_MODE_CHASYS, CHARA_OZI_A,      0, NAME_GUEST_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,   711, BALLOON_FRAME_TYPE_NORMAL,         "Nice job! Cabbage Girl~!" },
+	{ BALLOON_MODE_CHASYS, CHARA_ONE_A,      0, NAME_GUEST_D,     BUC_NONE,           BUC_POSITION_TYPE_NONE,   712, BALLOON_FRAME_TYPE_NORMAL,         "Cabbage Girl is so cute~!" },
+	{ BALLOON_MODE_CHASYS, CHARA_OZI_B,      0, NAME_GUEST_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,   713, BALLOON_FRAME_TYPE_NORMAL,         "Yo! Cabbage Girl! World's number one!" },
+	{ BALLOON_MODE_CHASYS, CHARA_OZI_C,      0, NAME_GUEST_C,     BUC_NONE,           BUC_POSITION_TYPE_NONE,   714, BALLOON_FRAME_TYPE_NORMAL,         "Cabbage Girl~! Marry me~!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,      715, BALLOON_FRAME_TYPE_BUC,            "C-come on...<CR>Stop it~! I don't want this title~!" },
+	// ▼Black screen, then regroup with Ixcel
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,      743, BALLOON_FRAME_TYPE_BUC,            "Uuuu... That was so embarrassing..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,      745, BALLOON_FRAME_TYPE_BUC,            "Hey, Ixcel-kun, why are you angry...?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_IKA,      BUC_POSITION_TYPE_R,      746, BALLOON_FRAME_TYPE_BUC,            "Hmph, it's not like I'm jealous or anything.<CR>I'm definitely not jealous, you hear!<CR>You damned Cabbage Girl!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,      747, BALLOON_FRAME_TYPE_BUC,            "S-so please don't call me that name!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_IKA,      BUC_POSITION_TYPE_R,      748, BALLOON_FRAME_TYPE_BUC,            "Alright, next let's settle this at the festival food stalls!<CR>I won't let you get away with a \"victory run\"!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,      749, BALLOON_FRAME_TYPE_BUC,            "Victory run...?<CR>W-wait, Ixcel-kun! Wait up~!" },
+	// ▼After a longer pause, force skip to next day
+	// ▼If lost
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,   750, BALLOON_FRAME_TYPE_BUC,            "The winner is the genius young chef Ixcel-kun!<CR>Everyone, give it up!" },
+	// ▼Cheering and applause
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,      751, BALLOON_FRAME_TYPE_BUC,            "I-I won? Really!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,      752, BALLOON_FRAME_TYPE_BUC,            "Amazing, amazing! Congratulations, Ixcel-kun!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_TERE,     BUC_POSITION_TYPE_R,      753, BALLOON_FRAME_TYPE_BUC,            "Ah, thanks... Sorry about that.<CR>You worked pretty hard too, didn't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,      754, BALLOON_FRAME_TYPE_BUC,            "No, not at all.<CR>Ixcel-kun worked way harder than me by a hundred times" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,   755, BALLOON_FRAME_TYPE_BUC,            "Hey there~! Stop flirting and<CR>come on up here already~!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_R,      756, BALLOON_FRAME_TYPE_BUC,            "W-who's flirting!<CR>Alright, I'll be right back" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,      757, BALLOON_FRAME_TYPE_BUC,            "Yeah. Take care" },
+	// ▼Skip ceremony with black screen and applause SFX
+	// ▼Chatting after the ceremony with just the two of them
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_TERE,     BUC_POSITION_TYPE_R,      758, BALLOON_FRAME_TYPE_BUC,            "Man, I'm impressed.<CR>Getting awarded in front of all those people" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,      759, BALLOON_FRAME_TYPE_BUC,            "You had that grin on your face the whole time, Ixcel-kun" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_KOMA,     BUC_POSITION_TYPE_R,      760, BALLOON_FRAME_TYPE_BUC,            "D-did I?<CR>I mean, winning this silly festival isn't that big of a deal,<CR>not that I'm happy about it or anything" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,      761, BALLOON_FRAME_TYPE_BUC,            "You're saying that, but you were really happy" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,      762, BALLOON_FRAME_TYPE_BUC,            "I-it's not like... you know what, forget it!<CR>Come on, let's get going!<CR>We've got to make the most of today, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,      763, BALLOON_FRAME_TYPE_BUC,            "That's true.<CR>Alright, let's have some fun today!" },
+	// ▼
+	// ★----------------------------------------
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You obtained the <CLGR>Mercurius Eye<CLNR>." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM04_150_bda = {
+	"MM04",                 // Output file path
+	"EVENT_MESSAGE_MM04_150",// Output file name
+	MM04_150_EMS,           // Above variable
+};

@@ -1,0 +1,80 @@
+BalloonData YM05_070_EMS[] = {
+	// ▼延長戦後に発生（夏付近が望ましい）
+	// ●エスティ、メルル、トトリの友好度が一定以上ある
+	// ●エスティがパーティにいる
+	// ●エスティ恨み節が発生している
+	// ●しばらくすると発生
+	// ▼エスティに話しかけると発生
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "It's been pretty hot lately, hasn't it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "You're right. With heat like this,<CR>you'd want to find somewhere cool" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "......ns" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Huh?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Vacations...<CR>A cool breeze by the lakeside,<CR>Rorona-chan and the others playing in the water..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "You all looked like you were having so much fun...<CR>the vacation at the lake..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Could it be that you're still upset about that...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Of course! It's not like I didn't know about it,<CR>but I had every intention of going and then<CR>work got in the way!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Then how about this time,<CR>we all go together...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Really!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Only if you want to, that is..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Of course I want to!<CR>Let's go right away!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "R-right now!?<CR>It takes quite a while to get there, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "I don't mind,<CR>but what about you, Rorona-chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "I mean, it's not like I can't...<CR>but it'll take about ten days or so to get there.<CR>What should we do,<CR>I wonder...?" },
+	// ▼選択肢表示
+	// ▼「バカンスに行く」を選んだ場合
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Let's go!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Yes! That's the spirit!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Ah, but what about the front desk work...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Leave that to me.<CR>Just wait a little, okay?" },
+	// ▼エスティ立ち去る
+	// ▼しばらくして戻ってくる
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Sorry to keep you waiting. Let's go!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Um, about the work..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "It's fine, it's fine - I just pushed it onto<CR>one of the junior workers around here.<CR>It's no big deal or anything" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "O-okay......" },
+	// ▼ゆっくり黒画面へ
+	// ▼場面転換、湖へ
+	// ▼↓三人同時に
+	{ BALLOON_MODE_BUCSYS, CHARA_NONE,       0, NAME_MINNA,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    24, BALLOON_FRAME_TYPE_BUC,            "Yaaaaay" },
+	{ BALLOON_MODE_CHARA,  CHARA_MERURU,     0, NAME_MERURU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    25, BALLOON_FRAME_TYPE_NORMAL,         "Yaaaaay" },
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    26, BALLOON_FRAME_TYPE_NORMAL,         "Yaaaaay" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_WARA,    BUC_POSITION_TYPE_R2,      27, BALLOON_FRAME_TYPE_BUC,            "What a beautiful place" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_WARA,    BUC_POSITION_TYPE_L2,      28, BALLOON_FRAME_TYPE_BUC,            "The breeze feels so nice..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "How do you like it, Estiy-san?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "It's the best!<CR>Time to cut loose!" },
+	// ▼スチル表示
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    31, BALLOON_FRAME_TYPE_BUC,            "My swimsuit that I prepared but never got to use<CR>finally gets to see the light of day" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_TOTORI,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    32, BALLOON_FRAME_TYPE_BUC,            "I've been wondering, but why do we<CR>have swimsuits, I wonder?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_MERURU,     0, NAME_MERURU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    33, BALLOON_FRAME_TYPE_BUC,            "And they fit perfectly..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    34, BALLOON_FRAME_TYPE_BUC,            "Oh, that - Master made them<CR>some time ago, you know.<CR>I wonder how she figured out our sizes..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_MERURU,     0, NAME_MERURU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    35, BALLOON_FRAME_TYPE_BUC,            "She's really a terrifying person,<CR>honestly, Astrid-san..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    36, BALLOON_FRAME_TYPE_BUC,            "Ahhh, the water is so cold and feels so good!<CR>I could forget all my worries like this" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_TOTORI,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    37, BALLOON_FRAME_TYPE_BUC,            "I don't really get it,<CR>but I guess she must have a lot<CR>of things on her mind..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    38, BALLOON_FRAME_TYPE_BUC,            "Rest is really important, isn't it?<CR>I learned that if you keep working all the time,<CR>you'll definitely burn out" },
+	{ BALLOON_MODE_BUCSYS, CHARA_MERURU,     0, NAME_MERURU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    39, BALLOON_FRAME_TYPE_BUC,            "Come to think of it, it's been a while<CR>since we took a break like this<CR>with the breeze and everything..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_TOTORI,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    40, BALLOON_FRAME_TYPE_BUC,            "I've played in the ocean before,<CR>but I haven't been to a beautiful lake<CR>all that often" },
+	{ BALLOON_MODE_BUCSYS, CHARA_MERURU,     0, NAME_MERURU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    41, BALLOON_FRAME_TYPE_BUC,            "Since we're all here anyway,<CR>let's make the most of it!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_TOTORI,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    42, BALLOON_FRAME_TYPE_BUC,            "We came all this way, after all.<CR>It'd be a waste not to have some fun" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    43, BALLOON_FRAME_TYPE_BUC,            "Right right! Everyone needs to let loose more often.<CR>I wonder if we'll ever<CR>get an opportunity like this again,<CR>so we have to make the most of it!" },
+	// ▼黒画面へ
+	// ▼通常の湖の採取地画面に
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       44, BALLOON_FRAME_TYPE_BUC,            "The sun's starting to set,<CR>so let's head back" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       45, BALLOON_FRAME_TYPE_BUC,            "You're right - today was really fun.<CR>Thank you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       46, BALLOON_FRAME_TYPE_BUC,            "I'm glad you enjoyed it" },
+	// ▼黒フェードで時間経過
+	// ▼＜!--,--！!--＞--------------------
+	// ▼「行かない」を選んだ場合
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       47, BALLOON_FRAME_TYPE_BUC,            "This is a little too sudden, isn't it?<CR>It takes quite a while just to get there,<CR>and we haven't prepared anything" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,       48, BALLOON_FRAME_TYPE_BUC,            "Wh-what!? Listen here, Rorona-chan.<CR>If you don't go to the lake in the summer,<CR>there's no point, you know!<CR>If you don't go now, you'll have to wait until next year" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       49, BALLOON_FRAME_TYPE_BUC,            "Even if you say that...<CR>I'm sorry!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,       50, BALLOON_FRAME_TYPE_BUC,            "What, really!?<CR>Oh no, my vacation..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,       51, BALLOON_FRAME_TYPE_BUC,            "Well then, I'll always be ready<CR>so we can go whenever you want,<CR>so call me again sometime, okay?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM05_070_bda = {
+	"YM05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM05_070",// 出力ファイル名
+	YM05_070_EMS,           // 上記変数
+};

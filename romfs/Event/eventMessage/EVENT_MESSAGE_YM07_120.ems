@@ -1,0 +1,16 @@
+BalloonData YM07_120_EMS[] = {
+	// ▼初めてマキナ領域に入ると発生
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Whoa, what is this place. I feel like I'm getting dizzy..." },
+	// ▼パーティにメルルがいる場合
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "It looks similar to the Makina Realm I know." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_IKA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I don't know why it appeared here, but if it's similar, I think there might be dangerous monsters too!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Thanks. I need to be careful..." },
+	// ▼パーティにメルルがいない場合
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Something about this place feels really bad. I'll be careful..." },
+};
+
+BALLOON_DATA_ALL YM07_120_bda = {
+	"YM07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM07_120",// 出力ファイル名
+	YM07_120_EMS,           // 上記変数
+};

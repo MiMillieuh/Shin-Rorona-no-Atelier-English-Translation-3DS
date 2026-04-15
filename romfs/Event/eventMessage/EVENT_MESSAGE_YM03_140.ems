@@ -1,0 +1,29 @@
+BalloonData YM03_140_EMS[] = {
+	// ▼ロロナ・ギゼラ・トトリのパーティでの出発イベント
+	// ●延長戦で発生
+	// ●ギゼラ参戦が発生している
+	// ▼二人を一緒に雇って、初めて採取に行こうとした時
+	// ▼先にギゼラ、トトリがいる
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_TERE,    BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "I never thought I'd get to go with Mama..." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_IKA,     BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "...I shouldn't have said that.<CR>If they find out, it's over. Whew, that was close" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_WARA,    BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "But I'm moved...<CR>I got sent back into the past,<CR>but it's not all bad, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_NOR,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "What's going on with you?<CR>Is there something on my face?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "Ah, no!<CR>Um... you look like<CR>my mom, I wonder..." },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_KAN,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Me? You're dealing with quite a lot,<CR>huh? To think you said I look like you..." },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_NOR,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I have two kids myself.<CR>They're still smaller than you, I wonder" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KANA,    BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "Could... could I be with you too?" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_NOR,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Hmm? Of course I want to be with them always.<CR>Speaking as someone who's not a good mother" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_NOR,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "But to give my kids good experiences,<CR>I have to keep earning money, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_NOR,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "The only thing I'm good at<CR>is this adventurer work..." },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_WARA,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Well, my kids are doing well on their own,<CR>so I can do whatever I want like this, I suppose" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_WARA,    BUC_POSITION_TYPE_L2,      12, BALLOON_FRAME_TYPE_BUC,            "That sounds nice. Hehe..." },
+	// ▼ロロナやってくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Sorry, I'm late!<CR>Alright, let's go!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM03_140_bda = {
+	"YM03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM03_140",// 出力ファイル名
+	YM03_140_EMS,           // 上記変数
+};

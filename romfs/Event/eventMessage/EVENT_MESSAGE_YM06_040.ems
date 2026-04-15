@@ -1,0 +1,31 @@
+﻿BalloonData YM06_040_EMS[] = {
+	// ▼延長戦で発生
+	// ●チェーンイベントの最後からつながる
+	// ●交友値なども参照してもいいかも
+	// ▼広場で発生（他の場所でも可、人気の少ない場所）
+	// ▼片隅で、リオネラと人形二人が話し込んでいる
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...Well, it's about time." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "Didn't expect those words from Lionela—<CR>that's some real progress." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Yeah... I guess you're right?" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Sure is. Didn't think you'd ever<CR>say something like that—I sure<CR>didn't see it coming." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "Why'd you suddenly say that?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_SIN,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I just... finally found some confidence." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Well, with all that training,<CR>a bit of confidence is natural.<CR>Can't say I blame you." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "I thought you'd keep dragging your feet forever." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_IKA,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "I-I'm growing too! It might be<CR>really slow, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Now that I think about it, what we've done<CR>wasn't a waste after all.<CR>All's well that ends well, I guess." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_L2,      10, BALLOON_FRAME_TYPE_BUC,            "But is it really okay?<CR>What about Rorona-chan..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Unn..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_L2,      12, BALLOON_FRAME_TYPE_BUC,            "...You're still undecided about that, huh?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Unn... yeah..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "W-well, we haven't saved up<CR>enough for travel expenses yet, so.<CR>We've got time to think about it. Just take your time." },
+	// ▼画面をロロナの方に
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "(Rio-chan seems really deep in conversation...<CR>I should probably not interrupt.)" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM06_040_bda = {
+	"YM06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM06_040",// 出力ファイル名
+	YM06_040_EMS,           // 上記変数
+};

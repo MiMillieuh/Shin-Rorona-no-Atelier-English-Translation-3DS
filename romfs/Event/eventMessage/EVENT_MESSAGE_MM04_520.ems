@@ -1,0 +1,33 @@
+BalloonData MM04_520_EMS[] = {
+	// ▼At around the same timing as above (but won't overlap)
+	// ▼At the second year start, somewhere in the palace
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Hey, you there, knight!<CR>What is the meaning of this!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            ".........." },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Hey! I'm calling you, knight!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "...My name is Sterkenburg.<CR>I would appreciate it if you could remember that" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_KANA,  BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "As if I care about your name!<CR>What I'm asking is what this means!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "If you're going to demand an answer out of nowhere,<CR>I can't very well respond.<CR>What is it you're asking about?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Playing dumb won't work on me!<CR>It's about the Atelier, obviously!" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_IKA,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Why does it take more than a year to tear down a single Atelier!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Please choose your words carefully.<CR>We are not tearing down the Atelier to destroy it,<CR>we issue requests to test their abilities" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_KANA,  BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "I don't care about your formalities!<CR>Do you have any idea how much my development plans<CR>have been delayed this past year!" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_KANA,  BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Every time my plans get delayed, the nation's interests suffer!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Wouldn't the interests be better served by<CR>having that Atelier around?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "I'm not so sure about that. If you're<CR>siding with the Atelier like that,<CR>maybe that's how it looks to you" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "As a knight, I always act according to the King's wishes.<CR>There is not a single thing I should be ashamed of" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_HOHO,  BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Fine then.<CR>I have another plan in mind..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "...I don't know what you're planning,<CR>but if necessary, I won't be able to just stand by and watch" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Don't get cocky with me, you mere knight" },
+	// ▼Minister walks away
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "...What is he plotting.<CR>As long as that girl is at the Atelier,<CR>I suppose there's nothing to worry about, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "No, there's a good chance this could get messy.<CR>I hope nothing troublesome comes of this..." },
+	// ▼
+	// ★※From here, several sabotage events by the minister
+	// ★Store events are written elsewhere to be compiled later
+};
+
+BALLOON_DATA_ALL MM04_520_bda = {
+	"MM04",                 // Output file path
+	"EVENT_MESSAGE_MM04_520",// Output file name
+	MM04_520_EMS,           // Above variable
+};

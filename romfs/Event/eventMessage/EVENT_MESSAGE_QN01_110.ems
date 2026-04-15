@@ -1,0 +1,23 @@
+BalloonData QN01_110_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Whew. I've pretty much made<CR>all the alchemy-ish pies" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "But I'm not happy at all...<CR>Rather, there's like this hollow feeling,<CR>like a hole in my heart..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Aaaaah! What is this feeling!<CR>I want to make more, more pies...<CR>I'll take any pie at this point!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC_SHOUT,      "I just want to keep making them,<CR>following my inspiration!!" },
+	// ▼そんなロロナを物陰から見ている師匠とホム
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "...Grr,<CR>Today she broke before I could even tamper with her.<CR>This is interesting too, I suppose" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,       5, BALLOON_FRAME_TYPE_BUC,            "Yes. The current Master seems to resemble<CR>the Grand Master somehow" },
+	// ▼再びロロナに戻って
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I can't hold back anymore! I have to..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "I'll create the ultimate pie,<CR>that's all there is!!" },
+	// ▼パイならなんでもいい、といったレシピが４つ追加
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You obtained the reference book \"<CLGR>Ultimate Pie<CLNR>\"." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_110_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_110",// 出力ファイル名
+	QN01_110_EMS,           // 上記変数
+};

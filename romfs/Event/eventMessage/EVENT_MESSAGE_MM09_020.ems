@@ -1,0 +1,6 @@
+﻿BalloonData MM09_020_EMS[] = {
+	// ▼Warning message when assignment deadline is near
+	// ▼When protagonist is exploring
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh no. The deadline for the castle work is almost here.<CR>I need to get back or I won't make it in time" },
+	// ▼
+};

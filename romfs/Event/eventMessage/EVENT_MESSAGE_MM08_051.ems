@@ -1,0 +1,28 @@
+BalloonData MM08_051_EMS[] = {
+	// ▼Results announced on system screen
+	// ▼Branches based on results
+	// ▼Highest evaluation
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Good, it seems there are no problems.<CR>Whew, that's one less worry... thank you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "You're welcome.<CR>It's weird to be thanked, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Now then, sorry for rushing,<CR>but let me explain the next request..." },
+	// ▼Average evaluation
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "There are some issues, but nothing too serious...<CR>Let me see, we can cut some setup time...<CR>No wait, that would affect the exercises scheduled..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "U-um... I'm sorry.<CR>It's my fault, isn't it..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Don't talk to me!<CR>I'm losing my train of thought!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Y-yes!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Gyaah, thinking about it later. There's no time!<CR>Let's first get back to..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Before that, I need to explain<CR>the next request.<CR>The next request is..." },
+	// ▼Low evaluation
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "U-um... Sterk-san?<CR>Your face is kind of scary..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "...I see. I must be tired.<CR>I don't even have the energy to hide my emotions..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Does that mean...<CR>you're angry, right...?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "...Interpret it however you like.<CR>Unfortunately, I don't even have time to scold you right now.<CR>Let me explain the next request" },
+	// ▼↓
+};
+
+BALLOON_DATA_ALL MM08_051_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_051",// Output file name
+	MM08_051_EMS,           // Variable above
+};

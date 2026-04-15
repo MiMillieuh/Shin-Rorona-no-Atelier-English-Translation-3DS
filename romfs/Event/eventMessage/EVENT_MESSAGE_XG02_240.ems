@@ -1,0 +1,9 @@
+// ギミック２・２４
+BalloonData XG02_240_EMS[] = {
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,      0, NAME_RORONA,     BUC_RORONA_NOR,   BUC_POSITION_TYPE_NONE,   -1,    BALLOON_FRAME_TYPE_SYSTEM, "Ar Revus Academy - The highest institution of alchemy, built on a remote island floating in the distant sky" },
+};
+BALLOON_DATA_ALL XG02_240_bda = {
+	"XG02",			// 出力ファイルパス
+	"EVENT_MESSAGE_XG02_240",		// 出力ファイル名
+	XG02_240_EMS,		// 上記変数
+};

@@ -1,0 +1,22 @@
+﻿BalloonData QN07_025_EMS[] = {
+	// ▼買い物終了後
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Thanks for shopping!<CR>I'll stop by again sometime,<CR>so later!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, wait.<CR>Um, you're Corm, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "What is it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Corm, Corm, Corm...<CR>Okay, how about Cor-kun?<CR>Can I call you Cor-kun?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_AKI,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "You only left out one syllable!<CR>Just call me normally. See ya!" },
+	// ▼立ち去るコオル
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "So? Isn't he a cheeky kid?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Y-Yes...<CR>Ugh, I thought it was a cute nickname too.<CR>Cor-kun..." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Corm has started visiting to sell items.<CR>He comes to the Atelier on the 15th of every month." },
+	// ▼
+	// ★※システム的な説明が必要なら最後に
+};
+
+BALLOON_DATA_ALL QN07_025_bda = {
+	"QN07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN07_025",// 出力ファイル名
+	QN07_025_EMS,           // 上記変数
+};

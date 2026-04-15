@@ -1,0 +1,13 @@
+BalloonData MM08_010_EMS[] = {
+	// ▼Triggers when deadline for task is near (warning message)
+	// ★Lines should change for each task. Reuse what's reusable
+	// ▼When protagonist is at the atelier
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, right. The castle job deadline is coming up.<CR>I need to prepare before I forget" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM08_010_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_010",// Output file name
+	MM08_010_EMS,           // Variable above
+};

@@ -1,0 +1,21 @@
+BalloonData MA01_120_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Whoa...my heart is pounding.<CR>This might be the first time I've been outside the town since I was a kid" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Don't freak out in a forest this close to town!<CR>You're here to gather materials, right?<CR>Hurry up and collect them" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Oh, right" },
+	// ▼
+	// ▼イベント中、採取アイコンを調べたら
+	// ★あるいは強制で調べさせてから
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "When you examine the icons at exploration sites,<CR>you can obtain materials." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "A list of available items will be displayed.<CR>Select the items you want to bring back." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "However, Rorona's basket<CR>can only hold 60 items." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "If you exceed that, you'll have to either give up<CR>the material you just picked up,<CR>or swap it with something in your basket." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "For more details, please check the gathering help<CR>section in the menu's encyclopedia." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA01_120_bda = {
+	"MA01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA01_120",// 出力ファイル名
+	MA01_120_EMS,           // 上記変数
+};

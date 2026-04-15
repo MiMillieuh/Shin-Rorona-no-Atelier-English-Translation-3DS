@@ -1,0 +1,31 @@
+BalloonData MM01_010_EMS[] = {
+	// ▼ゲーム開始後しばらく（１～２ヶ月経過時）
+	// ▼ステルクがアトリエを訪ねてくる
+	// ▼ドアがノックされる音
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Yes, come in~" },
+	// ▼ステルクがアトリエに入ってくる
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Excuse me" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Oh, Sterk-san. If Sterk-san is here, that means..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "That's right. The details of the first request have been decided,<CR>so I came to inform you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "So it's finally time...my heart is pounding..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "No need to be that nervous.<CR>Since it's the first time, I tried to prepare<CR>a request that's not particularly difficult" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "This is what I'd like you to work on this time" },
+	// ▼専用のシステムウィンドウかなんかで、課題内容を表示
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Daily goods, you say..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "To be honest, the people at the castle<CR>don't properly understand what can be<CR>accomplished with alchemy either" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "That's why<CR>the request ended up being somewhat vague...<CR>Do you think you can handle it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Yes, I think I'll manage...probably" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "I see. That reassuring to hear.<CR>I have high expectations for you" },
+	// ▼帰っていくステルク
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "I say that, but...<CR>Will I really be okay?<CR>Uuu, I'm still worried..." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The first request from the kingdom has begun." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Once you've made the <CLGR>Settl<CLNR>, <CLGR>Alchemy Coal<CLNR>, and <CLGR>Polishing Agent<CLNR>,<CR>go to Sterk at the <CLBL>Castle<CLNR>." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM01_010_bda = {
+	"MM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MM01_010",// 出力ファイル名
+	MM01_010_EMS,           // 上記変数
+};

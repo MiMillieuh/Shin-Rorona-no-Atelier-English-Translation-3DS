@@ -1,0 +1,27 @@
+﻿BalloonData QC01_540_EMS[] = {
+	// ▼When first hiring both of them, going out to gather
+	// ▼Iksel walking eagerly at the front
+	// ★Only occurs early in the game
+	// ★Alternative event with Iksel's first event, choice between the two
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "So, where are the monsters!?<CR>I'll knock them all down with<CR>my frying pan!" },
+	// ▼The two walking a bit behind
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "...Why did you bring him along?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Iksel-kun said he wanted to look for<CR>ingredients too" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "You could have brought someone<CR>more useful" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "But... Iksel-kun is a boy,<CR>and more reliable than just the two of us" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Do you actually see him as a man?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Eh? He's a boy, isn't he? Iksel-kun" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "...Well, if that's how you feel,<CR>I guess I don't have to worry.<CR>In that sense, at least" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Eh? I don't really understand what you mean" },
+	{ BALLOON_MODE_BUCSYS, CHARA_YKSEL,      0, NAME_YKSEL,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     9, BALLOON_FRAME_TYPE_BUC,            "Hey! Hurry up, you two! I'll leave you behind!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Don't run ahead by yourself!<CR>Even if you get tired, I'm not carrying you!" },
+	// ▼Cuderira runs after Iksel, and Rorona hurries to follow
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Ah. Hey, wait for me, you two~!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_540_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_540",// Output file name
+	QC01_540_EMS,           // Variable name
+};

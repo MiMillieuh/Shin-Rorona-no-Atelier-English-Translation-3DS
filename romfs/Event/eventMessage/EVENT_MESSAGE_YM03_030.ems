@@ -1,0 +1,23 @@
+BalloonData YM03_030_EMS[] = {
+	// ▼ロロナ・アストリッド・クーデリアのパーティでの出発イベント
+	// ●本編中以降で発生
+	// ●アストリッド参戦が発生している
+	// ▼二人を一緒に雇って、初めて採取に行こうとした時
+	// ▼三人揃っている
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "Hey, why are YOU coming along?!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Because Rorona kept insisting, begging me<CR>to come despite the high cost.<CR>Any objections?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "N-No, not at all!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Then that's settled.<CR>Nice to work with you, Ku-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "Gyaaah! Don't call me Ku-chan!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "If you saw my amazing performance,<CR>you wouldn't be acting like this from now on" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "Hmph, if you say so that confidently,<CR>then show me" },
+	// ▼ロロナやってくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Sorry, I'm late!<CR>Alright, let's go!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM03_030_bda = {
+	"YM03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM03_030",// 出力ファイル名
+	YM03_030_EMS,           // 上記変数
+};

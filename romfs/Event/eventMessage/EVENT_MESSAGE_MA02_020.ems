@@ -1,0 +1,18 @@
+BalloonData MA02_020_EMS[] = {
+	// ▼採取中戦闘で負けた時、日数経過と共に街の入り口まで戻された後
+	// ★※最初の１回だけ。かつ、何ヶ月かしたら起きない方がいい
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Uuu...ow, ow...I made it back somehow, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "I can't go on...let me go back to the Atelier and rest..." },
+	// ▼黒画面に、アトリエで復帰から再開
+	// ★※戦闘負けによる何かしらのペナルティがあるなら、ここで説明（台詞にもいれる
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "When defeated in battle,<CR>Rorona and her party are sent back<CR>to the town of Arland with their HP reduced." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Of course, the days it takes to travel back<CR>will also pass involuntarily,<CR>so please be careful not to be defeated in battle." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA02_020_bda = {
+	"MA02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA02_020",// 出力ファイル名
+	MA02_020_EMS,           // 上記変数
+};

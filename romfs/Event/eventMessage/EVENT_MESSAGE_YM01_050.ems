@@ -1,0 +1,47 @@
+BalloonData YM01_050_EMS[] = {
+	// ▼结局（MZ01）
+	// ▼好感度高
+	// ▼罗罗娜赶到王宫接待处
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Estiy-san!" },
+	// ▼艾斯蒂登场
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, you came. Based on your expression..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Yes! I passed!<CR>I can keep running the Atelier!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Congratulations. I knew you could do it,<CR>Rorona-chan. You've been working so hard" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "As someone who's been assigning you<CR>all those tasks, I'm relieved too.<CR>And I can keep counting on you for various things" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Ehehe, I'll keep working hard.<CR>From now on, just as an<CR>alchemy shop, normally" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Oh, that's the spirit!<CR>I'm counting on you" },
+	// ▼用最后一句话来分支。是否是第一个来的（诱导去阿斯特丽德那边的台词
+	// ▼第一个来的时候
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "...Oh yes, haven't you reported to<CR>Astrid-san yet? Looks like you came<CR>straight here" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Ah, yes. I wanted to report to you,<CR>Estiy-san, who was so supportive..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "I'm happy about that too, but you should<CR>report to Astrid-san first.<CR>She's your Master. I'm sure she's worried about you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "You're right...<CR>Then I'll head back" },
+	// ▼第二个及以后来的时候
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Have you told the others yet?<CR>Aren't there plenty of people<CR>who are worried about you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "That's true. I'll go let them know!" },
+	// ▼
+	// ▼好感度普通
+	// ▼罗罗娜赶到王宫接待处
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Estiy-san!" },
+	// ▼艾斯蒂登场
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Oh, Rorona-chan.<CR>Based on that happy face..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Yes, I passed.<CR>Looks like I can keep running the Atelier" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Congratulations, that's great news.<CR>As someone who's been assigning you<CR>all those tasks, I'm relieved too" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Yes! Thank you<CR>for everything!" },
+	// ▼用最后一句话来分支。是否是第一个来的（诱导去阿斯特丽德那边的台词
+	// ▼第一个来的时候
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Likewise, but... have you reported to<CR>Astrid-san? Looks like you came<CR>straight here again" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Ah, not yet" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Come on, I know you're happy, but,<CR>report to Astrid-san first, okay?<CR>She's your Master. I'm sure she's worried" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "You're right...<CR>Then I'll head back" },
+	// ▼第二个及以后来的时候
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Have you told the others yet?<CR>I think you should go let them know if not" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Yes, then I'll be going" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM01_050_bda = {
+	"YM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM01_050",// 出力ファイル名
+	YM01_050_EMS,           // 上記変数
+};

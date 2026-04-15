@@ -1,0 +1,16 @@
+BalloonData YM04_130_EMS[] = {
+	// ▼課題の締め切り間近に発生（警告メッセージ）
+	// ▼探索
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,    23651, BALLOON_FRAME_TYPE_BUC,            "If I head out now,<CR>I won't make it in time for the deadline..." },
+	// ▼調合
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     9576, BALLOON_FRAME_TYPE_BUC,            "...If I start now,<CR>I won't make it in time for the deadline" },
+	// ▼寝る
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     9509, BALLOON_FRAME_TYPE_BUC,            "Ah, but if I rest this much,<CR>I won't make it in time for the deadline..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM04_130_bda = {
+	"YM04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM04_130",// 出力ファイル名
+	YM04_130_EMS,           // 上記変数
+};

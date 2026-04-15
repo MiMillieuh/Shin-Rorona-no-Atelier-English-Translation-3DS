@@ -1,0 +1,24 @@
+BalloonData QC01_630_EMS[] = {
+	// ▼Occurs when Cuderira is never invited or acknowledged
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, Kuu-chan. Feels like it's been a while" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KANA,   BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Huh? You seem kinda down?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "You've just been so busy lately,<CR>haven't you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Yeah. Because if I don't do my work,<CR>the atelier will disappear" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KANA,   BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I know that, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "What's wrong?<CR>Kuu-chan seems weird today" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KANA,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Nothing's wrong with me" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "You think...? You have such a lonely look on your face, though" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Wha-!? What are you talking about!<CR>That's so not true!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Whoa! S-Sorry!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Hmph! I don't care anymore! Dummy!" },
+	// ▼Cuderira leaves in anger
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Oh... Now that I think about it,<CR>I haven't hung out with Kuu-chan at all lately...<CR>Is that why she's mad?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_630_bda = {
+	"QC01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC01_630",// 出力ファイル名
+	QC01_630_EMS,           // 上記変数
+};

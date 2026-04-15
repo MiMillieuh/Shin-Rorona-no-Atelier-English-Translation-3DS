@@ -1,0 +1,65 @@
+BalloonData QC04_030_EMS[] = {
+	// ▼↑の後、少ししてから。ロロナがアトリエにいる時
+	// ▼調合をしているロロナ。何かに気づいてふと振り返る
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hm...? Must be my imagination.<CR>I feel like someone was watching me" },
+	// ▼アトリエの前。隠れるように壁にへばりつくリオネラ
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "Ah... That was close..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       2, BALLOON_FRAME_TYPE_BUC,            "Close...? You came here to see her,<CR>so why are you hiding?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "B-because... It's embarrassing..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Then maybe you shouldn't have come in the first place" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       5, BALLOON_FRAME_TYPE_BUC,            "You can't hide back here forever, you know?<CR>Come on, get ready!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_SIN,    BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "O-okay... Here I go" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_BUC,            "What are you doing here?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Hyyaaaa!?!" },
+	// ★一旦BUCクリア
+	// ▼師匠が珍しく普通に歩いてくる
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "...!<CR>...!!<CR>...!!!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "We're sorry, it's nothing suspicious.<CR>We came to see you about something" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      11, BALLOON_FRAME_TYPE_BUC,            "Hey now. Calling us suspicious right off the bat?<CR>That's a cheap gag, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Hmm...? I don't really understand,<CR>but if you have business, come in. Go on" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Ah... I-I still need to prepare myself...!" },
+	// ▼師匠に引っ張られてアトリエの中に
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R2,      14, BALLOON_FRAME_TYPE_BUC,            "Rorona. You have visitors" },
+	// ★師匠のBUCすぐに消し、R1にリオネラの困る表示
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Okay! Oh, Lionela-san.<CR>Ranya-chan and Horo-kun too" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      16, BALLOON_FRAME_TYPE_BUC,            "Hey hey. Only Lionela gets the honorific?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Ah, sorry. Horo... Horo-san" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      18, BALLOON_FRAME_TYPE_BUC,            "Wrong. I mean, she's saying she's not<CR>important enough to call us that, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      19, BALLOON_FRAME_TYPE_BUC,            "That's right.<CR>Be a bit more casual with us" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Casual... Okay then, Rio-chan!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Rio... chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Or not?<CR>If you don't like it, I can call you something else..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "N-no, no! I don't dislike it!<CR>This is the first time someone's ever<CR>called me by a nickname, so I was just surprised..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "I'm glad!<CR>So Rio-chan, did you need something from me?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_TERE,   BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "W-well... um...<CR>I never properly thanked you the other day...<CR>Th-thank you very much!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "You didn't have to do that, honestly" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      27, BALLOON_FRAME_TYPE_BUC,            "Also, we were curious what kind of<CR>work an alchemyist actually does, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      28, BALLOON_FRAME_TYPE_BUC,            "I expected some creepy old building,<CR>but turns out it's pretty normal, huh" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      29, BALLOON_FRAME_TYPE_BUC,            "They take on requests from townspeople<CR>and make a living that way, I hear" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      30, BALLOON_FRAME_TYPE_BUC,            "If you'd like, we'll come by with<CR>a request sometime soon" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "Really? Thanks!<CR>I'll do anything I can!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "Ah, um... I should... p-probably go h-home..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      33, BALLOON_FRAME_TYPE_BUC,            "What? You just got here.<CR>Stick around a bit longer, why don't you" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       34, BALLOON_FRAME_TYPE_BUC,            "B-but... I already..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      35, BALLOON_FRAME_TYPE_BUC,            "Well, for Lionela, this counts as trying hard" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      36, BALLOON_FRAME_TYPE_BUC,            "Sorry about that.<CR>This kid's shy around new people" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       37, BALLOON_FRAME_TYPE_BUC,            "No worries. See you again, Rio-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R,       38, BALLOON_FRAME_TYPE_BUC,            "Yeah... See you..." },
+	// ▼帰っていくリオネラ
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       39, BALLOON_FRAME_TYPE_BUC,            "Quite the unusual friends you have" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,      40, BALLOON_FRAME_TYPE_BUC,            "You think so?<CR>I think they're just normal kids" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       41, BALLOON_FRAME_TYPE_BUC,            "Your definition of normal is questionable,<CR>but that one was certainly an interesting girl. I like her" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       42, BALLOON_FRAME_TYPE_BUC,            "You should bring her to the Atelier again sometime" },
+	// ▼師匠も自分の部屋に帰っていく
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L2,      43, BALLOON_FRAME_TYPE_BUC,            "She likes her... Don't tell me she's going to<CR>do something weird to Rio-chan..." },
+	// ▼イベント結果：リオネラが客として登場するようになる
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can now receive<CR>requests from Lionela." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC04_030_bda = {
+	"QC04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC04_030",// 出力ファイル名
+	QC04_030_EMS,           // 上記変数
+};

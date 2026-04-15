@@ -1,0 +1,20 @@
+BalloonData MM08_160_EMS[] = {
+	// ▼With Lionela
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_SIN,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "R-Roro...Rorona-chan!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Eek!? L-Lio-chan?<CR>What's with the loud voice..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_TERE,   BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Um, well,<CR>so, you see... uhh..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,       3, BALLOON_FRAME_TYPE_BUC,            "What I mean is...<CR>they came to invite you to the Kingdom Festival" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "All it took was calling out to her,<CR>and they used up all their courage" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "B-but..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I'm not sure what's going on...<CR>but sure, let's go together" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_TERE,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Eh... really?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Of course! Come on, let's hurry" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_WARA,   BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Ah... yeah!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM08_160_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_160",// Output file name
+	MM08_160_EMS,           // Variable above
+};

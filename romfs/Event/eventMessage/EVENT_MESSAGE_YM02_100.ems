@@ -1,0 +1,30 @@
+BalloonData YM02_100_EMS[] = {
+	// ▼エスティの友好度がとても高くなっている
+	// ●婚活しない？　が発生している
+	// ▼王宮受付に入ると発生
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, Rorona-chan.<CR>Wait wait wait" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "What's wrong?<CR>You seem happy" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Hehehe, I just had a brilliant idea.<CR>How to meet a wonderful person.<CR>Want to hear?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "That does sound intriguing.<CR>Please tell me!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Alright, I'll tell you.<CR>...It's a completely upside-down idea. It didn't work before because you were just waiting<CR>and doing nothing" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "So instead, we'll gather eligible people of both genders<CR>and FORCE some encounters to happen<CR>with an event!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "That way, don't you think the chances<CR>of meeting a wonderful person<CR>will increase dramatically?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "That's... true,<CR>it might be a good idea" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Right? And if we do have the event,<CR>would you like to join,<CR>Rorona-chan?" },
+	// ▼選択肢表示
+	// ▼「はい」を選んだ場合
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Nice, I like someone with good energy.<CR>Then it's settled. Let's do it sometime!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Got it. But it seems like we'd need<CR>a lot of preparation, so how about<CR>after we finish our current work" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "This was just an idea, after all.<CR>If it happens, it'll still be a while from now" },
+	// ▼「いいえ」を選んだ場合
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Aww, you're such a killjoy.<CR>...Well, you're still young, I suppose.<CR>But I'm doing it anyway!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Hehehe, well, I'm a bit too...<CR>But I can help out if you need me to" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Really? Well if I do it, I might<CR>need your help with various things, so please bear with me" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM02_100_bda = {
+	"YM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM02_100",// 出力ファイル名
+	YM02_100_EMS,           // 上記変数
+};

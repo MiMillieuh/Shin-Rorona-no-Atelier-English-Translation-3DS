@@ -1,0 +1,28 @@
+BalloonData QC04_090_EMS[] = {
+	// ▼リオネラを誘って採取中に
+	// ▼何か（特定の？）材料を採った時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "There... Mmm. Nice smell.<CR>This should make some good materials" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_HOHO,   BUC_POSITION_TYPE_R2,       1, BALLOON_FRAME_TYPE_BUC,            "What kind of material is this for?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "It's useful for lots of things.<CR>Mainly cooking, but also medicine" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_HOHO,   BUC_POSITION_TYPE_R2,       3, BALLOON_FRAME_TYPE_BUC,            "I see..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Rio-chan, are you interested in alchemy?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R2,       5, BALLOON_FRAME_TYPE_BUC,            "It's not that I'm interested, but...<CR>You're the only alchemyist in town, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Master is an alchemyist too, but...<CR>She doesn't take requests, so..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "Did being an alchemyist ever...<CR>make you go through something painful...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Painful things? Well, my current situation is pretty tough" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "If I mess up a castle commission,<CR>I'll have to leave this country..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "Ah, no, not that kind of thing,<CR>I mean... Like, being bullied by someone, or..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Bullying? No, no, nothing like that.<CR>The townspeople are all kind,<CR>and I only became an alchemyist recently anyway..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R2,      12, BALLOON_FRAME_TYPE_BUC,            "I see..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Rio-chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R2,      14, BALLOON_FRAME_TYPE_BUC,            "Ah, s-sorry. Stupid question.<CR>I'll go look for materials over there" },
+	// ▼離れるリオネラ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "...Rio-chan looked a little sad for a moment,<CR>didn't she...? Just my imagination?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC04_090_bda = {
+	"QC04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC04_090",// 出力ファイル名
+	QC04_090_EMS,           // 上記変数
+};

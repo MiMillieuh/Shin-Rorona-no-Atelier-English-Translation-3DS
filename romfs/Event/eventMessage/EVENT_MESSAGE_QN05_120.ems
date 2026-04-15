@@ -1,0 +1,43 @@
+BalloonData QN05_120_EMS[] = {
+	// ▼発生時期未定、アトリエ内で
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh. I forgot all about the stuffed animal, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "I wonder whose it is.<CR>Is it Pamela's?" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KOMA,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Who knows~?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "You say \"who knows\" about your own...<CR>Oh, right. You don't have many memories" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "But you can't leave this stuffed animal, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_NOR,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Not at all~. I just like how it feels,<CR>so I stay inside. I could be fine<CR>with other things too" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Other things, like... people?" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_NOR,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "People over stuffed forms, I guess~.<CR>I feel uneasy outside of them" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Other things... um, no.<CR>Don't even think about it" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_WARA,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Oh, this might be a good match" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "This person... Hom-chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,      11, BALLOON_FRAME_TYPE_BUC,            "Did someone call, Master?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Ah, no, not right now.<CR>Could you come back la—" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_WARA,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Hehe, time to cause some trouble~" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R2,      14, BALLOON_FRAME_TYPE_BUC,            "Uugh... a-aguh, gagugug..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Waaah!? Hom-chan!?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_PAMELA,     0, NAME_PAMELA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_BUC,            "Ah, it's not going in well~" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R2,      17, BALLOON_FRAME_TYPE_BUC,            "Gagag... foreign matter... detected in body...<CR>ggguu... body's freedom... lost..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Pamela, stop!<CR>You'll break Hom-chan!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_PAMELA,     0, NAME_PAMELA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    19, BALLOON_FRAME_TYPE_BUC,            "E-Eek~...<CR>Something's stuck and I can't get out..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_IKA,      BUC_POSITION_TYPE_R2,      20, BALLOON_FRAME_TYPE_BUC,            "If this continues... extremely... dangerous...<CR>No choice... final measure...<CR>Self-destruct... initiating..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "No no no!!<CR>W-Why do you have a self-destruct device?!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R2,      22, BALLOON_FRAME_TYPE_BUC,            "Grand Master... installed it... as a hobby..." },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KANA,    BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Heave-ho~.<CR>Whew, finally out~" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R2,      24, BALLOON_FRAME_TYPE_BUC,            "...Body freedom... restored.<CR>Self-destruct... stopped" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "T-That's a relief... Are you okay?<CR>Did anything break?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R2,      26, BALLOON_FRAME_TYPE_BUC,            "Very malfunctioning...<CR>Need to hibernate for recovery..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "Hom-chan? Just sleeping, I hope?<CR>Sigh, for a moment there..." },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KOMA,    BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Really~.<CR>Don't scare me like that~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "It's all your fault, you know!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KOMA,    BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "Sorry...<CR>I won't possess anyone for a while..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "Not just for a while, forever!" },
+	// ▼イベント結果：しばらくホムが停止
+	// ▼
+};
+
+BALLOON_DATA_ALL QN05_120_bda = {
+	"QN05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN05_120",// 出力ファイル名
+	QN05_120_EMS,           // 上記変数
+};

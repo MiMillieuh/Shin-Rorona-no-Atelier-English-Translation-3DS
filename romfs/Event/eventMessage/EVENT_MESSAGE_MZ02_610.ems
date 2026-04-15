@@ -1,0 +1,17 @@
+﻿BalloonData MZ02_610_EMS[] = {
+	// ▼
+	// ★When you have X amount of money
+	// ★Since this is a slothful ending, other conditions aren't met
+	// ▼Text on black screen first
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Rorona had successfully completed three years of work and succeeded in protecting the atelier" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Even after her master Astrid left town on a journey, she and Homu tried their best to keep the atelier going" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "She reaffirmed her resolve...or so she thought..." },
+	// ▼First, branches per character. Tantoris is not included
+	// ▼At the front of the atelier, each person is talking through the door
+};
+
+BALLOON_DATA_ALL MZ02_610_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_610",// Output file name
+	MZ02_610_EMS,           // Variable name
+};

@@ -1,0 +1,22 @@
+BalloonData MA02_070_EMS[] = {
+	// ▼最初に、両親が出かけると聞いた後に
+	// ▼アトリエの裏かどこかで、師匠と話してる両親
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_NOR,    BUC_POSITION_TYPE_R2,       0, BALLOON_FRAME_TYPE_BUC,            "So please, take care of Rorona<CR>for us" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Yes. Even without you telling me,<CR>I'll spoil her even more than usual.<CR>No need to worry" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_NOR,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Thank you so much.<CR>Rorona is truly blessed, to be working<CR>under such a noble master" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Indeed. You have excellent judgment in people" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "But there's no need to go to such great lengths.<CR>You don't have to go on a trip just for..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_SIN,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "...she's quite the clingy one, you see.<CR>This is better for everyone" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_WARA,   BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "And well, it is true that your mother and I<CR>wanted to take a trip together.<CR>It's not like we're doing this just for her sake" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "...I see. Well then, take care on your journey" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_NOR,    BUC_POSITION_TYPE_R2,       8, BALLOON_FRAME_TYPE_BUC,            "We will. We'll be going now" },
+	// ▼立ち去る両親
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "...Like father, like daughter, I suppose.<CR>Honestly, Rorona is too blessed<CR>with the people around her" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA02_070_bda = {
+	"MA02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA02_070",// 出力ファイル名
+	MA02_070_EMS,           // 上記変数
+};

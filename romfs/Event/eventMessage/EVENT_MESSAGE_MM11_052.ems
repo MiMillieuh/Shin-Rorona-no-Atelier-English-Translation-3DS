@@ -1,0 +1,18 @@
+﻿BalloonData MM11_052_EMS[] = {
+	// ▼Common to all below
+	// ▼System screen shows request details
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "The ultimate secret of alchemy..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "That's right. I want to see proof of the<CR>alchemical skills you've developed over three years" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "If you fail this, all<CR>your three years will have been for nothing..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Ah, no. This makes it seem<CR>like I'm pressuring you. No, um..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "It's okay. I understand.<CR>I'll show you what I can do" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "...Is that so.<CR>I seem to have worried too much.<CR>Please, I'm counting on you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Yes!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM11_052_bda = {
+	"MM11",                 // Output file path
+	"EVENT_MESSAGE_MM11_052",// Output file name
+	MM11_052_EMS,           // Above variable
+};

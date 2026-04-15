@@ -1,0 +1,23 @@
+BalloonData MA02_050_EMS[] = {
+	// ▼ゲーム開始後、比較的やめ。
+	// ▼主人公がアトリエにいる時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh right. Master, can I go home for a bit today?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Hmm? Why's that?<CR>Did you suddenly start hating sleeping next to me?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "We've never slept together!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Then could it be that you're angry<CR>about something I did while you were sleeping?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "What do you mean, 'something you did'?!<CR>What did you DO?!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "That would be a secret.<CR>But setting jokes aside, what's the reason?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Uuu, I wonder where the jokes end and the truth begins..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "It's not a big deal, but I wanted to go home<CR>and explain the situation to<CR>my mom and dad" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Ah, I see. That sounds reasonable. I don't mind" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Thank you.<CR>I'll be back by tomorrow morning" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "If you get lonely, you can come back<CR>even in the middle of the night, you know?<CR>I'll leave half the bed empty for you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "I don't need the half, thank you very much!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA02_050_bda = {
+	"MA02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA02_050",// 出力ファイル名
+	MA02_050_EMS,           // 上記変数
+};

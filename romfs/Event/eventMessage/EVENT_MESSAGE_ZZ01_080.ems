@@ -1,0 +1,9 @@
+// テスト・０８・ＥＶ・梓２
+BalloonData ZZ01_080_EMS[] = {
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,      0, NAME_RORONA,     BUC_RORONA_NOR,   BUC_POSITION_TYPE_NONE,   -1,    BALLOON_FRAME_TYPE_SYSTEM, "Arlvis Academy\" - The supreme school of alchemy, built upon a remote island floating in the distant sky" },
+};
+BALLOON_DATA_ALL ZZ01_080_bda = {
+	"ZZ01",			// 出力ファイルパス
+	"EVENT_MESSAGE_ZZ01_080",		// 出力ファイル名
+	ZZ01_080_EMS,		// 上記変数
+};

@@ -1,0 +1,47 @@
+BalloonData YM04_160_EMS[] = {
+	// ▼強制帰還エンディング
+	// ●完成・竜の砂時計が発生していない
+	// ●１年経過すると発生
+	// ●→Ａ１３Ｖの連れ戻された錬金術士たちへ続く
+	// ▼アトリエにいる
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_IKA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Aaaah!" },
+	// ▼トトリ、ロロナ|月てくる
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_ODO,     BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "W-what happened, Totori-sensei!?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_IKA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "It's terrible, Meruru-chan!" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_IKA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "It's been almost a year<CR>since we came to this world!" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX4,     BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "I feel like we've had this conversation before,<CR>but I completely forgot!<CR>Already a year, huh..." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KANA,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "What should we do...? There's still<CR>no way back to our original world in sight..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX2,     BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "That's true...<CR>O-oh! Could it be that<CR>we're stuck here forever...?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "That's not okay!<CR>...Ah, I'm suddenly starting to feel<CR>really anxious" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "How about just staying here for a while...?<CR>Ehehe" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_IKA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "That's not an option!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Y-you're right, aren't you. Sorry..." },
+	// ▼アストリッドの声だけ聞こえる
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_BUC,            "Hey, are you two there?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_ODO,     BUC_POSITION_TYPE_L2,      12, BALLOON_FRAME_TYPE_BUC,            "O-oh! Is that... Astrid-san?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Astrid-san, where are you?<CR>...Oh! Could you be the<CR>Astrid-san from the future!?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_BUC,            "That's right. Right now, I'm<CR>connecting your world with this one.<CR>It won't hold for long, hurry back!" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_AKI,     BUC_POSITION_TYPE_L2,      15, BALLOON_FRAME_TYPE_BUC,            "Ehh, but... right now?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_BUC,            "There's no time to argue! Or would you rather<CR>stay there forever?<CR>There's no guarantee this will work again next time" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX3,     BUC_POSITION_TYPE_L2,      17, BALLOON_FRAME_TYPE_BUC,            "O-oh no, that would be terrible!" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_ODO,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "O-okay!" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KANA,    BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "I'm sorry, Rorona-sensei,<CR>it's all so sudden, but we have to<CR>go back to the future now!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "What, this is so sudden!" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KANA,    BUC_POSITION_TYPE_L2,      21, BALLOON_FRAME_TYPE_BUC,            "Thank you so much for everything!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    22, BALLOON_FRAME_TYPE_BUC,            "Hurry up, the connection's about to cut!" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_ODO,     BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "B-bye, Rorona-sensei!" },
+	// ▼しばらく白画面
+	// ▼ゆっくりと元の画面に戻る
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "...They're gone" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX1,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "I couldn't even say goodbye<CR>properly..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "But we'll see each other again, right?<CR>Until then, goodbye...<CR>I wonder..." },
+	// ▼フェードしてスタッフロール
+};
+
+BALLOON_DATA_ALL YM04_160_bda = {
+	"YM04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM04_160",// 出力ファイル名
+	YM04_160_EMS,           // 上記変数
+};

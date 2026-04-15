@@ -1,0 +1,21 @@
+﻿BalloonData QC01_040_EMS[] = {
+	// ▼When the above event is in progress, at Tifana's shop
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, Kuu-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Gyaa! Rorona!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "\"Gyaa\"...?<CR>Kuu-chan, shopping too?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "S-Something like that...<CR>Well, bye, see you!" },
+	// ▼Cuderira leaves the shop
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_SIN,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Something does seem off about her.<CR>I wonder what happened" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Doesn't seem right...<CR>What was Kuu-chan buying?" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_SIN,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "She didn't come to buy - she came to sell.<CR>She wanted me to buy back her clothes and accessories<CR>that she didn't need anymore" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Ehh? I wonder why...<CR>Could she be short on money?" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_KANA,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Who knows.<CR>If there are personal circumstances, it wouldn't be right to ask..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Hmm, I'm curious..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_040_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_040",// Output file name
+	QC01_040_EMS,           // Variable name
+};

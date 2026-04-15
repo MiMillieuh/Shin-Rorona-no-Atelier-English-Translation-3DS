@@ -1,0 +1,14 @@
+BalloonData MM08_130_EMS[] = {
+	// ▼With Cuderia
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, Ku-chan! Ku-chan!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Rorona, perfect timing...<CR>Oh, are you here for the festival too?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Yeah. Hey, let's go together" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Together? W-well, fine then.<CR>If you insist that much, I'll tag along" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM08_130_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_130",// Output file name
+	MM08_130_EMS,           // Variable above
+};

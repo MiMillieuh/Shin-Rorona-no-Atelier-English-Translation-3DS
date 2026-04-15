@@ -1,0 +1,30 @@
+BalloonData YM01_010_EMS[] = {
+	// ▼大家一起在湖边发生的事件几天后
+	// ▼进入王宫接待处时发生
+	// ●艾斯蒂 系统系追加事件
+	// ●在其他人准备的物品上追加艾斯蒂的分量
+	// ●阿斯特丽德只在前哨战参战所以不追加
+	// ●王国祭第一年・艾斯蒂不参加所以没有（因为 GEO 不会成为同伴）
+	// ▼看到罗罗娜的身影后叹气的艾斯蒂
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Haah..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, Estiy-san, what's wrong?<CR>You seem kind of down" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "...You probably know why, right?<CR>Try putting your hand on your chest and thinking about it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Huh? Is it because of me?<CR>Hmm, I really can't think of anything<CR>that would cause this..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "You DID have fun, didn't you!<CR>I heard about it from someone,<CR>so don't try to hide it!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Fun...? <CR>What is it? It doesn't seem like<CR>anything particularly special happened...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "It DID happen!<CR>That we all went to play at the lake,<CR>I heard about it CLEARLY!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Ah, THAT! It wasn't really that fun though,<CR>you know. They basically dragged me along<CR>and I got soaking wet" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Doesn't look like it wasn't fun!<CR>Ugh, I wish I could've gone.<CR>It would've been a good change of pace" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "The dazzling sunlight, sparkling water splashes.<CR>Rorona-chan and the others running around<CR>looking like they were having a blast" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Meanwhile I was... cooped up in this nearly empty<CR>castle doing my same old work..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "I was invited, technically. But I couldn't<CR>leave this place on that day, you know WHY.<CR>I ended up spitting out curse words all day long" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "I-In that much detail..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "...Well, complaining about what's already passed<CR>won't change anything, will it?<CR>But invite me again next time, okay?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM01_010_bda = {
+	"YM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM01_010",// 出力ファイル名
+	YM01_010_EMS,           // 上記変数
+};

@@ -1,0 +1,34 @@
+BalloonData QC05_130_EMS[] = {
+	// ▼When returning from exploration
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Thanks so much.<CR>Next time you go out, please let me join you" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Yeah. I'd be happier if you'd<CR>lean on me more. Well then, see you" },
+	// ▼Rorona leaves
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Now then... lately, I've been getting<CR>a scary-looking glare from someone" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Do I look that scary?<CR>I thought I was good at hiding my emotions" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "When I see a despicable man<CR>following my precious disciple around,<CR>I can't help but feel disgusted" },
+	// ▼The master appears from somewhere
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "For me, I'm just helping her because she asked.<CR>What more can I say" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "If a cute girl asks you to help,<CR>wouldn't anyone say yes?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Then fairly, I have a request for you as well.<CR>Don't you EVER get close to Rorona again" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "That's not a request, it's an order.<CR>Did I do something to make you hate me that much?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "I hate indecisive men" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Either side with your father, or swoon over Rorona.<CR>Make up your mind already" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Can't I have both...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Denied" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "That's a quick refusal.<CR>But if I choose my father, we're enemies.<CR>Is that what you want?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "That's exactly what I want.<CR>If so, I won't have to hold back" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Then what if I choose her..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "You think I'd silently watch a man like you<CR>get any closer to Rorona?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "So I can't choose either, huh.<CR>Man, what do I do..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "I'll let you off with a warning this time.<CR>But make sure you remember it well" },
+	// ▼The master leaves
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "A warning, huh... she's quite the caretaker,<CR>isn't she" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Which one to choose...<CR>man, this is hard. Really..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_130_bda = {
+	"QC05",                 // Output file path
+	"EVENT_MESSAGE_QC05_130",// Output file name
+	QC05_130_EMS,           // The variable
+};

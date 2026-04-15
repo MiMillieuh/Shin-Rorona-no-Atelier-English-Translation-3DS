@@ -1,0 +1,61 @@
+BalloonData MM01_071_EMS[] = {
+	// ▼システム画面？で結果発表。内容により分岐
+	// ▼とてもいい成績の時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Eh...such a great evaluation...?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Yes, nothing short of magnificent, I'd say.<CR>So Astrid didn't lack judgment after all,<CR>in entrusting the Atelier to you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "...I-is this for real? Is this some kind of mistake...?<CR>But I did this work, and yet it's so..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I won't commend putting yourself down like that" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Y-yes...sorry" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "This result is a fair evaluation of your work.<CR>You should have a bit more confidence and...pride" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Y-yes sir..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "...I was saying something out of character, wasn't I?<CR>Well then, let me share the next request with you.<CR>I expect the same quality next time" },
+	// ▼システム画面で次の依頼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Bombs, you say..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Yes. They'll be used for mining resource excavation,<CR>so we need a large quantity" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Since they're dangerous items,<CR>I ask that you exercise the utmost caution" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Yes, leave it to me" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Good answer. Well then, I'm counting on you" },
+	// ▼黒画面を挟んで城の外へ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Sigh, I survived that...<CR>I never expected to be praised<CR>like that..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Confidence and pride, huh...<CR>Alright, I need to do my best next time too!" },
+	// ▼イベント終了
+	// ▼普通の成績の時
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "I'd say you did an adequate job,<CR>no more, no less.<CR>For a first time, that's quite good" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "R-really?<CR>That's a relief. I was so worried about failing..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "At this rate,<CR>it seems I can entrust you with work for some time.<CR>I expect the same next time" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Y-yes sir!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Well then, let me share the next request with you.<CR>What I'd like you to work on this time is..." },
+	// ▼システム画面で次の依頼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Bombs, you say..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Yes. They'll be used for mining resource excavation,<CR>so we need a large quantity" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Since they're dangerous items,<CR>I ask that you exercise the utmost caution" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Yes, leave it to me" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Good answer. Well then, I'm counting on you" },
+	// ▼黒画面を挟んで城の外へ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "Sigh, finally one down...<CR>But I need to start the next job right away<CR>after I get back..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "No no no. I can't start losing confidence!<CR>It just started, after all!" },
+	// ▼イベント終了
+	// ▼ぎりぎり合格の時
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "I'd say you barely met the minimum requirements" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "Uuu...sorry..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "If you keep this up going forward,<CR>I would be hard-pressed to say<CR>you'll make it through all three years" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "I'd like you to buckle down a bit more" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "Yes..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "Well then, let me share the next request with you.<CR>What I'd like you to work on this time is..." },
+	// ▼システム画面で次の依頼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "Bombs, you say..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       34, BALLOON_FRAME_TYPE_BUC,            "Yes. They'll be used for mining resource excavation,<CR>so we need a large quantity" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "Since they're dangerous items,<CR>I ask that you exercise the utmost caution" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "Y-yes. I'll be careful" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       37, BALLOON_FRAME_TYPE_BUC,            "Then I'll leave it to you. I expect better results<CR>next time" },
+	// ▼城を出たところでロロナの一言
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       38, BALLOON_FRAME_TYPE_BUC,            "...Sigh.<CR>I wonder if Sterk-san was a bit angry..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       39, BALLOON_FRAME_TYPE_BUC,            "Can I really do this<CR>for another three years..." },
+	// ▼イベント終了
+};
+
+BALLOON_DATA_ALL MM01_071_bda = {
+	"MM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MM01_071",// 出力ファイル名
+	MM01_071_EMS,           // 上記変数
+};

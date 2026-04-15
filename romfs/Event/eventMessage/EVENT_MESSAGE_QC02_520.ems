@@ -1,0 +1,33 @@
+BalloonData QC02_520_EMS[] = {
+	// ▼↑が発生していて、かつステルクと大分仲良くなった後
+	// ★やはり採取から帰ってきた時
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Alright, today's work is done. Time to head back to the castle..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "I feel a suspicious gaze on my back... It's you again!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Eek! You surprised me!" },
+	// ▼隠れていたエスティが出てくる
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Senpai?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Hey, don't shout. What do you mean, suspicious gaze?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "S-sorry. I thought you were that person..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "That person, huh. My my, Sterk, you still linger on her, don't you..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "That's not it! Based on the flow of conversation, why would you...! It's been ages since we...!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "There, there. No matter how much you deny it, that red face of yours isn't convincing." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Grr..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "You know, Sterk. This is actually a somewhat serious matter..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Hm...? What is it?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Just because you got harshly rejected in the past, I think it's a bit much to go after his apprentice... especially such a young girl. Don't you think that's a bit much as a person?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC_SHOUT,      "W-where is the serious talk! First of all, I wasn't rejected that harshly, and I'm not going after my apprentice!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Ahaha, sorry. If you shout like that, everyone around will learn about Sterk's love history, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Grrr... I'm going home!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "And you! Stop slacking off and get back to work!" },
+	// ▼怒って帰っていくステルク
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Did I tease him too much? But seeing him get so riled up, maybe he's not as unaffected as he seems..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Hee hee. This might get interesting." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_520_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_520",// 出力ファイル名
+	QC02_520_EMS,           // 上記変数
+};

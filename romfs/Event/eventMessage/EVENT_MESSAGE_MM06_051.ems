@@ -1,0 +1,28 @@
+BalloonData MM06_051_EMS[] = {
+	// ▼Results announced on system screen
+	// ▼Branches based on evaluation
+	// ▼Highest evaluation
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "There was nothing to worry about after all.<CR>It was a flawless evaluation" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "R-Really?<CR>Thank you!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "But as a knight, I must admit I feel rather conflicted.<CR>If you're this outstanding in other areas too,<CR>there may not be much work left for us" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Huh? I'm sorry!<CR>I didn't think about that at all..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Don't take it seriously, I was only joking.<CR>I expect you to keep up the good work" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Now then, as for the next request..." },
+	// ▼Average evaluation
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "It seems you achieved acceptable results.<CR>The number of monsters has decreased<CR>significantly compared to before" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "I'm sorry.<CR>I couldn't defeat them all after all..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "There's no need to apologize. You were essentially doing our job for us.<CR>We'll take it from here" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Now then, let us discuss the next request..." },
+	// ▼Lowest evaluation
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "...Well, everyone has things they're not good at" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Uu... I'm sorry..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Given that you were essentially doing our job for us,<CR>I can't really talk down to you, but please<CR>do your best to make up for it in the next request" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Yes..." },
+	// ▼↓
+};
+
+BALLOON_DATA_ALL MM06_051_bda = {
+	"MM06",                 // Output file path
+	"EVENT_MESSAGE_MM06_051",// Output file name
+	MM06_051_EMS,           // Variable above
+};

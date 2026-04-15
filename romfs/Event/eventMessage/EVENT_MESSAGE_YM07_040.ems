@@ -1,0 +1,74 @@
+﻿BalloonData YM07_040_EMS[] = {
+	// ▼きわどいファッションショー
+	// ●タイムカプセルで特定アイテムを一通り揃えている（きわどい服など）
+	// ▼アトリエで発生
+	// ▼アストリッド登場
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Hey, Rorona." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Yes, what is it?" },
+	// ▼転送カプセルを見る
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "What's this?<CR>Placing this here will make<CR>the space even more cramped." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "This is...<CR>Well, you see...<CR>Ah, something arrived!" },
+	// ▼トトリ、メルル登場
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "Did something come back?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I don't understand. Explain from the beginning." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "Well, you see..." },
+	// ▼ゆっくり黒画面
+	// ▼戻る
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Ho! That's my doing, if I do say so myself.<CR>To think I made something like this—<CR>I'm impressed with myself." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Now then, what's inside?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Let's open it and see!" },
+	// ▼開けるＳＥがあれば
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KOMA,    BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "This is... a dress, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "It does look like a dress.<CR>But the design is quite bold...<CR>I wonder what she's trying to do sending this?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Let me see it." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "This means she wants us to hold<CR>a fashion show, doesn't it?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX2,     BUC_POSITION_TYPE_R2,      15, BALLOON_FRAME_TYPE_BUC,            "...Fashion show?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "That's right. Why else would she send<CR>clothes made specifically for Rorona?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Why does it have to be for me...?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_L2,      18, BALLOON_FRAME_TYPE_BUC,            "Doesn't it just mean Astrid-san wanted<CR>to see it, so that's her excuse?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Ah, yes, I want to see it. Of course.<CR>The clothes fit you perfectly, after all.<CR>That means they fit me in the future too." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Indeed... it fits perfectly. It's scary how much." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "I know every inch of your body,<CR>so of course it fits.<CR>These were custom-made for you." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Now then, if that's settled—time for the show!<CR>Hurry up and get changed.<CR>I could even watch you change right here!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "W-wait just a moment!<CR>E-e-excuse me!" },
+	// ▼ゆっくり黒画面へ
+	// ▼スチル表示
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    24, BALLOON_FRAME_TYPE_BUC,            "Uuh... What even is this outfit..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    25, BALLOON_FRAME_TYPE_BUC,            "Mmm, truly my work. As expected of me.<CR>This edge, this solidity—the bold,<CR>challenging design pushed to the limit. Magnificent." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    26, BALLOON_FRAME_TYPE_BUC,            "I don't understand<CR>a single word you're saying..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    27, BALLOON_FRAME_TYPE_BUC,            "Still, I thought the design was daring<CR>before I put it on, but now that I have...<CR>it's even more daring!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    28, BALLOON_FRAME_TYPE_BUC,            "No, no, this is wonderful.<CR>It's like an angel descended to earth.<CR>Truly. Don't you all think so?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_MERURU,     0, NAME_MERURU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    29, BALLOON_FRAME_TYPE_BUC,            "It is... kind of cute, I guess." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    30, BALLOON_FRAME_TYPE_BUC,            "Uuh... Is that so...<CR>I'm embarrassed." },
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_TOTORI,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    31, BALLOON_FRAME_TYPE_BUC,            "It actually suits you pretty well, Master Rorona." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    32, BALLOON_FRAME_TYPE_BUC,            "Then you can wear it<CR>in my place, you know?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_TOTORI,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    33, BALLOON_FRAME_TYPE_BUC,            "But..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_MERURU,     0, NAME_MERURU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    34, BALLOON_FRAME_TYPE_BUC,            "The size wouldn't fit..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    35, BALLOON_FRAME_TYPE_BUC,            "To prepare such a wonderful outfit—<CR>truly my doing. It seems I remain<CR>just as talented in the future." },
+	// ▼ゆっくり黒画面へ
+	// ▼元の画面に
+	// ▼全員、いつもの格好に戻っている
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "Haa... That was so embarrassing." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_R,       37, BALLOON_FRAME_TYPE_BUC,            "My, my—that was a treat. Most satisfying.<CR>That was time well spent.<CR>Tell her to send me more new outfits." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       38, BALLOON_FRAME_TYPE_BUC,            "I will NOT tell her that!" },
+	// ▼アストリッド退出
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R2,      39, BALLOON_FRAME_TYPE_BUC,            "...But it looks like we can communicate<CR>with Astrid-san properly now,<CR>so that's a bit helpful." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       40, BALLOON_FRAME_TYPE_BUC,            "That's true. Whatever the contents, things<CR>are being sent without any problems.<CR>Let's use it well and do our best." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The Time Capsule can now be used." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Obtained the costume<CR>\"<CLGR>Rorona Special<CLNR>\"." },
+	// ▼必要に応じてこのあとシステムメッセージ
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The Time Capsule can now be used." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Would you like to check the<CR>Time Capsule tutorial?" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The Time Capsule is a warped space in time<CR>that allows you to exchange items<CR>with Astrid from the future." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "When you place an item inside, Astrid from<CR>the future will send back something else." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Items sent to the future cannot be retrieved,<CR>but sometimes rare items that cannot be<CR>obtained in the present will arrive." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "For more details, please check the help<CR>section regarding the Time Capsule<CR>in the menu's encyclopedia." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM07_040_bda = {
+	"YM07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM07_040",// 出力ファイル名
+	YM07_040_EMS,           // 上記変数
+};

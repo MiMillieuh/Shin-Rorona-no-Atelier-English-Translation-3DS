@@ -1,0 +1,19 @@
+BalloonData YM04_060_EMS[] = {
+	// ▼アトリエで発生
+	// ●延長戦開始後１～２ヶ月くらい経過か
+	// ▼残念砂時計が発生していない（竜の砂時計を作れていない）
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "...Huh?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "What's wrong, Totori-sensei?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_IKA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "It's terrible, Meruru-chan!" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_IKA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I just realized we've basically been living here<CR>like it's totally normal, but quite a lot<CR>of time has passed!" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX2,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "O-oh, you're right...!<CR>We forgot because it was so comfortable here" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_SIN,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "We have to hurry back... We have to make the Dragon's Hourglass" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_IKA,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Yes, let's do our best!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM04_060_bda = {
+	"YM04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM04_060",// 出力ファイル名
+	YM04_060_EMS,           // 上記変数
+};

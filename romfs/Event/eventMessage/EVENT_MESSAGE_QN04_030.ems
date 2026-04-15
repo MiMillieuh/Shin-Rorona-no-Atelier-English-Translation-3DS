@@ -1,0 +1,33 @@
+BalloonData QN04_030_EMS[] = {
+	// ▼ティファナの店の中（もしくは店の外）
+	// ▼やはりおじさん達がたむろしている
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_A,      0, NAME_GUEST_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "Tifana-chan,<CR>I wonder why she doesn't come out..." },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_B,      0, NAME_GUEST_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_NORMAL,         "Just call and she'll come out, right?<CR>You go ahead" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_C,      0, NAME_GUEST_C,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_NORMAL,         "N-No way! That's embarrassing! You go!" },
+	// ▼そこに通りかかる主人公
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_NORMAL,         "Always so lively, aren't they?<CR>Tifana-san is beautiful, so..." },
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_NORMAL,         "Well, being jealous won't help.<CR>Let me finish my shopping" },
+	// ▼おじさん達の横を通り過ぎる。その際、また会話が聞こえてくる
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_A,      0, NAME_GUEST_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_NORMAL,         "Dang it. If nobody goes,<CR>we'll waste another day here..." },
+	{ BALLOON_MODE_CHASYS, CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_NORMAL_SHOUT,   "Grrr, you lazy bunch! I'll go myself!" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_B,      0, NAME_GUEST_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_NORMAL,         "Oh! Our savior has arrived!" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_C,      0, NAME_GUEST_C,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_NORMAL,         "We're counting on you!<CR>Our future depends on you!" },
+	// ▼その中に聞き覚えのある声があることに気づく
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     9, BALLOON_FRAME_TYPE_NORMAL,         "They're getting excited...<CR>Hm? That voice just now..." },
+	// ▼立ち止まり振り返る主人公
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "As I thought!<CR>Dad, what are you doing here!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_ODO,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Gyah! Rorona!<CR>T-This isn't what it looks like!!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Unbelievable...<CR>I'm telling Mama!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_ODO,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "W-Wait! It's a misunderstanding!<CR>Rorona!" },
+	// ▼走り去るロロナを追いかける父
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_A,      0, NAME_GUEST_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_NORMAL,         "Ah, our savior!" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_B,      0, NAME_GUEST_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    15, BALLOON_FRAME_TYPE_NORMAL,         "Is he abandoning us?! Wait!" },
+	// ▼おじさん達も二人を追いかけていく
+	// ▼
+};
+
+BALLOON_DATA_ALL QN04_030_bda = {
+	"QN04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN04_030",// 出力ファイル名
+	QN04_030_EMS,           // 上記変数
+};

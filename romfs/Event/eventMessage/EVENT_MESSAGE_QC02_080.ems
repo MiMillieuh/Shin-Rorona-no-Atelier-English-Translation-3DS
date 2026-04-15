@@ -1,0 +1,64 @@
+BalloonData QC02_080_EMS[] = {
+	// ▼高感度、街の評判、両方がそこそこ
+	// ▼ステルクが仲間にいて、採取に行こうとした時
+	// ▼王宮で一人のステルク
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Already this time? It's a bit early, but I should get going..." },
+	// ▼移動するステルク。城の入り口（依頼の受付）でエスティに声をかけられる
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, Sterk. Perfect timing." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Oh... Excuse me, senpai. I have business today, so..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "You sure made a face like you didn't want to see me. I got a real good idea of what Sterk thinks of me." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Ah, no! That wasn't my intention at all!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Aww, that hurts. I even brought you a present, you know." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "A present? For me?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Yeah. Though it's not really from me. It's from a customer. They said you really helped them out the other day." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "The other day... I don't recall anything like that..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "It's probably Rorona's customer. You were helping her too, weren't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Then why give it to me? If she's the customer, shouldn't you give it to her?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Don't ask me. I was just asked to deliver it." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Well, whatever. It's the thought that counts. Here, take it." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Haah..." },
+	// ▼場面転換。街中を歩くステルク
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Whew, that took longer than expected. I can still make it in time, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Hey there, knight guy!" },
+	// ▼ハゲルに呼び止められるステルク
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Oh, Hag... I mean, the weapon shop owner. Do you need something from me?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Just wanted to say thanks. Hey, I really appreciate you helping out the other day. Thanks!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "The other day, you say?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "The job the girl asked you to do. Apparently you were a huge help. She wouldn't stop praising you." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "So that's it... I see. So that present from earlier..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "I was just helping out. She's the one who completed the request." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Don't sell yourself short. The girl's come a long way, but she's still pretty green around the edges." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Keep supporting her like you have been, okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Of course, that's my intention. Now, I must go - I have business to attend to." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "Whoops, sorry for stopping you." },
+	// ▼立ち去るステルク
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "I'm running late... I need to hurry. Hm?" },
+	// ▼しかしすぐまたに呼び止められる
+	// ▼黒画面挟んでフラッシュバックみたいな感じで、次々とお礼を言われる
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_WARA,    BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "Oh my, Sterk. Thank you so much for the other day..." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_WARA,     BUC_POSITION_TYPE_R2,      28, BALLOON_FRAME_TYPE_BUC,            "Yo, bro. Thanks for helping out the other day!" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_WARA,    BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "I finally found you~. I was looking for you to thank you~" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R2,      30, BALLOON_FRAME_TYPE_BUC,            "H-hmph. Rorona kept asking why I was thanking you, so I'm thanking you just to shut her up!" },
+	// ▼
+	// ★それぞれの依頼をステルクを仲間にした状態でこなしてる…という条件は厳しすぎるか
+	// ▼街の人から解放され、ようやく待ち合わせ場所（城門）へ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "Oh. Sterk, you finally made it." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "Haah, haah... Sorry I'm late." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "I wasn't waiting that long. But it is rare for Sterk to be late." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       34, BALLOON_FRAME_TYPE_BUC,            "If it weren't for you..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       35, BALLOON_FRAME_TYPE_BUC,            "Eh? Me? Why?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       36, BALLOON_FRAME_TYPE_BUC,            "...No, it's nothing." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       37, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(Come to think of it, this might be the first time since taking this job that I've been thanked by the townspeople...)" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       38, BALLOON_FRAME_TYPE_BUC,            "Did I do something wrong again? Just tell me!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       39, BALLOON_FRAME_TYPE_BUC,            "No, really, it's nothing. Now, let's get to work." },
+	// ▼先に歩き出すステルク
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       40, BALLOON_FRAME_TYPE_BUC,            "Eh? Sterk? Hey! Something seems different than usual..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       41, BALLOON_FRAME_TYPE_BUC,            "But maybe he looked kind of happy. Wait for me, Sterk!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_080_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_080",// 出力ファイル名
+	QC02_080_EMS,           // 上記変数
+};

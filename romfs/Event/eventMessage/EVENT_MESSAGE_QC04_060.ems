@@ -1,0 +1,38 @@
+BalloonData QC04_060_EMS[] = {
+	// ▼好感度がある程度、一緒に探索中に発生
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Huff, haa... H-hey Rio-chan.<CR>Want to take a break?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Ah, yeah... Are you okay, Rorona-chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "I'm just a little tired...<CR>You're full of energy, Rio-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_HOHO,   BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I'm... used to traveling and such..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "That's amazing...<CR>It's been a while since I started at the Atelier,<CR>but I'm still not used to it at all..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,       5, BALLOON_FRAME_TYPE_BUC,            "Well, it's not just that, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "She's getting carried away, isn't she, Lionela?<CR>She hardly ever goes out with someone like this" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "I-I-It's not that!<CR>...It IS true though..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Is that so?<CR>I thought you traveled all the time,<CR>so I assumed you had lots of friends..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,       9, BALLOON_FRAME_TYPE_BUC,            "Nope. With that personality of hers, she hasn't even<CR>played with anyone once, you know. Let alone traveling" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "We hope she'll get along with people<CR>other than us someday" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_TERE,   BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Please... Don't say any more..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Hmm... Oh!<CR>Come play at the Atelier sometime" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "...Play?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Yep. Not for work, just to hang out and have fun" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "I-is that okay!?<CR>Even if it's just playing with me, I mean..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "If you don't want to, I won't force you...<CR>But I don't know what Master might do to you..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_IKA,    BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "I DO want to! I definitely do! PLEASE!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Really? Great, it's a promise then!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_TERE,   BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Yeah... A promise..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Okay, break time's over!<CR>Let's go, Rio-chan" },
+	// ▼先に歩き出すロロナ
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "………." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      22, BALLOON_FRAME_TYPE_BUC,            "If you keep standing there like an idiot, she'll leave you behind, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Playing... with Rorona-chan... playing..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "W-what do I do!?<CR>How do I play!? Tell me!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      25, BALLOON_FRAME_TYPE_BUC,            "Don't ask us... okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L2,      26, BALLOON_FRAME_TYPE_BUC,            "Hey now. Let's just look forward to the day itself, shall we" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC04_060_bda = {
+	"QC04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC04_060",// 出力ファイル名
+	QC04_060_EMS,           // 上記変数
+};

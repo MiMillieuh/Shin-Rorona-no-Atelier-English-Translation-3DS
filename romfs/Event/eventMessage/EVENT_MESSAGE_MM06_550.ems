@@ -1,0 +1,74 @@
+BalloonData MM06_550_EMS[] = {
+	// ▼Continuation of the event above. Triggers upon arriving at destination
+	// ▼Group marvels at the lake
+	// ★↓Three at once. All three (Rorona, Lionela, Cuderia) surprised. Positions are flexible
+	{ BALLOON_MODE_BUCSYS, CHARA_NONE,       0, NAME_MINNA,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_BUC,            "Ooooooh" },
+	{ BALLOON_MODE_SYSTEM, CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_NORMAL,         "Ooooooh" },
+	{ BALLOON_MODE_SYSTEM, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_NORMAL,         "Ooooooh" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I didn't know there was a lake here.<CR>It's beautiful..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "I'm glad you like it" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R2,       5, BALLOON_FRAME_TYPE_BUC,            "I-I'm NOT enjoying this, you know!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_SIN,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Ah! I-I'm really enjoying this!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "We've arrived. Please wake up now" },
+	{ BALLOON_MODE_BUCSYS, CHARA_PAMELA,     0, NAME_PAMELA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_BUC,            "Nyaaah... five more minutes~..." },
+	// ★From here on, only master and Rorona
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Master. Can you gather Bubbling Water here?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "That's right.<CR>However, water gathering work is quite dangerous...<CR>That's where what I've prepared comes in" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Now that you mention it, you said something about preparing...<CR>What exactly?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Don't be so impatient.<CR>Now then... let's start with you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Me? Wait, what are you doing with your hands?<CR>N-no! Don't come closer!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Don't run, we're short on time.<CR>Now then, give up!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Nooooo! S-stop iiiiit!!" },
+	// ▼Long pause on black screen (............). Conversation continues on black screen
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_BUC,            "...Haah..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_BUC,            "What's wrong? Just sighing away" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    18, BALLOON_FRAME_TYPE_BUC,            "Um... we're here to gather Bubbling Water,<CR>right?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    19, BALLOON_FRAME_TYPE_BUC,            "Of course.<CR>Did you think we came here to play?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    20, BALLOON_FRAME_TYPE_BUC_SHOUT,      "That's MY line!<CR>How did things turn out like this!?" },
+	// ▼Display illustration
+	// ▼Master lying elegantly on a beach mat by the lake.
+	// ▼Hom beside her (Hom can be small, use sprite differences...) serving tropical drinks on a tray
+	// ▼Rorona complaining. For some reason, everyone is in swimsuits
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    21, BALLOON_FRAME_TYPE_BUC,            "I've brought your drinks" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    22, BALLOON_FRAME_TYPE_BUC,            "Ah, good work" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    23, BALLOON_FRAME_TYPE_BUC,            "Are you even listening, Master?!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    24, BALLOON_FRAME_TYPE_BUC,            "Don't shout.<CR>What exactly are you complaining about?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    25, BALLOON_FRAME_TYPE_BUC,            "Clean air, a crystal-clear lake.<CR>Girls in swimsuits playing in the water...<CR>It's like a paradise, isn't it?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    26, BALLOON_FRAME_TYPE_BUC,            "I- came- here- for- MATERIALS!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    27, BALLOON_FRAME_TYPE_BUC,            "If you constantly think about nothing but work, you'll suffocate.<CR>Sometimes you need to take a break in life" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    28, BALLOON_FRAME_TYPE_BUC,            "But Master, you're only taking breaks!<CR>You even prepared swimsuits for everyone..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    29, BALLOON_FRAME_TYPE_BUC,            "Well now. Measuring everyone's sizes was<CR>quite the challenge even for me" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    30, BALLOON_FRAME_TYPE_BUC,            "Well, if everyone had that much fun,<CR>it was worth the trouble" },
+	// ▼Change illustration
+	// ▼Pamela bothering Cuderia. Lionela flustered nearby
+	{ BALLOON_MODE_BUCSYS, CHARA_PAMELA,     0, NAME_PAMELA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    31, BALLOON_FRAME_TYPE_BUC,            "Gottcha~" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    32, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Kyaaah!?<CR>W-what, don't cling to me!<CR>C-cold!! You're so cold!?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_PAMELA,     0, NAME_PAMELA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    33, BALLOON_FRAME_TYPE_BUC,            "Ufufu. But I'm a ghost~" },
+	{ BALLOON_MODE_BUCSYS, CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    34, BALLOON_FRAME_TYPE_BUC,            "U-um... er..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    35, BALLOON_FRAME_TYPE_BUC,            "You! Stop standing there like an idiot,<CR>and get this stupid ghost off me!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    36, BALLOON_FRAME_TYPE_BUC,            "O-okay!<CR>Um... c-can I peel her off?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_PAMELA,     0, NAME_PAMELA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    37, BALLOON_FRAME_TYPE_BUC,            "No~" },
+	{ BALLOON_MODE_BUCSYS, CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    38, BALLOON_FRAME_TYPE_BUC,            "I see... I'm sorry,<CR>she said no..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    39, BALLOON_FRAME_TYPE_BUC,            "Gyaaaaaah!<CR>What is with this annoying exchange!?" },
+	// ▼Rorona and the others watching
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    40, BALLOON_FRAME_TYPE_BUC,            "Are they... having fun...?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    41, BALLOON_FRAME_TYPE_BUC,            "Of course they're having fun.<CR>Obviously, yes" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    42, BALLOON_FRAME_TYPE_BUC,            "Even Pamela is in a swimsuit... and she's a ghost" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    43, BALLOON_FRAME_TYPE_BUC,            "You've noticed. That is my masterpiece,<CR>no exaggeration" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    44, BALLOON_FRAME_TYPE_BUC,            "I made it so that a spiritual entity can wear physical objects,<CR>completely synchronized..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    45, BALLOON_FRAME_TYPE_BUC,            "If you put that much effort into other things,<CR>that would be great..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    46, BALLOON_FRAME_TYPE_BUC,            "Are you the type to complain<CR>all day long?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    47, BALLOON_FRAME_TYPE_BUC,            "At this point, you should just let go and<CR>enjoy yourself. That's more productive" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    48, BALLOON_FRAME_TYPE_BUC,            "Uugh... well, I suppose..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    49, BALLOON_FRAME_TYPE_BUC,            "Hom, you're dismissed too.<CR>Go play with Rorona" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    50, BALLOON_FRAME_TYPE_BUC,            "Understood.<CR>Let's go, Master" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    51, BALLOON_FRAME_TYPE_BUC,            "...Alright, let's go.<CR>Ku~-chan! Let me join~!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    52, BALLOON_FRAME_TYPE_BUC,            "Don't say 'join'!<CR>Do something about this ghost already!" },
+	// ▼Black fade, time passes
+};
+
+BALLOON_DATA_ALL MM06_550_bda = {
+	"MM06",                 // Output file path
+	"EVENT_MESSAGE_MM06_550",// Output file name
+	MM06_550_EMS,           // Variable above
+};

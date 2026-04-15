@@ -1,0 +1,34 @@
+﻿BalloonData MM12_060_EMS[] = {
+	// ▼Continued from above
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     1991, BALLOON_FRAME_TYPE_BUC,            "Tomorrow is the results announcement...<CR>Whether I pass or fail, tomorrow it all ends..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,     1992, BALLOON_FRAME_TYPE_BUC,            "Uuuu...<CR>I'm so nervous I can't calm down..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,     1993, BALLOON_FRAME_TYPE_BUC,            "No, no, no! I can't just sit still!<CR>Let me go take a little walk!" },
+	// ▼Rorona opens the door to leave, Cuderia is right there
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,     1994, BALLOON_FRAME_TYPE_BUC,            "Kyaa!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,     1995, BALLOON_FRAME_TYPE_BUC,            "W-waah!?<CR>K-k-koo-chan? What are you doing here...?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,     1996, BALLOON_FRAME_TYPE_BUC,            "W-w-w-what do you mean what?!<CR>I was just passing by!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,     1997, BALLOON_FRAME_TYPE_BUC,            "Passing by, when the only thing around here is the atelier...<CR>Oh, could it be you came because you were worried?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,     1998, BALLOON_FRAME_TYPE_BUC,            "H-huh?! N-no, ah, um..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,     1999, BALLOON_FRAME_TYPE_BUC,            "That's right!<CR>I came because I was worried about you!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,     2000, BALLOON_FRAME_TYPE_BUC,            "O-oh, no worries! I'm actually really happy, yeah" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,     2001, BALLOON_FRAME_TYPE_BUC,            "Hmph.<CR>...So, where were you going?<CR>It's this late" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,     2002, BALLOON_FRAME_TYPE_BUC,            "Ahaha... I was so nervous I<CR>couldn't sit still, so I was thinking of taking a walk" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,     2003, BALLOON_FRAME_TYPE_BUC,            "Haah, as expected..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2004, BALLOON_FRAME_TYPE_BUC,            "But I'm okay now.<CR>Seeing your face calmed me down" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,     2005, BALLOON_FRAME_TYPE_BUC,            "Ah, I see. Then go to bed already" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,     2006, BALLOON_FRAME_TYPE_BUC,            "Tomorrow is a big day,<CR>so if you catch a cold it won't be funny" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,     2007, BALLOON_FRAME_TYPE_BUC,            "Yeah... thanks, Koo-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,     2008, BALLOON_FRAME_TYPE_BUC,            "Skip the thanks and go to sleep already!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,     2009, BALLOON_FRAME_TYPE_BUC,            "Okay! Good night" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,     2010, BALLOON_FRAME_TYPE_BUC,            "Night. See you tomorrow" },
+	// ▼Rorona returns to the atelier
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,     2011, BALLOON_FRAME_TYPE_BUC,            "Honestly, you're till the very end" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,     2012, BALLOON_FRAME_TYPE_BUC,            "...You'll be fine, right?<CR>I believe in you, Rorona..." },
+	// ▼Long fade to black, then next event
+};
+
+BALLOON_DATA_ALL MM12_060_bda = {
+	"MM12",                 // Output file path
+	"EVENT_MESSAGE_MM12_060",// Output file name
+	MM12_060_EMS,           // Above variable
+};

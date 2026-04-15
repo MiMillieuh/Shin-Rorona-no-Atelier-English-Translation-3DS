@@ -1,0 +1,15 @@
+﻿BalloonData MM02_030_EMS[] = {
+	// ▼課題の締め切り間近に発生（警告メッセージ）
+	// ▼探索に行こうにした時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "If I leave now,<CR>I won't make it in time for the castle request..." },
+	// ▼
+	// ▼調合を行おうとした時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "If I start now,<CR>I won't make it in time for the castle request..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM02_030_bda = {
+	"MM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MM02_030",// 出力ファイル名
+	MM02_030_EMS,           // 上記変数
+};

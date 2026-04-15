@@ -1,0 +1,9 @@
+// ブランク
+BalloonData AA01_010_EMS[] = {
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,      0, NAME_RORONA,     BUC_RORONA_NOR,   BUC_POSITION_TYPE_NONE,   -1,    BALLOON_FRAME_TYPE_SYSTEM, "「Arlvis Academy」An elite alchemy academy established on a remote island floating in the distant sky" },
+};
+BALLOON_DATA_ALL AA01_010_bda = {
+	"AA01",			// 出力ファイルパス
+	"EVENT_MESSAGE_AA01_010",		// 出力ファイル名
+	AA01_010_EMS,		// 上記変数
+};

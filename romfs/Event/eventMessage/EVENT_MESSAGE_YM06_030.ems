@@ -1,0 +1,29 @@
+﻿BalloonData YM06_030_EMS[] = {
+	// ▼延長戦以降に発生
+	// ●遊びは終わりの時２が発生している
+	// ▼王宮受付に行くと発生
+	// ▼タントリスとエスティが話をしている
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Another minister's document?<CR>They seemed fine when I saw them earlier." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "That's right, thanks to you<CR>I'm feeling great now" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Then why did you bother<CR>bringing it yourself?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "It's fine. From now on, I figured I'd<CR>help out with Father's chores<CR>whenever I have some free time." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "...Oh?<CR>What brought that on all of a sudden?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "...Nothing in particular. Just felt like it." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Hmm, somehow your expression<CR>seems different though." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "It's not just your imagination.<CR>Or could it be that you're worried about me?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "...Looking at you, it seems it's<CR>really just my imagination after all." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Haha. If I stay here any longer,<CR>people might start asking too many questions." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Alright then, Father should be in his office..." },
+	// ▼タントリス去る
+	// ▼ロロナやってくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "That was Tan-tan just now, wasn't it?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Yes, he was dropping off some documents.<CR>Hehe, I don't know what came over him,<CR>but he got all serious-faced." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "??<CR>...Hee-hee?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM06_030_bda = {
+	"YM06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM06_030",// 出力ファイル名
+	YM06_030_EMS,           // 上記変数
+};

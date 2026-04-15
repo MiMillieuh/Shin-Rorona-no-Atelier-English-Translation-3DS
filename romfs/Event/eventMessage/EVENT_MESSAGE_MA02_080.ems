@@ -1,0 +1,30 @@
+BalloonData MA02_080_EMS[] = {
+	// ▼
+	// ★※↑のイベントの後、初めて帰ってきた時
+	// ▼ドアがノックされる音
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Yes, come in~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_NOR,    BUC_POSITION_TYPE_R2,       1, BALLOON_FRAME_TYPE_BUC,            "Sorry to bother you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_NOR,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Were we interrupting your work?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Dad! Mom!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_WARA,   BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "We just got back from our trip.<CR>We came to see our daughter first thing" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Hmph. If that's the case, you could have<CR>at least taken me with you..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_KANA,   BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Don't give us that look. Do you want a souvenir?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Hmm...yes, I do" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_NOR,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "That's my girl. Here you go" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Yay, thanks! ...wait, what is this?" },
+	// ▼珍しいけど気味悪げな材料をいくつかもらう
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_NOR,    BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "What do you mean, 'what'? They're alchemy materials, right?<CR>We heard they're really rare,<CR>so we thought you'd be happy..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "I am happy, but also...this is weird..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_NOR,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Your father and I both support your work.<CR>Do your best with these" },
+	// ▼帰る二人
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Bringing your daughter souvenirs like this<CR>isn't normal, you know...<CR>I feel so conflicted..." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Received: <CLGR>Mandrake Root<CLNR> × 2<CR><CLGR>Beast Carcass<CLNR>     × 2<CR><CLGR>Puni Puni Orb<CLNR>    × 2" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA02_080_bda = {
+	"MA02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA02_080",// 出力ファイル名
+	MA02_080_EMS,           // 上記変数
+};

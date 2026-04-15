@@ -1,0 +1,50 @@
+ BalloonData MZ02_270_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "I'm sorry for having you<CR>come all this way to see me off" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Let's skip the formalities.<CR>Sending off a friend who's done so much for us<CR>is only natural" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "...Besides, I had some business here anyway" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "Business?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Nothing that concerns you" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Now, normally I'd say let's savor this moment,<CR>but we'll probably see each other again soon enough" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "I won't be coming back that quickly.<CR>I'm planning to travel around for at least a year" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "A year, huh... I suppose that's the limit.<CR>If you stay away for two or three years..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "Um... What have you been<CR>talking about this whole time..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Master. It's time to depart" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,      10, BALLOON_FRAME_TYPE_BUC,            "Oh, okay.<CR>Well then, I'll be off" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Take care" },
+	// ▼歩き去るロロナとホム
+	// ▼それをしばらく見送った後
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "...Now then, I should get going too.<CR>Before that loud one shows up..." },
+	// ▼物陰からごそごそと荷物を取り出し、ジオも出発する
+	// ★※それっぽく見える範囲で
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "By loud one, I assume you mean me?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Wha!?" },
+	// ▼ステルクがやってきて
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "S-Sterk... What a coincidence" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "What is that luggage?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "This? Well, you see..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "I wouldn't think it was anything else,<CR>but you're not planning to follow her,<CR>are you?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "...I suppose I can't hide it from you.<CR>Don't give me that look, I'm surrendering" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "You should be concerned!<CR>The nerve of a king to abandon his country and set off on a journey!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "What! That's no way to speak to your king!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "I'll say it as many times as I like! You fool!<CR>And you always..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Then let me say something too.<CR>Every time you..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "How many times do I have to tell you!<CR>You..." },
+	// ★一枚絵に移行
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    27, BALLOON_FRAME_TYPE_BUC,            "...hm?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    28, BALLOON_FRAME_TYPE_BUC,            "Is something wrong?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    29, BALLOON_FRAME_TYPE_BUC,            "I thought I heard some shouting..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    30, BALLOON_FRAME_TYPE_BUC,            "Hom doesn't hear anything" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    31, BALLOON_FRAME_TYPE_BUC,            "I see. I must be imagining things.<CR>Well then, where should we go?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    32, BALLOON_FRAME_TYPE_BUC,            "Don't ask Hom.<CR>Hom just follows wherever Master goes" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    33, BALLOON_FRAME_TYPE_BUC,            "Hmm. I haven't really thought about it either...<CR>Oh! I wonder which way the teacher went...?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    34, BALLOON_FRAME_TYPE_BUC,            "The Grand Master said they were heading south,<CR>because they hate the cold" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    35, BALLOON_FRAME_TYPE_BUC,            "I see... Alright.<CR>Then let's go north.<CR>It'd be boring to go the same way" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_270_bda = {
+	"MZ02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MZ02_270",// 出力ファイル名
+	MZ02_270_EMS,           // 上記変数
+};

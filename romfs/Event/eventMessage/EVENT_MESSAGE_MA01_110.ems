@@ -1,0 +1,56 @@
+BalloonData MA01_100_EMS[] = {
+	// ▼街の人の評判をあげるには？を選んだ時
+	// ★※ステルクから街の人の評判の件を聞いた時、エスティのことも軽く触れておく前提
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Raising the town's reputation, huh...I figured I'd have<CR>to do jobs to raise it, but..." },
+	// ▼ふと、入り口を振り返るロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "What should I do? No customers are coming...<CR>Oh right, Sterk-san mentioned something<CR>about this" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Something about asking Esty-senpai for details...<CR>Esty-san is the lady<CR>we met at the castle yesterday, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Alright, moping around won't help.<CR>Let me go ask her about it" },
+	// ▼アトリエを出て行く主人公
+	// ★※マップ移動は手動でも自動でも（手動だと色々めんどいかも
+	// ▼お城の受付にて
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Now, where could she be..." },
+	// ▼周りをきょろきょろ伺う主人公
+	// ▼背後からこっそりエスティが近づいてきて
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_NAZO,        BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Boo!!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Kyaaa!!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Th-that scared me...<CR>You shouldn't startle people like that!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Ahaha, sorry about that.<CR>When I saw your back looked so easy to spook,<CR>I just couldn't resist" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "My back isn't 'spooky'...oh right.<CR>I came to ask you something, Esty-san" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Me? Is this about work, by any chance?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Yes, that's right." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Sterk-san told me to raise the town's reputation,<CR>but no customers are coming,<CR>so even if I wanted to work, I couldn't..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "In that case, don't worry!<CR>I have plenty of work right here" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "At your place?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Yes. My job here is to receive<CR>requests and complaints from townspeople" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "You know, things like 'I can't find my beloved tool'<CR>or 'Monsters are running wild!'" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "And then I look for people who can<CR>handle these requests in their place<CR>and ask them to help out" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "So when I want work, I just<CR>go to Esty-san's place..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "That's right.<CR>If you properly complete requests, you'll get rewards,<CR>and I think your reputation in town will improve too" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Of course, if you do sloppy work,<CR>your reputation will go down instead" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Uuu...I'll be careful" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "It would help me out too<CR>if more people took on jobs.<CR>I'd be happy if you stopped by often" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Besides, someone as cute as you, Rorona-chan,<CR>is always welcome here" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "N-no way! I'm not cute!<CR>Um...I'll come back again! Bye!" },
+	// ▼逃げるように立ち去るロロナ
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "My, how bashful. She really is cute, isn't she?<CR>Hehe, the work was getting dull,<CR>but now I've found something to look forward to" },
+	// ▼システムメッセージで詳しい説明を
+	// ★個人から受ける依頼についても、ここのシステムメッセで
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Front Quests can now be received<CR>at the castle reception." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Front Quests are requests from the townspeople.<CR>By completing them, you receive rewards<CR>and your popularity in town increases." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "However, each request has a deadline.<CR>If you miss the deadline,<CR>the reward decreases and your popularity drops." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Also, if you cancel a request you've taken,<CR>your popularity will drop as well,<CR>and of course you won't receive any reward." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "For more details, please check the front quest help<CR>section in the menu's encyclopedia." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Would you like to view the request tutorial?" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Also, due to Astrid's usual conduct,<CR>the Atelier's reputation<CR>in town is extremely poor right now." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "In order to run the Atelier properly,<CR>you must not only complete the kingdom's requests,<CR>but also restore the town's popularity." },
+};
+
+BALLOON_DATA_ALL MA01_100_bda = {
+	"MA01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA01_100",// 出力ファイル名
+	MA01_100_EMS,           // 上記変数
+};

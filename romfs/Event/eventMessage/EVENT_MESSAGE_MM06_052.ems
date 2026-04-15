@@ -1,0 +1,17 @@
+BalloonData MM06_052_EMS[] = {
+	// ▼Common below
+	// ▼Request details shown on system screen
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Something cold, you say..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "They say it's going to be<CR>quite hot this summer" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "They want us to take preventive measures<CR>beforehand, is what I heard" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Hmm... like what<CR>kind of thing should I make?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "I'm sorry, but I haven't thought of<CR>any specific measures myself...<CR>I'd like you to figure that out as part of the request" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Uuh, that sounds difficult...<CR>Well, I'll think about various things" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM06_052_bda = {
+	"MM06",                 // Output file path
+	"EVENT_MESSAGE_MM06_052",// Output file name
+	MM06_052_EMS,           // Variable above
+};

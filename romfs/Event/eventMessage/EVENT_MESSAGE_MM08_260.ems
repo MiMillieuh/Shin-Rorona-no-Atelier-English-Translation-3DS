@@ -1,0 +1,96 @@
+BalloonData MM08_260_EMS[] = {
+	// ▼When defeated
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX10,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC_SHOUT,      "It's settled!<CR>Before the gorgeous swordsmanship of Mask G,<CR>the champion was defeated without a chance!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Ugh... I lost..." },
+	// ▼After the cheers, a long black screen.
+	// ▼Fade in, reuniting with the first ally you met
+	// ★※Basically repurposed from when you lose in the finals
+	// ★※Since Geou's appearance conditions are undecided, we made all characters for now
+	// ★When Geou is close with them, it's essential, but otherwise it's desirable to meet them
+	// ▼
+	// ★────────────────────────────────────────
+	// ▼Cuderia's route
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Good work,<CR>you did pretty well for once" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Ugh, I lost...<CR>Even though I finally won the championship..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "I'm not asking for much.<CR>Your winning the championship in the first place<CR>was already a mistake anyway" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Oh, that's... well, yes, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_WARA,   BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Now, you must be tired,<CR>so let's go get something to eat first.<CR>Come on, hurry, hurry!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Ah, wait.<CR>My whole body hurts and I can't walk fast...<CR>Wait for meeee!" },
+	// ▼
+	// ★────────────────────────────────────────
+	// ▼Iksel's route
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Wow, you almost had it.<CR>You were so close!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Ugh...<CR>I finally won and then got beat up like that..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Well, that's pretty good for you.<CR>If I'd been in it,<CR>that guy would've been easy though" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Well, I'm not so sure about that..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Well, no point in dwelling on what's done.<CR>I'm hungry, let's grab some food" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Ah, then I want to eat Iksel's cooking" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "You can eat my cooking anytime.<CR>Today I'm checking out the festival food stalls.<CR>Come on, let's go" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "What?!<CR>But Iksel's cooking is better..." },
+	// ▼
+	// ★────────────────────────────────────────
+	// ▼Sterk's route
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Ugh, ouch ouch ouch..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "You okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Oh, Sterk.<CR>I'm not injured or anything, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "That's good...<CR>That person doesn't know the meaning of restraint" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Sterk, do you know that person?<CR>Esti seemed to know them too, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Oh, well, whether you'd call it knowing them or not...<CR>Just don't worry about it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "When you say it like that,<CR>it makes me curious" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Now, you must be tired too,<CR>so how about we get something to eat together?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "I'd like to hear more about<CR>that staff technique that defeated me" },
+	// ▼Sterk walks ahead briskly
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "Ah, wait!<CR>Who was that person? Please tell meee!" },
+	// ▼
+	// ★────────────────────────────────────────
+	// ▼Lionela's route
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "Ouch... I'm home—" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_HOHO,   BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "Welcome back.<CR>Rorona-chan, you were amazing.<CR>You actually won the championship..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      28, BALLOON_FRAME_TYPE_BUC,            "Well, after that she got thoroughly beaten up" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "But... that person<CR>was incredibly strong..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "Now, don't go putting her down like that!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "But, well, you looked really cool<CR>at the end there, even though you lost!<CR>So, um..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       32, BALLOON_FRAME_TYPE_BUC,            "I'm not really down about it, so don't worry.<CR>I'm just a little tired..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_SIN,    BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "Oh, then would you like to rest somewhere...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       34, BALLOON_FRAME_TYPE_BUC,            "Yeah, thanks.<CR>After I rest a bit, let's look around the festival together, okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_HOHO,   BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "Yeah!" },
+	// ▼
+	// ★────────────────────────────────────────
+	// ▼Tantris's route
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       36, BALLOON_FRAME_TYPE_BUC,            "Good work. That was impressive.<CR>I never expected you to win" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       37, BALLOON_FRAME_TYPE_BUC,            "Oh, thank you...<CR>But I got thoroughly beaten at the end..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       38, BALLOON_FRAME_TYPE_BUC,            "Well, you had the wrong opponent.<CR>No need to go all out against a girl..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       39, BALLOON_FRAME_TYPE_BUC,            "Now, my role is probably to heal<CR>your wounded body and heart" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       40, BALLOON_FRAME_TYPE_BUC,            "W-what?<CR>Heal my body and heart... what do you...?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       41, BALLOON_FRAME_TYPE_BUC,            "Hm? I just thought we could rest and grab a bite to eat.<CR>Could I have given you<CR>the wrong impression?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       42, BALLOON_FRAME_TYPE_BUC,            "W-what are you saying?!<CR>I-I wasn't expecting anything like that!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       43, BALLOON_FRAME_TYPE_BUC,            "That's right, just a meal! Yeah!<CR>Okay, let's go right away!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       44, BALLOON_FRAME_TYPE_BUC,            "Rushing can be dangerous.<CR>Honestly, you don't need to be so flustered" },
+	// ▼
+	// ★────────────────────────────────────────
+	// ▼Geou's route
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       45, BALLOON_FRAME_TYPE_BUC,            "Ouch...<CR>Ugh, I finally won and got beat up like this..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       46, BALLOON_FRAME_TYPE_BUC,            "That person was really strong...<CR>They seemed to know Esti too,<CR>but who could it have been?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       47, BALLOON_FRAME_TYPE_BUC,            "Hey, good work" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       48, BALLOON_FRAME_TYPE_BUC,            "Oh, Geou. Were you watching?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       49, BALLOON_FRAME_TYPE_BUC,            "Yeah, I saw the whole thing from the beginning.<CR>That was quite a battle" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       50, BALLOON_FRAME_TYPE_BUC,            "Thank you.<CR>I lost at the end though... hmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,       51, BALLOON_FRAME_TYPE_BUC,            "W-what's wrong?<CR>Do I have something on my face?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       52, BALLOON_FRAME_TYPE_BUC,            "Oh, no.<CR>I was just thinking, if you and that person<CR>at the end had a match, who would win..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       53, BALLOON_FRAME_TYPE_BUC,            "Oh, oh I see. That's what you meant" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       54, BALLOON_FRAME_TYPE_BUC,            "That's a tough one...<CR>From what I saw, I'd say it was a perfect match" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       55, BALLOON_FRAME_TYPE_BUC,            "A perfect match with Geou?!<CR>Then there's no way I could win..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       56, BALLOON_FRAME_TYPE_BUC,            "No no, you never know.<CR>If you trained for another two or three years..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       57, BALLOON_FRAME_TYPE_BUC,            "But we shouldn't just stand here talking.<CR>How about we continue this conversation<CR>while enjoying the festival?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       58, BALLOON_FRAME_TYPE_BUC,            "Oh, okay.<CR>The tournament came out of nowhere,<CR>so I haven't had time to look around" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_WARA,       BUC_POSITION_TYPE_R,       59, BALLOON_FRAME_TYPE_BUC,            "Alright, let's get going then.<CR>If we stay here too long, who knows<CR>when we'll run into that loudmouth again" },
+	// ▼
+	// ★────────────────────────────────────────
+	// ▼
+};
+
+BALLOON_DATA_ALL MM08_260_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_260",// Output file name
+	MM08_260_EMS,           // Above variable
+};

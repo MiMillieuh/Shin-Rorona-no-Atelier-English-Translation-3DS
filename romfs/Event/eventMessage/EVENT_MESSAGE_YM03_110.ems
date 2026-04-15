@@ -1,0 +1,26 @@
+BalloonData YM03_110_EMS[] = {
+	// ▼ロロナ・ギゼラ・イクセルのパーティでの出発イベント
+	// ●本編中以降で発生
+	// ●ギゼラ参戦が発生している
+	// ▼二人を一緒に雇って、初めて採取に行こうとした時
+	// ▼先にイクセルがいる
+	// ▼ギゼラやってくる
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_NOR,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Hmm? Weren't you at the dining hall..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "Oh, aren't you the person who sometimes<CR>comes to my shop?<CR>Are you really doing bodyguard work?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "You two know each other?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_KOMA,     BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "We're not exactly friends or anything.<CR>I was asked if there was a girl<CR>who needed a bodyguard, and I referred Rorona,<CR>you know" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,       0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "I figured it was probably just talk,<CR>but it actually happened" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_WARA,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Same here. I didn't expect to<CR>run into a chef in a place like this.<CR>Your cooking at your place is pretty good, I wonder" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "You've been there a few times?" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_NOR,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "It's delicious AND cheap.<CR>And with my current budget,<CR>there aren't many other places I can go" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_TERE,     BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "Hehe, thanks.<CR>This bodyguard also doubles as an ingredient gatherer for my shop" },
+	{ BALLOON_MODE_BUC,    CHARA_GISELA,     0, NAME_GISELA,      BUC_GISELA_WARA,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "This is great - on this adventure,<CR>looks like we'll get some good meals, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_L2,      10, BALLOON_FRAME_TYPE_BUC,            "You can count on me for that!<CR>Alright then, let's get moving!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM03_110_bda = {
+	"YM03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM03_110",// 出力ファイル名
+	YM03_110_EMS,           // 上記変数
+};

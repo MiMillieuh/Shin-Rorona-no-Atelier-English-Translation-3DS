@@ -1,0 +1,32 @@
+BalloonData MM04_560_EMS[] = {
+	// ▼When spending the day at the Atelier
+	// ▼Black screen with construction sounds. Starting quiet, then getting louder
+	// ▼Rorona wakes up from the sound
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_BUC,            "Nn... munya... uuu...<CR>Wha-what is this sound!?" },
+	// ▼Black screen clears, back at Atelier. Sound continues
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Good morning, Master" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Yeah, good morning... no wait!<CR>Hom-chan, what's this sound?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "It appears there is construction<CR>going on near the Atelier" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Construction? I haven't heard anything about this...<CR>Will this sound continue for a while?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I don't think that's anything to worry about.<CR>The Grand Master just stormed out looking furious" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Master did?<CR>Ah, right. Master would get angry, wouldn't she.<CR>If someone bothered her sleep..." },
+	// ▼Construction sounds stop
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Ah, the sound stopped" },
+	// ▼A short while later, Master returns to the Atelier
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Master, welcome ba..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R2,       9, BALLOON_FRAME_TYPE_BUC,            "...I'm going back to sleep. Don't you dare wake me up.<CR>No matter what" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Y-yes ma'am..." },
+	// ▼Master returns to her room
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "T-that was scary..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Indeed. Once you get that look from her,<CR>the construction would have no choice but to stop" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "I hope the construction workers are okay..." },
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_KANA,  BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "T-to think the Master would come out and interfere...<CR>This time was a failure.<CR>But next time...!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM04_560_bda = {
+	"MM04",                 // Output file path
+	"EVENT_MESSAGE_MM04_560",// Output file name
+	MM04_560_EMS,           // Above variable
+};

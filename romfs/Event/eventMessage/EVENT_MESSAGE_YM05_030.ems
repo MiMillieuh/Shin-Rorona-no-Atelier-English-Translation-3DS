@@ -1,0 +1,35 @@
+BalloonData YM05_030_EMS[] = {
+	// ▼アトリエにいると発生
+	// ●１が発生していて、そこそこ時間経過している
+	// ▼クーデリア|月てくる
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Rorona, are you there?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, Kuu-chan. What's wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "How did that thing turn out? That thing" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "What was that again...?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "You know, the thing about the adventurer woman.<CR>...Did you think of anything?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Ah, that thing.<CR>We did have that conversation, didn't we... y-yeah" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "...You didn't think of anything, did you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "T-that's not true!<CR>I didn't forget about it or anything" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "You forgot, didn't you!<CR>I knew it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX1,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "S-sorry...<CR>B-but how about this - what if they<CR>had to report where they're going before going on an adventure?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Report?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Yes! Make them report where they're going<CR>before they set off on an adventure" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "That way, no matter where that adventurer goes,<CR>you'd be able to know right away..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Hmm...<CR>If only it were that simple,<CR>we wouldn't have had this problem in the first place" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "R-right, you're probably right... ehehe...<CR>I was thinking maybe if they had to register<CR>so they could get caught if they break the rules,<CR>I wonder..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Wait just a moment?<CR>...Hmm, that's not a bad idea after all.<CR>I didn't expect you to actually come up with something" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Thanks, this gave me something to think about.<CR>I'll get started on compiling this idea right away" },
+	// ▼クーデリア飛び出していく
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "...She's gone.<CR>I don't know what just happened,<CR>but if it helped, that's good, right?" },
+	// ▼ロロナ消える
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_SIN,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "(About that idea...<CR>　It's basically the same thing<CR>　the adventurers' guild in my time does,<CR>　but...)" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "(Could it be that what Rorona-sensei<CR>　just said gave birth to the idea,<CR>　I wonder?<CR>　...No way)" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM05_030_bda = {
+	"YM05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM05_030",// 出力ファイル名
+	YM05_030_EMS,           // 上記変数
+};

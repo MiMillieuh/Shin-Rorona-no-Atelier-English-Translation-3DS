@@ -1,0 +1,18 @@
+BalloonData MM08_110_EMS[] = {
+	// ▼
+	// ▼When, during synthesis, the festival period is about to end
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, if I keep synthesizing like this,<CR>the Kingdom Festival will be over... what should I do?" },
+	// ▼Choice: Continue synthesizing / Stop
+	// ▼Choose to continue
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "No.<CR>Work comes first before the festival" },
+	// ▼
+	// ▼Choose to stop
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Hmm, but I'm curious...<CR>Let me just take a quick look" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM08_110_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_110",// Output file name
+	MM08_110_EMS,           // Variable above
+};

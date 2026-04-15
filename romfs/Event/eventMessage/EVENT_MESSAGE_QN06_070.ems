@@ -1,0 +1,19 @@
+﻿BalloonData QN06_070_EMS[] = {
+	// ▼依頼画面を抜けた後に発生
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Alright, Rorona-chan.<CR>As always, here I am with another<CR>little request for you!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Haah, I don't mind...<CR>Oh! I remembered something!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Last time, you ran away before I could<CR>ask you anything...<CR>Today I'll get my answers!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "N-Now now, can't we just skip that?<CR>We can talk about it next time, okay?<CR>So anyway, here's what I'm asking you to do this time!" },
+	// ▼依頼内容をシステムメッセージで表示
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Another weird item...<CR>Estiy-san, what on earth is this for..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I told you, it's... a girl's secret, okay?!<CR>That's why I'm asking you, please!" },
+	// ▼またどこかに行くエスティ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "She's running away again!<CR>Hmm, I'm curious but... oh well." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN06_070_bda = {
+	"QN06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN06_070",// 出力ファイル名
+	QN06_070_EMS,           // 上記変数
+};

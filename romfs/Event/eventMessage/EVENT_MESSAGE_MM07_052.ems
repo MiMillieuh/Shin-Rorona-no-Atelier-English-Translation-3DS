@@ -1,0 +1,17 @@
+BalloonData MM07_052_EMS[] = {
+	// ▼Common below
+	// ▼Request details shown on system screen
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Preparations for the Kingdom Festival again, I see" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Yes. Same as last year,<CR>the deadline is a bit earlier than usual,<CR>so please keep that in mind" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Yes. Sterk-san was<CR>really busy last year, wasn't he?<CR>How about this year?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "...Honestly, I'm dreading it already.<CR>Given that your work results might<CR>add even more work..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Uuu... I-it's fine!<CR>I'll do my best! Right?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I shall hold you to that" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM07_052_bda = {
+	"MM07",                 // Output file path
+	"EVENT_MESSAGE_MM07_052",// Output file name
+	MM07_052_EMS,           // Variable above
+};

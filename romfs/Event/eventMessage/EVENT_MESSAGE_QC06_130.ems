@@ -1,0 +1,13 @@
+BalloonData QC06_130_EMS[] = {
+	// ▼↑のイベントの関係で、採取とかに行ってた時に発生
+	// ▼採取中に約束を破ったことに気づくロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ah! Today is the day<CR>I had that promise withGio!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Even if I go back now I won't make it...<CR>I need to apologize when I get back" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_130_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_130",// 出力ファイル名
+	QC06_130_EMS,           // 上記変数
+};

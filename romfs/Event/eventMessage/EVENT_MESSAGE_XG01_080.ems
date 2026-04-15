@@ -1,0 +1,9 @@
+﻿// ギミック１・８
+BalloonData XG01_080_EMS[] = {
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,      0, NAME_RORONA,     BUC_RORONA_NOR,   BUC_POSITION_TYPE_NONE,   -1,    BALLOON_FRAME_TYPE_SYSTEM, "Ar Revith Academy - the supreme school of alchemy,<CR>built on a remote island floating in the distant skies" },
+};
+BALLOON_DATA_ALL XG01_080_bda = {
+	"XG01",			// 出力ファイルパス
+	"EVENT_MESSAGE_XG01_080",		// 出力ファイル名
+	XG01_080_EMS,		// 上記変数
+};

@@ -1,0 +1,19 @@
+BalloonData MM04_120_EMS[] = {
+	// ★※If you left the Atelier without seeing the event above (won't happen if you saw it)
+	// ▼Town is crowded with people
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Whoa, so many people.<CR>I see, the festival has already started" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Hmm, should I take a quick look..." },
+	// ▼Choices: Go see the Kingdom Festival / Don't go
+	// ▼Choose to go
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Alright, let's go take a look.<CR>It only comes once a year, after all" },
+	// ▼Choose not to go
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Hmm, I'm curious, but...<CR>No way! I have work to do today!" },
+	// ▼
+	// ★※After this, basically can only choose Atelier or outside town
+};
+
+BALLOON_DATA_ALL MM04_120_bda = {
+	"MM04",                 // Output file path
+	"EVENT_MESSAGE_MM04_120",// Output file name
+	MM04_120_EMS,           // Above variable
+};

@@ -1,0 +1,61 @@
+ BalloonData MZ01_050_EMS[] = {
+	// ▼
+	// ★- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	// ▼好感度高い
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_SIN,    BUC_POSITION_TYPE_R2,       0, BALLOON_FRAME_TYPE_BUC,            "Rorona-chan!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Ah, Rio-chan. I'm glad I found you" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_SIN,    BUC_POSITION_TYPE_R2,       2, BALLOON_FRAME_TYPE_BUC,            "I was looking for you too.<CR>So, how did the results go...?" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Hey hey, is it okay for us to hear this?" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "That's true. If the results were bad,<CR>it would be pretty awkward, wouldn't it?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R2,       5, BALLOON_FRAME_TYPE_BUC,            "Eh? Eh? Um, s-should I...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Ahaha, don't worry.<CR>I passed!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "Eh... Really?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Yeah, really" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R2,       9, BALLOON_FRAME_TYPE_BUC,            "Really, really...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Really, really! ...Sorry,<CR>I seemed to have worried you..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NAKI,   BUC_POSITION_TYPE_R2,      11, BALLOON_FRAME_TYPE_BUC,            "I-I'm... I'm so happy...<CR>Congratulations, Rorona-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Waaaah!? W-Why are you crying, Rio-chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NAKI,   BUC_POSITION_TYPE_R2,      13, BALLOON_FRAME_TYPE_BUC,            "I-I'm sorry... I'm just so happy...<CR>Congratulations, Rorona-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Yeah, thank you..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "...I'm sorry to interrupt the touching moment,<CR>but what are we doing now? Should we celebrate?" },
+	// ▼最後の台詞で分岐させる。最初に来たか否かで（アストリッドのとこに行くのを促す台詞
+	// ▼最初に来た時
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Oh, that sounds nice. Why don't we<CR>show off our special dance? Right, Lionela?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_HOHO,   BUC_POSITION_TYPE_R2,      17, BALLOON_FRAME_TYPE_BUC,            "If Rorona-chan wants to see it..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "I want to see! I want to see!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Ah, but maybe later? I need to<CR>go tell the teacher first" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "You haven't told her yet?<CR>What a hopeless disciple.<CR>Shouldn't you go see her first?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "But..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Don't be such a wet blanket about it.<CR>You should go see her right away.<CR>We can do our thing anytime" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Yeah, you're right. I'll go see her now" },
+	// ▼
+	// ▼二回目以降
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Ah, I might not have thought this through...<CR>But first, I need to go back to the atelier<CR>and tell the teacher" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "You haven't told her yet?<CR>What a hopeless disciple.<CR>Shouldn't you go see her first?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "But..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "Don't be such a wet blanket about it.<CR>You should go see her right away" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "Yeah, you're right. I'll go see her now" },
+	// ▼
+	// ★- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	// ▼好感度普通
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "Ah, Rio-chan! Listen, listen!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R2,      30, BALLOON_FRAME_TYPE_BUC,            "Rorona-chan...? What's wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "I passed the job from the castle!<CR>I can keep running the atelier!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_WARA,   BUC_POSITION_TYPE_R2,      32, BALLOON_FRAME_TYPE_BUC,            "Really...? Congratulations, Rorona-chan!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "Ehehe... thank you" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,       34, BALLOON_FRAME_TYPE_BUC,            "Come on, you should have told us earlier.<CR>We would have prepared something to celebrate" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       35, BALLOON_FRAME_TYPE_BUC,            "I mean, the results came out today,<CR>so it's not like I had time to prepare..." },
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "Oh right.<CR>I need to go tell the teacher...<CR>Well then, Rio-chan, see you later" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_HOHO,   BUC_POSITION_TYPE_R2,      37, BALLOON_FRAME_TYPE_BUC,            "Yeah... I'll think of something to celebrate for you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       38, BALLOON_FRAME_TYPE_BUC,            "Yeah. Thank you!" },
+	// ▼
+	// ★ここは二回目以降も一緒で
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ01_050_bda = {
+	"MZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MZ01_050",// 出力ファイル名
+	MZ01_050_EMS,           // 上記変数
+};

@@ -1,0 +1,25 @@
+BalloonData YM02_180_EMS[] = {
+	// ▼本編中以降で発生
+	// ●本編中でジオが吐露するイベントが発生している、ジオが国王だとばれている
+	// ▼ロロナ・エスティ・ジオのパーティでの出発イベント
+	// ▼二人を一緒に雇って、初めて採取に行こうとした時
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "Sorry I'm late, Rorona-chan.<CR>I wonder how much I delayed" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "No problem at all.<CR>I was chatting with Gio-san anyway" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "...Hmph. You are..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "W-Why are you here" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Is there a problem with me lending a hand?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "I didn't say there's a problem,<CR>but well, I really didn't expect<CR>to run into you here, that's all" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "This is part of my training, you know.<CR>It might come in handy<CR>someday" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "Even so, there must be plenty<CR>of other things you could be doing, right?<CR>That's way too reckless!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Even with this appearance, I'm always<CR>keeping my guard up, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_L2,       9, BALLOON_FRAME_TYPE_BUC,            "Sure, there probably aren't many people<CR>who could beat you.<CR>But that's not the point here..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Alright, alright, don't fuss over the details.<CR>It'll be fine, so let me do what I want" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "(Hmm, I wonder what they're talking about?)" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM02_180_bda = {
+	"YM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM02_180",// 出力ファイル名
+	YM02_180_EMS,           // 上記変数
+};

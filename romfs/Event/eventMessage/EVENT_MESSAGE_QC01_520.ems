@@ -1,0 +1,42 @@
+﻿BalloonData QC01_520_EMS[] = {
+	// ▼After Homu is created, some time passes
+	// ★When Cuderira first meets Homu
+	// ▼Rorona enters the atelier
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Is Rorona here?<CR>I have something..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Welcome" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Eh...?<CR>Oh, sorry. Wrong room" },
+	// ▼Cuderira goes outside. After a pause, enters again
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "No, I'm not wrong. This is Rorona's atelier... right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "Ahaha.<CR>Kuu-chan, you're doing the same thing" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Rorona! If you're here, say so!<CR>...So, who's this child?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "This is Homu-chan.<CR>Master made her with alchemy" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Made with alchemy?<CR>...You're incredibly thoughtless, aren't you" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Homu's name is Homu.<CR>Nice to meet you" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Ah, Cuderira. Nice to meet...<CR>Wait, how tall are you?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "142 cm" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "I-See... 142... I see..." },
+	// ★Clear Rorona and Homu's BUC
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      12, BALLOON_FRAME_TYPE_BUC,            "What a complicated expression, Cuderira.<CR>Actually, should I say \"Kuu-chan\"?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Kyaa! Don't sneak up on people!<CR>And don't go out of your way to say it just to call me that!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      14, BALLOON_FRAME_TYPE_BUC,            "Well, you see, if a newly-born homunculus<CR>surpasses her idol 140 cm,<CR>it must be quite disappointing, doesn't it?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      15, BALLOON_FRAME_TYPE_BUC,            "For someone who's 139 cm, that is" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "N-No one was upset or...<CR>Ha! You must be...!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      17, BALLOON_FRAME_TYPE_BUC,            "You guessed it.<CR>I made Homu's height 142 cm specifically<CR>to make Kuu-chan upset" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L2,      18, BALLOON_FRAME_TYPE_BUC,            "Now, feel free to get upset!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Grr... you...<CR>Doing something this stupid on purpose..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L2,      20, BALLOON_FRAME_TYPE_BUC,            " Tee hee.<CR>Hey Homu, you say it too" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Tee hee.<CR>Homu is taller than<CR>Kuu-chan who is~" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Aaaaaah that's IT!!<CR>Today I will NEVER forgive you!!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      23, BALLOON_FRAME_TYPE_BUC,            "Oh my, Kuu-chan is angry.<CR>Run, Homu" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Yes, Grand Master" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC_SHOUT,      "STOP RIGHT THERE!! I WON'T LET YOU ESCAPE!!" },
+	// ▼The two run away. Cuderira chases after them outside
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "...I'm the only one left behind.<CR>I'm kind of lonely..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_520_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_520",// Output file name
+	QC01_520_EMS,           // Variable name
+};

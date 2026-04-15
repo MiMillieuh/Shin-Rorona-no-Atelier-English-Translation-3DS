@@ -1,0 +1,25 @@
+BalloonData WG01_021_EMS[] = {
+	// ▼果物を発見
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, there's a tasty-looking fruit...<CR>Should I try eating it?" },
+	// ▼選択肢「食べる/食べない」
+	// ▼「食べない」を選択
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "I'll pass. I'm not that hungry" },
+	// ▼「食べる」を選択
+	// ▼能力アップの果物だった
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Huh? What is this... whoa.<CR>It feels like my body got a whole lot better!" },
+	// ▼まずい果物だった
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Gross, it's awful!<CR>Uuu, I shouldn't have eaten this..." },
+	// ▼元気が出る果物だった
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Mmm, delicious!<CR>Feels like all my tiredness would vanish!" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Stats were boosted!" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "HP was restored!" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "HP was reduced..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL WG01_021_bda = {
+	"WG01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_WG01_021",// 出力ファイル名
+	WG01_021_EMS,           // 上記変数
+};

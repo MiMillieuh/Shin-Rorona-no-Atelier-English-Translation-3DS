@@ -1,0 +1,16 @@
+﻿BalloonData MM12_050_EMS[] = {
+	// ▼Only occurs on the night before, when passing has been decided
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Tomorrow is the results announcement...<CR>Whether I pass or fail, tomorrow it all ends..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Uuuu...<CR>I'm so nervous I can't calm down..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "No, no, no! I can't just sit still!<CR>Let me go take a little walk!" },
+	// ★Third line may or may not exist depending on character
+	// ★This event won't occur if not close with anyone
+	// ▼Rorona leaves the atelier
+	// ▼Branches by close characters
+};
+
+BALLOON_DATA_ALL MM12_050_bda = {
+	"MM12",                 // Output file path
+	"EVENT_MESSAGE_MM12_050",// Output file name
+	MM12_050_EMS,           // Above variable
+};

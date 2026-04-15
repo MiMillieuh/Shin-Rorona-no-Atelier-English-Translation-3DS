@@ -1,0 +1,52 @@
+BalloonData YZ01_105_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Ah... This is quite unexpected... And I thought we were making progress..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Hmm, for now...<CR>But I think the situation has finally been resolved..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Yes, about that 'kuro~' and the person's current situation,<CR>if we don't do something about it soon,<CR>this will become a serious problem..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "Not being able to act freely is quite frustrating..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "Astrid!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "What's the matter? Could this be a problem with the Sterk?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "I think I might have been too careless...!<CR>This is not the 'kuro~'..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "I see. 'kuro~' is not the problem." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "That's not it..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "However, if the person at the center were to encounter the same situation,<CR>what should we do? This is quite concerning..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "Where is it?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "The person is..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "Hmm, what's going on?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "Hmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "Astrid, what's going on?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "Hmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "I think I might have found it, and I'm quite concerned..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "It's 'kuro~'!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "Ah!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "No difference... Wait, this is,<CR>this is still not the 'kuro~'!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "Is that so? What's the current situation?<CR>It seems like it might not be related..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "The person at the center might understand...<CR>But it seems that<CR>the path forward is quite unclear..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "Ah... I think I'm starting to understand now...!<CR>The person at the center has finally found the answer,<CR>and it seems like everything is coming together..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "Ah... I think I understand now..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "The person should go and investigate, so I'll let them know..." },
+	// ▼ If the person encounters the problem
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "The person at the center of the situation has finally returned..." },
+	//  Astrid is
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "With the power of the 'kuro~' and other similar abilities,<CR>the person at the center has finally found the answer.<CR>I'm quite concerned about this..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "Yes, about that..." },
+	// ▼
+	//  If the person encounters the problem
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "The situation has changed, and I think we should proceed with caution. This might be related to the issue..." },
+	//  Astrid is
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "The person at the center of this 'kuro~'...<CR>If this person were to achieve the ultimate goal,<CR>the future of alchemy would be determined..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "I understand!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "No, there's no difference!<CR>If we keep going like this,<CR>we might be able to achieve our goal!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "Yes! And now, the situation has finally changed...!<CR>The person at the center is finally able to move forward,<CR>so I think everything will be fine...!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "I think I understand now, Sterk!<CR>This is the path forward that I've been waiting for...!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "This is the name I've been searching for,<CR>and the answer I've been waiting for!<CR>I'm quite satisfied with this result!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YZ01_105_bda = {
+	"YZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YZ01_105",// 出力ファイル名
+	YZ01_105_EMS,           // 上記変数
+};

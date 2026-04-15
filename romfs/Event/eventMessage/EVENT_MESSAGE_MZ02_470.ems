@@ -1,0 +1,33 @@
+﻿BalloonData MZ02_470_EMS[] = {
+	// ▼Starting from in front of the castle
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...Whew, I finally escaped" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Honestly, Sterk. He doesn't need to<CR>keep such a close eye on me" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "But I can't afford to complain.<CR>Let me drop by the atelier" },
+	// ▼Black screen
+	{ BALLOON_MODE_BUCSYS, CHARA_GIO,        0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "Oh my, it seems to be doing quite well...hm?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_GIO,        0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_BUC,            "The atelier looks so different...<CR>Excuse me" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_BUC,            "Welcome! Welcome to Rorona's Pie Shop!" },
+	// ▼Picture appears
+	{ BALLOON_MODE_BUCSYS, CHARA_GIO,        0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_BUC,            "......A pie shop, you say?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_BUC,            "Ah, Gio-san.<CR>Did you come all the way here just for this?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_GIO,        0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_BUC,            "Ah, well... This is, um... what exactly..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     9, BALLOON_FRAME_TYPE_BUC,            "Ehehe. We're having a grand reopening today!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_BUC,            "It's been my dream since I was little<CR>to open a pie shop" },
+	{ BALLOON_MODE_BUCSYS, CHARA_GIO,        0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_BUC,            "I see...<CR>I'm surprised, since it was so sudden" },
+	{ BALLOON_MODE_BUCSYS, CHARA_GIO,        0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    12, BALLOON_FRAME_TYPE_BUC,            "So does that mean you've<CR>quit the alchemy atelier?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    13, BALLOON_FRAME_TYPE_BUC,            "Yes...<CR>But I still make pies using alchemy,<CR>and I gather materials from outside too" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_BUC,            "I'm basically doing<CR>the same work as before, though" },
+	{ BALLOON_MODE_BUCSYS, CHARA_GIO,        0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    15, BALLOON_FRAME_TYPE_BUC,            "I see. Well, if there's still things I can help with...<CR>That reassures me.<CR>Ah, I have something important to tell you" },
+	{ BALLOON_MODE_BUCSYS, CHARA_GIO,        0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_BUC,            "Congratulations. Pursuing your dream<CR>is a wonderful thing" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_BUC,            "Thank you so much!<CR>Gio-san, would you like to eat something?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_GIO,        0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    18, BALLOON_FRAME_TYPE_BUC,            "Ah, absolutely..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_GIO,        0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    19, BALLOON_FRAME_TYPE_BUC,            "I would love to say that,<CR>but I don't know the first thing about pies.<CR>I'm not sure what to order" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    20, BALLOON_FRAME_TYPE_BUC,            "Then,<CR>I'll go make my recommendation.<CR>Please wait a moment" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_470_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_470",// Output file name
+	MZ02_470_EMS,           // Variable name
+};

@@ -1,0 +1,57 @@
+BalloonData YM07_180_EMS[] = {
+	// ▼Ａ１３Ｖに追加される導入イベント
+	// ▼過去に飛ばされる場面なので、舞台はＡ１３当時となる（アストリッドなどはロロナ時代ではなくメルル時代に合わせる）
+	// ▼メルルのアトリエ（？）で
+	// ▼ナレーション（メルルで）
+	{ BALLOON_MODE_CHARA,  CHARA_MERURU,     0, NAME_MERURU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "With the Rejuvenation Pill incident settled, Rorona returned to being her normal adult self." },
+	{ BALLOON_MODE_CHARA,  CHARA_MERURU,     0, NAME_MERURU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_NORMAL,         "Some time passed after that. One day, Astrid came to the Atelier." },
+	{ BALLOON_MODE_CHARA,  CHARA_MERURU,     0, NAME_MERURU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_NORMAL,         "Thinking back, this was the beginning of a new incident." },
+	{ BALLOON_MODE_CHARA,  CHARA_MERURU,     0, NAME_MERURU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_NORMAL,         "But at this point, no one yet knew what extraordinary events were about to unfold..." },
+	// ▼アストリッド登場
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Are my disciples here? Everyone, gather!" },
+	// ▼トトリ、メルルやってくる
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "What's wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I've finally created an item that enables time travel. Its name: the Dragon's Hourglass." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "The Dragon's Hourglass... Sounds amazing!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Where is Rorona?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Oh, Teacher Rorona is over there working on some synthesis. She seemed pretty busy..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Hmm, being so devoted to research is admirable. Well then, let's talk without Rorona. Things don't progress when she's around." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Let me explain about the Dragon's Hourglass. It's an item for time travel. It can jump to any time—past or future." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "You mentioned something like this before, but is it really possible?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Of course. With my skills, it's a piece of cake. I wonder how much trouble I went through from the idea to actually making it." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "For now, the function is set to travel to the past. It has the power to go wherever you like in the past or future, but right now it's set for the past." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Could it be that..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "The purpose behind creating this item was to meet young Rorona and dote on her. I have no need for the future." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "As I thought... You've been saying that all along, so I had a feeling it might be something like that." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Well, the effects are still unverified and it's still in the adjustment phase. We need to test it in stages." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Ahh, but it was difficult this time. I succeeded only because both my passion and talent were fully aligned." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "But now I can finally enjoy young Rorona to my heart's content. Ah, my heart races endlessly..." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Um, Astrid. Could I take a closer look at this hourglass?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Oh, I'd like to see more of it too!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Go ahead. It'll disappear once you use it, so take a good look before then." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Yay! ...Despite how it looks, it's really smooth and pleasant to the touch. It's so sleek..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "What's important in making it is the horn of an ancient dragon. This is what gives it that smoothness." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "You're right, it's incredibly smooth... Whoa, whoa, whoa!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "Handle it with care. Because..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Ah!!" },
+	// ▼竜の砂時計の粉砕する音、時間跳躍っぽい音と共に閃光が走り、トトリとメルルが消える
+	// ▼しばらく白画面
+	// ▼ゆっくりと元の画面に戻る
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "My, how impatient of them. To go ahead and leave me behind." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "I only made one of those hourglasses, and now there's no way back to the future." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "...Still, to actually travel to the past—truly, I am magnificent. My talent is fearsome even to myself." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "...Well then, there's no choice. I'll have to figure out how to rescue those two." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       34, BALLOON_FRAME_TYPE_BUC,            "But rescuing them right away would lack elegance. To test how much my dear disciples can endure..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "I've decided to help them out about a year later...?" },
+	// ▼ロロナ、遠くからやってくる感じで声だけがする
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "Excuse me~! I'm late~! Did you call me~?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       37, BALLOON_FRAME_TYPE_BUC,            "...The errand is already done." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM07_180_bda = {
+	"YM07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM07_180",// 出力ファイル名
+	YM07_180_EMS,           // 上記変数
+};

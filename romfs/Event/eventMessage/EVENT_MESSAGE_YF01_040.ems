@@ -1,0 +1,11 @@
+锘BalloonData YF01_040_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Save data for Rorona's Atelier was found." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You obtained Rorona's costume '<CLGR>Sailor Frill<CLNR>'." },
+};
+
+BALLOON_DATA_ALL YF01_040_bda = {
+	"YF01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YF01_040",// 出力ファイル名
+	YF01_040_EMS,           // 上記変数
+};

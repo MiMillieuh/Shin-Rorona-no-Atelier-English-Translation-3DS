@@ -1,0 +1,25 @@
+BalloonData WG01_022_EMS[] = {
+	// ▼ワールドマップで元気のない植物を発見
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Huh? The flowers around here seem kind of limp...<CR>Maybe I should sprinkle something on them?" },
+	// ▼選択肢「何かまいてみる/何もしない」
+	// ▼「何もしない」の時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Hmm... I'll skip it.<CR>Something weird might happen if I use the wrong stuff" },
+	// ▼「何かまいてみる」選択後、アイテムを選択
+	// ▼元気になった植物から、いい物を発見
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Great, it looks much healthier now.<CR>Oh, what's this..." },
+	// ▼危険な植物になった
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Oh no, something's wrong with it... eeeek!" },
+	// ▼危険な植物を返り討ちにした
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Oof, that was close...<CR>Yeah, dark water or whatever, never works, you know..." },
+	// ▼ちょっと元気になった植物から、いい物を発見
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Yeah, it's a little livelier now, I guess.<CR>Oh, is this..." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLGR>%s<CLNR> was obtained." },
+	// ▼
+};
+
+BALLOON_DATA_ALL WG01_022_bda = {
+	"WG01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_WG01_022",// 出力ファイル名
+	WG01_022_EMS,           // 上記変数
+};

@@ -1,0 +1,23 @@
+BalloonData QC06_200_EMS[] = {
+	// ▼
+	// ★※話しかけた時、仲間にしているなら採取に行った時でも
+	// ★その場合、出だしの台詞を変えないとダメ
+	// ★かつ、これ以前に課題とかで会うことがあったらキャンセル
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "...I showed you quite the embarrassing sight<CR>the other day. Regarding the King matter..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, no. Don't worry about it.<CR>That was the first time I saw Sterk like that,<CR>so I was just a little surprised" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "My training is lacking too, I suppose.<CR>I have this bad habit of getting carried away<CR>when I'm excited..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Haah... but are you really okay?<CR>I can't believe you talked to the King like that..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "He's that kind of person, so<CR>he doesn't mind such things" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Though he does have some awareness<CR>that he's been doing as he pleases<CR>and causing trouble" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I see. That's good to hear.<CR>I was saying all sorts of rude things too, so..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "It might be better for him<CR>if you tell him off like that once in a while" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "My scolding has no effect whatsoever,<CR>so hearing it from you would be better..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Ahaha... I'll keep that in mind" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_200_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_200",// 出力ファイル名
+	QC06_200_EMS,           // 上記変数
+};

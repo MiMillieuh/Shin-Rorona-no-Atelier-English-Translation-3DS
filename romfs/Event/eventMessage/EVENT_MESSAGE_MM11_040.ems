@@ -1,0 +1,11 @@
+﻿BalloonData MM11_040_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_CHARA,  CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "Dummy" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM11_040_bda = {
+	"MM11",                 // Output file path
+	"EVENT_MESSAGE_MM11_040",// Output file name
+	MM11_040_EMS,           // Above variable
+};

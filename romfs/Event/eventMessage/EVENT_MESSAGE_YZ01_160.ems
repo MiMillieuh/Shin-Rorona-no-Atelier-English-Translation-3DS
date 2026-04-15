@@ -1,0 +1,57 @@
+BalloonData YZ01_160_EMS[] = {
+	//  The situation with the person
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ah... The situation with the person is finally resolved!<CR>The future of alchemy is looking bright!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Yes... The situation is finally resolved.<CR>I think we can finally move forward." },
+	//  If the person encounters the problem
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "The person at the center is someone who gives everyone headaches,<CR>but I think this is what they needed...<CR>To find the right answer..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "I'll keep working hard to find the answer." },
+	//  Before the person encounters the problem
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "I think the situation is resolved.<CR>I'll keep working at it." },
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_NORMAL,         "I'm so happy~!!" },
+	//  Astrid is smiling
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Well, that's how it is." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Hmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L2,      -1, BALLOON_FRAME_TYPE_BUC,            "Hmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "The person at the center has finally found the answer,<CR>'I'm quite satisfied with this result'<CR>they said, and it seems like they finally understand now." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "I think the situation is finally resolved!<CR>I think we can finally move forward..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "I think the situation might be related to the person's health...<CR>But I think the person at the center is working hard...<CR>The situation is quite concerning..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Ah... If the person at the center is okay,<CR>then I think everything will be fine..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Well... I think the situation is finally resolved...<CR>I think everything will be fine...<CR>But I'm still quite concerned about the answer..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "I'm not sure about the name..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Hmm... I think I understand what's going on..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Why is this happening? I think we should work together..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L2,    4285, BALLOON_FRAME_TYPE_BUC,            "Ah. The future of alchemy." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Ah! I think I understand now!<CR>Ah, I think this is what I needed...!<CR>Oh, I think this is fine...!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "It's not a problem... The person at the center is fine, right?<CR>And now, I think everything will be fine..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Ah... The person at the center is... working hard...!<CR>Ah, I think we might be able to find the answer...!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Hmm... The path ahead is quite long..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L2,      -1, BALLOON_FRAME_TYPE_BUC,            "Hmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "I think the situation is finally resolved!<CR>I think everything will be fine! The future of alchemy is looking bright!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "I think the person at the center is someone who gives everyone headaches,<CR>and now I think they finally understand the importance of working hard..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "The person at the center has finally found the answer,<CR>and I think they might have finally understood the importance of working hard..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "I'm so happy...! Ah..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "I understand now!<CR>The person at the center has finally found the answer to the problem!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "I'm so happy...! Ah...!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "Hmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "Ah..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "And now, the person at the center is the only one who can do this,<CR>but I think they might be the only one who can achieve the goal..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "I think the situation is finally resolved..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "Yes, I think I understand now... I think the situation might be resolved...<CR>But I think we should keep working hard..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       34, BALLOON_FRAME_TYPE_BUC,            "Well... I think everything will be fine..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "Hmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_R,       36, BALLOON_FRAME_TYPE_BUC,            "Yes... I think the situation is finally resolved...<CR>But I think we should keep working hard..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,       37, BALLOON_FRAME_TYPE_BUC,            "Ah... I think I understand now..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_R,       38, BALLOON_FRAME_TYPE_BUC,            "Yes... Yes... Hmm...<CR>Ah..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_R,       39, BALLOON_FRAME_TYPE_BUC,            "Yes! This is the answer I've been waiting for!<CR>This is the answer...!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       40, BALLOON_FRAME_TYPE_BUC,            "This is not the answer... This is the only way to find the answer.<CR>The person at the center is finally able to move forward..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_R,       41, BALLOON_FRAME_TYPE_BUC,            "Ah... The situation is finally resolved...!<CR>Ah..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L,       42, BALLOON_FRAME_TYPE_BUC,            "I think the situation is finally resolved..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_R,       43, BALLOON_FRAME_TYPE_BUC,            "Ah...!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YZ01_160_bda = {
+	"YZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YZ01_160",// 出力ファイル名
+	YZ01_160_EMS,           // 上記変数
+};

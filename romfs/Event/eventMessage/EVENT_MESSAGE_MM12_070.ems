@@ -1,0 +1,39 @@
+﻿BalloonData MM12_070_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     1991, BALLOON_FRAME_TYPE_BUC,            "Tomorrow is the results announcement...<CR>Whether I pass or fail, tomorrow it all ends..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,     1992, BALLOON_FRAME_TYPE_BUC,            "Uuuu...<CR>I'm so nervous I can't calm down..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,     1993, BALLOON_FRAME_TYPE_BUC,            "No, no, no! I can't just sit still!<CR>Let me go take a little walk!" },
+	// ▼Rorona comes to Ikusel's shop
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2013, BALLOON_FRAME_TYPE_BUC,            "Good evening~" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_R,     2014, BALLOON_FRAME_TYPE_BUC,            "Ah, sorry. We're closed for the night...<CR>Oh, it's you. What's wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,     2015, BALLOON_FRAME_TYPE_BUC,            "Ahaha...<CR>I was just so nervous, I ended up coming here" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,     2016, BALLOON_FRAME_TYPE_BUC,            "Ah right. Isn't tomorrow the announcement?<CR>Are you that nervous?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,     2017, BALLOON_FRAME_TYPE_BUC,            "It's not that I'm worried or anything,<CR>but my chest and head feel all fuzzy..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_AKI,      BUC_POSITION_TYPE_R,     2018, BALLOON_FRAME_TYPE_BUC,            "...Sorry. I don't really get it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,     2019, BALLOON_FRAME_TYPE_BUC,            "Yeah. Even I don't really<CR>understand what I'm saying..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,     2020, BALLOON_FRAME_TYPE_BUC,            "No point thinking about it this and that now.<CR>The results aren't going to change either way" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,     2021, BALLOON_FRAME_TYPE_BUC,            "Here, drink this and go straight home to bed" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2022, BALLOON_FRAME_TYPE_BUC,            "Oh, hot milk. Thanks" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,     2023, BALLOON_FRAME_TYPE_BUC,            "When you can't sleep, this is the best thing.<CR>If I added a bit more, it could be alcohol" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,     2024, BALLOON_FRAME_TYPE_BUC,            "Huh? But why did you make hot milk?<CR>Did you know I was coming?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_KOMA,     BUC_POSITION_TYPE_R,     2025, BALLOON_FRAME_TYPE_BUC,            "That's... um, you see...<CR>I just couldn't sleep either" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,     2026, BALLOON_FRAME_TYPE_BUC,            "Ikusel-kun too? Is something happening tomorrow?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_IKA,      BUC_POSITION_TYPE_R,     2027, BALLOON_FRAME_TYPE_BUC,            "No, nothing for me...<CR>Ah! Just drink it already!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,     2028, BALLOON_FRAME_TYPE_BUC,            "Y-yes!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2029, BALLOON_FRAME_TYPE_BUC,            "Slurp, slurp... phew, thanks for the meal" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,     2030, BALLOON_FRAME_TYPE_BUC,            "Good. Now you should be able to sleep tight.<CR>Be careful on your way back" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,     2031, BALLOON_FRAME_TYPE_BUC,            "Yeah. Thanks, Ikusel-kun" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,     2032, BALLOON_FRAME_TYPE_BUC,            "It's nothing, it's nothing. See you tomorrow" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,     2033, BALLOON_FRAME_TYPE_BUC,            "Yeah, good night" },
+	// ▼Rorona leaves
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,     2034, BALLOON_FRAME_TYPE_BUC,            "...Yeah, that's right. She's probably<CR>tens of times more nervous than me" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,     2035, BALLOON_FRAME_TYPE_BUC,            "Now then, time to remake mine..." },
+	// ▼Long fade to black, then next event
+	// ▼
+};
+
+BALLOON_DATA_ALL MM12_070_bda = {
+	"MM12",                 // Output file path
+	"EVENT_MESSAGE_MM12_070",// Output file name
+	MM12_070_EMS,           // Above variable
+};

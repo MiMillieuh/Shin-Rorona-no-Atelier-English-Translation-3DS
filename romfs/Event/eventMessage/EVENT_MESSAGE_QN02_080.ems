@@ -1,0 +1,32 @@
+﻿BalloonData QN02_080_EMS[] = {
+	// ★※どうでもいいイベントの一つ
+	// ★戦闘でホムのスキルを使った時に、極めて低確率で発生
+	// ▼採取中ホムのスキルを使って、アトリエに戻ってきた時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "I'm home~.<CR>...Hm? What... what's this?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Back already?<CR>No souvenir for me,<CR>who so dutifully watched the house?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Of course not, really.<CR>More importantly, Master, have you seen Hom-chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Wasn't it with you?<CR>A few days ago, you called for it,<CR>and it flew off — hasn't been back since." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "I called for it...?<CR>Oh! Could it be... that time!?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "If it's not with you,<CR>then I suppose it's gotten lost somewhere." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Good grief. Capable as it seems,<CR>it's still just a child." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "This is no time to be so casual!<CR>We need to go search for it now!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Don't be reckless when you don't even know where it is." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "It'll be fine. Hom's homing instinct<CR>far surpasses any ordinary wild creature.<CR>It'll find its way back before long." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "I hope you're right... I'm so worried.<CR>What if it's all alone and crying...?" },
+	// ▼ふらふらとどこかへ行くロロナ
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Though, it was precisely its homing instinct going haywire<CR>that caused it to get lost in the first place..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Hmm. I'll have a look at it once it returns." },
+	// ▼一方、どこかの採取地を一人とことこ歩いているホム
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Hom doesn't know which way the town is...<CR>Which direction should Hom<CR>be walking...?" },
+	// ▼カラスかふくろうの鳴き声が聞こえてくる（夜にできればふくろう
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "...Is this perhaps what they call<CR>the feeling of loneliness, Master...?" },
+	// ▼黒画面に。そのままシステムメッセージで一言
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Some time later, Hom-chan returned<CR>safely to the Atelier" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN02_080_bda = {
+	"QN02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN02_080",// 出力ファイル名
+	QN02_080_EMS,           // 上記変数
+};

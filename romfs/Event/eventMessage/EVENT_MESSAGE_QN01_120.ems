@@ -1,0 +1,32 @@
+BalloonData QN01_120_EMS[] = {
+	// ▼賢者のパイを最初に作った時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "I did it, I did it, Master!<CR>It's the Sage's Pie!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Ah... to think you'd actually make it" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Using the Sage's Stone, the ultimate goal of alchemy,<CR>as a pie ingredient..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "If the Sage's Stone is the ultimate goal for alchemists,<CR>then the Sage's Pie is the ultimate goal for pie artisans!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "I don't care if all the pie artisans in the world get angry.<CR>...So, can you eat this?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "I don't know.<CR>I just wanted to try making it" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Don't 'just try' making something that's your ultimate goal.<CR>Honestly, when it comes to pies,<CR>you really show your true big-shot nature" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Well, you can eat it. Probably.<CR>It is a pie, after all" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "But there's a stone on top of it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Well, that's true..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Can you eat it or not?<CR>Can you eat it or not?<CR>Are you really able to eat it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Uwwww...<CR>Alright! A bold woman has no fear!!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Oh, going for it all at once!?" },
+	// ▼がぽつきと音がなる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "...!?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Ah... are you okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "...*sniffle*. My teeth ith brofen..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Well, what did you expect<CR>when you bit down on a stone" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Waaaaaah!<CR>It tho huth tho painthuth!!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "There there, don't cry.<CR>I'll make you a false tooth right away" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "...But I'd like to hear<CR>that lispy crying voice a little more" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "thut up and fix my teeth already!<CR>It really hurthuth!!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_120_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_120",// 出力ファイル名
+	QN01_120_EMS,           // 上記変数
+};

@@ -1,0 +1,145 @@
+BalloonData MM08_250_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX9,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Rorona-chan wins~!<CR>The champion is Rorona-chan!!" },
+	// ▼Applause and cheers
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Huh? Oh, I won...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX8,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Congratulations!<CR>Rorona-chan, want to say a few words!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Huh? Ah, um, being put on the spot like this...<CR>Um, um..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Anything is fine! For example..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX10,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Like saying all the men in this country are worthless bugs,<CR>or that anyone who wants to fight me should come at me anytime" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I-I don't think that at all!" },
+	// ▼If first met Gio in the finals, branches here. See below for continuation
+	// ★------------------------------------------------
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX8,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Ahaha, just kidding~" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX7,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Now then, the champion Rorona-chan receives,<CR>the Sun Cloak as a prize and..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX8,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Also, let's see...<CR>She receives the title 'Iron-Arm Stronggirl.'<CR>Applause~!" },
+	// ▼Applause and cheers
+	// ▼If won championship last year
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Wha!? Why do I get that title again!?" },
+	// ▼If didn't win last year
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Wh-what is that 'something-girl' title!?" },
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX7,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "And so, the main event<CR>of this year's festival is over!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX8,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Now then, everyone!<CR>Please enjoy the rest of the festival~!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Hey, don't ignore me!<CR>Esty-saaan!" },
+	// ▼After long black screen, reunites with first companion
+	// ★------------------------------------------------
+	// ▼With Cuderia
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_WARA,   BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Hey, that's amazing!<CR>Winning the championship and everything!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Ah, haha...<CR>I was just desperately fighting" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "The girl who used to cry over ant bites,<CR>I can't believe it...<CR>People really change" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Don't bring up the old days!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Really? I think it's quite dramatic" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "The girl who was weaker than ants worked hard,<CR>and finally won the martial arts tournament..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "I'm seriously going to get mad!" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_WARA,   BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "I'm just kidding, I'm sorry" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_WARA,   BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Let's go get some food somewhere.<CR>To celebrate your victory" },
+	// ▼
+	// ★------------------------------------------------
+	// ▼With Ixcel
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Wow, Rorona! When did you get so strong!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "No, I just happened to win...<CR>And it's not like it was a fight..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "Hey, you should fight me next.<CR>If I beat you, that makes me the strongest in the country" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "Eh? No way!<CR>Fighting Ixcel-kun is..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Why not? Wait, you're planning on running away after your victory, aren't you!<CR>That's unfair!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "It's not that I'm running away,<CR>I just don't want to!<CR>I'm leaving now, okay!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "Hey, wait! We were going to look around the festival together,<CR>remember?! Hey, Rorona!" },
+	// ▼
+	// ★------------------------------------------------
+	// ▼With Sterk
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "Haah, that was embarrassing...<CR>I never thought I'd actually win.<CR>I even beat Sterk-san..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "So you were here" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "Hyah!? S-Sterk-san?<CR>Why are you here..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       34, BALLOON_FRAME_TYPE_BUC,            "I didn't have time to exchange words earlier,<CR>so I came to tell you something<CR>before I left..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_TERE,     BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "So, um...<CR>Congratulations" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "Th-thank you!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       38, BALLOON_FRAME_TYPE_BUC,            "Um, Sterk-san...?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       39, BALLOON_FRAME_TYPE_BUC,            "...I'm impressed.<CR>I thought I was always protecting you,<CR>but at some point, the tables turned" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       40, BALLOON_FRAME_TYPE_BUC,            "That's not true!<CR>It was just luck! So, um..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       41, BALLOON_FRAME_TYPE_BUC,            "There's no need to be modest. Your strength is real" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,       42, BALLOON_FRAME_TYPE_BUC,            "Or perhaps,<CR>were you trying to comfort me?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       43, BALLOON_FRAME_TYPE_BUC,            "That's not what I meant,<CR>it's just... uuu..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       44, BALLOON_FRAME_TYPE_BUC,            "Well, I do have some pride.<CR>I won't accept staying at my current level. From now on,<CR>I plan to train my sword skills with you as my goal" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_TERE,     BUC_POSITION_TYPE_R,       45, BALLOON_FRAME_TYPE_BUC,            "...Because it would be lonely<CR>if you didn't need me anymore" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       46, BALLOON_FRAME_TYPE_BUC,            "No way, I'd never need you to be my goal or anything<CR>embarrassing... Eh? What was that last part?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       47, BALLOON_FRAME_TYPE_BUC,            "Now then, I'll get back to work.<CR>Enjoy the rest of the festival. Farewell" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       48, BALLOON_FRAME_TYPE_BUC,            "Ah, Sterk-san!<CR>What did you say at the end!?" },
+	// ▼
+	// ★------------------------------------------------
+	// ▼With Lionela
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,       49, BALLOON_FRAME_TYPE_BUC,            "Nice one! Stronggirl!" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      50, BALLOON_FRAME_TYPE_BUC,            "Congratulations!<CR>That's amazing, winning the whole thing" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_WARA,   BUC_POSITION_TYPE_R,       51, BALLOON_FRAME_TYPE_BUC,            "I-I was so moved! Rorona-chan, you're amazing!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       52, BALLOON_FRAME_TYPE_BUC,            "You're exaggerating. But thanks" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_SIN,    BUC_POSITION_TYPE_R,       53, BALLOON_FRAME_TYPE_BUC,            "...If I could be like Rorona-chan,<CR>then maybe..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       54, BALLOON_FRAME_TYPE_BUC,            "Eh? What?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_TERE,   BUC_POSITION_TYPE_R,       55, BALLOON_FRAME_TYPE_BUC,            "I-it's nothing!<CR>Hey, Rorona-chan, are you tired?<CR>W-want to rest somewhere?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       56, BALLOON_FRAME_TYPE_BUC,            "Ah, yeah. I'm a bit tired.<CR>I'm hungry too..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_HOHO,   BUC_POSITION_TYPE_R,       57, BALLOON_FRAME_TYPE_BUC,            "Then let's go.<CR>I found a shop that looks good over there..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       58, BALLOON_FRAME_TYPE_BUC,            "O-okay.<CR>Lio-chan, don't pull me so hard!" },
+	// ★Clear Rorona and Lionela's BUC
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,       59, BALLOON_FRAME_TYPE_BUC,            "My, my, she got pretty proactive" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      60, BALLOON_FRAME_TYPE_BUC,            "I think watching her role model got her inspired.<CR>That's a good influence" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,       61, BALLOON_FRAME_TYPE_BUC,            "She's going overboard a little though..." },
+	// ▼
+	// ★------------------------------------------------
+	// ▼With Tantris
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       62, BALLOON_FRAME_TYPE_BUC,            "Congratulations. That was impressive" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       63, BALLOON_FRAME_TYPE_BUC,            "The way you fought was as majestic as a war goddess<CR>praised in myths, elegant and..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       64, BALLOON_FRAME_TYPE_BUC,            "N-no, it wasn't that great!<CR>I was just wildly swinging my weapon!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       65, BALLOON_FRAME_TYPE_BUC,            "Is that so? Then watching you swing your weapon around<CR>was like seeing a lovely fairy or magical girl,<CR>dreamlike and..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       66, BALLOON_FRAME_TYPE_BUC,            "That's not... wait,<CR>what you're saying makes no sense at all!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       67, BALLOON_FRAME_TYPE_BUC,            "Words are merely decoration in the end.<CR>You enchanted everyone in the arena.<CR>That is the only truth" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       68, BALLOON_FRAME_TYPE_BUC,            "Uuuu... enough!<CR>Please stop!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       69, BALLOON_FRAME_TYPE_BUC,            "My apologies.<CR>Shall we get some food somewhere?<CR>To celebrate your victory... come now, cheer up" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       70, BALLOON_FRAME_TYPE_BUC,            "...Please stop making fun of me" },
+	// ▼
+	// ★------------------------------------------------
+	// ▼With Gio
+	// ▼When first opponent was Gio in finals
+	// ▼Voice echoes from somewhere
+	{ BALLOON_MODE_BUCSYS, CHARA_BOSS_EVENT_GIO,0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    71, BALLOON_FRAME_TYPE_BUC,            "Ho~? Could this be a challenge to me?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       72, BALLOON_FRAME_TYPE_BUC,            "...Who's there?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,       73, BALLOON_FRAME_TYPE_BUC,            "Wait, what?<CR>I didn't plan for this kind of drama!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_BOSS_EVENT_GIO,0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    74, BALLOON_FRAME_TYPE_BUC,            "You seem to have some skill,<CR>but I can't exactly let someone claim to be<CR>the strongest so easily..." },
+	{ BALLOON_MODE_BUC,    CHARA_BOSS_EVENT_GIO,0, NAME_NAZO,        BUC_GIO_EX2,        BUC_POSITION_TYPE_R2,      75, BALLOON_FRAME_TYPE_BUC,            "If you want to call yourself the strongest,<CR>defeat me first!" },
+	// ▼Masked Gio appears
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       76, BALLOON_FRAME_TYPE_BUC,            "Eek!<CR>What's this, Esty-san!?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,       77, BALLOON_FRAME_TYPE_BUC,            "What! You're ruining the event I planned so carefully..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,       78, BALLOON_FRAME_TYPE_BUC,            "Wait, aah!<CR>What are you doing here!?" },
+	{ BALLOON_MODE_BUC,    CHARA_BOSS_EVENT_GIO,0, NAME_NAZO,        BUC_GIO_EX3,        BUC_POSITION_TYPE_R2,      79, BALLOON_FRAME_TYPE_BUC,            "Gah! W-wait, was I found out?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,       80, BALLOON_FRAME_TYPE_BUC,            "Of course you'd be found out!<CR>Were you even trying to hide in the first place!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       81, BALLOON_FRAME_TYPE_BUC,            "Um, are you two... acquaintances?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       82, BALLOON_FRAME_TYPE_BUC,            "Acquaintances? More like...<CR>But Rorona-chan, you even..." },
+	{ BALLOON_MODE_BUC,    CHARA_BOSS_EVENT_GIO,0, NAME_NAZO,        BUC_GIO_EX2,        BUC_POSITION_TYPE_R2,      83, BALLOON_FRAME_TYPE_BUC,            "W-wait!<CR>Look, everyone's watching.<CR>Wouldn't it be better to keep this quiet...? You know?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       84, BALLOON_FRAME_TYPE_BUC,            "That's... I suppose you're right... but still" },
+	{ BALLOON_MODE_BUC,    CHARA_BOSS_EVENT_GIO,0, NAME_NAZO,        BUC_GIO_EX1,        BUC_POSITION_TYPE_R2,      85, BALLOON_FRAME_TYPE_BUC,            "Please. Hear me out on this one" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       86, BALLOON_FRAME_TYPE_BUC,            "Um, what are you two talking about?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       87, BALLOON_FRAME_TYPE_BUC,            "Ahem" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX10,     BUC_POSITION_TYPE_R,       88, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Ohoho~!<CR>Here's the surprise challenger~!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX10,     BUC_POSITION_TYPE_R,       89, BALLOON_FRAME_TYPE_BUC,            "Now then, Rorona-chan!<CR>As the champion, will you accept<CR>this challenge or not!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       90, BALLOON_FRAME_TYPE_BUC,            "Eh!? Why now!? And who's this 'mysterious challenger'..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX7,      BUC_POSITION_TYPE_R,       91, BALLOON_FRAME_TYPE_BUC,            "Oh my.<CR>You do need a name for this, don't you.<CR>This person is the 'Masked Swordsman, Mask de G'!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       93, BALLOON_FRAME_TYPE_BUC,            "Mask de G!?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO_B,       BUC_GIO_EX1,        BUC_POSITION_TYPE_R2,      94, BALLOON_FRAME_TYPE_BUC,            "...Couldn't they have thought of a better name" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       95, BALLOON_FRAME_TYPE_BUC,            "You're not in a position to complain!<CR>Now then, you two, get ready!<CR>We're starting right now!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       96, BALLOON_FRAME_TYPE_BUC,            "Are we really doing this?<CR>I don't understand what's going on..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO_B,       BUC_GIO_EX4,        BUC_POSITION_TYPE_R2,      97, BALLOON_FRAME_TYPE_BUC,            "Prepare yourself.<CR>Being the strongest means accepting<CR>any challenge, at any time" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       98, BALLOON_FRAME_TYPE_BUC,            "I never said I was the strongest!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX8,      BUC_POSITION_TYPE_R,       99, BALLOON_FRAME_TYPE_BUC,            "Everyone, your attention please!<CR>The Martial Arts Tournament Extra Match,<CR>begins now!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO_B,       BUC_GIO_EX2,        BUC_POSITION_TYPE_R2,     100, BALLOON_FRAME_TYPE_BUC,            "Now then, let us begin... as equals... I shall strike!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,      101, BALLOON_FRAME_TYPE_BUC,            "Aaaah! Whatever!" },
+	// ▼Event battle
+	// ▼Branches based on win/lose
+	// ★------------------------------------------------
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLGR>Sun Cloak<CLNR> acquired." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM08_250_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_250",// Output file name
+	MM08_250_EMS,           // Variable above
+};

@@ -1,0 +1,29 @@
+﻿BalloonData QN03_096_EMS[] = {
+	// ★※ベルベットドレスのイベントを見ていることを条件に
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh my... this is quite the flashy dress..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Heh heh, by now you've figured out<CR>what kind of person I am" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I went all out with my best design...<CR>So? Do you like it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Hmm...<CR>I hate to say it, but it's a bit too flashy" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "You don't understand. A girl's dress<CR>needs to be this flashy, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "But look at all these thorns—<CR>it'd hurt to wear this" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "That's the craftsman's pride, you know.<CR>Without the thorns, what's the point<CR>of calling it a rose?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "But I'd have to fight and work<CR>wearing this, so when I think about it..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_IKA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC_SHOUT,      "...Wha-wha-wha!<CR>You've been complaining this whole time!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Waaah! Pops, don't get so upset...<CR>S-Sorry! I went too far!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Argh, fine, fine.<CR>My designs are second-rate anyway!<CR>Just barely better than amateur work!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_IKA,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Huh? Wait. 'Better than amateur?'<CR>Hey! Was that a jab at me!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "I-I didn't say that—you did!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "If that's how it's gonna be, I've got my pride too.<CR>I do, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Next time, I'll make something so perfect<CR>you won't be able to say a single word against it!<CR>Beware!" },
+	// ▼怒って立ち去るハゲル
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Ah, pops!<CR>...Sigh, I really upset him" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Pops is surprisingly sensitive...<CR>About his hobby, about his head..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN03_096_bda = {
+	"QN03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN03_096",// 出力ファイル名
+	QN03_096_EMS,           // 上記変数
+};

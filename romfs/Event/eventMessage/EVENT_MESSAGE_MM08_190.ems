@@ -1,0 +1,77 @@
+BalloonData MM08_190_EMS[] = {
+	// ▼After the above, moves to the event venue continuously
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "Wow, so many people are gathered here.<CR>What are they doing this year...?" },
+	// ▼Rorona suddenly gets hugged by Esty
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Found you~!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "Hyaaaah!?<CR>E-Esty-san!?" },
+	// ▼Branches based on companion
+	// ★------------------------------------------------
+	// ▼With Cuderia
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Cuderia-chan is here too, huh?<CR>Hello~" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "H-hey!<CR>Stop hugging Rorona without permission!<CR>Let go already!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "You got mad. But I'm not letting go~.<CR>The event won't get exciting unless<CR>young people participate" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "Huh? An event...<CR>Where are you taking me!?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Hey! I said let go!!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Sorry~.<CR>You're the last one, Rorona-chan.<CR>Cuderia-chan, cheer them on from there" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "What's with this nonsense...<CR>H-hey! Wait!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L2,      10, BALLOON_FRAME_TYPE_BUC,            "K-Ku-chan! Help me~!" },
+	// ▼
+	// ★------------------------------------------------
+	// ▼With Ixcel
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Ixcel-kun is here too, huh?<CR>Hello~" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Hey there.<CR>Esty-san's in a good mood, huh" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Of course~ It's the festival, after all.<CR>If we're not having fun, what's the point?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "So anyway, I'm borrowing Rorona-chan~" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "That's totally fine with me.<CR>Just bring her back in one piece" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L2,      16, BALLOON_FRAME_TYPE_BUC,            "Don't just lend me out!<CR>Where are you taking me?<CR>Ixcel-kun, help!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Sorry. Esty-san's one of our best customers,<CR>so I can't refuse" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Well, I don't know what they'll do to you,<CR>but good luck!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L2,      19, BALLOON_FRAME_TYPE_BUC,            "S-so mean...<CR>Nooooo, let me gooo!!" },
+	// ▼
+	// ★------------------------------------------------
+	// ▼With Lionela
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Lionela-chan is here too, huh?<CR>Hello~" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Oh, hello..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Sorry to interrupt your little date,<CR>but can I borrow Rorona-chan for a bit?<CR>I'll bring her back, promise" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_TERE,   BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "P-please do!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Thanks~.<CR>Now then, Rorona-chan, here we go~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L2,      25, BALLOON_FRAME_TYPE_BUC,            "S-so!<CR>Where are you taking me!?<CR>Lio-chan!" },
+	// ▼Rorona is taken away
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "Ah, Rorona-chan...<CR>W-what should I do!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      27, BALLOON_FRAME_TYPE_BUC,            "What do you mean, what should you do...<CR>Just wait for her to come back?<CR>You did invite her, after all" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "I-I just said it on impulse... uuu, I'm sorry" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "There goes the chance to hang out alone<CR>with her friend" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "Muu... my bad..." },
+	// ▼
+	// ★------------------------------------------------
+	// ▼With Tantris
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "Oh? And who is this...<CR>Could this be a date?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L2,      32, BALLOON_FRAME_TYPE_BUC,            "N-no! That's not it!<CR>It's not a date or anything!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "Your denial is rather forceful...<CR>Nice to meet you" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       34, BALLOON_FRAME_TYPE_BUC,            "Nice to meet you? Have we met before...?<CR>Oh well, never mind" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "If it's not a date,<CR>then I can borrow Rorona-chan, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "I couldn't refuse such a beautiful lady.<CR>Please do bring her back safely" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       37, BALLOON_FRAME_TYPE_BUC,            "I'll make that promise.<CR>Now then, let's go~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L2,      38, BALLOON_FRAME_TYPE_BUC,            "S-so!<CR>Where are you taking me!?" },
+	// ▼Rorona is taken away
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,       39, BALLOON_FRAME_TYPE_BUC,            "Please don't hold it against me.<CR>It'd be troublesome if she found out" },
+	// ▼
+	// ★------------------------------------------------
+	// ▼With Sterk or Gio
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       40, BALLOON_FRAME_TYPE_BUC,            "Ahh, how nice~.<CR>Hearing Rorona-chan's screams<CR>really makes it feel like a festival" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L2,      41, BALLOON_FRAME_TYPE_BUC,            "W-why is my scream what makes it feel like a festival!?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       42, BALLOON_FRAME_TYPE_BUC,            "Just a feeling, just a feeling.<CR>Now then, shall we?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       43, BALLOON_FRAME_TYPE_BUC,            "The event won't get exciting unless<CR>young girls participate" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L2,      44, BALLOON_FRAME_TYPE_BUC,            "Huh? Where are we going...<CR>Wait!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       45, BALLOON_FRAME_TYPE_BUC,            "Don't worry, it'll be fine.<CR>Here we go~! Rorona-chan, one~!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L2,      46, BALLOON_FRAME_TYPE_BUC,            "I have a really bad feeling about this...<CR>Nooooo, let me gooo!!" },
+	// ▼
+	// ★------------------------------------------------
+	// ▼
+};
+
+BALLOON_DATA_ALL MM08_190_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_190",// Output file name
+	MM08_190_EMS,           // Variable above
+};

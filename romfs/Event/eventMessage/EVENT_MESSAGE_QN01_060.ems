@@ -1,0 +1,36 @@
+BalloonData QN01_060_EMS[] = {
+	// ▼全てのおいしいパイを高品質で作った時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Yeah, this turned out great too. Perfect!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Maybe I'm actually amazing...<CR>There's no pie I can't make!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "...That might be getting a bit ahead of myself" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Indeed. That giddy excitement of yours<CR>is a bit much" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Waaaaah!? W-were you watching!?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Yes, I was watching. You were expressing your joy,<CR>spinning around with a proud smile,<CR>I'll have you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I-I wasn't spinning!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "But to be satisfied with just this,<CR>your pride as a pie artisan<CR>doesn't seem to be that high" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Excuse me? What do you mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Hehe, you got spirited up for once" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Well then, let me say this about this pie...<CR>It's well made, but after all, it's just a normal pie" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "A normal...? <CR>Well, yeah. That's obvious.<CR>I made a normal pie after all" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "You're satisfied with making something ordinary?<CR>Don't you want to create something<CR>that only you can make?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Eh...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "That's all I have to say.<CR>Consider this my fee for the advice" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Oh no!<CR>I was going to have that for today's snack!" },
+	// ▼そのまま立ち去る師匠
+	// ▼作ったパイを持っていかれる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Uuu, she took it..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "But I wonder what she meant.<CR>Something only I can make...<CR>Well, besides pie-making, I can't do anything else..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Could it be... alchemy?<CR>But I'm already making pies with alchemy...<CR>Ah! That's not it, is it!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Something more like...<CR>Something only alchemy can do...<CR>Yeah! I feel like I might be onto something!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "When I decide on something, I act fast!" },
+	// ▼錬金術っぽいパイのレシピが４つ追加される
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You obtained the reference book \"<CLGR>Alchemy Pie<CLNR>\"." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_060_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_060",// 出力ファイル名
+	QN01_060_EMS,           // 上記変数
+};

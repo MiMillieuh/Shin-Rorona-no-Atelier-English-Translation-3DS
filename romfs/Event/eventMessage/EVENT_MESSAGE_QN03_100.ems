@@ -1,0 +1,21 @@
+BalloonData QN03_100_EMS[] = {
+	// ★※ハゲルがカツラの怪我から治って、しばらくしてからハゲルの店に行った時
+	// ▼ハゲルの店の前にて
+	{ BALLOON_MODE_BUCSYS, CHARA_HAGERU,     0, NAME_HAGERU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_BUC,            "Hmph...haah...woof...!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Eh? W-What's with this voice...Papa?" },
+	// ▼店の中を覗き込むロロナ
+	// ▼店内にて、カツラをかぶって歩いているハゲル
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_EX12,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "...Eighteen...! Nineteen...<CR>One hundred...!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_EX7,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Haah...haah...! O-Okay. Held out for a hundred seconds..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_EX9,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "But to master this wig...<CR>still not enough...<CR>Alright! I'll keep going, another hundred seconds!" },
+	// ▼ロロナに戻って
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "...I'd be in the way.<CR>Yeah. Let's head home today..." },
+	// ▼その日一日、武器屋利用不可に
+	// ▼
+};
+
+BALLOON_DATA_ALL QN03_100_bda = {
+	"QN03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN03_100",// 出力ファイル名
+	QN03_100_EMS,           // 上記変数
+};

@@ -1,0 +1,18 @@
+BalloonData MM08_150_EMS[] = {
+	// ▼With Sterk
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, Sterk-san. Hello~" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, is that you? Have you just arrived?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Yes. Um,<CR>are you still working, Sterk-san?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Work is work, I suppose.<CR>Esty told me to participate in<CR>the main event" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Ohh...<CR>What's this year's event?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "That'll be a surprise when you get there.<CR>Well then, see you later" },
+	// ▼Sterk leaves
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I wonder what it is...<CR>Alright, let me go check it out" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM08_150_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_150",// Output file name
+	MM08_150_EMS,           // Variable above
+};

@@ -1,0 +1,23 @@
+﻿BalloonData YM07_030_EMS[] = {
+	// ▼送られてきた手紙が発生している、多少時間経過後
+	// ●イベント発生後、いくつかの新規アイテムレシピゲット
+	// ▼メルルに話しかけると発生
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hey, Meruru-chan.<CR>I have a question." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, yes? What is it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "You said you came from the future,<CR>but what's alchemy like there?<CR>Are there any new items?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KOMA,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I mean, it's not that far in the future or anything." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Let me think... I can't really tell<CR>which items are new and which existed<CR>in this era..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "...This area might be relatively new?<CR>I was told that before." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Wow~ I've never seen any of these items before!<CR>Amazing!" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "I know the recipes too!<CR>Like this one..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Thanks, Meruru-chan!<CR>Alright, let me try making some!" },
+	// ▼必要に応じてこのあとレシピ入手のシステムメッセージ
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Received the reference book<CR>\"<CLGR>Meruru's Item Notes<CLNR>\" and<CR>the reference book \"<CLGR>Meruru's Accessory Notes<CLNR>\"." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM07_030_bda = {
+	"YM07",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM07_030",// 出力ファイル名
+	YM07_030_EMS,           // 上記変数
+};

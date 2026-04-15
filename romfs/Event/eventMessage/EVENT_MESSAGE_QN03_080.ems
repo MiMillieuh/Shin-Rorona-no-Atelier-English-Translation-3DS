@@ -1,0 +1,32 @@
+﻿BalloonData QN03_080_EMS[] = {
+	// ▼↑の後、一定期間経過
+	// ▼主人公がアトリエにいる時
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Hey, sorry to bother you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Pops! Are you doing better now?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Yep, I'm fit as a fiddle.<CR>Been taking it easy for a while now,<CR>but I'm back to work today" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "...Sorry for all the trouble I caused you.<CR>And you did such good work too..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "No way! If anything, I should be apologizing" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Nah. It's all because my neck was too weak.<CR>Man, that was pathetic" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "But I mean, if anyone wore it—" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "But I'm not giving up.<CR>I'm gonna train this body from scratch,<CR>and I'll be able to wear that wig yet" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Anyway, I'm late with this, but<CR>this is my thanks for the job" },
+	// ▼謝礼を受け取る
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Ehhh? I can't accept this!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "What are you talking about?<CR>You did a real job, all on your own.<CR>Don't hold back, just take it" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Alright then, if you need anything else, come by anytime!" },
+	// ▼立ち去るハゲル
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Uwaah... I feel so guilty..." },
+	// ▼やっぱりひょっこりいる師匠
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "The man is genuinely happy about it.<CR>There's no need to dwell on it" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "One day, when he can wear it proudly,<CR>and stride through town in confidence—<CR>let's look forward to that, shall we?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Seeing him like that in town...<CR>Uuu, I feel even worse now..." },
+	// ▼イベント結果：武器屋が営業再開
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLGR> Received 3000 cole <CLNR>." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN03_080_bda = {
+	"QN03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN03_080",// 出力ファイル名
+	QN03_080_EMS,           // 上記変数
+};

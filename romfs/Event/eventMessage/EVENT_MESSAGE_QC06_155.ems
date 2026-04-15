@@ -1,0 +1,38 @@
+BalloonData QC06_155_EMS[] = {
+	// ▼勝利後イベントの関係で発生する洛ロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Haah... w-we somehow won..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Thanks to your help. My gratitude" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "No, not at all...<CR>Um, what do we do with these people?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "They won't be moving for a while.<CR>I'll send someone from the castle to..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_BUC,            "...Where is it?... Where are you!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Huh, that voice... Sterk!?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Darn, he's already caught on.<CR>We took a bit too long" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Eh? What do you mean?" },
+	// ▼ステルクが走ってやってくる
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "Hah... hah... I found you!<CR>What are you doing here! You there!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Hyah! S-sorry!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_L2,      10, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Were you with him too?<CR>Why didn't you stop him!?<CR>Why didn't you tell me!?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Hey, don't yell so loud.<CR>You know what happened, don't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_L2,      12, BALLOON_FRAME_TYPE_BUC,            "I don't know anything!<CR>Because of you, how much I've..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "U-um, Sterk?<CR>Maybe calm down a little..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_L2,      14, BALLOON_FRAME_TYPE_BUC_SHOUT,      "How can I be calm at a time like this!!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Aaaah!<CR>I'm sorry! Really sorry!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Don't take it out on her.<CR>She was just dragged along by me" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Besides, as you can see,<CR>both she and I are unharmed..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L2,      18, BALLOON_FRAME_TYPE_BUC_SHOUT,      "The fact that you're unharmed doesn't solve everything!<CR>Do you have any idea what kind of responsibility you have as the King!?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Ah, come on!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "...Huh? K-King?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Sterk!<CR>I specifically asked you to keep that secret!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_L2,      22, BALLOON_FRAME_TYPE_BUC,            "No, she should know at this point.<CR>That way, you won't be able to act so high and mighty.<CR>Listen well" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_L2,      23, BALLOON_FRAME_TYPE_BUC,            "This man is the 13th King of Arland Kingdom,<CR>Ludvick Giovan Arland,<CR>the very King himself!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Ah... what a fool..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "...eh? Gio is the K-King...? Eh?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC_SHOUT,      "...eeeeeeh!?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_155_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_155",// 出力ファイル名
+	QC06_155_EMS,           // 上記変数
+};

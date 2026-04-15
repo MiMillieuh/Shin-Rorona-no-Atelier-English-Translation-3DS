@@ -1,0 +1,15 @@
+BalloonData ZZ01_050_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,   123, BALLOON_FRAME_TYPE_NORMAL,         "Character dialogue" },
+	{ BALLOON_MODE_CHASYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,   456, BALLOON_FRAME_TYPE_NORMAL,         "Character dialogue (SYS2)" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,      789, BALLOON_FRAME_TYPE_BUC,            "BUC dialogue" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     1011, BALLOON_FRAME_TYPE_BUC,            "BUC dialogue (SYS3)" },
+	{ BALLOON_MODE_SYSTEM, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,  1213, BALLOON_FRAME_TYPE_NORMAL,         "System dialogue" },
+	// ▼
+};
+
+BALLOON_DATA_ALL ZZ01_050_bda = {
+	"ZZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_ZZ01_050",// 出力ファイル名
+	ZZ01_050_EMS,           // 上記変数
+};

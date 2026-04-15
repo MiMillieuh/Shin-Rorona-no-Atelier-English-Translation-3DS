@@ -1,0 +1,39 @@
+﻿BalloonData QC01_580_EMS[] = {
+	// ★Timing undecided
+	// ▼When the three go out to gather
+	// ▼Cuderira talking while sticking close to Gio
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_WARA,   BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "And so, Rorona was so careless,<CR>she accidentally turned the cauldron over.<CR>It almost caused a huge fire!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R2,       1, BALLOON_FRAME_TYPE_BUC,            "That isn't something to laugh about.<CR>You need to be careful with fire" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Hah... sorry" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "(Kuu-chan...<CR>She didn't have to tell Gio-san<CR>all the details...)" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "That aside..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R2,       5, BALLOON_FRAME_TYPE_BUC,            "You're pressed so close to me,<CR>it's a bit difficult to move around.<CR>Could you give me some space?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Ah, sorry.<CR>I got a little carried away..." },
+	// ▼Gio steps away a bit
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "Now then, I'll scout the area.<CR>You two should rest for a while" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_WARA,   BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Ah, can I come with you!?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R2,       9, BALLOON_FRAME_TYPE_BUC,            "No, this is a man's job.<CR>Leave it to me" },
+	// ▼Gio goes to scout
+	// ★Clear Gio's BUC
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_WARA,   BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Ahhh... what a thoughtful gesture..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Um, Kuu-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "What is it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "W-Wow, your voice got lower...<CR>So, Kuu-chan... do you like Gio-san?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "N-No! It's not like that!<CR>I-I mean, I admire him a little..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Kuu-chan is blushing and acting cute...<CR>I do think Gio-san is cool, but he's a lot older, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "...Come to think of it,<CR>how old is Gio-sama, anyway?<CR>Do you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "You're calling him \"sama\"...<CR>Um, I think he said he was about 30 years older or so" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "30 years, huh... I can accept that" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "You can!?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_WARA,   BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "W-Well, break's over!<CR>It doesn't matter what I say to you,<CR>I'm going to see Gio-sama!" },
+	// ▼Cuderira runs ahead
+	// ★Clear Cuderira's BUC
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "...Kuu-chan,<CR>I wonder why she likes Gio-san so much..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_580_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_580",// Output file name
+	QC01_580_EMS,           // Variable name
+};

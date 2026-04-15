@@ -1,0 +1,9 @@
+// ギミック１・２
+BalloonData XG01_020_EMS[] = {
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,      0, NAME_RORONA,     BUC_RORONA_NOR,   BUC_POSITION_TYPE_NONE,   -1,    BALLOON_FRAME_TYPE_SYSTEM, "Arlvis Academy — the supreme institution of alchemy, built upon a lone island floating in the distant skies" },
+};
+BALLOON_DATA_ALL XG01_020_bda = {
+	"XG01",			// 出力ファイルパス
+	"EVENT_MESSAGE_XG01_020",		// 出力ファイル名
+	XG01_020_EMS,		// 上記変数
+};

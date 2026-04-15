@@ -1,0 +1,24 @@
+﻿BalloonData MM10_510_EMS[] = {
+	// ▼
+	// ★When this happens, it has to be at a specific time. After request 10 or
+	// ★if Sterk was hospitalized, after request 11
+	// ▼After the request results announcement
+	// ▼The master waiting for Sterk who is walking in the castle
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Have you finished with those stiff work matters?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Hm... What brings you to me?<CR>It's rare for you to come to me" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "What, I just have a favor to ask" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "A favor? You? From me?<CR>...What are you plotting?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "That's a harsh accusation.<CR>You're the only person I can rely on,<CR>so I swallowed my pride and came"" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "That's exactly why I think you're plotting something" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "You should know that<CR>this is the only way I can talk" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "...I'm not here to waste time with small talk.<CR>Just listen to me" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "...You seem serious.<CR>My apologies, I'll listen.<CR>Is this about her?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Of course. Well,<CR>it's not like anything has to be done right now..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM10_510_bda = {
+	"MM10",                 // Output file path
+	"EVENT_MESSAGE_MM10_510",// Output file name
+	MM10_510_EMS,           // Above variable
+};

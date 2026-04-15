@@ -1,0 +1,65 @@
+BalloonData MZ02_140_EMS[] = {
+	// ▼In town, in front of many customers, right after finishing a puppet show
+	{ BALLOON_MODE_CHASYS, CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "...T-thank you very much!" },
+	// ▼Applause and cheers from the audience
+	// ▼After getting a little flustered, Lionela leaves. Moves to somewhere on the roadside
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       1, BALLOON_FRAME_TYPE_BUC,            "Good work up there.<CR>The customers were really happy today too" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Sigh... I was so nervous..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "Just get used to it already.<CR>How many years have you been doing this in this town?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Uuu... even if you say that, it's hard to get over..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       5, BALLOON_FRAME_TYPE_BUC,            "Still a long way to go, isn't it..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "So, what will you do? The customers<CR>seem to be expecting an encore" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Ah, but...<CR>I have plans with Rorona-chan after this..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "Helping out for free like that<CR>is a waste of time, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_SIN,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "I-it's not about the money!<CR>Rorona-chan is my friend, and besides...!" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      10, BALLOON_FRAME_TYPE_BUC,            "Yeah, yeah, we know.<CR>Stop reacting to everything she says" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "Right, right, just ignore anything I say.<CR>Well then, if you're going, then let's get a move on" },
+	// ▼Lionela starts walking
+	// ▼Black screen scene change, in front of the atelier
+	// ▼Many customers have formed a line
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      12, BALLOON_FRAME_TYPE_BUC,            "Sigh, as always, so popular.<CR>I wonder if there are more customers<CR>than at Lionela's play?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_WARA,   BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Yeah... Rorona-chan is amazing" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L2,      14, BALLOON_FRAME_TYPE_BUC,            "Even though you're losing, why do you look so happy?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_HOHO,   BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Because I'm happy! Come on, let's go" },
+	// ▼The moment Lionela starts walking, a voice comes from the front of the line
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_B,      0, NAME_GUEST_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_NORMAL,         "Hey! He's here!" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_C,      0, NAME_GUEST_C,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_NORMAL,         "Ooh! About time! Get out of the way!" },
+	// ▼Customers scatter from the atelier all at once
+	{ BALLOON_MODE_CHARA,  CHARA_HORO,       0, NAME_HORO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    18, BALLOON_FRAME_TYPE_NORMAL,         "Oh wait... looks like it's happening again..." },
+	{ BALLOON_MODE_CHARA,  CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    19, BALLOON_FRAME_TYPE_NORMAL,         "Again...? R-Rorona-chan!" },
+	{ BALLOON_MODE_CHARA,  CHARA_RANYA,      0, NAME_RANYA,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    20, BALLOON_FRAME_TYPE_NORMAL,         "Oh wait, it's dangerous so don't get close" },
+	{ BALLOON_MODE_CHARA,  CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    21, BALLOON_FRAME_TYPE_NORMAL,         "B-but..." },
+	// ▼The next moment, a big explosion echoes and blackout
+	{ BALLOON_MODE_CHARA,  CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    22, BALLOON_FRAME_TYPE_NORMAL,         "Kyaaah!?" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_A,      0, NAME_GUEST_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    23, BALLOON_FRAME_TYPE_NORMAL,         "Ooh! Today's explosion is even more spectacular!" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_C,      0, NAME_GUEST_C,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    24, BALLOON_FRAME_TYPE_NORMAL,         "It was worth lining up since early morning!" },
+	{ BALLOON_MODE_CHARA,  CHARA_OZI_B,      0, NAME_GUEST_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    25, BALLOON_FRAME_TYPE_NORMAL,         "You won't feel like a day's started<CR>unless you've seen that explosion!" },
+	// ▼Black screen clears and illustration display
+	// ★Right after the explosion inside the atelier. Rorona and Hom are covered in soot
+	// ★Or black screen until text, then switch to illustration
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    26, BALLOON_FRAME_TYPE_BUC,            "*cough*! *cough*!<CR>...Ahaha, I did it again" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HOM_M,      0, NAME_HOM_M,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    27, BALLOON_FRAME_TYPE_BUC,            "This is not a laughing matter.<CR>We won't be able to do any work today" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    28, BALLOON_FRAME_TYPE_BUC,            "S-sorry...<CR>Hmm, where did I go wrong..." },
+	// ▼Narration text
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Rorona, who completed the three-year work from the kingdom and protected the atelier" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "However, the kingdom's evaluation of her was not at all high, and her alchemy skills were lacking..." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "However, her personality and earnest way of working earned her great popularity among the townspeople," },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "and today too, many people lined up in front of the atelier" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Though it seems almost none of them are actually here to request work..." },
+	// ▼After narration, a few lines
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R2,      34, BALLOON_FRAME_TYPE_BUC,            "Rorona-chan! Are you okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX6,     BUC_POSITION_TYPE_L,       35, BALLOON_FRAME_TYPE_BUC,            "Ah, Lionela, welcome.<CR>I'm a little dirty, but<CR>come in, come in" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,       36, BALLOON_FRAME_TYPE_BUC,            "Dirty is an understatement..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX5,     BUC_POSITION_TYPE_L,       37, BALLOON_FRAME_TYPE_BUC,            "Is it? Well, it's a regular thing anyway" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R,       38, BALLOON_FRAME_TYPE_BUC,            "You've completely gotten used to the explosions.<CR>You're so tough, or rather..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_WARA,   BUC_POSITION_TYPE_R2,      39, BALLOON_FRAME_TYPE_BUC,            "Yeah... I need to learn from that too..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R,       40, BALLOON_FRAME_TYPE_BUC,            "No, learning to accept explosions is no good" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX4,     BUC_POSITION_TYPE_L,       41, BALLOON_FRAME_TYPE_BUC,            "Ah, I'll make some tea.<CR>There might be soot in it,<CR>but please don't mind" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_140_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_140",// Output file name
+	MZ02_140_EMS,           // The above variable
+};

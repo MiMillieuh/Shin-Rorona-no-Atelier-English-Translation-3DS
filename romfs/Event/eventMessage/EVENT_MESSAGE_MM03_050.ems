@@ -1,0 +1,14 @@
+BalloonData MM03_050_EMS[] = {
+	// ▼Day of task announcement, Rorona has been summoned to the castle
+	// ▼Separate version for failure
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "You've completed this task as well, it seems" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "I'm not sure if \"completed\" is the right word,<CR>but... yeah" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Is that so.<CR>Well then, let me see for myself.<CR>The evaluation for this task is..." },
+	// ▼↓
+};
+
+BALLOON_DATA_ALL MM03_050_bda = {
+	"MM03",                 // Output file path
+	"EVENT_MESSAGE_MM03_050",// Output file name
+	MM03_050_EMS,           // Above variable
+};

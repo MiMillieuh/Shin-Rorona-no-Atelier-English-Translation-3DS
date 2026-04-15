@@ -1,0 +1,42 @@
+BalloonData QC04_050_EMS[] = {
+	// ▼ゲーム時間で発生
+	// ★発生条件未定：街にいる時
+	// ▼街中を歩いているロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hmm... Hmm... Mmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Ah... Rorona-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Hm...? Oh, it's you. Rio-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,       3, BALLOON_FRAME_TYPE_BUC,            "That's pretty rude, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "That's true.<CR>It's rare for Lionela to approach someone first" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "S-sorry...<CR>Is it okay if I talked to you...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Ah, no! I was just thinking about something..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "Thinking out loud?<CR>That's weird behavior, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       8, BALLOON_FRAME_TYPE_BUC,            "Don't be rude.<CR>So, what were you thinking about with that serious face?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Just my work.<CR>I've been looking at books lately and there are<CR>so many materials I've never heard of..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "They don't have them at the places I usually go,<CR>so I was wondering where they come from..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      11, BALLOON_FRAME_TYPE_BUC,            "That's not the kind of thing<CR>you can solve by thinking about it, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Well... I guess you're right..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Places where alchemy materials might grow...<CR>I might know of one..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Really? Where where!?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "It's on the path I took when I came to this country,<CR>there were lots of rare plants growing there,<CR>so maybe..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "The traveler's path, you mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      17, BALLOON_FRAME_TYPE_BUC,            "Yes. On the surface it looked like a normal path,<CR>but if you go into the backroads it's quite complex,<CR>and it was kind of an interesting place" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      18, BALLOON_FRAME_TYPE_BUC,            "It's funny now, but at the time it was tough...<CR>Ugh, all because Lionela got lost..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "P-please don't mention that!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "I see... I'll try going there sometime" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_TERE,   BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Really? Um, if it's okay with you..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_TERE,   BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "I-I want to go too...!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Eh? Rio-chan too?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_SIN,    BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "I'll be careful not to get lost again,<CR>and besides, I've traveled to lots of places,<CR>so I can fight a little if needed..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "...Yeah. Having Rio-chan with me makes me feel safer.<CR>Alright, looking forward to it" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_HOHO,   BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "Ah... Yeah!<CR>Thanks!" },
+	// ▼イベント結果：採取地追加、リオネラが雇えるように
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can now hire Lionela.<CR><CLBL>Traveler's Path<CLNR> is now accessible." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC04_050_bda = {
+	"QC04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC04_050",// 出力ファイル名
+	QC04_050_EMS,           // 上記変数
+};

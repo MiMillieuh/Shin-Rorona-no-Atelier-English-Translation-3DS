@@ -1,0 +1,11 @@
+BalloonData MA01_080_EMS[] = {
+	// ▼選択先のイベントを見た後、アトリエに戻ってきた時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Now, what should I do next?" },
+	// ▼残ってる選択肢が表示される
+};
+
+BALLOON_DATA_ALL MA01_080_bda = {
+	"MA01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA01_080",// 出力ファイル名
+	MA01_080_EMS,           // 上記変数
+};

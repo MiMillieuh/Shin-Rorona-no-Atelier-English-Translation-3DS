@@ -1,0 +1,20 @@
+BalloonData QN01_520_EMS[] = {
+	// ▼↑のイベントが起きて、エアドロップをもって現地へ行く（初回のみ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Master said if I use the Air Drop,<CR>I can dive into the lake...<CR>I wonder if I should?" },
+	// ▼使う／使わないの選択肢
+	// ▼使わないを選んだ時
+	// ★※何も起きず、そのままユーザー操作。以降↑の台詞は出ず、いきなり選択肢
+	// ▼使うを選んだ時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "It's a little scary, but...<CR>Here I go! Alright!" },
+	// ▼水に飛び込むSE
+	// ▼しばらく黒画面の後、湖の底にマップチェンジ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Hmm... *exhale*... ah, I can really breathe.<CR>Amazing!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Whoa, the inside of the lake<CR>looks like this...<CR>Alright, let me explore a bit" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_520_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_520",// 出力ファイル名
+	QN01_520_EMS,           // 上記変数
+};

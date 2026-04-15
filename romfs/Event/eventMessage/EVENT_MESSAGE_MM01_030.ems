@@ -1,0 +1,23 @@
+BalloonData MM01_030_EMS[] = {
+	// ▼課題の締め切りが近づいて来た時（１ヶ月～１、２週間前くらい）
+	// ▼主人公がアトリエにいる時
+	// ▼ドアをノックする音
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Yes~. Oh, Sterk-san.<CR>What brings you here?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "The deadline is approaching, so<CR>I came to check on you, just in case...<CR>How's it going?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Let's see...<CR>I think I'll manage, maybe?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "That's not a very reassuring answer" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Sorry...I don't have much confidence..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "This is not as a knight, but as my personal opinion:<CR>I would rather this Atelier<CR>not be shut down" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "So I have high expectations for you...<CR>I'm sure Astrid feels the same way" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Sterk-san...<CR>Sorry for being so weak-willed.<CR>I'll show you what I can do!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Yes, I'm counting on you. Well then, I'll take my leave now.<CR>I don't want to disturb your work" },
+	// ▼アトリエを出て行くステルク
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "...You know, I feel a little more energized now.<CR>Alright, let's do this!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM01_030_bda = {
+	"MM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MM01_030",// 出力ファイル名
+	MM01_030_EMS,           // 上記変数
+};

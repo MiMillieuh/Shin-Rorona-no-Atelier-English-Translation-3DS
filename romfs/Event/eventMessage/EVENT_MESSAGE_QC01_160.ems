@@ -1,0 +1,11 @@
+﻿BalloonData QC01_160_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "Dummy" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_160_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_160",// Output file name
+	QC01_160_EMS,           // Variable name
+};

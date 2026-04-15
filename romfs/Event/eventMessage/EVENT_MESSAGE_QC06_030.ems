@@ -1,0 +1,19 @@
+﻿BalloonData QC06_030_EMS[] = {
+	// ▼７つめ以降の城の依頼地步。ジオが仲間になる条件を満たしている時、差し込まれる
+	// ▼次の依頼を受けた後
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "...Right. I almost forgot.<CR>There's another request,<CR>this one directly from the minister" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Huh? From the minister?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Yes. Apparently, they want you to<CR>obtain a Raptor Stine" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Raptor Stine?<CR>I've never heard of it...<CR>What kind of item is it?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "That's the thing... even I don't know...<CR>If even an alchemist like you doesn't recognize it,<CR>it might be quite a special material" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Hmm... I'll look into it.<CR>My master might know about it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Um, <CR>when do I need to bring it by?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "There's no particular deadline set,<CR>but they said as soon as possible.<CR>I apologize for the sudden request, but please" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_030_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_030",// 出力ファイル名
+	QC06_030_EMS,           // 上記変数
+};

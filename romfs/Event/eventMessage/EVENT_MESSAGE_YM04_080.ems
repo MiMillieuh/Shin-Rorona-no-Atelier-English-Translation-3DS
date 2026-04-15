@@ -1,0 +1,57 @@
+BalloonData YM04_080_EMS[] = {
+	// ▼延長戦で発生
+	// ▼竜の砂時計を作ると発生
+	// ●（ここで作る砂時計の効果（使用時効果はなし）に、「時空の扉を開く？」みたいな不確定な感じの文言が入るとよりよい）
+	// ●竜の砂時計はキーアイテム。使えない、捨てられない売れない
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Done! <CR>This is the Dragon's Hourglass..." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_SIN,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "I'm sure this is it - I think it's the same one<CR>we saw before we came to this world" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "I'm glad - I was a little worried<CR>that it might fail" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_WARA,    BUC_POSITION_TYPE_R2,       3, BALLOON_FRAME_TYPE_BUC,            "Then does this mean we can<CR>go back to the future now!?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "That would seem to be the case,<CR>I wonder" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_SIN,     BUC_POSITION_TYPE_R2,       5, BALLOON_FRAME_TYPE_BUC,            "Then, let's try it right away..." },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_SIN,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_SIN,     BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "...Well then, Rorona-sensei.<CR>It's been hectic,<CR>but we're going back to the future now" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R2,       9, BALLOON_FRAME_TYPE_BUC,            "We haven't been able to properly thank you yet, though..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "No no, it's fine.<CR>I had fun, too,<CR>and I learned a lot from you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Besides, the Master from the future is probably<CR>worried too, right?<CR>You should hurry back" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KOMA,    BUC_POSITION_TYPE_R2,      12, BALLOON_FRAME_TYPE_BUC,            "I wonder if she's worried...?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Maybe not...<CR>B-but! The Rorona-sensei from the future<CR>must be worried for sure!" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_SIN,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "So...<CR>thank you for everything, even though it was such a short time.<CR>Goodbye...!" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX3,     BUC_POSITION_TYPE_R2,      15, BALLOON_FRAME_TYPE_BUC,            "Alright, here we go.<CR>...Shine, Hourglass!<CR>Guide us to the future!" },
+	// ▼なんかすごそうなＳＥ
+	// ▼少し間を開けてガラスが砕け散るようなＳＥ
+	// ▼白画面へ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Whoa, it's so bright...!" },
+	// ▼若干の間
+	// ▼緩やかに通常画面に
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_SIN,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_SIN,     BUC_POSITION_TYPE_R2,      19, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_ODO,     BUC_POSITION_TYPE_R2,      20, BALLOON_FRAME_TYPE_BUC,            "...Huh?<CR>There's Rorona-san...?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "This place is... are we back in the original world..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "...What happened?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_R2,      23, BALLOON_FRAME_TYPE_BUC,            "Could it be... a failure...!?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KANA,    BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Maybe...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "What! No way!<CR>I definitely made it correctly!?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "I think so...<CR>Eh? That's odd" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX4,     BUC_POSITION_TYPE_R2,      27, BALLOON_FRAME_TYPE_BUC,            "Could it be that the materials<CR>were wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Because, the items Astrid told us about were<CR>the 'Hollow Ring,' 'Seven-Link Ring,' 'World Soul,'<CR>and the 'Horn of the Ancient Dragon.' I'm sure that's right" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "Huh? Horn of the Ancient Dragon? Not just a dragon's horn?<CR>Would a normal dragon's horn not work?<CR>I used a normal dragon's horn, though..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_EX2,     BUC_POSITION_TYPE_R2,      30, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "...Could that be<CR>the reason why...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       32, BALLOON_FRAME_TYPE_BUC,            "I'm not sure, but that seems like the only<CR>possibility...<CR>But wait, was there even such a thing as an ancient dragon?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "I don't know either..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       34, BALLOON_FRAME_TYPE_BUC,            "This is getting confusing.<CR>We might need to see how things go" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "You're right, we might need to<CR>gather some more information" },
+	// ▼竜の砂時計の数量を－１する
+	// ▼真の竜の砂時計のレシピに変更させる
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLGR>True Dragon's Hourglass<CLNR> can now be made." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM04_080_bda = {
+	"YM04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM04_080",// 出力ファイル名
+	YM04_080_EMS,           // 上記変数
+};

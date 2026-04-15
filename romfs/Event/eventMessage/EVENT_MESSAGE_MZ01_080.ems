@@ -1,0 +1,46 @@
+ BalloonData MZ01_080_EMS[] = {
+	// ▼最後の台詞で分岐させる。最初に来たか否かで（アストリッドのとこに行くのを促す台詞
+	// ▼最初に来た時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Found you! Hey there, Old Man!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_ODO,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh! Oh, it's you, kid.<CR>Um... h-hello there" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Hmm? What's wrong?<CR>You seem really nervous..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_ODO,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I-I s-suppose?<CR>Not at all, see?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "'Not at all'...?<CR>Something's definitely off..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "A-Anyway!<CR>T-Today's the day, the castle thing, so..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Aaaah! I can't do this, I just can't ask!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Huh? Please ask me something?<CR>That's why I came to tell you..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_ODO,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "No no! I already know, so really, it's fine!<CR>Kid like you must have done great!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "W-Well, uh... a kid like you<CR>could do anything, you know?!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "W-Why are you talking like I failed!?<CR>I passed! I definitely passed!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "No no, I already knew! I really did!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_ODO,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "...Huh? You passed?<CR>You? You really did?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Yes, really!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "I-I see! Well yeah! I knew it!<CR>Kid, I knew you could do it!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "...You're such a liar.<CR>You didn't believe in me at all, did you, Old Man?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_ODO,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "What!? No! That's not... It's just...<CR>You know how a father feels about his daughter..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Old Man, you're not even married" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "It's the thought that counts!<CR>Aaaagh, I'm sorry! Please forgive me!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "...I'm not actually angry.<CR>I know you were worried about me" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Oh, finally you're smiling!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Phew, thank goodness. On such a happy day,<CR>seeing you frown would just be<CR>too lonely, you know?" },
+	// ▼一番目に来た時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "You started it, Old Man.<CR>I came to tell you first before even the teacher,<CR>and you said THAT?" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Eh? You hadn't told the teacher yet?<CR>Hey hey kid, that's the wrong order!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "But the teacher didn't seem to care about the results<CR>or anything..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "She's just putting on a cool front in front of her student!<CR>Duh!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "Look, I'm fine. Go see the teacher already" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "The teacher putting on a front...?<CR>You think so...?" },
+	// ▼
+	// ▼二番目以降に来た時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "You started it, Old Man.<CR>I came to tell you, and you said that" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_WARA,    BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "So I said I'm sorry. I'll make you the best armor<CR>for a present. Will that make it up to you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "A present being armor is a bit weird,<CR>but... okay. I'll look forward to it" },
+	// ▼
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ01_080_bda = {
+	"MZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MZ01_080",// 出力ファイル名
+	MZ01_080_EMS,           // 上記変数
+};

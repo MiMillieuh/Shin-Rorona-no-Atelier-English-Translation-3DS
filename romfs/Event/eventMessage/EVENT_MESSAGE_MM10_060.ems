@@ -1,0 +1,15 @@
+﻿BalloonData MM10_060_EMS[] = {
+	// ▼Branches depending on whether Sterk was brought along
+	// ★The branch logic is complicated, so separated
+	// ▼Announcement day, Rorona has been summoned to the castle
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Now then, this request was<CR>to gather plants from the Nightrealm, right?<CR>I wish I could've helped..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "No, please don't worry about it.<CR>I had other people help me instead" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Well, just because others helped doesn't mean...<CR>Ah well, fine then.<CR>Let's see the evaluation" },
+	// ▼↓
+};
+
+BALLOON_DATA_ALL MM10_060_bda = {
+	"MM10",                 // Output file path
+	"EVENT_MESSAGE_MM10_060",// Output file name
+	MM10_060_EMS,           // Above variable
+};

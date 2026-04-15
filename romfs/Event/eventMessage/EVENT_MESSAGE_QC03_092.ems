@@ -1,0 +1,12 @@
+BalloonData QC03_092_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     9509, BALLOON_FRAME_TYPE_BUC,            "But if I rest this much,<CR>I'll miss the day I promised to meet Ixsel-kun..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     9543, BALLOON_FRAME_TYPE_BUC,            "And if I start this now,<CR>I'll miss the day I promised Ixsel-kun" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC03_092_bda = {
+	"QC03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC03_092",// 出力ファイル名
+	QC03_092_EMS,           // 上記変数
+};

@@ -1,0 +1,23 @@
+BalloonData MM05_510_EMS[] = {
+	// ▼When entering the map for the above request
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Whoa, there really are a lot of them..." },
+	// ▼If holding a certain item, show choice
+	// ▼Take them one at a time / Use ○○○
+	// ▼When choice doesn't appear or choose one at a time
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "I'll have to take them down one at a time...<CR>Sigh, this is going to be tough" },
+	// ▼
+	// ▼When choosing to use ○○○
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "If I use this, maybe...<CR>Here goes!" },
+	// ▼Monsters run away
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "W-wow. They're all running away...<CR>Yes! This is perfect!" },
+	// ▼
+	// ▼Just in case, when the item effect wasn't that great
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Ah, yes! The monsters are running away!<CR>Some are left, but<CR>I can take them!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM05_510_bda = {
+	"MM05",                 // Output file path
+	"EVENT_MESSAGE_MM05_510",// Output file name
+	MM05_510_EMS,           // Above variable
+};

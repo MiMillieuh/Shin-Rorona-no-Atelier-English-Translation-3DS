@@ -1,0 +1,29 @@
+BalloonData QC04_530_EMS[] = {
+	// ▼About a year or half a year since Rio appeared
+	// ▼Occurs when Rio and the others haven't become very close
+	// ▼When Rorona is at the atelier
+	// ▼A knock is heard at the door
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Coming~... Oh, Rio-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "...Oh, um...<CR>Thank you for everything so far!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Huh? Wh-what's with the sudden thanks?" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,       3, BALLOON_FRAME_TYPE_BUC,            "Hey, can't you speak more systematically?<CR>To explain properly,<CR>we've been thinking about moving on to the next town" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "We've been in this town for quite a while now,<CR>so I thought it might be about time" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "What? Already...? Wh-when are you leaving?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Now..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Ehh!? That's so sudden!<CR>If you'd told me sooner,<CR>I could've prepared something..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "N-no, it's okay...<CR>I'm used to saying goodbye to people..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Don't say something so lonely..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_HOHO,   BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "It was only a short time, but... thank you.<CR>Goodbye..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Wait..." },
+	// ▼Rio leaves abruptly, cutting the conversation short
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "To think you'd leave so suddenly...<CR>I wish we'd gotten closer..." },
+	// ▼Event result: Rio leaves town
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Rio left the party." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC04_530_bda = {
+	"QC04",                 // Output file path
+	"EVENT_MESSAGE_QC04_530",// Output file name
+	QC04_530_EMS,           // The variable
+};

@@ -1,0 +1,64 @@
+﻿BalloonData MZ02_510_EMS[] = {
+	// ▼
+	// ▼When all specific bosses are defeated, adventurer level is max, etc.
+	// ▼At the atelier, Rorona looking bored
+	// ★Deliver lines in short bursts while moving
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...Mmm, this is taking forever" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Uugh, so bored..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "So restless... I wanna..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Master. Please focus a little more" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "But it's boring just waiting around" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "That's what alchemy is about.<CR>Master should know that better than anyone" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I know, but..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_BUC,            "Hehehe. I thought you might be<CR>getting impatient,<CR>given who you are" },
+	// ▼Cuderira enters
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "Kuu-chan! Good, I was just bored!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_IKA,      BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "It's not boredom.<CR>Master still has work remaining" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Oh, is that so?<CR>Then I'll go by myself" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "Aaaah! Wait, wait!<CR>Come on, Homu-chan, please!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "...Understood.<CR>Homu will handle it. But in return..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "I know, I know!<CR>I'll bring back the best ingredients!<CR>See you!" },
+	// ▼Rorona runs out of the atelier
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_L2,      14, BALLOON_FRAME_TYPE_BUC,            "...Sigh.<CR>What is this feeling called?<CR>Loneliness? Or disappointment...?" },
+	// ▼Black screen with text
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Rorona had successfully completed three years of work and succeeded in protecting the atelier" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Even after her master Astrid left town on a journey, she decided to continue managing the atelier with Homu" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "...But that was the plan" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "It seems her interests and talents had headed in a different direction from alchemy..." },
+	// ▼After text ends, conversation continues on black screen
+	// ★It would be nice to have SE like gunshots or monster footsteps
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    19, BALLOON_FRAME_TYPE_BUC,            "Rorona! You went that way!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    20, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Leave it to me!<CR>Hyyyyyyaaaaaah!!" },
+	// ▼Sound like she bashed something with a huge blunt weapon
+	// ▼Black screen pause. Then conversation continues on black screen
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    21, BALLOON_FRAME_TYPE_BUC,            "Eh? Huh? It's already over?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    22, BALLOON_FRAME_TYPE_BUC,            "Huh? What's with that? Look at you, so big but so sloppy!<CR>Let me have a turn too!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    23, BALLOON_FRAME_TYPE_BUC,            "Aaaah, stop it.<CR>It's already unconscious, you know. That's sad" },
+	// ▼Picture displays
+	// ▼Cuderira with a huge gun on her shoulder, sitting on the head of the defeated monster.
+	// ▼In front of her, Rorona also holding a huge hammer-shaped staff
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    24, BALLOON_FRAME_TYPE_BUC,            "You knocked it out yourself,<CR>yet you say it's sad?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    25, BALLOON_FRAME_TYPE_BUC,            "Th-That's different!<CR>We were having a serious battle until just now!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    26, BALLOON_FRAME_TYPE_BUC,            "Don't make excuses.<CR>Well, fine. It wouldn't be worth<CR>my time dealing with weaklings like this anyway" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    27, BALLOON_FRAME_TYPE_BUC,            "...The strong monsters<CR>are all gone now, huh.<CR>This is boring..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    28, BALLOON_FRAME_TYPE_BUC,            "They're not gone - we just got too strong" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    29, BALLOON_FRAME_TYPE_BUC,            "Ehh. That's not true.<CR>I'm still really weak" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    30, BALLOON_FRAME_TYPE_BUC,            "...You sure act tough for someone wielding such dangerous weapons.<CR>Well, I guess boring is something we agree on" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    31, BALLOON_FRAME_TYPE_BUC,            "...Hey, Kuu-chan.<CR>Wanna go check out other countries?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    32, BALLOON_FRAME_TYPE_BUC,            "Hah? What brought this on suddenly...<CR>But you've got<CR>atelier work too, you know" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    33, BALLOON_FRAME_TYPE_BUC,            "It's fine. I barely do<CR>any alchemy work anyway" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    34, BALLOON_FRAME_TYPE_BUC,            "You sure said that simply...<CR>Well, if you're set on it,<CR>I won't stop you" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    35, BALLOON_FRAME_TYPE_BUC,            "Don't say things like \"other countries\" -<CR>let's defeat all the monsters<CR>across the continent... No, the whole world!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    36, BALLOON_FRAME_TYPE_BUC,            "Yeah! Let's do it!<CR>Okay, I gotta get ready when we get back!" },
+	// ▼Text on top of picture
+	{ BALLOON_MODE_BUCSYS, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_BUC,            "And so, Rorona and Cuderira set off from Arland in search of stronger foes" },
+	{ BALLOON_MODE_BUCSYS, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_BUC,            "Their subsequent exploits would be recorded in the legends of many lands" },
+	{ BALLOON_MODE_BUCSYS, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_BUC,            "But that is a story for another time..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_510_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_510",// Output file name
+	MZ02_510_EMS,           // Variable name
+};

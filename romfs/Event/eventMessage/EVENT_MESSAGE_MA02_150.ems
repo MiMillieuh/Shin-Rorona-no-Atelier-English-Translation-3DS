@@ -1,0 +1,12 @@
+BalloonData MA02_150_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,     9226, BALLOON_FRAME_TYPE_BUC,            "Uuu...I feel so dizzy...ah..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,     9227, BALLOON_FRAME_TYPE_BUC,            "Uuu...when did I collapse...?<CR>My head is still spinning...<CR>I need to stop overworking myself..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA02_150_bda = {
+	"MA02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA02_150",// 出力ファイル名
+	MA02_150_EMS,           // 上記変数
+};

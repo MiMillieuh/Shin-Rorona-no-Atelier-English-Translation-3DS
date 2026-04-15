@@ -1,0 +1,15 @@
+﻿BalloonData MM10_052_EMS[] = {
+	// ▼Common to all below
+	// ▼System screen shows request details
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Um... so I just need to<CR>make a whole bunch of things, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "It appears so. I think this request<CR>may be unsuitable for someone working alone, but is that okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Hmm... I'll probably be fine.<CR>If I get Homu-chan and other shopkeepers<CR>to help me out, I can manage something" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I see... I'll take you at your word then.<CR>Please, I'm counting on you" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM10_052_bda = {
+	"MM10",                 // Output file path
+	"EVENT_MESSAGE_MM10_052",// Output file name
+	MM10_052_EMS,           // Above variable
+};

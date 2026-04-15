@@ -1,0 +1,11 @@
+﻿BalloonData XG02_040_EMS[] = {
+	// ▼王国祭にやっぱり行きたくなった時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hmm... I think I'll go to the festival after all..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL XG02_040_bda = {
+	"XG02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_XG02_040",// 出力ファイル名
+	XG02_040_EMS,           // 上記変数
+};

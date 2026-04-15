@@ -1,0 +1,35 @@
+BalloonData QN01_190_EMS[] = {
+	// ★図鑑が全て埋まった後、少し経ってから（アトリエに戻ってから）発生
+	// ★調合で最後を埋めた時も、その場では起きずにワンクッション挟む
+	// ▼アトリエにて、自分の図鑑を見直しているロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...Hmm? Huh? Huhuhu?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "What is it, Master?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Hey, I was thinking maybe<CR>I'd try synthesizing something new" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "But I don't have anything left to make...<CR>I've already made everything" },
+	// ▼師匠の部屋から、壊れたラッパのような音が鳴る（すごく大きく）
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Waaaaah!? W-what was that?" },
+	// ▼少ししてから、師匠が部屋から出て来る
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R2,       5, BALLOON_FRAME_TYPE_BUC,            "Muu.<CR>I was trying to play a fanfare, but...<CR>It seems I have no talent for music" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "It was you, Master?<CR>Jeez! Don't scare me like that!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "To celebrate my disciple,<CR>I stretched myself a bit and tried my best,<CR>and this is the thanks I get" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R2,       8, BALLOON_FRAME_TYPE_BUC,            "What a cruel world we live in, Hom" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Yes.<CR>Hom was born into this cruel world" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Please don't say weird things to Hom-chan.<CR>So, what are you celebrating?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R2,      11, BALLOON_FRAME_TYPE_BUC,            "It's a celebration for you making and<CR>collecting all items. Here, accept this" },
+	// ▼トロフィーをもらう
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Haah... wait, what?<CR>Did I really make everything?<CR>Me?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R2,      13, BALLOON_FRAME_TYPE_BUC,            "Yes.<CR>Honestly, I didn't expect you to be able to do this much<CR>in three years. You did well" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Ah... thank you..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R2,      15, BALLOON_FRAME_TYPE_BUC,            "But this doesn't mean anything is over.<CR>Alchemy goes much, much deeper than this" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R2,      16, BALLOON_FRAME_TYPE_BUC,            "More importantly, you still have<CR>things left to do.<CR>Don't forget that" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Y-yes ma'am!" },
+	// ▼部屋に戻っていく師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "This might be the first time<CR>Master praised me properly...<CR>Ehehe. I'm a little happy, I guess" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_190_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_190",// 出力ファイル名
+	QN01_190_EMS,           // 上記変数
+};

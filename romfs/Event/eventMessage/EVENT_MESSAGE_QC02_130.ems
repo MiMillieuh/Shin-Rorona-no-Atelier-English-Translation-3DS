@@ -1,0 +1,37 @@
+BalloonData QC02_130_EMS[] = {
+	// ★勝った時のみ、ステルク関連のイベント進む
+	// ▼ステルクが仲間、かつ条件を満たして↑のモンスターに勝利
+	// ▼倒れてるモンスターを前に
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ah... We won! We actually won!? Yay!!" },
+	// ▼一回負けてるかどうかで分岐が必要
+	// ▼負けてない時
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Is this all... I suppose we were too cautious, taken in by the rumors." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Thank you! It's all thanks to you, Sterk!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Whee! Real dragon scales! Yes!" },
+	// ▼倒れたモンスターに近づいていくロロナ
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Good grief. And here she was, so scared before the fight..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "...！？Hey! Get away from that thing!" },
+	// ▼一度負けている時
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Of course. Losing to the same opponent twice would be a disgrace to my name as a knight." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Thank you! It's all thanks to you, Sterk!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Whee! Real dragon scales! Yes!" },
+	// ▼倒れたモンスターに近づいていくロロナ
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Such energy. After all that fighting too..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "...！？Hey! Get away from that thing!" },
+	// ▼以下共通
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Eh?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_NONE,       0, NAME_MONSTER,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    12, BALLOON_FRAME_TYPE_BUC_SHOUT,      "G... guaaah!" },
+	// ▼立ち上がるモンスター。立ちすくんで動けないロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Ah... ah..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Kuh...!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Kyaaaah!!" },
+	// ▼ロロナに駆け寄ろうとするステルク
+	// ▼ブラックアウトと同時に鈍い衝撃音
+	// ★長めに間を置いて次のイベントへ
+};
+
+BALLOON_DATA_ALL QC02_130_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_130",// 出力ファイル名
+	QC02_130_EMS,           // 上記変数
+};

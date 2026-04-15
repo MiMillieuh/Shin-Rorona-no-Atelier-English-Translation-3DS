@@ -1,0 +1,21 @@
+BalloonData YM02_010_EMS[] = {
+	// ▼本篇中发生（相当早）
+	// ●Sterk处于可以成为同伴的状态
+	// ●发生了关于和艾斯蒂关系的事件
+	// ▼和艾斯蒂说话时发生
+	// ▼（预计在委托功能结束后发生。进入王宫接待处也可以）
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Hey, Rorona-chan, you seem to go on<CR>adventures quite often, but do you also go<CR>to places where strong enemies appear?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Let's see... yeah, sometimes.<CR>...What brought this up suddenly?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Well, lately I feel like my body's<CR>gotten a bit soft, you know?<CR>If I keep this up, things will start deteriorating" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "If I end up losing to Sterk-kun at this rate,<CR>that'd be really embarrassing" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Eh? Is Estiy-san stronger than Sterk-san!?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I don't know about stronger,<CR>but I am his senpai, you know?<CR>I don't want him to look down on me" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Still, being stuck at the reception desk<CR>all the time is what's doing this to me...<CR>*sigh*" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM02_010_bda = {
+	"YM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM02_010",// 出力ファイル名
+	YM02_010_EMS,           // 上記変数
+};

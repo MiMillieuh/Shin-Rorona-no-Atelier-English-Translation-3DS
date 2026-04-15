@@ -1,0 +1,12 @@
+BalloonData QC03_070_EMS[] = {
+	// ▼↑のイベントの後、勝負の前日、街かアトリエにいる時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Ah, tomorrow is the day of the cooking competition with Ixsel, isn't it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Sigh... I'm not really in the mood, but if I don't take it seriously, Master will be angry..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC03_070_bda = {
+	"QC03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC03_070",// 出力ファイル名
+	QC03_070_EMS,           // 上記変数
+};

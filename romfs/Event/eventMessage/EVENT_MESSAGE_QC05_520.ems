@@ -1,0 +1,38 @@
+﻿BalloonData QC05_520_EMS[] = {
+	// ★使わないかも
+	// ▼一緒に仲間にして、探索に行こうとした時
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...Oh!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "My, been a while, hasn't it?<CR>You're Lionela, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "Why are you in this town?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Why? This is where I was born, after all" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Still, I'm glad to see you again.<CR>You actually remembered me" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Y-yes... Um, Tristan, sir.<CR>Please don't tell anyone in this town<CR>about me..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Ah, right.<CR>My name is Tantris now, though,<CR>while I'm in this town" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "I don't care what your name is.<CR>Stay away from Lionela!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Hmm, being warned off, huh...<CR>Still not good with men, I see?" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L2,       9, BALLOON_FRAME_TYPE_BUC,            "It's not just men with this one" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Right.<CR>So you're here means<CR>you're helping Rorona too, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Y-yes..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "I see... Then let's make a deal.<CR>Let's keep the past between us, about each other" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "You're not the type I'd expect<CR>to keep a promise" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "All I can say is trust me on that.<CR>It'd be troublesome for me too if this got out" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "...I understand. I promise" },
+	// ▼黒画面で少し時間経過。遅れてロロナやってくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Sorry! I'm late!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R2,      17, BALLOON_FRAME_TYPE_BUC,            "No worries.<CR>The gentleman should wait<CR>for his date" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "I-it's not a date!<CR>What are you saying in front of Rio-nee!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Huh? Is something wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "N-nothing! L-let's go already!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Huh? Wait up. Rio-nee!" },
+	// ▼リオネラを追いかけていくロロナ
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R2,      23, BALLOON_FRAME_TYPE_BUC,            "Didn't expect to run into an old acquaintance<CR>in this town... Well, she'll be fine.<CR>Doesn't seem the type to say anything stupid" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_R2,      24, BALLOON_FRAME_TYPE_BUC,            "Still, getting that scared reaction...<CR>I don't recall doing anything<CR>that terrible..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_520_bda = {
+	"QC05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC05_520",// 出力ファイル名
+	QC05_520_EMS,           // 上記変数
+};

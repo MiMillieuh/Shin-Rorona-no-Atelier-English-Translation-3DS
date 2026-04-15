@@ -1,0 +1,29 @@
+﻿BalloonData QC01_010_EMS[] = {
+	// ▼
+	// ★When receiving a request, or when leaving the bulletin board after receiving one
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Esti-san. About this request..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "What is it? Did you find something you didn't understand?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "It's not that...<CR>The request itself is fine, but<CR>isn't the reward way too high?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Ahhh, that. You see, there is a reason<CR>why I really wanted Rorona-chan specifically<CR>to take this. Think of it as special" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Me? Why me?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Well, you don't need to worry about it.<CR>It's probably just some rich person's fancy.<CR>Yeah" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Haah... If you say so" },
+	// ▼Rorona tilts her head and leaves
+	// ▼Cuderira appears from hiding
+	// ★It might be better to hide it, knowing it'll be obvious anyway
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Hey, what do you mean by that?<CR>\"Rich person's fancy\"" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Oh, I suppose that's not entirely wrong.<CR>Actually, we usually don't accept<CR>this kind of request, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Ugh. Th-That's enough" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "In any case!<CR>This must NOT get out to Rorona!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "I'll follow the client's wishes for now,<CR>but I don't think Rorona-chan<CR>would be happy about this?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "What's that supposed to mean, lecturing me?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Oh my. It's advice from an older lady" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Hmph, unwanted advice" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_010_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_010",// Output file name
+	QC01_010_EMS,           // Variable name
+};

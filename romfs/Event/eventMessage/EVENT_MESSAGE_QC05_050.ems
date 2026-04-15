@@ -1,0 +1,45 @@
+BalloonData QC05_050_EMS[] = {
+	// ▼Relatively early after joining
+	// ★May have seen the event about sold-out materials
+	// ▼When Rorona is at the atelier
+	// ▼Tantolis is visiting the atelier, but Rorona is working
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "I'm sorry. It's nice of you to visit,<CR>but I'm swamped right now..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Don't even worry about it.<CR>Just watching you from behind<CR>makes me plenty happy" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "S-so please!<CR>Don't say things like that!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "（Now what to do...<CR>　Honestly, I have no intention of<CR>　actually sabotaging the atelier...）" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "（But if I do nothing, she'll be annoyed...）" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I have a question for you,<CR>would you mind? You can keep working" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Yes, what is it?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Has anything troubling happened lately?<CR>Mainly regarding this atelier" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Troubling things? Let me think..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Oh, all the materials I was going to use<CR>were sold out. Something about<CR>someone buying them all up" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "（Oh my... that's surprisingly normal sabotage）" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "So I had to go gather them myself,<CR>and since they were scarce, the shop<CR>bought them at higher prices..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Actually, this isn't a complaint,<CR>but I ended up making a profit" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "（...that old man really is useless）" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Anything else?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Now that you mention it... sometimes<CR>weird things happen at the atelier" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Like thumbtacks in the flask,<CR>or the sugar and salt getting switched" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "...Well, the thumbtacks aside, weren't<CR>those just mistakes on your part?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "I figured that might be it.<CR>The master said the same thing..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "...Well then, I should get going.<CR>Sorry for bothering you when you're busy" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "No no. I should be the one apologizing..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Let's spend time together sometime when we're both free.<CR>Just the two of us..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Whaa! P-please don't whisper in my ear!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Ahaha, well then. See you" },
+	// ▼Tantolis exits
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Ugh.<CR>I wish he'd stop joking around like that..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "Master, your face is bright red.<CR>Also, suspicious smoke is rising from the cauldron" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "Huh? Waaah! T-this is bad!" },
+	// ▼Tantolis outside the atelier
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "I was going to step in if things got too bad,<CR>but looks like I didn't need to..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "Now then, what should I do...<CR>as for what comes next..." },
+	// ★Will need to think about the main sabotage plan while consulting on various things
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_050_bda = {
+	"QC05",                 // Output file path
+	"EVENT_MESSAGE_QC05_050",// Output file name
+	QC05_050_EMS,           // The variable
+};

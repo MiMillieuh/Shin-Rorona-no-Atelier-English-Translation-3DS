@@ -1,0 +1,30 @@
+BalloonData YM02_040_EMS[] = {
+	// ▼本篇中以后发生
+	// ●艾斯蒂参战发生
+	// ▼罗罗娜・艾斯蒂・库德利亚队伍出发事件
+	// ▼第一次一起雇用去采集时
+	// ▼库德利亚先在等待
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Sooo late!<CR>How long do you expect me to wait!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Ehehe, Ku-chan, sorry~" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Haah...<CR>Why are you always so laid-back!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Is Ku-chan just impatient~?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "What did you say!?<CR>Are you blaming me now? You jerk!<CR>What kind of comeback is THAT!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX1,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Nohh, nohhmph<CR>Kuhhyan" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Honestly... and you too.<CR>You shouldn't have been late together" },
+	// ▼显示艾斯蒂
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "Oops, look at all this fire powder..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_L2,       9, BALLOON_FRAME_TYPE_BUC,            "Hmmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Wh-what? Stop staring" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "...Yeah.<CR>You have potential" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Potential?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "The way you take charge efficiently,<CR>the attention to timing, things like that.<CR>I've been looking for someone like you" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "I don't really get what you're saying,<CR>but if I'm being recruited that's not bad.<CR>I feel like I'm being put down a little though" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM02_040_bda = {
+	"YM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM02_040",// 出力ファイル名
+	YM02_040_EMS,           // 上記変数
+};

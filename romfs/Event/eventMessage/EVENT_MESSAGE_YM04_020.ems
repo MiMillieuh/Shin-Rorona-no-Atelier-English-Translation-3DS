@@ -1,0 +1,12 @@
+BalloonData YM04_020_EMS[] = {
+	// ▼外には出られない
+	// ●アストリッドの部屋の前に行く前に外に出ようとした場合（ショートカット含む）
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "First, I should check how Master's room is doing" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM04_020_bda = {
+	"YM04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM04_020",// 出力ファイル名
+	YM04_020_EMS,           // 上記変数
+};

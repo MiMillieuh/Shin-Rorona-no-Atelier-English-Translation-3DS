@@ -1,0 +1,130 @@
+BalloonData QC03_095_EMS[] = {
+	// ▼
+	// ★※調合演出中断して、イベントを少し挟みたい。無理なら演出開始前に
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "...Hmm, waiting around<CR>while they cook isn't very interesting." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Hom has some work he'd like to do." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "Alright, you have a job then.<CR>Hom, go report on their cooking." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Report... Understood. I'll try my best." },
+	// ▼黒画面挟んで
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "Yes, reporter Hom here.<CR>First, let's look at challenger Ixsel,<CR>what kind of dish is he making?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "This is Hom reporting live. Ixsel has<CR>completely closed off the kitchen,<CR>so we can't see inside." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "Hm... Then how about champion Rorona?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Yes. Miss Rorona is diligently<CR>stirring her pot." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_R2,       8, BALLOON_FRAME_TYPE_BUC,            "Oh? Hom-chan?<CR>I'm in a tricky spot right now,<CR>so please don't talk to me..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "It seems Hom is in the way.<CR>What should we do, Grand Master?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,      10, BALLOON_FRAME_TYPE_BUC,            "Ah, nevermind. Come back here." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L2,      11, BALLOON_FRAME_TYPE_BUC,            "Who knew things would fall apart so badly...<CR>Impulsive actions really<CR>aren't a good idea, are they?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "...Did Hom not fulfill<CR>the Grand Master's expectations?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      13, BALLOON_FRAME_TYPE_BUC,            "No, you did great.<CR>There's no helping it. We'll just wait<CR>quietly until the food is ready." },
+	// ▼調合演出の続き
+	// ▼調合結果により分岐
+	// ▼調合を失敗した場合
+	// ▼普段より派手な爆発音
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_R2,      14, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Kyaaaaa!! *cough* *hack*!" },
+	// ▼音を聞いてイクセルも戻ってくる
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Wh-What's that noise?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,      16, BALLOON_FRAME_TYPE_BUC,            "You never fail to disappoint...<CR>Why do you always fail at times like these..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_R2,      17, BALLOON_FRAME_TYPE_BUC,            "*cough!* I didn't want to fail..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      18, BALLOON_FRAME_TYPE_BUC,            "It's beautifully burnt... No helping it.<CR>Ixsel wins by default." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Congratulations. Clap clap clap~" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Huh? Wh-What is this supposed to mean!<CR>Something so half-hearted..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,      21, BALLOON_FRAME_TYPE_BUC,            "Quiet, quiet. I'm in a bad mood too,<CR>the atmosphere I worked so hard to build<CR>is completely ruined." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,      22, BALLOON_FRAME_TYPE_BUC,            "Yes yes. That's all for today~" },
+	// ▼さっさと部屋に引っ込む師匠
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_IKA,      BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Hey, wait! Is it really over?<CR>Hey! Can you accept this!?" },
+	// ▼
+	// ▼調合に成功した場合
+	// ▼黒画面挟んで、再びアトリエに勢ぞろいしている面々
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      24, BALLOON_FRAME_TYPE_BUC,            "Good, it looks like both of you finished cooking." },
+	// ▼それぞれの料理をＢＵＣ＋アイテムのカードで表示しながら台詞
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "Heh, don't faint from how delicious it is." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_R2,      26, BALLOON_FRAME_TYPE_BUC,            "Uugh... I'm not very confident..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      27, BALLOON_FRAME_TYPE_BUC,            "Now, we'll begin the judging!<CR>Hom, it's all up to you." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "Yes, I've been entrusted with this task." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "Wait a minute!<CR>You're not the one judging?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      30, BALLOON_FRAME_TYPE_BUC,            "If I judged, Rorona would win 100%.<CR>If that's fine with you, I could just eat it myself." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_IKA,      BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "Don't say something so ridiculous so casually!<CR>...Can this guy actually taste food<CR>properly?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      32, BALLOON_FRAME_TYPE_BUC,            "Of course.<CR>Hom has a far more refined palate than me." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "Hom's tongue can distinguish<CR>even the slightest difference in a single grain of salt." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_R2,      34, BALLOON_FRAME_TYPE_BUC,            "I didn't know that...<CR>I wonder what he really thinks<CR>about my cooking..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      35, BALLOON_FRAME_TYPE_BUC,            "Now then, let's start with the boy's dish.<CR>Eat up, Hom." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "Yes. *chew* *chew chew*... *gulp*" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,       37, BALLOON_FRAME_TYPE_BUC,            "Well? Say something.<CR>It's delicious, right? Right?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       38, BALLOON_FRAME_TYPE_BUC,            "This is a very meticulously prepared dish.<CR>Despite its light seasoning,<CR>it leaves a lasting impression..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       39, BALLOON_FRAME_TYPE_BUC,            "That means the umami of the ingredients<CR>is fully drawn out.<CR>The nutritional value is extremely high." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_R,       40, BALLOON_FRAME_TYPE_BUC,            "Huh? Wh-What are you saying?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_R2,      41, BALLOON_FRAME_TYPE_BUC,            "I think... he's complimenting you?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       42, BALLOON_FRAME_TYPE_BUC,            "Is that so? Well, whatever.<CR>Someone who understands my cooking,<CR>that's pretty impressive!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,      43, BALLOON_FRAME_TYPE_BUC,            "What a cocky guy.<CR>Now then, next is Rorona's dish." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_L,       44, BALLOON_FRAME_TYPE_BUC,            "Yes, thank you for the food. *bite* *chew*..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_R2,      45, BALLOON_FRAME_TYPE_BUC,            "S-So? How is it?<CR>I tried really hard on this one." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       46, BALLOON_FRAME_TYPE_BUC,            ".........Thank you for the meal." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_R2,      47, BALLOON_FRAME_TYPE_BUC,            "Huh? Oh, um,<CR>don't you have any comments on my cooking,<CR>or anything...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L2,      48, BALLOON_FRAME_TYPE_BUC,            "Now for the results!<CR>Hom, give it to us with vigor!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_R2,      49, BALLOON_FRAME_TYPE_BUC,            "Huh? W-Wait, hold on!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_IKA,      BUC_POSITION_TYPE_L,       50, BALLOON_FRAME_TYPE_BUC,            "The winner of this cooking competition is...<CR>*dodododododododododo* ...DADAAAAAAAN!" },
+	// ▼結果により分岐
+	// ★※勝敗判定はまた後で考える。品質とかレアリティとかで
+	// ▼負けた場合
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_IKA,      BUC_POSITION_TYPE_L,       51, BALLOON_FRAME_TYPE_BUC,            "The winner is challenger Ixsel!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       52, BALLOON_FRAME_TYPE_BUC,            "Really? I really won?<CR>Yesssss!!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_R2,      53, BALLOON_FRAME_TYPE_BUC,            "Aah, I lost, didn't I..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       54, BALLOON_FRAME_TYPE_BUC,            "Ha ha ha! How do you like that, Rorona?<CR>You've been so smug all this time,<CR>but it ends today!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_R2,      55, BALLOON_FRAME_TYPE_BUC,            "I-I've never been smug even once..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       56, BALLOON_FRAME_TYPE_BUC,            "Alright. I'll add today's dish<CR>to my shop's menu as a commemorative item." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       57, BALLOON_FRAME_TYPE_BUC,            "Feel free to come by whenever you want to eat.<CR>The difference in skill as a cook<CR>is there in black and white! Eat up!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_R2,      58, BALLOON_FRAME_TYPE_BUC,            "Aah, yeah. Sure.<CR>I'll come eat sometime..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       59, BALLOON_FRAME_TYPE_BUC,            "I gotta prepare as soon as I get home!<CR>Man, what a great feeling!" },
+	// ▼帰っていくイクセル
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      60, BALLOON_FRAME_TYPE_BUC,            "Goodness. A simple cooking competition<CR>turned into such a ruckus." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_R2,      61, BALLOON_FRAME_TYPE_BUC,            "It's your fault, Master!<CR>Why did this have to happen..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      62, BALLOON_FRAME_TYPE_BUC,            "Mostly because I just wanted to make a racket...<CR>But there's one more important reason." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_R2,      63, BALLOON_FRAME_TYPE_BUC,            "An important reason?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_L2,      64, BALLOON_FRAME_TYPE_BUC,            "I thought if you lost,<CR>I could openly scold you." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_R2,      65, BALLOON_FRAME_TYPE_BUC,            "...Huh? Scold me?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L2,      66, BALLOON_FRAME_TYPE_BUC,            "Even if it's a competition outside your field,<CR>my disciple losing is unforgivable.<CR>I suppose I'll make you keep me company tonight." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_R2,      67, BALLOON_FRAME_TYPE_BUC,            "Huh, no. Wh-Where are you taking me?<CR>No no no! Let go of me!!" },
+	// ▼
+	// ★※１日経過で、やっぱりＨＰＭＰ１になるとかそういうのを
+	// ▼勝った場合
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_IKA,      BUC_POSITION_TYPE_L,       68, BALLOON_FRAME_TYPE_BUC,            "This match goes to the Master!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_R2,      69, BALLOON_FRAME_TYPE_BUC,            "...Eh? I won? Really?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_IKA,      BUC_POSITION_TYPE_R,       70, BALLOON_FRAME_TYPE_BUC,            "Wh-That's impossible!<CR>You played favorites! You did!<CR>That's got to be it!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       71, BALLOON_FRAME_TYPE_BUC,            "Hom found the Master's cooking<CR>more delicious." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      72, BALLOON_FRAME_TYPE_BUC,            "If you can't accept it,<CR>why don't you try eating some yourself?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,       73, BALLOON_FRAME_TYPE_BUC,            "I don't need to be told! *munch*" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,       74, BALLOON_FRAME_TYPE_BUC,            "...It's delicious. It really is.<CR>But is there really this much of a difference<CR>between my cooking and yours..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_IKA,      BUC_POSITION_TYPE_R,       75, BALLOON_FRAME_TYPE_BUC,            "No! My cooking has to be more delicious!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,      76, BALLOON_FRAME_TYPE_BUC,            "Goodness. Your technique seems on par,<CR>but you don't understand<CR>the most important thing about cooking." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_R,       77, BALLOON_FRAME_TYPE_BUC,            "The most important thing?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,      78, BALLOON_FRAME_TYPE_BUC,            "That would be... love!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_ODO,      BUC_POSITION_TYPE_R,       79, BALLOON_FRAME_TYPE_BUC,            "Love?!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_R2,      80, BALLOON_FRAME_TYPE_BUC,            "...Master's trying to win Ixsel-kun over." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_R2,      81, BALLOON_FRAME_TYPE_BUC,            "But if I say something it'll get complicated...<CR>Nope, I'll stay quiet.<CR>Oh, that's right. Hom-chan." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       82, BALLOON_FRAME_TYPE_BUC,            "Yes, what is it, Master?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_R2,      83, BALLOON_FRAME_TYPE_BUC,            "Um... was my cooking<CR>really more delicious...?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       84, BALLOON_FRAME_TYPE_BUC,            "Yes. The Master's cooking<CR>was very delicious." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_R2,      85, BALLOON_FRAME_TYPE_BUC,            "I see... Ehehe. Thank you." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_KANA,     BUC_POSITION_TYPE_R,       86, BALLOON_FRAME_TYPE_BUC,            "Is that so... Was I... wrong...<CR>Gyaaaaaaa!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      87, BALLOON_FRAME_TYPE_BUC,            "If you realize your mistake, just fix it.<CR>You're still young, after all." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_R2,      88, BALLOON_FRAME_TYPE_BUC,            "Ah, looks like they're done over there too." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       89, BALLOON_FRAME_TYPE_BUC,            "Rorona!<CR>You're my lifelong rival!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       90, BALLOON_FRAME_TYPE_BUC,            "Let's keep honing our cooking skills together!<CR>Got it!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_R2,      91, BALLOON_FRAME_TYPE_BUC,            "Well, I'm not particularly trying to master cooking..." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_SIN,      BUC_POSITION_TYPE_R,       92, BALLOON_FRAME_TYPE_BUC,            "I can't sit still!<CR>I'm going home to train from scratch!<CR>I'm fired up!!" },
+	// ▼アトリエを飛び出していくイクセル
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_R2,      93, BALLOON_FRAME_TYPE_BUC,            "...Master, what did you say to Ixsel-kun...?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,      94, BALLOON_FRAME_TYPE_BUC,            "I didn't say anything that big...<CR>It seems like he has one of those personalities<CR>that heats up quickly and cools down fast." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,      95, BALLOON_FRAME_TYPE_BUC,            "Now, enough about that.<CR>More importantly, make me dinner. ASAP." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_R2,      96, BALLOON_FRAME_TYPE_BUC,            "What!? Cooking again!?<CR>Wasn't the food I just made enough?" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_L,       97, BALLOON_FRAME_TYPE_BUC,            "Sorry, Master.<CR>I ate it all, so there's nothing left." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_L2,      98, BALLOON_FRAME_TYPE_BUC,            "That's that.<CR>I want you to make me a dish that can rival<CR>the one you just served in the competition." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_R2,      99, BALLOON_FRAME_TYPE_BUC,            "Uugh, fine..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC03_095_bda = {
+	"QC03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC03_095",// 出力ファイル名
+	QC03_095_EMS,           // 上記変数
+};

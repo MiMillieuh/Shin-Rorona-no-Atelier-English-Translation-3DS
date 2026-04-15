@@ -1,0 +1,11 @@
+﻿BalloonData YM05_140_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Obtained costume \"<CLGR>Frilly Frill Dress<CLNR>\"<CR>\"<CLGR>Sunflower Dress<CLNR>\" \"<CLGR>Passion Lady<CLNR>\"<CR>\"<CLGR>Sailor Frill<CLNR>\"!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM05_140_bda = {
+	"YM05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM05_140",// 出力ファイル名
+	YM05_140_EMS,           // 上記変数
+};

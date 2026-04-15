@@ -1,0 +1,17 @@
+BalloonData MM02_052_EMS[] = {
+	// ▼Common below
+	// ▼Display request details on system screen
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "From one recipe book, make as many items as you can...?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Yes. This is that recipe.<CR>Apparently it's been left abandoned in the castle treasury for a long time" },
+	// ▼Receive recipe from Sterk
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "T-thank you very much.<CR>Um, um, according to what's written here,<CR>can I make whatever I want?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Yes. To be honest, we can't quite make out what's written in this book either.<CR>I'm leaving it to your judgment" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "My judgment...<CR>That's a lot of pressure..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM02_052_bda = {
+	"MM02",                 // Output file path
+	"EVENT_MESSAGE_MM02_052",// Output file name
+	MM02_052_EMS,           // Above variable
+};

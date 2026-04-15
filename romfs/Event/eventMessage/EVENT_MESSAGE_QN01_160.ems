@@ -1,0 +1,33 @@
+BalloonData QN01_160_EMS[] = {
+	// ▼全部のパイを高品質で作った時
+	// ★つながりがおかしくかもなるので、作った直後には起きず、一度アトリエを出るか検討
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hmm? Huh? Huhuhuhu? This is...<CR>Master! Master!" },
+	// ▼部屋から師匠|ftてくる
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_EX1,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Mmm... ahhhh...<CR>What is it, what's all the yelling about.<CR>I was sleeping so comfortably..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "This is urgent! This is a crisis!<CR>Look at this!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_EX1,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "...What is that dirty notebook?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "It's my homemade pie-making notebook!<CR>It's finally full! Look!<CR>And they're all three-star ratings!!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "...You kept a notebook like that?<CR>What are these three-star ratings?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "It's my own evaluation!<CR>Look, so many stars! It's perfect!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Don't evaluate your own pies yourself.<CR>So, what's the crisis about this?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Isn't it a crisis! It's an emergency!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "My efforts over sixteen years<CR>have finally borne fruit! Right?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "When you ask 'right?'...<CR>Ah, I see. Good job, good job.<CR>You did well" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "More! Praise me more!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Really, you are a genius.<CR>Having such an excellent and adorable disciple,<CR>I must be the happiest person in the world, yes" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Ehehe, it's nothing really..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "...Are you done?<CR>Well then, I'm going back to sleep.<CR>I want pie for dinner, but not pie" },
+	// ▼部屋に戻りながら一言
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_EX1,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "No good... I can't compete with that power when I just wake up.<CR>What is it about pies that transforms Rorona<CR>so completely..." },
+	// ▼部屋の中に入る師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "I've finished making pies,<CR>and Master praised me..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Maybe,<CR>my dream since I was a child might come true...<CR>Alright! Let's do this!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_160_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_160",// 出力ファイル名
+	QN01_160_EMS,           // 上記変数
+};

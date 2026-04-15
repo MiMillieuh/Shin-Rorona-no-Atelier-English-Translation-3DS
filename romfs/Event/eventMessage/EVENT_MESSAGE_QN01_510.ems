@@ -1,0 +1,42 @@
+BalloonData QN01_510_EMS[] = {
+	// ▼発生タイミングの後、エアドロップを作った時
+	// ★※発生タイミングより前に、エアドロップを作れなくする必要がある
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Hmm... it's nice that I tried making it, but<CR>it's just a normal candy, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Ho. Air Drop,<CR>you made something rare again" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "This is called an Air Drop?<CR>What is it used for?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "It's faster to try it than to explain.<CR>Put it in your mouth" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Okay... ah, it's sweet. Hmm...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Whaafu! Wh- whaf fhaf iff feefing?!<CR>(Whoa! There's air in my mouth!?)" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "That's how it is.<CR>While you're licking that, you can<CR>breathe underwater. It's quite a useful item" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Fhu fha hshe shusfending...fhu gehfhs!<CR>(Even in water... it's amazing!)" },
+	// ▼分岐、以前一緒に湖に行っているかどうか
+	// ▼行っている
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Right. Do you remember?<CR>We went to the lake together before" },
+	// ▼行ってない
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Right. I taught you<CR>the location of the lake before.<CR>Do you remember?" },
+	// ▼共通
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Yefh, fhaf fdrhess<br>（Yes, I remember）" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "The center of that lake is quite deep.<CR>If you dive to the bottom, you might see rare things.<CR>Various things" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Why don't you try going there,<CR>using that candy as an experiment?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Fwha... Hhu fhu fhoh fhah fhaf<CR>（Heh... to the bottom of the lake, huh）" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Fhandf shaf fisfhfefhaf fhafd fhaf!<CR>（That sounds amazing!）" },
+	// ▼もう一回分岐。一緒に湖に行っている時
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Alright, it's decided.<CR>I need to prepare a new swimsuit" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Last time I pushed the childish design,<CR>but this time I'll go with a mature design" },
+	// ▼行っていない時
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Alright, it's decided. This time,<CR>you'll be wearing the swimsuit I made" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Now now, I wonder what design I should make" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Wh-WHAT?! Thathbath really whath I wanted!<CR>（I don't need a swimsuit!）" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Hmm, even when you speak garbled like that,<CR>I have absolutely no idea what you're saying.<CR>Now then, let me get started on making it!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Buth you jutht underthtood me didn't you!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Deth bath tho bath I won't fah any bathingthuit!<CR>（I'm definitely not wearing any swimsuit!）" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLBL>Lake Nabel<CLNR>: You can now dive into the water." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_510_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_510",// 出力ファイル名
+	QN01_510_EMS,           // 上記変数
+};

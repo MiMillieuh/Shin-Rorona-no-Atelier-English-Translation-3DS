@@ -1,0 +1,22 @@
+BalloonData MM04_050_EMS[] = {
+	// ▼Evaluation announcement day. Rorona has been summoned to the castle
+	// ▼Separate version for failure
+	// ▼Rorona sitting alone
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "............<CR>You're late, Sterk-san" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "...Could I have gotten the day wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Sorry I'm late!" },
+	// ▼Sterk arrives in a rush
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Ah, you're here. Thank goodness" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Haa, haa...<CR>My apologies... The Kingdom Festival preparations,<CR>have been quite the hassle..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Good grief, why must I be dragged into decorating the town..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "...That sounds tough" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "No, it has nothing to do with you. Forget I said anything" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Since we're short on time,<CR>let me give you your evaluation" },
+	// ▼↓
+};
+
+BALLOON_DATA_ALL MM04_050_bda = {
+	"MM04",                 // Output file path
+	"EVENT_MESSAGE_MM04_050",// Output file name
+	MM04_050_EMS,           // Above variable
+};

@@ -1,0 +1,14 @@
+BalloonData MM04_135_EMS[] = {
+	// ▼Score announcement at the end is displayed here
+	// ▼After ending, black screen transition to event venue
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Phew, it's over..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "It was sudden and chaotic, but<CR>it was actually kind of fun..." },
+	// ▼Approached by the person you're closest with
+	// ★※At this point: Cordelia, Ixcel, Sterk, Lionela
+};
+
+BALLOON_DATA_ALL MM04_135_bda = {
+	"MM04",                 // Output file path
+	"EVENT_MESSAGE_MM04_135",// Output file name
+	MM04_135_EMS,           // Above variable
+};

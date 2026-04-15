@@ -1,0 +1,27 @@
+﻿BalloonData QN03_093_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Wow, it's prettier than I expected!" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "It's the image for a cook's outfit, you know?<CR>Sometimes a little variety is nice, no?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Good thing. I was half-expecting<CR>something like pops' apron<CR>to come out" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "...What exactly does that mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Ah, I mean—it's just, i-it's too fine<CR>for little old me to wear, you know..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Ohhh... so you can see its appeal after all.<CR>You sure have a good eye, missy" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "This apron—<CR>my mother made it for me when I first<CR>entered this trade, you see" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Thirty years have passed since then.<CR>Every day, it's soaked up<CR>my blood, sweat, and tears..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Um...<CR>I have some work to do, so I should—" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_NOR,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Now now, just listen a little more, will ya?<CR>Here's where it gets really good" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Look at the size of me, would ya?<CR>No ordinary apron could possibly<CR>cover all of this" },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "And we weren't exactly wealthy enough<CR>to afford a custom-made apron,<CR>you know..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "So my mother took her very best going-out clothes,<CR>cut them apart, and stitched<CR>this baby together with her own two hands..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_KANA,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Goooosh! Tell me that doesn't make you emotional!<CR>It's touching, isn't it!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Y-Yes, indeed..." },
+	{ BALLOON_MODE_BUC,    CHARA_HAGERU,     0, NAME_HAGERU,      BUC_HAGERU_SIN,     BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "But here's the thing.<CR>Right when I finally made something of myself,<CR>and opened my own shop..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "How long is this going to go on...<CR>Uuu, I should've just said sorry from the start..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN03_093_bda = {
+	"QN03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN03_093",// 出力ファイル名
+	QN03_093_EMS,           // 上記変数
+};

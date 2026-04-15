@@ -1,0 +1,31 @@
+BalloonData YM03_060_EMS[] = {
+	// ▼ロロナ・アストリッド・リオネラのパーティでの出発イベント
+	// ●本編中以降で発生
+	// ●アストリッド参戦が発生している
+	// ●リオネラがいなくなっていない
+	// ▼先にアストリッド、リオネラがいる
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Um... P-Please take care of me..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "Tell me, wouldn't it be better to act with more confidence?<CR>Stand taller" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "W-Well, even if you tell me that..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "What a timid one.<CR>Listen, let me give you some advice" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "Cowardice is a negative force that<CR>seals away your true abilities" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "Your job right now is to protect Rorona, isn't it?<CR>How could someone with such diminished abilities<CR>be of any use?" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "That's right. On this topic,<CR>this girl's got a point, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "What? Does it seem like I'm saying<CR>other things are wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,       9, BALLOON_FRAME_TYPE_BUC,            "Is it true?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,      10, BALLOON_FRAME_TYPE_BUC,            "Absolutely not. There is not a single<CR>mistake in anything I do" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      11, BALLOON_FRAME_TYPE_BUC,            "...Did you hear that? What you lack<CR>is the thickness of this guy's face.<CR>You'd better learn from him a little" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "I-I've been thinking the same thing, too..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      13, BALLOON_FRAME_TYPE_BUC,            "There's nobody else around here, you know?<CR>Why don't you just go for it sometime?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_HOHO,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Yeah, o-okay...<CR>I'll do my best...!" },
+	// ▼ロロナやってくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Sorry, I'm late!<CR>Alright, let's go!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM03_060_bda = {
+	"YM03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM03_060",// 出力ファイル名
+	YM03_060_EMS,           // 上記変数
+};

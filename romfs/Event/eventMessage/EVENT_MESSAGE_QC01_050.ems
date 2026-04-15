@@ -1,0 +1,25 @@
+﻿BalloonData QC01_050_EMS[] = {
+	// ▼When the above event is progressing + failing synthesis at a certain timing
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Whoa! *cough* *cough*!<CR>Oh no, I did it again...<CR>Hmm? What's this?" },
+	// ▼Item display. A beautiful stone has been made
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "A beautiful stone... Is it safe to touch?<CR>Master! Master~!" },
+	// ▼Rorona goes to call her master
+	// ▼Black screen, time passes
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Hmm... what a strange object" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Even Master doesn't know what it is?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "No. First time I've seen it.<CR>How did you make it?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "I'm not really sure...<CR>I accidentally made it while trying something else" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Hmm... Let me investigate it a bit.<CR>I'll take this piece here" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Okay. Um, so<CR>what should I do with this?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Do whatever you want with it.<CR>Right now it's just a worthless crystal.<CR>I don't know what it'll become in the future" },
+	// ▼Master goes back to her room
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Do whatever I want, she says...<CR>Oh, that's right!" },
+	// ▼Rorona heads to the synthesis cauldron
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_050_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_050",// Output file name
+	QC01_050_EMS,           // Variable name
+};

@@ -1,0 +1,27 @@
+BalloonData QN02_010_EMS[] = {
+	// ▼ゲーム開始後ある程度のタイミングで、ロロナがアトリエにいる時
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Rorona. You're an only child, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Yes, that's right, but... why do you ask?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "No particular deep meaning...<CR>Have you ever wished for a little brother or sister?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Now that you mention it...<CR>When I was little, I did want one" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "My Mom and Dad would always<CR>go out together just the two of them,<CR>so I'd get lonely staying home alone" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I see, I see. Now then, one more question" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "This is just hypothetical, but if you were to have a little brother or sister, which would you want?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Hmm, let me think..." },
+	// ▼選択肢「弟がいい／妹がいい」
+	// ▼弟を選んだ時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "A little brother, I guess.<CR>If I had a energetic boy around, every day would be fun" },
+	// ▼妹を選んだ時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "A little sister, I guess.<CR>A girl and girl could do lots of things together" },
+	// ▼以下共通
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Mmm, got it. I'll keep that in mind" },
+	// ▼部屋に戻っていく師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Keep in mind? Keep what in mind?<CR>...Are you planning something again?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN02_010_bda = {
+	"QN02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN02_010",// 出力ファイル名
+	QN02_010_EMS,           // 上記変数
+};

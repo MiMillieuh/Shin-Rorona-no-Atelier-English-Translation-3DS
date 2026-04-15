@@ -1,0 +1,9 @@
+BalloonData YZ01_210_EMS[] = {
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "ダミー" },
+};
+
+BALLOON_DATA_ALL YZ01_210_bda = {
+	"YZ01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YZ01_210",// 出力ファイル名
+	YZ01_210_EMS,           // 上記変数
+};

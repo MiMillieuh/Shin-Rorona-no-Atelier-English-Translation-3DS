@@ -1,0 +1,36 @@
+BalloonData MZ02_420_EMS[] = {
+	// ▼街中orアトリエに続く道を歩いているクーデリア
+	// ★※アトリエの外観が見えないのが望ましい
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Honestly, Rorona.<CR>She suddenly starts a new shop and tells me<CR>\"come visit\" like it's nothing." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "She didn't even tell me<CR>what kind of shop it was in the end..." },
+	// ▼この辺で一旦黒画面に
+	// ★※街中を歩く→マップチェンジ→黒画面、か？
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_BUC,            "Oh my. It looks like quite a few customers are here." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "Rorona! I'm here!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_BUC,            "Welcome!<CR>Welcome to Rorona's Pie Shop!" },
+	// ▼一枚絵に
+	// ★※パイ屋さんにへと様変わりしたアトリエ内。
+	// ★ファンシーなファーストフード店、といったイメージ。
+	// ★やや媚び気味（？）のコスチュームで、客を迎え入れてるロロナ
+	// ★奥の方で小さめに、カウンターで並んでる客の相手をしているホム
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_BUC,            "...Rorona?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_BUC,            "Ah, Ku-chan. You came!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_BUC,            "What's with that outfit? And this shop..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_BUC,            "Eh, is it no good? I think it's cute though..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     9, BALLOON_FRAME_TYPE_BUC,            "Well, it IS cute, but...<CR>You really went all out with this redesign..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_BUC,            "Yeah! It was my dream since I was little!<CR>Ah, but I still use alchemy too, you know!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_BUC,            "I make about half of the pies with alchemy." },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    12, BALLOON_FRAME_TYPE_BUC,            "With alchemy, huh... Is that okay?<CR>If someone gets food poisoning, that would be bad, you know?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    13, BALLOON_FRAME_TYPE_BUC,            "It's fine!<CR>Ku-chan, you're so mean!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_BUC,            "Sorry, sorry.<CR>I was just surprised because it happened so suddenly,<CR>but... I guess congratulations are in order. Sort of." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    15, BALLOON_FRAME_TYPE_BUC,            "Yeah, thank you!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_BUC,            "Since I'm here,<CR>I might as well eat something.<CR>What's recommended?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_BUC,            "Okay, wait a moment.<CR>I'll bake something special for you!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_420_bda = {
+	"MZ02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MZ02_420",// 出力ファイル名
+	MZ02_420_EMS,           // 上記変数
+};

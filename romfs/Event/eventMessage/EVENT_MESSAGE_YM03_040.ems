@@ -1,0 +1,22 @@
+BalloonData YM03_040_EMS[] = {
+	// ▼ロロナ・アストリッド・ジオのパーティでの出発イベント
+	// ●本編中以降で発生
+	// ●アストリッド参戦が発生している
+	// ▼二人を一緒に雇って、初めて採取に行こうとした時
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "Why are you here" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Why? Because I was asked to provide protection" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "Having this guy around is unpleasant. I'm leaving!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "W-Wait just a moment!<CR>You can't just show up and say something like that<CR>when I have no idea what's going on!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "Listen well, Rorona. Remember this -<CR>this man is...<CR>...Ah, explaining it is too much trouble" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Now, now.<CR>Please settle this nicely<CR>for my sake" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Exactly. We may have our differences,<CR>but right now our job is to<CR>provide protection" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "...Hmph. If you do anything<CR>to my precious disciple,<CR>you'll pay for it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "(Ahhh, I wonder how this is going to turn out.<CR>　Will we really make it back safely, I wonder...)" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM03_040_bda = {
+	"YM03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM03_040",// 出力ファイル名
+	YM03_040_EMS,           // 上記変数
+};

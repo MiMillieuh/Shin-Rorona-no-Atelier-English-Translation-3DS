@@ -1,0 +1,44 @@
+BalloonData QN01_170_EMS[] = {
+	// ▼賢者の石を初めて作った時に発生
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...Alright, done!<CR>Thank goodness, I actually did it" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "You're excited about this.<CR>Did you finish a new pie or something?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Nope. It's this" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Hmm? Is that..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "No way... the Sage's Stone!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Yes. The book said it was difficult to make,<CR>but I somehow managed it!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Difficult... you.<CR>Do you have any idea what you've made?" },
+	// ▼賢者のパイのレシピを思いついているかで分岐
+	// ▼思いついてる時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Of course I do.<CR>With this, I can make the ultimate pie!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "...The ultimate pie, you say?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Yes. I've been struggling to figure out<CR>what ingredients to use,<CR>but this is perfect!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "...H-ha.HAHA. HAHAHAHA!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_WARA,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "I see, I see!<CR>To you, even the Sage's Stone<CR>is just a pie ingredient!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "...Um, Master? What's wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Nothing, nothing. I'm just so happy<CR>that my disciple turned out to be<CR>such a big shot" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Ah, it's been a while since I laughed this much" },
+	// ▼部屋に帰っていく師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Eh? Eh? What do you mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Could it be that this stone<CR>is something really amazing...?" },
+	// ▼
+	// ▼思いついてない時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Well, I don't really understand what it is...<CR>Is it something amazing?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Amazing isn't the word for it.<CR>It's something so amazing<CR>it can't be explained in just one word" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Eh!? Then...<CR>it's really really amazing!?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Even 'really really' isn't enough.<CR>More, more than that" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "'Really really' isn't enough!?<CR>Then...<CR>it'th thooooo thooooo thoortheht thoithth!!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Ah, about that level... ah..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "What's wrong? You suddenly got depressed" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "No, I just realized I was having<CR>an intellectually deficient conversation" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "But anyway, treat it carefully.<CR>Because that stone is thoouth thoouth thoouth<CR>tho tho tho tho tho tho tho tho tho tho tho tho" },
+	// ▼部屋に帰る師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "For Master to say that much..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "So it really was thoouth thoouth thoouth<CR>tho tho tho tho tho tho tho tho tho tho tho tho<CR>tho tho tho tho tho tho tho tho tho tho tho tho..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_170_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_170",// 出力ファイル名
+	QN01_170_EMS,           // 上記変数
+};

@@ -1,0 +1,51 @@
+BalloonData QC05_160_EMS[] = {
+	// ▼After the above event. Occurs when the requested instrument is made
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, Rorona" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Tanta-san...<CR>Welcome" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I heard you made the instrument?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Yes... here it is" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "You seemed unsure, but you did a good job. Let's see here..." },
+	// ▼Tantolis casually plays the instrument
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_EX1,   BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "...Yeah, nice sound. Thanks.<CR>I'm glad I asked you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "………." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "You're so quiet.<CR>Come on, you look cutest when you smile, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Smile or not, you're leaving soon anyway..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "If you want, I could stay by your side<CR>and live the rest of my life together..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Honestly, not now!<CR>Don't joke around at a time like this!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Hehe.<CR>The fact that it turned into a joke is just how things are<CR>between us, that's all..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Huh? What do you mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Never mind. Come on, cheer up.<CR>This isn't the last time we'll meet or anything" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "………." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Hmm, what to do...<CR>Oh right. Before, you said you wanted to<CR>hear me play, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Let me play you a song now,<CR>so maybe that'll put a smile on your face?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "You did say that before..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "But, you don't want to hear me play?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Not at all! I want to hear it!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Good. Here, take this" },
+	// ▼Hands over his instrument to Rorona
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Oh! What is this..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "This is the one I've been using.<CR>Take it, let's play together" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Eh? B-but I can't!<CR>I've never played an instrument..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Don't worry.<CR>Just play from your heart, and<CR>I'll play along with you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "B-but. Even if you tell me suddenly..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_EX1,   BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "Okay, let's begin" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "W-wait just a second!" },
+	// ▼The two begin to play
+	// ▼Show illustration during the song
+	// ★Play some dialogue after the music plays for a bit
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    28, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "（Wow... it's actually forming into a song）" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    29, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "（Is it because Tanta-san is<CR>　playing along with me...?）" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "（………。）" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    31, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "（Tanta-san looks a little lonely...）" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    32, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "（I'll play seriously.<CR>　Because this might be the last time...）" },
+	// ★After playing music for a while, end with a long fade to black
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLGR>Gave the handmade instrument<CLNR>." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_160_bda = {
+	"QC05",                 // Output file path
+	"EVENT_MESSAGE_QC05_160",// Output file name
+	QC05_160_EMS,           // The variable
+};

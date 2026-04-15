@@ -1,0 +1,33 @@
+BalloonData MA02_060_EMS[] = {
+	// ▼↑のイベントが発生した日に
+	// ▼自宅に帰ってくる主人公
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "I'm home" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_NOR,    BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, Rorona. Welcome back" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_NOR,    BUC_POSITION_TYPE_R2,       2, BALLOON_FRAME_TYPE_BUC,            "What's wrong?<CR>It's unusual for you to come home so suddenly" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Yeah, there's something I wanted to talk to you about..." },
+	// ▼黒画面で説明
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_SIN,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Oh my, oh my. I see, that does sound tough" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "When Mom says it like that, it doesn't sound tough at all..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_WARA,   BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "Hmm...well, there's no need to worry.<CR>After all, you have a wonderful master<CR>who saved our lives" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Master's the one making it harder than it needs to be..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "And so, I'll be really busy for a while,<CR>so I won't be able to come home<CR>as often as I used to..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_NOR,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Well, that's convenient timing, then" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "...Eh? Convenient?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_NOR,    BUC_POSITION_TYPE_R2,      11, BALLOON_FRAME_TYPE_BUC,            "Well, actually...your mother and I were just talking<CR>about taking a trip together for a while" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_NOR,    BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "That's right. Just the two of us,<CR>going to revisit the places<CR>we loved when we were young" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Just the two of you? What about me?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_SIN,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "But Rorona, you're busy, aren't you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Well, yes, but...<CR>How long will you be gone?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_WARA,   BUC_POSITION_TYPE_R2,      16, BALLOON_FRAME_TYPE_BUC,            "Let me think...a month or two...<CR>We'll see when we get there" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "That long?<CR>That's not fair. Just the two of you..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_MA,    0, NAME_RORO_MA,     BUC_RORO_MA_NOR,    BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Don't make that face.<CR>We'll definitely bring you back a souvenir, okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORO_PA,    0, NAME_RORO_PA,     BUC_RORO_PA_WARA,   BUC_POSITION_TYPE_R2,      19, BALLOON_FRAME_TYPE_BUC,            "We'll enjoy ourselves extra hard on your behalf" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Uuu, I don't like this..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA02_060_bda = {
+	"MA02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA02_060",// 出力ファイル名
+	MA02_060_EMS,           // 上記変数
+};

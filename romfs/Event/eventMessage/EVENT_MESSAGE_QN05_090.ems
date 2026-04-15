@@ -1,0 +1,62 @@
+BalloonData QN05_090_EMS[] = {
+	// ▼↑の後しばらくしてから
+	// ▼コオルが行商にきて、買い物が終わった後にイベント
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Thanks. Hope to see you again" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Yeah. Oh, right...<CR>you might know about this, Kou?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Hm? What's this about?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Well, I wanted to ask about this shop.<CR>There's this girl named Pamela<CR>who's running one..." },
+	// ▼黒フェードで時間経過
+	// ▼フェード明けて、店の前に歩いてくる二人
+	{ BALLOON_MODE_CHARA,  CHARA_COWLE,      0, NAME_COWLE,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_NORMAL,         "Here? So where is this<CR>Pamela person?" },
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_NORMAL,         "She should be in the stuffed animal.<CR>Pamela, Pamela~" },
+	// ▼パメラが出てくる
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KOMA,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "...Fwaaah~.<CR>Oh~ it's Rorona again~..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Come on, don't sleep on the job" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KANA,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Because~ no customers come,<CR>there's no point in working anyway" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_ODO,      BUC_POSITION_TYPE_L2,       9, BALLOON_FRAME_TYPE_BUC,            "Whoa, she's really a ghost..." },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_NOR,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Oh? Who are you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "This is Kou-kun. He's a traveling merchant,<CR>and he sells all kinds of rare items..." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_L2,      12, BALLOON_FRAME_TYPE_BUC,            "Ah, my business is nothing special.<CR>Let me see inside the shop" },
+	// ▼店の中を調べて回るコオル
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_IKA,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "My, how rude of you~?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Well... he's reliable and knows his stuff" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_IKA,     BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Really~? Is it just because<CR>Rorona isn't reliable enough~?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Well, that's... maybe true..." },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_NOR,     BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "I'm just kidding, don't take it to heart~" },
+	// ★ロロナとパメラのBUC消して
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Hmm... you have rare items in stock.<CR>Doesn't seem like a bad deal..." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Ghost shop clerks are interesting too.<CR>But if that's the case, the reason<CR>no customers come is..." },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Hey girl,<CR>did you tell anyone you're running a shop?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Eh? Um, I've told a few people.<CR>That my friend opened a new shop~" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Did you mention the ghost clerk?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Oh, I might not have mentioned that" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_AKI,      BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "That's the problem then. That's<CR>the reason" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "Eh? Is that all it is?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "Listen. If you were a customer,<CR>would you want to enter a shop where<CR>a teddy bear is just sitting there alone?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "That would probably be... kinda scary" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "That's the ticket" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "Doesn't seem like there are other problems,<CR>so if you advertise properly,<CR>you should get customers" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "Since I'm already here,<CR>I'll spread the word while I'm traveling" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       31, BALLOON_FRAME_TYPE_BUC,            "Really? Thank you!" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "And you" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_ODO,     BUC_POSITION_TYPE_L2,      33, BALLOON_FRAME_TYPE_BUC,            "Me~?" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,       34, BALLOON_FRAME_TYPE_BUC,            "When customers come, really play up the ghost angle.<CR>It'll be a hit, trust me" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_SIN,      BUC_POSITION_TYPE_R,       35, BALLOON_FRAME_TYPE_BUC,            "Oh, but keep the dark and damp stuff out.<CR>It's customer service, after all" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_ODO,     BUC_POSITION_TYPE_L2,      36, BALLOON_FRAME_TYPE_BUC,            "O-Okay... I'll do my best~" },
+	{ BALLOON_MODE_BUC,    CHARA_COWLE,      0, NAME_COWLE,       BUC_COWLE_NOR,      BUC_POSITION_TYPE_R,       37, BALLOON_FRAME_TYPE_BUC,            "Alright, that's that.<CR>I'll check on you again in a while. Bye" },
+	// ▼足早に去っていくコオル
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KOMA,    BUC_POSITION_TYPE_R,       38, BALLOON_FRAME_TYPE_BUC,            "...What a fast talker" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       39, BALLOON_FRAME_TYPE_BUC,            "Yeah. But you can rely on him, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_WARA,    BUC_POSITION_TYPE_R,       40, BALLOON_FRAME_TYPE_BUC,            "I guess~. If only Rorona was<CR>half as reliable~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       41, BALLOON_FRAME_TYPE_BUC,            "Uuu, that's... something I agree on..." },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_NOR,     BUC_POSITION_TYPE_R,       42, BALLOON_FRAME_TYPE_BUC,            "I'm just kidding, don't take it to heart~.<CR>Ah, but will customers really<CR>start coming now? I'm excited~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       43, BALLOON_FRAME_TYPE_BUC,            "Yeah... that's great..." },
+	{ BALLOON_MODE_BUC,    CHARA_PAMELA,     0, NAME_PAMELA,      BUC_PAMELA_KOMA,    BUC_POSITION_TYPE_R,       44, BALLOON_FRAME_TYPE_BUC,            "I told you not to worry~" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN05_090_bda = {
+	"QN05",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN05_090",// 出力ファイル名
+	QN05_090_EMS,           // 上記変数
+};

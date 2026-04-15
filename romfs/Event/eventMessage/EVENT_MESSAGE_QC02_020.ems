@@ -1,0 +1,53 @@
+BalloonData QC02_020_EMS[] = {
+	// ▼After the first assignment is complete, when at the atelier
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Finally... one down..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "But I have to start the next one right away...<CR>Can I really keep this up for three whole years?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I thought you were celebrating,<CR>but you're actually depressed, aren't you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Eh? Whoa!? S-Sterk-san?<CR>W-Why are you here..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "I called out to you several times but got no response.<CR>I thought it might be rude,<CR>but I went ahead and came in" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "I-I'm sorry. I was spacing out...<CR>Um, did you need something from me..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Yes. I wanted to talk about the previous request..." },
+	// ▼A branch might be needed
+	// ▼For now, only when normally cleared
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "The request? Did I<CR>somehow mess something up?<CR>Don't tell me, did I fail...?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "No, that's not what I—" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Is the atelier going to be shut down after all?<CR>It's my fault, isn't it! Waaah!<CR>What do I do, what do I do!?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC_SHOUT,      "...Be quiet!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Y-Yes!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "It's not good to assume the worst in everything.<CR>Though in your case, it might be<CR>your master's influence that gives you such a victim complex" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Uuu... Is that so...<CR>You had such a scary face, I just assumed..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "...I don't intend to have a scary face.<CR>If that's how it appears, I shall endeavor to change.<CR>But anyway, let's get to the main point" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Oh, sorry. I got sidetracked" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Now then... Regarding the earlier request,<CR>I've heard you've gone outside the town several times.<CR>Is this true?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Y-Yes. There are some materials<CR>you can't buy at the shops" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Did you go alone,<CR>or with someone to accompany you?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "No. With Kuu-chan and my other friends" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "With your friends, huh... It's not prohibited, but<CR>outside the town is extremely dangerous.<CR>I'd like you to be more mindful of your safety" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "B-But... If I don't gather materials outside,<CR>the atelier will..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "I understand it's for the atelier's survival,<CR>but if something happened to you -<CR>or worse, if you lost your life..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "No, the root cause is that order from the kingdom.<CR>It would be wrong of me to blame you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Sigh..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "But that doesn't mean... hmm...<CR>Very well, then let me propose something" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "From now on, whenever you go outside the town,<CR>I will accompany you as much as possible" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "...Eh? You, Sterk-san?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Of course,<CR>if it would be a bother, I won't force it..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "N-No!<CR>It's not a bother at all!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "B-But is it really okay?<CR>Don't you have castle duties, Sterk-san?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "You are a resident of this town, are you not?<CR>Protecting the townspeople<CR>is a knight's worthy duty" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "...Besides, it's not like I have<CR>such a busy daily schedule" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "...Are knights usually so free?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       35, BALLOON_FRAME_TYPE_BUC,            "Ah! I-I'm sorry!<CR>That's not what I meant!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       36, BALLOON_FRAME_TYPE_BUC,            "...No, don't worry about it.<CR>That concludes my business.<CR>Please don't hesitate to call on me when you go outside. Farewell" },
+	// ▼Sterk leaves
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       37, BALLOON_FRAME_TYPE_BUC,            "...Did I make him angry?<CR>But the fact that Sterk-san will help me...<CR>Is it really okay? Really..." },
+	// ▼Event result: Makes Sterk hirable
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Sterk can now be hired." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_020_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_020",// 出力ファイル名
+	QC02_020_EMS,           // 上記変数
+};

@@ -1,0 +1,33 @@
+﻿BalloonData MM01_080_EMS[] = {
+	// ▼１回目か２回目の課題に失敗した時に発生（１週目限定？）
+	// ▼課題を納めず（または合格しない分しか納めず）提出期限日を迎える
+	// ▼アトリエにて
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Uuu... w-what should I do...<CR>The deadline is today and I...haven't finished the castle request..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Waaah! What do I do, what do I do!<CR>The Atelier's going to be shut down!<CR>Master's going to yell at me!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I'm not angry, you know.<CR>There might be some punishment though" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Eeeek!? I-I didn't notice you there, Master...<CR>Sorry, sorry!<CR>I'm sorry!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Hey, hey, don't scream like that. It echoes in my head.<CR>Your failing once or twice was<CR>already factored in from the start" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "B-but...<CR>If I fail, the Atelier gets shut down, right?<CR>And me... *sniff*..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "That's why I said it was factored in.<CR>I've made preparations" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Preparations... You don't mean...<CR>Did you do the request for me!?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Who on earth would do something that troublesome" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Then that's no good!<CR>Ah, the Atelier's going to be shut down for sure!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "So stop screaming already.<CR>Here, take this" },
+	// ▼手紙を渡されるロロナ
+	// ★※手紙のアイテム画像がいるかも
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Eh? Why is there a letter?<CR>It's really dirty..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "It's something from over ten years ago.<CR>If you give this to Sterkenburg,<CR>everything will be resolved" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "This letter will...?<CR>What's written in it?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "You should ask him about it.<CR>That'll be more interesting" },
+	// ▼立ち去る師匠
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Mmm, I wonder if it'll really be okay...<CR>But I have no other choice,<CR>for now I'll trust Master..." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_NORMAL,         "<CLGR>You received the old faded letter.<CLNR>" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM01_080_bda = {
+	"MM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MM01_080",// 出力ファイル名
+	MM01_080_EMS,           // 上記変数
+};

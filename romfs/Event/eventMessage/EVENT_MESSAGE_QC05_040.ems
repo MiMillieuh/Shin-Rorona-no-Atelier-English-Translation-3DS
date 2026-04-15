@@ -1,0 +1,32 @@
+BalloonData QC05_040_EMS[] = {
+	// ▼When the protagonist goes shopping or something
+	// ★May add dialogue until she goes shopping
+	// ▼Tantolis comes to the atelier alone
+	{ BALLOON_MODE_CHARA,  CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "Hello...<CR>Oh my. Is my beloved princess not home?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ASTRID,     0, NAME_ASTRID,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_BUC,            "Yes. I told her to escape from the evil mage<CR>before she got captured and run off to the castle" },
+	// ▼The master appears from nowhere
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "An evil mage... now that's rich,<CR>coming from you" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Well well.<CR>So in your eyes, am I the evil wolf...<CR>or at most a fox" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "You've got quite the thorns.<CR>Did I do something to deserve such animosity?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "That was still when I was a girl in my puberty.<CR>There was an insolent child who called me<CR>a goggle-eyed ugly duckling" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Needless to say, I was hurt.<CR>Even with my magnanimity,<CR>that wound can never heal" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "...Quite the memory. But unfortunately,<CR>can't we just pretend this was our first meeting?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Whether you're in a bind or not is none of my concern.<CR>...But, depending on what you're trying to do,<CR>I might consider it" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Is it fun?<CR>What you're trying to do, I mean" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "I don't know which direction your expectations are in,<CR>but honestly, I wasn't planning<CR>on being particularly entertaining" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Hmm, that's a shame... well then fine.<CR>I'll let you stew for a while" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "If I can get leverage on that person by using you as bait,<CR>that would be an ideal turn of events" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Saying something like that in front of the person...<CR>Well, I guess I should thank you anyway" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Oh right, as a show of gratitude,<CR>how about dinner tonight together..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "No. I can't enjoy a meal looking at a man's face" },
+	// ▼The master quickly retreats to her room
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Was that a rejection? Your guard is up tight" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "But to think she's become such a beauty.<CR>I really lack foresight..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_040_bda = {
+	"QC05",                 // Output file path
+	"EVENT_MESSAGE_QC05_040",// Output file name
+	QC05_040_EMS,           // The variable
+};

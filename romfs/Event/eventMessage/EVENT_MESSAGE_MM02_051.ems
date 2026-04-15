@@ -1,0 +1,27 @@
+﻿BalloonData MM02_051_EMS[] = {
+	// ▼システム画面で評価を表示
+	// ▼評価に用により分岐
+	// ▼評価が最高の時
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Perfect. With this many bombs,<CR>the mine development should progress by leaps and bounds" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "R-really? That's a relief!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "At this rate,<CR>you should be able to handle the next request without issue.<CR>The next one will be a somewhat unusual request, but..." },
+	// ▼評価が普通の時
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "It seems you handled both the quantity and quality adequately.<CR>That's enough to pass" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Passing grade... Is that... good or bad?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "It's not bad, but not exceptionally good either.<CR>I expect you to put in more effort next time" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Yes... I'll do my best" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Now then, let me share the next request.<CR>The next one will be a somewhat unusual request, but..." },
+	// ▼評価が低い時
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "...It seems bomb-making<CR>wasn't exactly your strong suit" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Umm... It's not like bombs are the only thing I'm bad at..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "It's not that you failed, but<CR>the people at the castle probably have a poor impression of you now.<CR>I expect you to make up for it in the next request" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Okay..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Now then, regarding that request,<CR>it will be a somewhat unusual request..." },
+	// ▼↓
+};
+
+BALLOON_DATA_ALL MM02_051_bda = {
+	"MM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MM02_051",// 出力ファイル名
+	MM02_051_EMS,           // 上記変数
+};

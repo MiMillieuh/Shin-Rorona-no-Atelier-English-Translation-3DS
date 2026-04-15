@@ -1,0 +1,24 @@
+BalloonData YM02_170_EMS[] = {
+	// ▼本編中以降で発生
+	// ●エスティ参戦が発生している
+	// ●酔っ払いティファナさん２が発生していないこと
+	// ▼ロロナ・エスティ・イクセルのパーティでの出発イベント
+	// ▼二人を一緒に雇って、初めて採取に行こうとした時
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "Ixcel-kun is coming with us, right?<CR>I go to the shop quite often, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh? Is that so?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_KOMA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Huh? Haven't we met before at my shop?<CR>You're quite a regular, you know?<CR>Well, you usually come for drinks at night, so we don't run into each other much" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "But are you sure? Cooking for people,<CR>you might get into dangerous situations, you know?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Hehe, don't underestimate me, please.<CR>I'm always out gathering ingredients, after all." },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "More importantly, are YOU okay with this?<CR>You don't really seem like the type<CR>who goes out much" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "I'd like you to see my strength for yourself<CR>before you say that" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "...Seems like you've got some fight in you after all.<CR>Alright, I'm pumped up!<CR>Rorona, let's get going!" },
+	// ▼イクセル走り出す
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Oh come on, there you go<CR>rushing off again!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM02_170_bda = {
+	"YM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM02_170",// 出力ファイル名
+	YM02_170_EMS,           // 上記変数
+};

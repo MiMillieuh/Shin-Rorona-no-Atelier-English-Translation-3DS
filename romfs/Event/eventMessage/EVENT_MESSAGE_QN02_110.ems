@@ -1,0 +1,22 @@
+﻿BalloonData QN02_110_EMS[] = {
+	// ▼ホムが出かけている状態で（キャラ「ホム」の配置情報が消滅している時？）
+	// ▼万全を期すなら宮地君にギミックの配置終了イベントを立ててもらったほうがいいかも
+	// ▼アトリエの予定表（釜の左側にある掲示板）にアクセスしたとき
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     9456, BALLOON_FRAME_TYPE_BUC,            "Hom-chan is still out gathering...<CR>What should I do, should I call her back, I wonder?" },
+	// ▼選択肢表示「戻ってきて」「やめとこ」表示
+	// ▼「戻ってきて」選択
+	// ▼発生結果でホムの消滅日数を０（か-1？）にする
+	// ▼フェードイン・キャラ再配置orホムだけ配置？
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,     9457, BALLOON_FRAME_TYPE_BUC,            "I've returned earlier than planned.<CR>Do you have any new orders for me?" },
+	// ▼イベント終了
+	// ▼「やめとこ」選択
+	// ▼発生結果取らずに抜ける
+	// ▼男女の判定必要？
+	// ▼
+};
+
+BALLOON_DATA_ALL QN02_110_bda = {
+	"QN02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN02_110",// 出力ファイル名
+	QN02_110_EMS,           // 上記変数
+};

@@ -1,0 +1,11 @@
+BalloonData YM08_080_EMS[] = {
+	// ▼チュートリアル・ミニマップ
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Exploration sites are made up of multiple small maps. At first, you can only choose one map, but clearing one will let you proceed to new maps." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Cleared maps can be explored as many times as you like. Also, each map has a set number of days that will pass." },
+};
+
+BALLOON_DATA_ALL YM08_080_bda = {
+	"YM08",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM08_080",// 出力ファイル名
+	YM08_080_EMS,           // 上記変数
+};

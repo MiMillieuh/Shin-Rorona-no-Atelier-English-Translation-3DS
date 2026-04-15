@@ -1,0 +1,24 @@
+BalloonData QC06_510_EMS[] = {
+	// ▼発生タイミング未定（早めの内）
+	// ▼採取から帰ってきたとき
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Thank you so much, Gio.<CR>This is for this time's reward" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "U-uh. Mmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Huh? Is something wrong?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Well, you see... it's about the reward..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Ah! I knew it. Is it too little?<CR>I mean, Gio, you're so strong..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "It seems like you'd make more money<CR>doing other work instead of helping me..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "No no, that's not it" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Feel free to call on me again next time, alright" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Really? You're not forcing yourself...?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "There's no way that's true.<CR>You're overthinking it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "...Understood.<CR>Well then, I'll be counting on you" },
+	// ▼立ち去るロロナ
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Whew... I don't need the money, but<CR>since I was the one who offered,<CR>I can't very well refuse, can I... Good grief" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_510_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_510",// 出力ファイル名
+	QC06_510_EMS,           // 上記変数
+};

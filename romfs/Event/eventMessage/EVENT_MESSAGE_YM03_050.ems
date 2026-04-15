@@ -1,0 +1,26 @@
+BalloonData YM03_050_EMS[] = {
+	// ▼ロロナ・アストリッド・タントリスのパーティでの出発イベント
+	// ●本編中以降で発生
+	// ●アストリッド参戦が発生している
+	// ●タントリスの素性が明らかになっている
+	// ▼二人を一緒に雇って、初めて採取に行こうとした時
+	// ▼先にアストリッドがいる
+	// ▼タントリスやってくる
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_ODO,   BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Oh my, oh my..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "...You came. You didn't have to come" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Don't say that.<CR>I'm here because you asked and called me" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "Alright, Rorona. Refuse right now.<CR>That'll settle it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "E-Eh.<CR>It's so sudden... Besides, I think<CR>it'd be more fun if Tantorisu-san stayed" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "As expected of Rorona. That thoughtfulness,<CR>you truly are like a goddess" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "Grr, don't have that kind of conversation<CR>in front of me" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "...Very well. As long as I keep an eye<CR>on how close you get to Rorona, I wonder<CR>that should be fine" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "Even if we're in the middle of fighting enemies,<CR>if you lay even a finger on Rorona,<CR>I'll be the one to take you down first" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "My my, how frightening..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM03_050_bda = {
+	"YM03",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM03_050",// 出力ファイル名
+	YM03_050_EMS,           // 上記変数
+};

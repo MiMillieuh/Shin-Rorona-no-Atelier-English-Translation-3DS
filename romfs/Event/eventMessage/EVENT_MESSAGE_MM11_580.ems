@@ -1,0 +1,39 @@
+﻿BalloonData MM11_580_EMS[] = {
+	// ▼After the event above, about two months later. When Rorona is at the atelier
+	// ★If there's a long synthesis ongoing, it could interrupt...
+	// ★If this event wasn't seen, the normal ending is forced
+	// ▼Late at night, Rorona is synthesizing alone
+	// ▼Master returns from outside, drunk
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Hm? Working this late?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Eh...? Oh, it's already this late?<CR>I didn't notice..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_TERE,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "You were really into it, huh.<CR>Hmm, impressive, impressive.<CR>Let me pat your cheeks as a reward" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Wa, hey! Stop... Master, you smell like alcohol!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Hmm? Can you tell? I may have had a bit too much" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "That's rare. You hardly ever drink" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "...I remembered something unpleasant" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Something unpleasant?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Ah. It's about my master" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Your master's master...<CR>I've never heard about them,<CR>were they a bad person?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Not really.<CR>They were timid, clumsy, and dependable,<CR>but they were a kind person" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "...When I think about it,<CR>they might have been similar to you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Haah... Even if you say that,<CR>I'm not really happy about it..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Well, their personality was similar,<CR>but their alchemy skill was practically nonexistent" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "The alchemists at this atelier have<CR>traditionally helped industrialize the town,<CR>but my master couldn't do that" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "And the castle people turned their backs on them..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "………." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "...Master?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "...Looks like I've had too much to drink.<CR>When this happens, the best thing is to sleep it off" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Wait, please. What you were saying..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Don't wake me up tomorrow. I don't need food either" },
+	// ▼Master returns to her room
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "If you stop halfway like that,<CR>it's going to bother me!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "...But, so your master, huh.<CR>You've never told me about them before..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "I wonder if what Master told me today is<CR>related to why she's been acting strange...?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM11_580_bda = {
+	"MM11",                 // Output file path
+	"EVENT_MESSAGE_MM11_580",// Output file name
+	MM11_580_EMS,           // Above variable
+};

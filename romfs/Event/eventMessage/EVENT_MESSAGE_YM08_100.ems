@@ -1,0 +1,11 @@
+BalloonData YM08_100_EMS[] = {
+	// ▼チュートリアル・ギミック・岩
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Rocks and other obstacles in exploration sites<CR>can sometimes be destroyed with bombs.<CR>When the \"Get close!\" mark appears,<CR>press the <IM00> button." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Select which bomb to use from your basket.<CR>If the bomb's power is too weak or the obstacle's<CR>durability is too high, you may not be able to destroy it." },
+};
+
+BALLOON_DATA_ALL YM08_100_bda = {
+	"YM08",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM08_100",// 出力ファイル名
+	YM08_100_EMS,           // 上記変数
+};

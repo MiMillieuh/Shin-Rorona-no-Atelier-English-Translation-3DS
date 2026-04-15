@@ -1,0 +1,13 @@
+BalloonData MM06_530_EMS[] = {
+	// ▼When away gathering and missed the event above
+	// ▼At the gathering spot, on the day
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...I feel like I'm forgetting something...<CR>Oh right! It's the day of my promise with the master!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Even if I go back now, I won't make it in time... right?<CR>Uuu, they're definitely going to be mad at me..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM06_530_bda = {
+	"MM06",                 // Output file path
+	"EVENT_MESSAGE_MM06_530",// Output file name
+	MM06_530_EMS,           // Variable above
+};

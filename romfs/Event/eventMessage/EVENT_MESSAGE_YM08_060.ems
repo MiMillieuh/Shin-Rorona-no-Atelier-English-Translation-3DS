@@ -1,0 +1,11 @@
+BalloonData YM08_060_EMS[] = {
+	// ▼チュートリアル・ショートカットメニュー
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The shortcut function can now be used<CR>within the town." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Press the <IM15> button to display destinations,<CR>and you can instantly travel to<CR>any location you choose." },
+};
+
+BALLOON_DATA_ALL YM08_060_bda = {
+	"YM08",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM08_060",// 出力ファイル名
+	YM08_060_EMS,           // 上記変数
+};

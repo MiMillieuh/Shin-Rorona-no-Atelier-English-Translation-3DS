@@ -1,0 +1,32 @@
+﻿BalloonData MZ02_450_EMS[] = {
+	// ▼Walking quickly while moving - Rionela
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       0, BALLOON_FRAME_TYPE_BUC,            "Rionela. You'll trip if you rush around like that." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_HOHO,   BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Yeah...<CR>But Rorona-chan invited me, so..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "But what is it, I wonder.<CR>She says she opened a new shop, come on over" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       3, BALLOON_FRAME_TYPE_BUC,            "Well... I guess we'll understand once we get there." },
+	// ▼Black screen
+	{ BALLOON_MODE_BUCSYS, CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_BUC,            "W-Wow, there are so many people... Um, Rorona-chan...?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_BUC,            "Welcome! Welcome to Rorona's Pie Shop!" },
+	// ▼Picture appears
+	{ BALLOON_MODE_BUCSYS, CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_BUC,            "Kya!<CR>...You surprised me" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_BUC,            "Ah, Rio-chan. You came for me" },
+	{ BALLOON_MODE_BUCSYS, CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     8, BALLOON_FRAME_TYPE_BUC,            "Y-Yeah... Um, the, um, pie... shop?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     9, BALLOON_FRAME_TYPE_BUC,            "Ehehe. That's right.<CR>It's been my dream since I was little!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_HORO,       0, NAME_HORO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_BUC,            "But damn, you really went and<CR>renewed the whole place, huh" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RANYA,      0, NAME_RANYA,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_BUC,            "It's really something, isn't it?<CR>You won't get in trouble with your master?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    12, BALLOON_FRAME_TYPE_BUC,            "We-Well, I'm a bit worried about that too...<CR>I do have pies made with alchemy too, though..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    13, BALLOON_FRAME_TYPE_BUC,            "Ah, but but... Congratulations, Rorona-chan!<CR>I think it's a wonderful shop!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_BUC,            "Thank you. Hearing you say that..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_HORO,       0, NAME_HORO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    15, BALLOON_FRAME_TYPE_BUC,            "So, then. Since you called us all the way out here,<CR>you're gonna treat us, right?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RANYA,      0, NAME_RANYA,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_BUC,            "Hey! Don't be so cheeky!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_BUC,            "It's fine, it's fine.<CR>Of course I was planning to anyway" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    18, BALLOON_FRAME_TYPE_BUC,            "Just wait a little, okay?<CR>I'll go make something special for you" },
+	{ BALLOON_MODE_BUCSYS, CHARA_LIONELA,    0, NAME_LIONELA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    19, BALLOON_FRAME_TYPE_BUC,            "Okay!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MZ02_450_bda = {
+	"MZ02",                 // Output file path
+	"EVENT_MESSAGE_MZ02_450",// Output file name
+	MZ02_450_EMS,           // Variable name
+};

@@ -1,0 +1,24 @@
+﻿BalloonData QC01_030_EMS[] = {
+	// ▼
+	// ★When you have met the conditions above and are at the atelier within a few days
+	// ▼Cuderira storms into the atelier angrily
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC_SHOUT,      "RORONAAH!!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Kyaa! You surprised me...<CR>What's wrong, Kuu-chan? You're so angry..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Of course I'm angry! I heard you<CR>couldn't complete that request!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "That request?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "You know, the one with the<CR>big reward!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Ah, yeah. I forgot about the deadline...ehehe" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Ehehe doesn't cut it!<CR>Passing up a great job like that - this atelier<CR>will go under in no time! You know that!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "S-Sorry... Wait, Kuu-chan,<CR>how do you know about that request?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Eh? Th-That's... um..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Ah! Never mind that!!<CR>In any case, next time you MUST do it properly!<CR>Got it!?" },
+	// ▼Cuderira storms off after yelling
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Ah... Kuu-chan<CR>rarely gets this mad...<CR>But why...?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC01_030_bda = {
+	"QC01",                 // Output file path
+	"EVENT_MESSAGE_QC01_030",// Output file name
+	QC01_030_EMS,           // Variable name
+};

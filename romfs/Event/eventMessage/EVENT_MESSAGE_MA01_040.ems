@@ -1,0 +1,73 @@
+BalloonData MA01_040_EMS[] = {
+	// ▼連続イベント
+	// ▼城の中を歩く二人、遠くに騎士の姿を見つけ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Whoa, so the castle looks like this inside...<CR>Oh, I shouldn't look around so much,<CR>that would be embarrassing..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_NAZO,        BUC_ESTIY_NOR,      BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "There we go. That's the person you're looking for, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Oh, yes! That's right, that's them!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_NAZO,        BUC_ESTIY_WARA,     BUC_POSITION_TYPE_L2,       3, BALLOON_FRAME_TYPE_BUC,            "I thought so.<CR>Hey, Sterk! Here's a customer for you!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_NAZO,        BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Hm?" },
+	// ▼ステルクの方に歩いていくエスティ。こっそり耳打ちするように
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_NORMAL,         "That girl was trembling, scared of<CR>someone with a scary face, you know?" },
+	{ BALLOON_MODE_CHARA,  CHARA_STERK,      0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_NORMAL,         "Scary? Where could I possibly be..." },
+	{ BALLOON_MODE_CHARA,  CHARA_ESTIY,      0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_NORMAL,         "That face of yours, for one.<CR>You need to be kinder to girls, you know?<CR>Well then, take care" },
+	// ▼立ち去るエスティ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Oh...sorry about that..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_NAZO,        BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "........." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(I-I feel like I'm being glared at...<CR>　S-so scary after all...)" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_NAZO,        BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "...Why are you here?<CR>I asked Astrid to come herself" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Well, I did pass on the message,<CR>but she said she wasn't particularly in the mood, so..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_NAZO,        BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "That hasn't changed one bit..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Um...do you know Master, by any chance?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_NAZO,        BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Well...a long time ago, somewhat" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK_B,     BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Come to think of it, I never introduced myself.<CR>My name is Sterkenburg.<CR>I serve this castle as a knight" },
+	// ★ステルクの名前テロップ表示
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Suteruken...buruku...?<CR>Suteru...suteruke..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK_B,     BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "It's long and troublesome to say.<CR>So you can just call me..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Suke-san!<CR>I'll call you Suke-san!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "...Just call me Sterk. Please" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Ehh, you won't let me?<CR>But I think Suke-san is cute..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Oh, I'm Rorona, by the way.<CR>Nice to meet you" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Likewise, nice to meet you.<CR>Now to the main point—the Atelier's shop permit revocation..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Oh right! That's right!<CR>Why is the Atelier being shut down?!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "Is it because Master lazes around every day?<CR>Even when she does come home, she doesn't work,<CR>just sleeps all day long?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "Or could it be because of her terrible personality,<CR>and the townspeople have grown to hate her?<CR>Oh, wait, let me think..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "...She certainly has been described in great detail, hasn't she" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Well, my wording may have been inadequate.<CR>The revocation of the shop permit<CR>hasn't been finalized yet" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "The kingdom will be issuing a task to the Atelier,<CR>and a final decision will be made<CR>based on whether you can meet it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "A task...you say?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "In form, it will appear as if the kingdom<CR>is commissioning work from the Atelier.<CR>To be more specific..." },
+	// ▼システムメッセージで説明。課題の形式や、街の評判について
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "I think that covers it.<CR>The details of the first request<CR>will be sent to you once finalized" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "Yes...<CR>So that's three years, huh...<CR>Um, if we fail..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       34, BALLOON_FRAME_TYPE_BUC,            "In that case, the Atelier's shop permit<CR>will be revoked immediately" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       35, BALLOON_FRAME_TYPE_BUC,            "Uuu, as I thought..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       36, BALLOON_FRAME_TYPE_BUC,            "As for the town's reputation, talk to Esty—she's the woman from before,<CR>she knows a lot about it.<CR>It would be good to hear what she has to say" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       37, BALLOON_FRAME_TYPE_BUC,            "Now then, this has been quite the lengthy explanation,<CR>but please make sure to convey all of this to Astrid.<CR>Tell her she'll have to take this seriously this time" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       38, BALLOON_FRAME_TYPE_BUC,            "Y-yes. I'll make sure to tell her.<CR>Um, I need to hurry home so I don't forget..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       39, BALLOON_FRAME_TYPE_BUC,            "Well then, if you'll excuse me!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,       40, BALLOON_FRAME_TYPE_BUC,            "Yes, take care" },
+	// ▼立ち去るロロナ
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       41, BALLOON_FRAME_TYPE_BUC,            "...But master and disciple really are nothing alike, are they.<CR>It's probably for the best that she's nothing like that" },
+	// ▼
+	// ▼それぞれ、適当な画像が入るイメージで
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Requests from the kingdom will be issued<CR>twelve times in total over three years,<CR>once every three months." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The content of the requests will vary each time,<CR>but essentially you will synthesize something<CR>using alchemy and deliver it to Sterk." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Each request has a deadline,<CR>so make sure to deliver your items<CR>before that time expires." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can check the castle's evaluation<CR>of your delivered items from the menu." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "As long as it's within the deadline,<CR>you can deliver items multiple times,<CR>so do your best to receive a proper evaluation." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Separately from the mandatory requests<CR>that affect the Atelier's survival,<CR>the kingdom may also assign optional requests." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "By completing these requests,<CR>you can receive various bonuses." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "There are no individual deadlines, but since they are updated together with the kingdom's quarterly requests, make sure to complete them before then." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "When you report a request to Sterk,<CR>you will receive a exchange ticket and one stamp." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "By completing lines on the stamp card,<CR>you can receive bonuses corresponding to each line." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "The center of the card<CR>will receive stamps<CR>by completing mandatory requests." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Exchange tickets can be traded<CR>at the castle reception<CR>for items corresponding to the number of tickets." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Once you've collected some exchange tickets,<CR>be sure to stop by." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA01_040_bda = {
+	"MA01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA01_040",// 出力ファイル名
+	MA01_040_EMS,           // 上記変数
+};

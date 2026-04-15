@@ -1,0 +1,30 @@
+BalloonData YM02_030_EMS[] = {
+	// ▼本篇中以后发生
+	// ●艾斯蒂的友好度相当高
+	// ▼在王宫接待处楼层发生
+	// ▼艾斯蒂和Sterk在闲聊
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Then I'll be off. Returning to my post" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Wait wait, listen to what I have to say" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Sorry, senpai.<CR>I have work to do..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Work? What work?<CR>You're just standing around in the corridor" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "N-no...! To the guards on patrol,<CR>that's a bit harsh of you to say..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "I've done it too, so I know exactly what<CR>you mean. That you're just standing around" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Besides, there's barely anyone here today anyway,<CR>Sterk-kun won't be missed,<CR>you know what I mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "So keep me company to pass the time" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "But last time you said that and then<CR>ended up dragging me to drink..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KOMA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Next thing I knew it was already morning!<CR>That day I had to do security work<CR>while feeling dazed all day, it was terrible" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "It's fine, totally fine.<CR>No such thing will happen today.<CR>Probably" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Sorry, senpai!<CR>I'll be taking my leave now!" },
+	// ▼Sterk逃跑
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Hey, wait!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "...Stubborn in the weirdest places" },
+	// ▼艾斯蒂消失
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "(I don't really get what's going on,<CR>but when it comes to Estiy-san, even Sterk-san<CR>can't get a word in edgewise...)" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM02_030_bda = {
+	"YM02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM02_030",// 出力ファイル名
+	YM02_030_EMS,           // 上記変数
+};

@@ -1,0 +1,64 @@
+BalloonData YM01_110_EMS[] = {
+	// ▼艾斯蒂雇用天数X天（500等）
+	// ▼课题・人气都很高的状态
+	// ▼艾斯蒂的相亲事件全部达成，在事件内选择"是"
+	// ▼艾斯蒂以外的角色的结局不会变成这个
+	// ●优先顺序未定
+	// ▼アトリエ前面有很多客人排队
+	{ BALLOON_MODE_CHARA,  CHARA_NONE,       0, NAME_KYAKU_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "It's almost our turn" },
+	{ BALLOON_MODE_CHARA,  CHARA_NONE,       0, NAME_KYAKU_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_NORMAL,         "Indeed. It's crowded but<CR>the turnover is pretty fast" },
+	{ BALLOON_MODE_CHARA,  CHARA_NONE,       0, NAME_KYAKU_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_NORMAL,         "If only there were no unwanted<CR>line-cutters, we'd be next right away" },
+	// ▼旁白无声音
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_NORMAL,         "After completing all the tasks from the castle over three years and protecting the Atelier, Rorona" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_NORMAL,         "This Atelier, with its high castle evaluation and improved alchemy skills," },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_NORMAL,         "combined with her personality and diligent work style, has earned great popularity among townspeople," },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_NORMAL,         "and today too, many people line up in front of the shop" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_NORMAL,         "And among them, one person visits<CR>with particularly great enthusiasm..." },
+	// ▼艾斯蒂从客人身边经过
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Haah, as busy as ever today..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Excuse me~. Yes yes, right this way~" },
+	// ▼艾斯蒂拨开人群从入口插队进去
+	{ BALLOON_MODE_CHARA,  CHARA_NONE,       0, NAME_KYAKU_B,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_NORMAL,         "Ah, there she goes!" },
+	{ BALLOON_MODE_CHARA,  CHARA_NONE,       0, NAME_KYAKU_A,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_NORMAL,         "Aah... and now our turn is pushed back again..." },
+	// ▼アトリエ内部
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Alright, done!<CR>Hom-chan, please!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Yes, understood.<CR>I'll deliver it" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Let's see, next is...<CR>what was it again" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Always busy, aren't you~<CR>The room is really dusty" },
+	// ▼艾斯蒂登场
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Ah, Estiy-san!<CR>You're right, I'm so busy I barely<CR>have time to change clothes..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "No~ you must take care of your appearance.<CR>By the way, about that usual favor,<CR>I want to ask you something" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Eh, really this time!<CR>Where is it going to be this time?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Fufu, this time I caught a big one!<CR>Rorona-chan doesn't know them, but it's<CR>someone who's been visiting the castle often" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "The venue is their villa, apparently.<CR>Looks like a bunch of their acquaintances are coming too,<CR>so this time I'm expecting good results!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Got it! This time I really need to<CR>put in a lot of effort.<CR>I'll prepare some really effective perfume!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Oooh, I'm counting on you.<CR>Let's make it a success this time!" },
+	// ▼黑画面
+	// ●能放入吵杂SE吗？
+	{ BALLOON_MODE_BUCSYS, CHARA_NONE,       0, NAME_BINAN,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    23, BALLOON_FRAME_TYPE_BUC,            "My, my. What a beauty.<CR>I'm ashamed I never noticed<CR>such a person was out there" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    24, BALLOON_FRAME_TYPE_BUC,            "Oh my, calling me beautiful...<CR>You're too kind" },
+	{ BALLOON_MODE_BUCSYS, CHARA_NONE,       0, NAME_BINAN,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    25, BALLOON_FRAME_TYPE_BUC,            "It's true, I don't lie.<CR>But I don't think I've seen you before,<CR>where are you usually?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    26, BALLOON_FRAME_TYPE_BUC,            "I work at the castle a bit..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_NONE,       0, NAME_BINAN,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    27, BALLOON_FRAME_TYPE_BUC,            "I see, that explains it.<CR>Would you like to chat some more over there..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    28, BALLOON_FRAME_TYPE_BUC,            "Alright!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_NONE,       0, NAME_BINAN,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    29, BALLOON_FRAME_TYPE_BUC,            "What is it?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    30, BALLOON_FRAME_TYPE_BUC,            "Oh, no no, it's nothing.<CR>Well then, over there..." },
+	// ▼显示图片（派对会场，穿着礼服的艾斯蒂带着一丝打算的笑容，而后面穿着礼服摆出"我来劲了！"姿势的罗罗娜）
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    31, BALLOON_FRAME_TYPE_BUC,            "Ah, Estiy-san, is it<CR>going well this time?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    32, BALLOON_FRAME_TYPE_BUC,            "...Well, this is usually where<CR>things go wrong. I get too pushy..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    33, BALLOON_FRAME_TYPE_BUC,            "No no, let's not worry about Estiy-san.<CR>I need to find someone too!" },
+	// ▼在图片上放字幕
+	// ▼旁白无声音
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    34, BALLOON_FRAME_TYPE_NORMAL,         "And so, Rorona was dragged along to help Estiy find a marriage partner" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    35, BALLOON_FRAME_TYPE_NORMAL,         "Rorona is only half-heartedly going along, but Estiy seems desperate" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    36, BALLOON_FRAME_TYPE_NORMAL,         "The two equipped themselves with specially made alchemy items and visited various parties" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    37, BALLOON_FRAME_TYPE_NORMAL,         "It's never worked out yet, but the two continue going to parties without giving up" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    38, BALLOON_FRAME_TYPE_NORMAL,         "Dreaming of the day when a wonderful person appears" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM01_110_bda = {
+	"YM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM01_110",// 出力ファイル名
+	YM01_110_EMS,           // 上記変数
+};

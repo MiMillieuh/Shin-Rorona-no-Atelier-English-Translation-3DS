@@ -1,0 +1,19 @@
+BalloonData QN01_180_EMS[] = {
+	// ★※ドンケルハイトの情報自体は街のNPCから。レシピで知る場合もある？
+	// ★ドンケルハイトを知ってるか知らないかで最初から分岐
+	// ▼知っている時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, could this flower be...<CR>It is! Donkerheit!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "I remember it only blooms for a short time<CR>once a year...<CR>It was blooming here" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Alright. I need to gather as many as I can<CR>while they're in season!" },
+	// ▼
+	// ▼知らない時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Huh? I wonder what this flower is.<CR>I've never seen it before...<CR>I wonder if it's rare?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Hmm... I don't really know,<CR>but I have a feeling I should gather<CR>as many as I can while I can" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_180_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_180",// 出力ファイル名
+	QN01_180_EMS,           // 上記変数
+};

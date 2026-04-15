@@ -1,0 +1,42 @@
+BalloonData YM04_050_EMS[] = {
+	// ▼アトリエで発生
+	// ●延長戦始まって２ヶ月くらい経過か
+	// ●未来への帰り方が発生している
+	// ▼突然入り口からアトリエに入ってくるアストリッド
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "I'm back, Rorona" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_SIN,     BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "Oh...<CR>Could you be... Astrid-san?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "You haven't changed a bit!" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Hmm? Who are you people?<CR>Who gave you permission to be here?" },
+	// ▼ロロナやってくる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Ah, Master! You're back already?<CR>That was quick" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Indeed. I had a strange feeling, so I cut my trip short and returned. My hunch was right - there are strangers here" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "And it seems like they know about me, too.<CR>Explain everything from the beginning" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Ah, yes. Um...<CR>Where should I even start...?" },
+	// ▼ゆっくり黒画面へ
+	// ▼ゆっくりアトリエ表示
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "I see. I understand the situation now.<CR>Then please do your best to return to the future" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "...Still, the me from the future is a genius, isn't she?<CR>I never thought she'd make something that<CR>allows time travel" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Huh? Aren't you going to help them<CR> get back, Master?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Of course. But... well, setting aside other people,<CR>if I, the direct cause, were to interfere,<CR>there's a risk it could change the future" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_L2,      12, BALLOON_FRAME_TYPE_BUC,            "So that's how it is.<CR>Rorona-sensei and I were<CR> talking about that a little" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "I haven't experienced it myself, and even if the future did change,<CR>the me living in the present would have no way of knowing,<CR>but most likely, yes" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "But at the very least, it might affect<CR> these two who need to return to the future" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "This is merely speculation, but there are no precedents,<CR>so I have no choice but to be cautious.<CR>That's why I've decided not to interfere" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Besides, more importantly... ugh, never mind that,<CR>the me from the future will probably come<CR> to get them eventually, so I'll just leave it at that" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KANA,    BUC_POSITION_TYPE_L2,      17, BALLOON_FRAME_TYPE_BUC,            "Will she really come?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_HOHO,    BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Would the me who cares so much about my disciples<CR>not come? That's unthinkable.<CR>The person herself said so, so it must be true" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "That's great!<CR>Then we can rest easy<CR>staying in Master's room" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Hold on. What do you mean by that?<CR>Are you using my room without permission?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "You can use the atelier however you like,<CR>but if you're going to stay, stay at an inn" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_L2,      22, BALLOON_FRAME_TYPE_BUC,            "We thought about that too,<CR>but we're completely broke..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "That's right! And it's all because of you, Master,<CR>so couldn't you at least lend us the room?<CR>Come on, please" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Not me - the me from the future, obviously.<CR>...Wait, that's also me. Hmm..." },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "...Fine, I can't help it. Do as you like" },
+	// ▼以後アストリッド配置
+};
+
+BALLOON_DATA_ALL YM04_050_bda = {
+	"YM04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM04_050",// 出力ファイル名
+	YM04_050_EMS,           // 上記変数
+};

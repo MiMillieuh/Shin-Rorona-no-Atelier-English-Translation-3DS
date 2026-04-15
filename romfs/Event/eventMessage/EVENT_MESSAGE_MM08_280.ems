@@ -1,0 +1,63 @@
+BalloonData MM08_280_EMS[] = {
+	// ★Only Geou, Sterk, and Estiy. There are multiple patterns depending on content
+	// ★Each occurs only between 1-2 weeks after the Kingdom Festival ends
+	// ▼Talking to Estiy after the second year Kingdom Festival participation
+	// ▼Branches based on results
+	// ★────────────────────────────────────────
+	// ▼When losing in rounds 1-2
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Oh, Rorona-chan.<CR>Sorry about last time. Are you okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "I'm fine, but honestly, that was so unfair!<CR>A martial arts tournament out of nowhere?!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "I said I'm sorry.<CR>But the audience really enjoyed it" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Maybe Rorona-chan's popularity went up too,<CR>in a different way" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "What do you mean, 'in a different way'...<CR>Sigh, losing in front of all those people,<CR>I hope no one's talking about me weirdly..." },
+	// ▼
+	// ★────────────────────────────────────────
+	// ▼When losing to Sterk
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Oh, Rorona-chan.<CR>Sorry about last time. Are you okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I'm fine, but honestly, that was so unfair!<CR>A martial arts tournament out of nowhere?!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KANA,     BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "I said I'm sorry" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Oh, but don't worry.<CR>I gave Sterk a proper lecture.<CR>I told him he needs to be gentler with girls" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "I don't understand what's supposed to be okay about any of this..." },
+	// ▼
+	// ★────────────────────────────────────────
+	// ▼When beating Sterk and winning the championship
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Oh, there you are. Martial arts tournament champion!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "W-wow, please don't say that so loud!<CR>It's embarrassing..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "You don't need to be shy.<CR>By the way, did Sterk<CR>say anything to you after that?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Huh? Um...<CR>He just said congratulations normally,<CR>that's all" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Hmm... I guess he didn't let her<CR>see him looking depressed" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Huh? What do you mean?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Oh, nothing. Don't worry about it.<CR>Now, enough chitchat, time to get to work!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Wait, Estiy?<CR>Can you please explain properly? Hey!" },
+	// ▼
+	// ★────────────────────────────────────────
+	// ▼When losing to Geou
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Oh, Rorona-chan.<CR>Sorry about last time. Are you okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "I'm fine, but honestly, that was so unfair!<CR>A martial arts tournament out of nowhere?!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "I said I'm sorry.<CR>But Rorona-chan, you did your best.<CR>You even beat Sterk!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "...Well, the opponent was just too strong at the end" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Yeah. That person was really strong..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Oh right!<CR>Who WAS that person anyway?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Oops, did I say too much..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "No can do, Rorona-chan.<CR>You need to stop chatting and get to work!<CR>Come on, chop chop!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "Wait, Estiy?<CR>Please tell me! Estiy!" },
+	// ▼
+	// ★────────────────────────────────────────
+	// ▼When beating Geou
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "Oh, there you are. Martial arts tournament champion!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "W-wow, please don't say that so loud!<CR>It's embarrassing..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "You don't need to be shy.<CR>My, beating not only Sterk but<CR>that person too..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "Th-that was pure luck...<CR>Oh right!<CR>Who WAS that person anyway?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "Oops, did I say too much..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_KOMA,     BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "No can do, Rorona-chan.<CR>You need to stop chatting and get to work!<CR>Come on, chop chop!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,       33, BALLOON_FRAME_TYPE_BUC,            "Wait, Estiy?<CR>Please tell me! Estiy!" },
+	// ▼
+	// ★────────────────────────────────────────
+	// ▼
+};
+
+BALLOON_DATA_ALL MM08_280_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_280",// Output file name
+	MM08_280_EMS,           // Above variable
+};

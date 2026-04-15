@@ -1,0 +1,35 @@
+BalloonData MA01_090_EMS[] = {
+	// ▼錬金術のやり方は？を選んだ時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "So to do alchemy...<CR>I just follow what's in this book, right?<CR>Probably..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Since I'm not sure, let me try it once.<CR>Um, what do I think I can make right now..." },
+	// ▼釜の方に歩いていく主人公
+	// ▼以降、システムメッセージで説明→実際に調合を行うまで
+	// ★失敗はしないように
+	// ▼調合が終了し、一通り説明が終わった後
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "I did it! I actually did it!<CR>I might be amazing!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "If I can keep this up,<CR>maybe I can actually run this Atelier...<CR>Alright, I'm starting to see some hope!" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "When you examine the alchemy cauldron in the Atelier,<CR>you can begin synthesizing." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Synthesis is a system where you combine<CR>items as materials to create<CR>entirely new items." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "To perform synthesis, you need<CR>a reference book that explains how to make items,<CR>and the material items themselves." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Reference books and materials can be<CR>purchased at shops, found at exploration sites,<CR>or received from people." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Here, let's try making the<CR><CLGR>Neutralizer<CLNR> written about<CR>in the reference book Master gave you." },
+	// ★＞※この後の操作法、IPUだけで説明できるかどうか。むりっぽかったら何か挟む
+	// ★＞※調合画面呼び出して、実際に中和剤を作らせた後↓
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLGR>Neutralizer<CLNR> has been synthesized!" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Synthesized items can be used as materials for other items,<CR>used during battle, or come in handy<CR>in unexpected places during exploration." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "When you get new reference books and materials,<CR>try synthesizing them." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "For more details, please check the synthesis help<CR>section in the menu's encyclopedia." },
+	// ★アトリエ内の休む場所をアップにして
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Also, when you synthesize,<CR>time will pass depending on the item and quantity synthesized,<CR>and your MP will decrease." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "To restore MP, either use a recovery item<CR>or use the sofa in the Atelier." },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "When you examine the sofa in the Atelier,<CR>you can rest for a number of days to<CR>restore HP and MP." },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "Would you like to view the synthesis tutorial?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MA01_090_bda = {
+	"MA01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MA01_090",// 出力ファイル名
+	MA01_090_EMS,           // 上記変数
+};

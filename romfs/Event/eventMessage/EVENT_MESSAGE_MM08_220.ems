@@ -1,0 +1,67 @@
+BalloonData MM08_220_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Phew... I can't anymore..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX9,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "And~ that's the match!<CR>The sole female participant Rorona-chan,<CR>has been eliminated here!" },
+	// ▼After a long black screen, reunites with first companion met
+	// ★------------------------------------------------
+	// ▼With Cuderia
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "How embarrassing.<CR>Losing to some nameless nobody.<CR>I was cheering for you, you know!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Even if you say that...<CR>I'm not good at fighting, you know... uuu..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Don't cry! W-well, you did try<CR>for someone who's you, at least?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "So come on, cheer up!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Yeah... thanks..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_WARA,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Now then, let's have fun all day.<CR>Forget about work. Okay?" },
+	// ▼Long black screen, one day passes
+	// ★------------------------------------------------
+	// ▼With Ixcel
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Oh, what a loss. That was hilarious,<CR>I haven't laughed that hard in a while" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Don't laugh!<CR>It really hurt!" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_NOR,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Heh, my bad. Hey, as a reward for trying hard,<CR>I'll buy you anything you want today" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Really? Anything?" },
+	{ BALLOON_MODE_BUC,    CHARA_YKSEL,      0, NAME_YKSEL,       BUC_YKSEL_WARA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "I said it, didn't I? Forget the bad stuff,<CR>let's have some fun today" },
+	// ▼Long black screen, one day passes
+	// ★------------------------------------------------
+	// ▼With Sterk
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Uuu, that was rough..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_BUC,            "The champion is the favorite!<CR>The greatest knight in Arland,<CR>Sterk-kun~!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Ah, Sterk-san won the championship" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "If I was going to lose anyway,<CR>I kinda wish I could've fought Sterk-san..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Haah, I'm exhausted.<CR>I should just go home and sleep..." },
+	// ▼Long black screen, one day passes
+	// ★------------------------------------------------
+	// ▼With Lionela
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      18, BALLOON_FRAME_TYPE_BUC,            "Oh, what a loss" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "Oh, um, are you okay?<CR>You're not hurt?" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      20, BALLOON_FRAME_TYPE_BUC,            "Well, can't be helped, right?<CR>You did well against a grown man" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Getting talked to all at once...<CR>I can't tell if you're mocking me, worried about me,<CR>or comforting me..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "I-I'm sorry..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "No, I'm sorry too.<CR>You were cheering for me and I lost so easily..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "No, it's fine!<CR>I couldn't stop them from taking you either..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      25, BALLOON_FRAME_TYPE_BUC,            "Okay, okay, that's enough.<CR>If you two keep talking, it'll get dark" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "Right, it's a festival.<CR>Let's cheer up. Okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "...Right. Let's just forget the bad stuff<CR>and have some fun.<CR>Let's go, Lio-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "Y-yeah" },
+	// ▼Long black screen, one day passes
+	// ★------------------------------------------------
+	// ▼With Tantris
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "Good effort. That must have been rough" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "Uuu, that was terrible..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "Well, it's fine, isn't it?<CR>The audience seemed to enjoy watching you fight,<CR>and your fighting form was quite admirable" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       32, BALLOON_FRAME_TYPE_BUC,            "Eh? That's not... I wasn't that great!<CR>I was just swinging my weapon around!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "Well, I'd rather have you by my side<CR>than watching from afar" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       34, BALLOON_FRAME_TYPE_BUC,            "Now then, shall we continue our date?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       35, BALLOON_FRAME_TYPE_BUC,            "O-okay... wait,<CR>so it's NOT a date!" },
+	// ▼Long black screen, one day passes
+	// ★------------------------------------------------
+	// ▼With Gio
+	// ★※Could use the same as with Sterk
+	// ▼Long black screen, one day passes
+	// ★------------------------------------------------
+	// ▼
+};
+
+BALLOON_DATA_ALL MM08_220_bda = {
+	"MM08",                 // Output file path
+	"EVENT_MESSAGE_MM08_220",// Output file name
+	MM08_220_EMS,           // Variable above
+};

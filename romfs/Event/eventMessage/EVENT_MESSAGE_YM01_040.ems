@@ -1,0 +1,31 @@
+BalloonData YM01_040_EMS[] = {
+	// ▼课题12
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     1991, BALLOON_FRAME_TYPE_BUC,            "Tomorrow's the day... the results will be announced...<CR>Whether I pass or fail, tomorrow it all ends..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,     1992, BALLOON_FRAME_TYPE_BUC,            "Uuuu...<CR>I'm so nervous I can't settle down..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,     1993, BALLOON_FRAME_TYPE_BUC,            "No good! I can't just sit still!<CR>I'll go for a little walk!" },
+	// ●开头三句话因为共通所以省略
+	// ▼罗罗娜走出アトリエ
+	// ▼罗罗娜来到王宫接待处
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,    20030, BALLOON_FRAME_TYPE_BUC,            "...Huh? For some reason I ended up<CR>coming all the way to the castle.<CR>At this hour, there's no one here" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_IKA,      BUC_POSITION_TYPE_R,    20031, BALLOON_FRAME_TYPE_BUC,            "Who's there?" },
+	// ▼艾斯蒂登场
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,    20032, BALLOON_FRAME_TYPE_BUC,            "Oh, it's you, Rorona-chan.<CR>It's not appropriate for you to be at the castle<CR>at this hour. Did something happen?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,    20033, BALLOON_FRAME_TYPE_BUC,            "Nothing specific, but I was thinking about<CR>tomorrow and wandering around, and<CR>before I knew it I was here..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,    20034, BALLOON_FRAME_TYPE_BUC,            "Tomorrow? I see, tomorrow's the announcement, isn't it?<CR>So basically, you're anxious and restless<CR>from the nerves" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,    20035, BALLOON_FRAME_TYPE_BUC,            "But that's not okay, it's not appropriate<CR>for you to be here at this hour" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,    20036, BALLOON_FRAME_TYPE_BUC,            "It's too late to panic anyway, the results<CR>have already been decided.<CR>Nothing will change" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,    20037, BALLOON_FRAME_TYPE_BUC,            "Yes..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,    20038, BALLOON_FRAME_TYPE_BUC,            "Besides, I haven't been told the results either,<CR>but I'm sure you passed, so don't worry" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,    20039, BALLOON_FRAME_TYPE_BUC,            "That's a relief but...<CR>Uuu, I'm still worried..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_WARA,     BUC_POSITION_TYPE_R,    20040, BALLOON_FRAME_TYPE_BUC,            "Yes! That's enough worrying for now.<CR>If you're going to worry, do it at the Atelier.<CR>I'll take you there" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,    20041, BALLOON_FRAME_TYPE_BUC,            "That's okay, I can go back by myself" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,    20042, BALLOON_FRAME_TYPE_BUC,            "No way! I can't just leave a girl<CR>all alone at this hour, now that I've found you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,    20043, BALLOON_FRAME_TYPE_BUC,            "...Well then, if you insist,<CR>I'll accept your offer" },
+	// ▼用比较长的黑色淡出结束，转到下一个事件
+};
+
+BALLOON_DATA_ALL YM01_040_bda = {
+	"YM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM01_040",// 出力ファイル名
+	YM01_040_EMS,           // 上記変数
+};

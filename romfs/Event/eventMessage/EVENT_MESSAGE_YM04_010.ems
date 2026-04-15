@@ -1,0 +1,66 @@
+BalloonData YM04_010_EMS[] = {
+	// ▼延長戦開始
+	// ▼冒頭巻頭言
+	// ▼エスティの声でナレーション＆テロップ
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "In Arland, there is a small Atelier" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_NORMAL,         "It was an alchemy shop that was once on the verge of being shut down by the castle" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_NORMAL,         "However, one girl rose up to protect the shop. That girl, Rorona, fought hard for three years to keep the shop alive" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_NORMAL,         "As a result, the Atelier was saved, and Rorona was finally free to run the shop however she wished" },
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_NORMAL,         "Rorona would go on to walk various paths into the future... But what follows is just one of those countless stories--" },
+	// ▼ナレーション終了
+	// ▼アトリエでのんびりするロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "...Whew" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Master left on a journey too,<CR>and suddenly it got so quiet...<CR>I keep having that feeling" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Still though.<CR>Is it really okay for me to do whatever I want<CR>here now? I wonder if I should" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "For now, I'll just take it easy.<CR>I've always been chasing deadlines<CR>and never could relax, I wonder" },
+	// ▼入り口の扉をノックする音
+	// ▼黒画面へ
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_BUCSYS,         "It's this place, Meruru-chan" },
+	{ BALLOON_MODE_BUCSYS, CHARA_MERURU,     0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_BUCSYS,         "This is that place...<CR>I really hope nobody's home..." },
+	// ▼スチル表示（アトリエの入り口に疲れてる感じのトトリとメルル、その二人を見て驚いているロロナ）
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    12, BALLOON_FRAME_TYPE_BUCSYS,         "U-Um... Who are you...?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    13, BALLOON_FRAME_TYPE_BUCSYS,         "Ahh! Rorona-sensei!<CR>Finally I found you!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_MERURU,     0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_BUCSYS,         "So this is Rorona-chan... no wait,<CR>Rorona-san, I suppose?<CR>Now that I see you, I get what you mean" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    15, BALLOON_FRAME_TYPE_BUCSYS,         "That's right.<CR>I'm not sure if this will work out..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_BUCSYS,         "S-Sensei!?<CR>Um, I don't think I know anyone<CR>who calls me that..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_TOTORI,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_BUCSYS,         "Ah, that's right, we haven't met yet.<CR>I'm Totori. And this is Meruru-chan" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_TOTORI,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    18, BALLOON_FRAME_TYPE_BUCSYS,         "The two of us were sent here<CR>from a future world by some kind of accident" },
+	{ BALLOON_MODE_BUCSYS, CHARA_MERURU,     0, NAME_MERURU,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    19, BALLOON_FRAME_TYPE_BUCSYS,         "More precisely, we came from a place<CR>pretty far northwest of here,<CR>the Arsland Kingdom" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    20, BALLOON_FRAME_TYPE_BUCSYS,         "Um, well......" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_TOTORI,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    21, BALLOON_FRAME_TYPE_BUCSYS,         "Sorry for just dumping all this on you" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_TOTORI,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    22, BALLOON_FRAME_TYPE_BUCSYS,         "...I guess it's hard to believe, right?<CR>Even for you, Rorona-sensei" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    23, BALLOON_FRAME_TYPE_BUCSYS,         "Y-Yeah... Ehahaha" },
+	{ BALLOON_MODE_BUCSYS, CHARA_TOTORI,     0, NAME_TOTORI,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    24, BALLOON_FRAME_TYPE_BUCSYS,         "...But, what if I told you the item<CR>we used to come here was made by<CR>Miss Astrid? Would you believe me then?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    25, BALLOON_FRAME_TYPE_BUCSYS,         "What!? Master's!?" },
+	// ▼ゆっくり黒画面
+	// ▼ゆっくりアトリエでの通常会話画面に
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_SIN,     BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "That's the situation" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R2,      27, BALLOON_FRAME_TYPE_BUC,            "Just as Totori-sensei predicted, huh?<CR>Saying Miss Astrid's name<CR>was enough to make you believe" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "Well, there's no helping that, right?<CR>Master would totally do something like that.<CR>I believe you, I suppose" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_WARA,    BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "Thank you for believing us, Rorona-sensei" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "Totori-chan, was it?<CR>C-Can you maybe not call me<CR>Rorona-sensei? It's making me feel all bashful" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "But in the world we came from,<CR>Rorona-sensei was our teacher...<CR>Can't I just call you Rorona-sensei?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX1,     BUC_POSITION_TYPE_L,       32, BALLOON_FRAME_TYPE_BUC,            "Uugh~" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_NOR,     BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "...So anyway, getting back on track,<CR>we came here to find a way<CR>back to our time" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_R,       34, BALLOON_FRAME_TYPE_BUC,            "The item that caused this was made by<CR>Miss Astrid, I suppose, so I thought<CR>she might know something..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       35, BALLOON_FRAME_TYPE_BUC,            "Master left on a journey a while ago.<CR>I don't know when she'll be back<CR>either" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_ODO,     BUC_POSITION_TYPE_R,       36, BALLOON_FRAME_TYPE_BUC,            "What!? Really!?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KOMA,    BUC_POSITION_TYPE_R2,      37, BALLOON_FRAME_TYPE_BUC,            "We didn't account for that!<CR>What should we do, Totori-sensei?" },
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KOMA,    BUC_POSITION_TYPE_R,       38, BALLOON_FRAME_TYPE_BUC,            "Not having Miss Astrid here<CR>makes things tricky...<CR>Looks like returning right away isn't possible..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_R2,      39, BALLOON_FRAME_TYPE_BUC,            "But if it takes a while, that's a problem.<CR>We don't have much money<CR>for lodging or anything" },
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_KAN,     BUC_POSITION_TYPE_R2,      40, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       41, BALLOON_FRAME_TYPE_BUC,            "......" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       42, BALLOON_FRAME_TYPE_BUC,            "...That's it! How about staying<CR>in Master's room until she comes back?<CR>Master was the cause anyway" },
+	// ▼アストリッドの部屋のドアを見せる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       43, BALLOON_FRAME_TYPE_BUC,            "It's that one over there" },
+	// ▼ここでリリース
+	// ●扉の前に移動したら次のイベントが発生になるが、仕様的にムリなら２イベントをくっつける
+	// ▼
+};
+
+BALLOON_DATA_ALL YM04_010_bda = {
+	"YM04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM04_010",// 出力ファイル名
+	YM04_010_EMS,           // 上記変数
+};

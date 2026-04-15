@@ -1,0 +1,31 @@
+﻿BalloonData MM01_530_EMS[] = {
+	// ▼課題の締め切りが近づいて来た時（１ヶ月～１、２週間前くらい）
+	// ▼主人公がアトリエにいない時
+	// ▼まだハトを見ていない場合
+	{ BALLOON_MODE_BUCSYS, CHARA_CAT_A,      0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_BUC,            "Flap flap" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Hmm? What's that sound...<CR>Whoa!?" },
+	{ BALLOON_MODE_BUC,    CHARA_CAT_A,      0, NAME_DOVE,        BUC_DOVE_NOR,       BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Coo-coo!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "A dove? That startled me...<CR>Oh? There's a letter tied to its leg...<CR>Did it deliver this to me?" },
+	{ BALLOON_MODE_BUC,    CHARA_CAT_A,      0, NAME_DOVE,        BUC_DOVE_NOR,       BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Coo-coo!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "Thanks. But who could it be from?<CR>I don't know anyone who keeps doves...<CR>Oh, it's from Sterk-san. Let's see..." },
+	// ▼もうハトを見ている場合
+	{ BALLOON_MODE_BUC,    CHARA_CAT_A,      0, NAME_DOVE,        BUC_DOVE_NOR,       BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Flap flap" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Oh, another dove" },
+	{ BALLOON_MODE_BUC,    CHARA_CAT_A,      0, NAME_DOVE,        BUC_DOVE_NOR,       BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Coo-coo!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Hello there, Mr. Dove.<CR>Did you bring another letter?" },
+	{ BALLOON_MODE_BUC,    CHARA_CAT_A,      0, NAME_DOVE,        BUC_DOVE_NOR,       BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Coo-coo!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Thanks. Let's see..." },
+	// ▼以下共通
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "It seems you were not home, so I am contacting you by letter.<CR>The deadline for the request is approaching,<CR>so I am reaching out with some friendly advice" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "While there's no need to repeat what I've already said,<CR>if you fail to complete the request,<CR>your Atelier will be shut down" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "Please don't forget this<CR>under any circumstances" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Sterk-san... I know he's worried about me,<CR>but that just adds more pressure..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Uuu, I hope I'll be okay.<CR>I'm starting to get nervous..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM01_530_bda = {
+	"MM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MM01_530",// 出力ファイル名
+	MM01_530_EMS,           // 上記変数
+};

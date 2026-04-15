@@ -1,0 +1,54 @@
+﻿BalloonData QC06_060_EMS[] = {
+	// ▼目的地近くでイベント
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "There it is. That's the one" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Huh? Where...? Whoa!?<CR>Wh-what is that!?" },
+	// ▼少し先に大き目のモンスターが
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "The boss of the monsters in this area,<CR>more or less. Well then, it's all up to you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "You're counting on me? You can't be serious!?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Oh, but I am.<CR>Come on, go get 'em!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "N-no way! Absolutely impossible...<CR>Kyaa! Don't push me!" },
+	// ▼ジオに押し出されるロロナ
+	// ▼だが、一瞬で負ける
+	{ BALLOON_MODE_CHASYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     6, BALLOON_FRAME_TYPE_NORMAL,         "Kyaaaaaaaaa..." },
+	// ▼勝ち鬨を上げるモンスター
+	{ BALLOON_MODE_CHASYS, CHARA_NONE,       0, NAME_MONSTER,     BUC_NONE,           BUC_POSITION_TYPE_NONE,     7, BALLOON_FRAME_TYPE_NORMAL_SHOUT,   "Gwoooooooh!!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Completely defeated.<CR>Getting handled that thoroughly is almost impressive" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Be-being beaten that badly isn't<CR>something to be complimented on..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_NONE,       0, NAME_MONSTER,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    10, BALLOON_FRAME_TYPE_BUC,            "Gwoh? Gwoooooohooo!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "Seems like they're still going. Shall we get up?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Sorry... I might be in over my head..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_IKA,        BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Then I have no choice.<CR>If you'll permit me to take your place...<CR>Hya!" },
+	// ▼一枚絵で。一瞬でモンスターを切り伏せるジオ
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    14, BALLOON_FRAME_TYPE_BUC,            "Eh...?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_NONE,       0, NAME_MONSTER,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    15, BALLOON_FRAME_TYPE_BUC,            "Gah?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_GIO,        0, NAME_GIO,         BUC_NONE,           BUC_POSITION_TYPE_NONE,    16, BALLOON_FRAME_TYPE_BUC,            "I bear no ill will. Forgive me" },
+	{ BALLOON_MODE_BUCSYS, CHARA_NONE,       0, NAME_MONSTER,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    17, BALLOON_FRAME_TYPE_BUC_SHOUT,      "G...g...gaaaaaah!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    18, BALLOON_FRAME_TYPE_BUC,            "Eh? Eh...? What just happened?<CR>I couldn't see anything..." },
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "What is it? Why are you spacing out?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Ah, s-sorry.<CR>I don't really understand what just happened..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "When Gio-san went 'hya!',<CR>the monster went 'hyaaa!'..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "Yes, something like that" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "B-but that monster was<CR>really strong!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "...Maybe I was just too weak" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "It wasn't anything special.<CR>Anyone could do it if they spent their whole life<CR>swinging a sword" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       26, BALLOON_FRAME_TYPE_BUC,            "Now, this should be what you were looking for" },
+	// ▼ジオからアイテムを受け取る
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       27, BALLOON_FRAME_TYPE_BUC,            "Huh? What's this?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "This is the Raptor Stine.<CR>Among those who compete in martial prowess,<CR>it's a somewhat famous trophy of victory" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       29, BALLOON_FRAME_TYPE_BUC,            "Though as far as alchemy goes,<CR>it has absolutely no value" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       30, BALLOON_FRAME_TYPE_BUC,            "Um, can I<CR>really have this?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       31, BALLOON_FRAME_TYPE_BUC,            "Don't be modest.<CR>This is your reward for coming along with me today" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       32, BALLOON_FRAME_TYPE_BUC,            "A reward? But I didn't do anything..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       33, BALLOON_FRAME_TYPE_BUC,            "Then I'll take my leave.<CR>It wouldn't do to keep a young lady<CR>out so long" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       34, BALLOON_FRAME_TYPE_BUC,            "Ah, wait!" },
+	// ▼歩き出すジオを追いかけるロロナ
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLGR>Raptor Stine<CLNR> received." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_060_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_060",// 出力ファイル名
+	QC06_060_EMS,           // 上記変数
+};

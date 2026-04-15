@@ -1,0 +1,34 @@
+BalloonData QN01_090_EMS[] = {
+	// ▼パイメテオールを初めて作った時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "I did it! I'll call it... Pie-meteol!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Pie-meteol...<CR>What kind of effect does this have?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "Effect? I wonder.<CR>I didn't really think about it while making it..." },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "That's quite a concerning statement<CR>for an alchemist to make" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "W-well, you know. Don't be so serious about it.<CR>With normal Meteol,<CR>things come raining down from the sky" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L2,       5, BALLOON_FRAME_TYPE_BUC,            "I wonder if<CR>pies might come raining down instead!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_KANA,     BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I highly doubt that<CR>would ever happen" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L2,       7, BALLOON_FRAME_TYPE_BUC,            "Well, I think so too...<CR>But let's just try it anyway!<CR>Here I go!" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L2,      -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L2,      10, BALLOON_FRAME_TYPE_BUC,            "...Ahaha, nothing happened after all" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    11, BALLOON_FRAME_TYPE_BUC,            "Owww!" },
+	// ▼アトリエの外からクーデリアの声が聞こえる
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L2,      12, BALLOON_FRAME_TYPE_BUC,            "That voice just now... Kuu-chan?" },
+	// ▼クーデリアがアトリエの中に
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Owwow...<CR>Rorona! What did you just do!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L2,      14, BALLOON_FRAME_TYPE_BUC,            "W-what? You startled me" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Don't play dumb! You're the one<CR>who threw this pie at me!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L2,      16, BALLOON_FRAME_TYPE_BUC,            "...Pie?" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Yes! It came raining down from the sky... honestly!<CR>It hurts, and now my hair is all sticky!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L2,      18, BALLOON_FRAME_TYPE_BUC,            "...But that... Hom-chan" },
+	{ BALLOON_MODE_BUC,    CHARA_HOM_M,      0, NAME_HOM_M,       BUC_HOM_M_NOR,      BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Hom thinks it was just a coincidence.<CR>The probability of pies falling from the sky<CR>isn't actually zero" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L2,      20, BALLOON_FRAME_TYPE_BUC,            "Ahaha, yeah. Just a coincidence, right..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "What are you laughing about! Apologize!<CR>Are you even listening!?" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_090_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_090",// 出力ファイル名
+	QN01_090_EMS,           // 上記変数
+};

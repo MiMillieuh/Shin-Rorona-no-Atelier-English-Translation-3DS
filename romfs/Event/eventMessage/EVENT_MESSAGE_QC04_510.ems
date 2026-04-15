@@ -1,0 +1,47 @@
+BalloonData QC04_510_EMS[] = {
+	// ▼When they first become companions and head out to gather materials
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "This is Rio-chan.<CR>She became my friend recently" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L2,       1, BALLOON_FRAME_TYPE_BUC,            "And this is Koo-chan.<CR>She's been my childhood friend" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "...Nice to meet you" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Nice to meet you, please take care of me..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "Alright, let's go.<CR>I'll look at the map while we walk,<CR>so you two can chat as much as you like" },
+	// ▼Rorona starts walking ahead
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_L,        5, BALLOON_FRAME_TYPE_BUC,            "*staring*..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "O-oh, um...?" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "Hey now, don't stare so much.<CR>We're not exactly putting on a show here" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       8, BALLOON_FRAME_TYPE_BUC,            "Oh come on, we're the ones being gawked at.<CR>Besides, it's rude to talk like that to someone you just met" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_ODO,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Hmm.<CR>I'd heard Rorona mention the doll could talk,<CR>but I never expected a full comedy routine" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "I-I'm so sorry..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_KOMA,   BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Why are you apologizing?<CR>If you keep apologizing every time a doll talks,<CR>you'll never make it through life" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "U...I'm sorry..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "I said, stop apologizing so much!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Y-yes! Sorry..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      15, BALLOON_FRAME_TYPE_BUC,            "There, there. Rio, that's enough for now" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_AKI,    BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Honestly, it looks like I'm bullying you or something" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_SIN,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Don't be so jumpy,<CR>straighten up! Come on!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Y-yes...<CR>Oh, and I've also heard about you from Rorona,<CR>Cuderia-san..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_NOR,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "Oh my, is that right? Hmm...<CR>So what did she say about me?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_HOHO,   BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Well... she's always helping me,<CR>and she's a reliable friend..." },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_TERE,   BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "R-right. Well, that's only natural.<CR>I-I mean, I'm not particularly happy or anything" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      22, BALLOON_FRAME_TYPE_BUC,            "She also said you're stubborn, tsundere,<CR>and quick to anger" },
+	{ BALLOON_MODE_BUC,    CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_CUDERIA_IKA,    BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Wha～t did you just sayyyy!!!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R,       24, BALLOON_FRAME_TYPE_BUC,            "Kyaa!?" },
+	// ▼Cuderia runs toward Rorona
+	// ★The following is meant to be them talking off-screen
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    25, BALLOON_FRAME_TYPE_BUC,            "Rorona! Honestly!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    26, BALLOON_FRAME_TYPE_BUC,            "Whoa! W-why are you angry!?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_CUDERIA,    0, NAME_CUDERIA,     BUC_NONE,           BUC_POSITION_TYPE_NONE,    27, BALLOON_FRAME_TYPE_BUC,            "Why wouldn't I be angry!<CR>Who calls someone an awkward, bashful,<CR>shrinking violet!!" },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,    28, BALLOON_FRAME_TYPE_BUC,            "Did I say that...?<CR>O-ow! I-I'm sorry!" },
+	// ▼Rio and the others watching with exasperation
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      29, BALLOON_FRAME_TYPE_BUC,            "Looks about right for her personality" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      30, BALLOON_FRAME_TYPE_BUC,            "Indeed. But she doesn't seem like a bad kid" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "………." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_HOHO,   BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "...Hehe. You two seem to be having fun..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC04_510_bda = {
+	"QC04",                 // Output file path
+	"EVENT_MESSAGE_QC04_510",// Output file name
+	QC04_510_EMS,           // The variable
+};

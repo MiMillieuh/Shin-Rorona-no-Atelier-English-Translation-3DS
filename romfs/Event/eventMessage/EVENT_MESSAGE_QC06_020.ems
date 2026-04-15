@@ -1,0 +1,40 @@
+﻿BalloonData QC06_020_EMS[] = {
+	// ▼↑のイベントからしばらく経過
+	// ▼ロロナがアトリエにいる時
+	// ▼ジオがアトリエに入ってくる
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_NAZO,        BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Pardon the intrusion" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Ah, a customer? Comi—" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC_SHOUT,      "AAA! That person from before!?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_NAZO,        BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "Finally found you.<CR>Now I can finally repay the money<CR>you covered for me back then" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_IKA,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "N-no way!<CR>I'm absolutely not accepting any rings!" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_NAZO,        BUC_GIO_WARA,       BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Ha ha, no worries.<CR>I brought my wallet this time" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_NAZO,        BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "I was too hot-headed that time. My apologies.<CR>Here, as you can see" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "I-I see... If that's the case..." },
+	// ▼前に貸した金を返してもらう
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(I thought they were weird and scary...<CR>　But maybe they're actually reasonable?)" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_NAZO,        BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "By the way, is this atelier yours?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Yes, it is.<CR>My master kind of forced it on me..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_NAZO,        BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "I see... I've heard rumors,<CR>but to think a young girl like you..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_NAZO,        BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "............" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "(Huh? They went quiet...<CR>　Did I say something wrong?)" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Ahem. I still haven't introduced myself.<CR>I am Gio. A laid-back wanderer,<CR>who occasionally strolls through town" },
+	// ★ジオの名前テロップ表示
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Oh, I'm Rorona.<CR>Um, Gio-san... Gio-san?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Hm? Is something wrong with my name?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "It's just... can't really shorten it... hmm, what to do..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "Shorten it? Well, fine. That was all I needed" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "I'll likely be using your services<CR>as a customer from now on.<CR>Until next time" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Oh, yes. Please come again" },
+	// ▼立ち去るジオ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "...Huh? Gio-san,<CR>did you know about this atelier?<CR>I wonder why... could they know my master?" },
+	// ▼イベント結果：ジオが普通の客として登場するように
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "<CLGR>200 Cole<CLNR> received." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_020_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_020",// 出力ファイル名
+	QC06_020_EMS,           // 上記変数
+};

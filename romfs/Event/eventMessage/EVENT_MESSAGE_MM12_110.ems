@@ -1,0 +1,44 @@
+ BalloonData MM12_110_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     1991, BALLOON_FRAME_TYPE_BUC,            "Tomorrow's the results day...<CR>Whether I pass or fail, it'll all be over tomorrow..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,     1992, BALLOON_FRAME_TYPE_BUC,            "Uuuu...<CR>I'm so nervous, I can't calm down..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,     1993, BALLOON_FRAME_TYPE_BUC,            "Nooo, I can't sit still!<CR>I'll just take a little walk around!" },
+	// ▼アトリエを出て行くロロナ
+	// ▼街の通りを歩くロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,     2110, BALLOON_FRAME_TYPE_BUC,            "Hmm, I just felt like going out, but<CR>where should I go... Hm?<CR>Who's that over there..." },
+	// ▼視線の先で、ジオが行ったり来たりしている
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,     2111, BALLOON_FRAME_TYPE_BUC,            "Hmm, standing here like this won't help...<CR>But still... What should I do..." },
+	// ▼すぐ側まで近づいてくるロロナ
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2112, BALLOON_FRAME_TYPE_BUC,            "Good evening, Gio-san" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,     2113, BALLOON_FRAME_TYPE_BUC,            "Whaa!?<CR>How long have you been there!?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,     2114, BALLOON_FRAME_TYPE_BUC,            "I just got here..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,     2115, BALLOON_FRAME_TYPE_BUC,            "Hmph, to think I didn't notice you behind me...<CR>What's wrong with me lately" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2116, BALLOON_FRAME_TYPE_BUC,            "What were you doing out here, Gio-san?<CR>At this hour?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,     2117, BALLOON_FRAME_TYPE_BUC,            "I was... Or rather, I was going to...<CR>Ah, to heck with it" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,     2118, BALLOON_FRAME_TYPE_BUC,            "The truth is, I was debating whether to see you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,     2119, BALLOON_FRAME_TYPE_BUC,            "Huh? Me?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,     2120, BALLOON_FRAME_TYPE_BUC,            "Yes. Knowing you, I thought you might be<CR>running around in a panic from nervousness" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,     2121, BALLOON_FRAME_TYPE_BUC,            "Haha, you saw right through me...<CR>But why would you hesitate to see me?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,     2122, BALLOON_FRAME_TYPE_BUC,            "...For someone in my position to say something<CR>to you right now would be quite presumptuous" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,     2123, BALLOON_FRAME_TYPE_BUC,            "No, I have no regrets or reflections on my decision, it's just a personal feeling... And yet..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2124, BALLOON_FRAME_TYPE_BUC,            "...I've never seen you this flustered before.<CR>It's kind of cute, actually" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,     2125, BALLOON_FRAME_TYPE_BUC,            "Wha. Being called cute at my age..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,     2126, BALLOON_FRAME_TYPE_BUC,            "Well, I'll take it as a compliment.<CR>It seems I've accomplished my initial goal" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     2127, BALLOON_FRAME_TYPE_BUC,            "Eh? Goal...?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,     2128, BALLOON_FRAME_TYPE_BUC,            "That your tension has eased somewhat" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,     2129, BALLOON_FRAME_TYPE_BUC,            "Ah, now that you mention it..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,     2130, BALLOON_FRAME_TYPE_BUC,            "Seeing me this flustered should be<CR>the last thing you wanted, I assume" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,     2131, BALLOON_FRAME_TYPE_BUC,            "Now, it's getting late.<CR>Go home and rest" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,     2132, BALLOON_FRAME_TYPE_BUC,            "Yes... Thank you very much, Gio-san" },
+	// ▼帰っていくロロナ
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,     2133, BALLOON_FRAME_TYPE_BUC,            "Good grief, I need more spiritual training. As for me..." },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,     2134, BALLOON_FRAME_TYPE_BUC,            "Well, since I can't sleep anyway,<CR>I'll go swing my sword until morning" },
+	// ▼長めの黒フェードで終わり、次のイベントへ
+	// ▼
+};
+
+BALLOON_DATA_ALL MM12_110_bda = {
+	"MM12",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MM12_110",// 出力ファイル名
+	MM12_110_EMS,           // 上記変数
+};

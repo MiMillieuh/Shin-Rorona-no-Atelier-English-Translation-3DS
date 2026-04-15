@@ -1,0 +1,15 @@
+﻿BalloonData MM10_072_EMS[] = {
+	// ▼Separated from request announcement
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Um, so I just need to make<CR>a whole bunch, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Looks like it.<CR>Rorona-chan, since you work alone,<CR>it might be tough, but is that okay?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Probably... if I get Homu-chan and<CR>other shopkeepers to help me,<CR>I can probably manage something" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "You think? Well, okay then...<CR>Just do your best, okay? There's only<CR>a little bit of castle work left" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Yes!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL MM10_072_bda = {
+	"MM10",                 // Output file path
+	"EVENT_MESSAGE_MM10_072",// Output file name
+	MM10_072_EMS,           // Above variable
+};

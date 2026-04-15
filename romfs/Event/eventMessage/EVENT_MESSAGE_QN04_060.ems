@@ -1,0 +1,30 @@
+BalloonData QN04_060_EMS[] = {
+	// ▼適当なタイミングで、イクセルの店に行くと発生
+	{ BALLOON_MODE_CHASYS, CHARA_ESTIY,      0, NAME_ESTIY,       BUC_NONE,           BUC_POSITION_TYPE_NONE,     0, BALLOON_FRAME_TYPE_NORMAL,         "Rorona-chan~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Oh, Estiy-san. And Tifana-san too" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_EX2,     BUC_POSITION_TYPE_R2,       2, BALLOON_FRAME_TYPE_BUC,            "Ufufu, good evening" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "What are you two doing together?" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_EX1,     BUC_POSITION_TYPE_R2,       4, BALLOON_FRAME_TYPE_BUC,            "As you can see, we're drinking.<CR>Want to join us, Rorona-chan?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX3,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Now, now. You shouldn't be offering alcohol to minors" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_EX3,     BUC_POSITION_TYPE_R2,       6, BALLOON_FRAME_TYPE_BUC,            "Aww, come on~.<CR>I just want to drink with a young girl for once" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX3,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Oh my, is that your way of saying<CR>that you're not young anymore?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "N-Now, now.<CR>Still, Tifana-san,<CR>you seem different than usual..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX4,      BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "She gets like this when she's drunk.<CR>And the next day, she completely forgets<CR>everything from the night before" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX4,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Such a convenient trait~" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Sheesh...but,<CR>Estiy-san and Tifana-san are<CR>such good friends. I didn't know that" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX1,      BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "More like drinking buddies,<CR>or kindred spirits in misery..." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX4,      BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "Why must two middle-aged women<CR> resort to drinking, I sometimes wonder" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_EX4,     BUC_POSITION_TYPE_R2,      14, BALLOON_FRAME_TYPE_BUC,            "Muu, Estiy's so mean~!<CR>I wanna talk to Rorona-chan too~!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX3,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Oh no, not again! Stop latching onto me!" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_EX1,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Dealing with drunks is pointless,<CR>so you'd better run along" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "O-Okay...sorry for interrupting" },
+	{ BALLOON_MODE_BUC,    CHARA_TIFANA,     0, NAME_TIFANA,      BUC_TIFANA_EX3,     BUC_POSITION_TYPE_R2,      18, BALLOON_FRAME_TYPE_BUC,            "Awn. Rorona-chaaan~" },
+	// ▼二人から離れるロロナ
+	// ▼
+};
+
+BALLOON_DATA_ALL QN04_060_bda = {
+	"QN04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN04_060",// 出力ファイル名
+	QN04_060_EMS,           // 上記変数
+};

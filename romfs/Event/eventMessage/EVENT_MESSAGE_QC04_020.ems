@@ -1,0 +1,68 @@
+BalloonData QC04_020_EMS[] = {
+	// ▼↑イベントから極めて近い内、ロロナが街にいる時に
+	// ★つなげて一個にしてもいいかもしれない
+	// ▼サイレントで、きょろきょろしながら街中を歩いているロロナ
+	// ▼ロロナが歩き去って少し後、よろよろとやってくるリオネラ
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_NAZO,        BUC_LIONELA_KANA,   BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            " Huff, huff... I can't go on anymore..." },
+	// ▼その場に座り込むリオネラ
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_NAZO,        BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       1, BALLOON_FRAME_TYPE_BUC,            "Pull yourself together.<CR>Sitting around like this<CR>no one will help you, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_NAZO,        BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "That's true but...<CR>But I got kicked out of the inn...<CR>And I haven't eaten in days..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_NAZO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "You only have yourself to blame for that.<CR>You got nervous and ran, dropped your wallet,<CR>and missed the tip collection..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_NAZO,        BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "Uu... But it wasn't like<CR>I dropped it on purpose or anything..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_NAZO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Well obviously. What kind of idiot<CR>goes around dropping wallets in this world, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_NAZO,        BUC_LIONELA_NOR,    BUC_POSITION_TYPE_L2,       6, BALLOON_FRAME_TYPE_BUC,            "Uu... hic... *sniff*..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_NAZO,        BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       7, BALLOON_FRAME_TYPE_BUC,            "Come on! Don't be so hard on her!<CR>Lionela, cry it out and that's enough!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_NAZO,        BUC_LIONELA_NAKI,   BUC_POSITION_TYPE_L2,       8, BALLOON_FRAME_TYPE_BUC,            "Sorry... b-but..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Ah! Found you!!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_NAZO,        BUC_LIONELA_NOR,    BUC_POSITION_TYPE_L2,      10, BALLOON_FRAME_TYPE_BUC_SHOUT,      "Hyaaaa!?" },
+	// ▼画面外から走り寄ってくるロロナ
+	// ★一旦BUC全クリア
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Um, you're the one who was doing<CR>the puppet show here the other day, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_NAZO,        BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "O-oh... u-um..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "I've been looking for you ever since!<CR>This belongs to you, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_NAZO,        BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      14, BALLOON_FRAME_TYPE_BUC,            "Oh my. Lionela's wallet" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_NAZO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      15, BALLOON_FRAME_TYPE_BUC,            "You went out of your way to return it?<CR>I'm impressed, honestly" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "No, it's nothing...<CR>Eh? Wait, the puppet just... spoke?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_NAZO,        BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Ah..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_NAZO,        BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      18, BALLOON_FRAME_TYPE_BUC,            "Oh dear. Look at me<CR>spilling everything" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_NAZO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      19, BALLOON_FRAME_TYPE_BUC,            "Hey now, don't lump us in with<CR>any old puppets out there.<CR>Even I have my limits, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_NAZO,        BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      20, BALLOON_FRAME_TYPE_BUC,            "Shh! No talking in front of strangers!" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_NAZO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      21, BALLOON_FRAME_TYPE_BUC,            "Ah right, right. I forgot.<CR>But isn't it already too late for that?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       -1, BALLOON_FRAME_TYPE_BUC,            "………." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_NAZO,        BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Ah... n-no wait...<CR>T-they're, these kids are... so..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "T-talkinging puppets?!<CR>This is my first time seeing one!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_NAZO,        BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "...Eh?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "Ah, I'm Rorona.<CR>What are your names?" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      27, BALLOON_FRAME_TYPE_BUC,            "Oh, thank you for the trouble.<CR>I'marani. Nice to meet you" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,       28, BALLOON_FRAME_TYPE_BUC,            "I'm Horohoro.<CR>Easy name to remember, right?" },
+	// ★アラーニャ＆ホロホロの名前テロップ表示
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "I see... So Horo-kun and<CR>um... Ranya-chan, right? Nice to meet you!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_NAZO,        BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R,       -1, BALLOON_FRAME_TYPE_BUC,            "………." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      31, BALLOON_FRAME_TYPE_BUC,            "Come on, stop standing there like a dummy,<CR>you should say hi too" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,       32, BALLOON_FRAME_TYPE_BUC,            "Y-yes! I'm Lionela..." },
+	// ★リオネラの名前テロップ表示
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      33, BALLOON_FRAME_TYPE_BUC,            "We travel around performing puppet shows<CR>and seeing different countries" },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      34, BALLOON_FRAME_TYPE_BUC,            "We're basically traveling entertainers, you know.<CR>I don't know how long we'll be in this country,<CR>but for now, nice to meet ya!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       35, BALLOON_FRAME_TYPE_BUC,            "Oh, is that so...<CR>I'm an alchemyist in this town.<CR>Nice to meet you too" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       36, BALLOON_FRAME_TYPE_BUC,            "Oh! But wait!<CR>I was in the middle of an errand for my Master.<CR>Um, I'll come see your puppet show again!" },
+	// ▼慌しく去っていくロロナ
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      37, BALLOON_FRAME_TYPE_BUC,            "What's with that girl? Running around like a madwoman" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      38, BALLOON_FRAME_TYPE_BUC,            "She's a nice girl though.<CR>Lionela, you should have seen her face when she clammed up..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       39, BALLOON_FRAME_TYPE_BUC,            "Sorry..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      40, BALLOON_FRAME_TYPE_BUC,            "There, there. Save the lecture for later.<CR>We got our money back, so let's head back to the inn" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      41, BALLOON_FRAME_TYPE_BUC,            "That's right.<CR>You'll be able to eat a proper meal now, Lionela" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_NOR,    BUC_POSITION_TYPE_R,       42, BALLOON_FRAME_TYPE_BUC,            "Y-yeah..." },
+	// ▼ロロナの去った方を時折振り返りながら、帰路につくリオネラ
+	// ★この先は黒画面でＢＵＣとかで
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      43, BALLOON_FRAME_TYPE_BUC,            "That girl<CR>wasn't scared of us at all, was she..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L2,      44, BALLOON_FRAME_TYPE_BUC,            "Yeah. She's got guts, that's for sure.<CR>Then again, she might just be airheaded" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      45, BALLOON_FRAME_TYPE_BUC,            "But... I wonder if maybe..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_L2,      46, BALLOON_FRAME_TYPE_BUC,            "Yeah.<CR>Well, probably better not to get our hopes up<CR>too much, you know" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC04_020_bda = {
+	"QC04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC04_020",// 出力ファイル名
+	QC04_020_EMS,           // 上記変数
+};

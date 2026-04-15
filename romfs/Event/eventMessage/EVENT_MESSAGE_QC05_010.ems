@@ -1,0 +1,56 @@
+BalloonData QC05_010_EMS[] = {
+	// ▼At a fairly distant exploration site
+	// ▼While exploring, the sound of music is heard from somewhere
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "...Hm? What's this song?<CR>In the middle of the forest like this... from over there?" },
+	// ★Whether it's a forest or not may change later
+	// ▼The protagonist wanders off alone toward the sound
+	// ★Maybe add a comment from each companion
+	// ★Something like "where did she go~?"
+	// ▼Scene transition
+	// ▼Discovering Tantoris playing an instrument
+	// ★The event may be customized to match skill contents
+	// ▼Illustration: Someone sinister playing an instrument surrounded by forest animals
+	// ▼The protagonist secretly watches from a bush
+	// ★If there are no animals, will be changed later
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     1, BALLOON_FRAME_TYPE_BUC,            "Could that person be playing...?<CR>What a beautiful sound..." },
+	// ▼For a while, lost in the music, humming along
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     2, BALLOON_FRAME_TYPE_BUC,            "Hm, hmm-hm~... ah" },
+	// ★If the music isn't ready first, it's over... it might be impossible to sync anyway
+	// ▼Steps on a branch underfoot, making a somewhat loud noise
+	{ BALLOON_MODE_BUCSYS, CHARA_TANTORIS,   0, NAME_NAZO,        BUC_NONE,           BUC_POSITION_TYPE_NONE,     3, BALLOON_FRAME_TYPE_BUC,            "Hm?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_NONE,       0, NAME_ANIMAL,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     4, BALLOON_FRAME_TYPE_BUC,            "*gasp*!! tatatata...!" },
+	// ▼Tantoris stops playing. The animals run away
+	// ★Use the illustration to cover up to here
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_EX1,   BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Looks like the audience ran off" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "I-I'm so sorry!<CR>I didn't mean to interrupt!" },
+	// ▼Rorona comes out and apologizes
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Oh my, think nothing of it.<CR>My music wasn't for the animals anyway" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "It was meant for a lovely<CR>and delicate maiden such as yourself..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Huh... Eh? L-lovely!?<CR>M-me!?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "Of course. Can't you see it yourself?<CR>Your own charm..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "Wha！ Th-that's...<CR>I'm not at all, um, flat-chested!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Ah, don't look so down.<CR>I want to keep gazing at your face" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "U-uh... ugh～～～～～！！！" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "（She really is fun to tease...）" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "W-what what what!<CR>I was in the middle of work! Excuse me!!" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_ODO,   BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "Ah, wait. There's something I wanted to ask" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "For a girl to be in a place like this,<CR>the town of Arland must be nearby, right?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Hm? Y-yes.<CR>You just keep walking that way and eventually..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_R,       19, BALLOON_FRAME_TYPE_BUC,            "I see, thanks. I used to live here when I was little,<CR>but it's been so long I've completely forgotten the way" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_R,       20, BALLOON_FRAME_TYPE_BUC,            "Do you happen to live in Arland?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       21, BALLOON_FRAME_TYPE_BUC,            "Yes. I run an alchemy atelier<CR>in town. And, um..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_R,       22, BALLOON_FRAME_TYPE_BUC,            "I hope we meet again.<CR>I'm looking forward to a fateful reunion.<CR>Lovely lady" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       23, BALLOON_FRAME_TYPE_BUC,            "Wha!? Sh-she said lovely again!!" },
+	// ▼Tantoris leaves laughing
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "...Ugh, that was so embarrassing...<CR>What a weird person.<CR>She called me l-lovely..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_TERE,    BUC_POSITION_TYPE_L,       25, BALLOON_FRAME_TYPE_BUC,            "...Hehe.<CR>I kind of liked it, maybe..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "N-no! I gotta get back to work!" },
+	// ▼The protagonist runs off in the opposite direction
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_010_bda = {
+	"QC05",                 // Output file path
+	"EVENT_MESSAGE_QC05_010",// Output file name
+	QC05_010_EMS,           // The variable
+};

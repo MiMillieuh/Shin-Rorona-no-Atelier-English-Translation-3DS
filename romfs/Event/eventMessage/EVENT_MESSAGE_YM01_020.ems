@@ -1,0 +1,17 @@
+BalloonData YM01_020_EMS[] = {
+	// ▼艾斯蒂篇（决定一个人去的时候）
+	// ▼与艾斯蒂擦肩而过
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_ODO,      BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Oops! Oh, it's you, Rorona-chan.<CR>Sorry about that" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Ah, Estiy-san.<CR>You seem pretty busy" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "Just a little. Got a lot of prep work.<CR>See ya" },
+	// ▼艾斯蒂离开
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "I wonder if she's always this busy.<CR>Estiy-san is... she's the facilitator again, isn't she.<CR>I wish we could've watched the festival together" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Can't be helped. I'll go alone" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM01_020_bda = {
+	"YM01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM01_020",// 出力ファイル名
+	YM01_020_EMS,           // 上記変数
+};

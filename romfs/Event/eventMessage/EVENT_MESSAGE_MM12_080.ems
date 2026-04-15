@@ -1,0 +1,46 @@
+﻿BalloonData MM12_080_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     1991, BALLOON_FRAME_TYPE_BUC,            "Tomorrow is the results announcement...<CR>Whether I pass or fail, tomorrow it all ends..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,     1992, BALLOON_FRAME_TYPE_BUC,            "Uuuu...<CR>I'm so nervous I can't calm down..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,     1993, BALLOON_FRAME_TYPE_BUC,            "No, no, no! I can't just sit still!<CR>Let me go take a little walk!" },
+	// ▼Rorona comes to the castle (at the reception?)
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     2036, BALLOON_FRAME_TYPE_BUC,            "...I ended up at the castle without thinking,<CR>but there's nobody here at this hour" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,     2037, BALLOON_FRAME_TYPE_BUC,            "I wonder if I'll get in trouble<CR>for coming in uninvited?" },
+	{ BALLOON_MODE_BUCSYS, CHARA_STERK,      0, NAME_STERK,       BUC_NONE,           BUC_POSITION_TYPE_NONE,  2038, BALLOON_FRAME_TYPE_BUC_SHOUT,      "What do you think you're doing!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,     2039, BALLOON_FRAME_TYPE_BUC,            "Hyah!!" },
+	// ▼Sterk arrives
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_ODO,      BUC_POSITION_TYPE_R,     2040, BALLOON_FRAME_TYPE_BUC,            "Oh, it's you" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,     2041, BALLOON_FRAME_TYPE_BUC,            "Ahaha... Good evening, Sterk-san" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,     2042, BALLOON_FRAME_TYPE_BUC,            "Good evening is not the issue.<CR>Coming into the castle at this hour,<CR>what exactly were you doing?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,     2043, BALLOON_FRAME_TYPE_BUC,            "Um, nothing in particular, but<CR>I was so nervous I ended up wandering around,<CR>and before I knew it I was here..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,     2044, BALLOON_FRAME_TYPE_BUC,            "Well, tomorrow is an extremely<CR>important day for you.<CR>I can sort of understand how you feel, but..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,     2045, BALLOON_FRAME_TYPE_BUC,            "Even so, for a lady to be out walking<CR>alone at this hour is not advisable.<CR>Especially considering that you..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,     2046, BALLOON_FRAME_TYPE_BUC,            "Uu, I'm sorry..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,     2047, BALLOON_FRAME_TYPE_BUC,            "...No, for me to be lecturing you at a time like this,<CR>I too am lacking in consideration" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,     2048, BALLOON_FRAME_TYPE_BUC,            "I shouldn't be surprised when Astrid and Estiy-san<CR>tease me about this" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2049, BALLOON_FRAME_TYPE_BUC,            "You really are serious, Sterk-san" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,     2050, BALLOON_FRAME_TYPE_BUC,            "...Was that a compliment?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,     2051, BALLOON_FRAME_TYPE_BUC,            "Eh? Of course" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,     2052, BALLOON_FRAME_TYPE_BUC,            "If you say so..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,     2053, BALLOON_FRAME_TYPE_BUC,            "I haven't been told the results yet either,<CR>so I can't say anything for certain.<CR>But I'm sure it'll be fine" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,     2054, BALLOON_FRAME_TYPE_BUC,            "Having watched your work<CR>closely for three years,<CR>I can say that without a doubt... probably" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,     2055, BALLOON_FRAME_TYPE_BUC,            "...Um, could you possibly be<CR>trying to cheer me up?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,     2056, BALLOON_FRAME_TYPE_BUC,            "Did it sound that way?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,     2057, BALLOON_FRAME_TYPE_BUC,            "...Fufu.<CR>Sterk-san, you really are serious" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,     2058, BALLOON_FRAME_TYPE_BUC,            "...That didn't quite sound like a compliment.<CR>Fine, I'm leaving" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,     2059, BALLOON_FRAME_TYPE_BUC,            "Eh? Leaving for where?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,     2060, BALLOON_FRAME_TYPE_BUC,            "To your atelier. I'll walk you home" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,     2061, BALLOON_FRAME_TYPE_BUC,            "That's not necessary.<CR>You're in the middle of work..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_TERE,     BUC_POSITION_TYPE_R,     2062, BALLOON_FRAME_TYPE_BUC,            "I told you, didn't I?<CR>A lady shouldn't be walking alone<CR>at this hour" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_TERE,     BUC_POSITION_TYPE_R,     2063, BALLOON_FRAME_TYPE_BUC,            "If I let you walk home alone, I'll end up worrying<CR>and won't be able to focus on my work anyway.<CR>Let me walk you back" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,     2064, BALLOON_FRAME_TYPE_BUC,            "...Yes. I'll gratefully accept your offer" },
+	// ▼The two start walking together
+	// ▼Long fade to black, then next event
+	// ▼
+};
+
+BALLOON_DATA_ALL MM12_080_bda = {
+	"MM12",                 // Output file path
+	"EVENT_MESSAGE_MM12_080",// Output file name
+	MM12_080_EMS,           // Above variable
+};

@@ -1,0 +1,9 @@
+// ヘルプ／チュートリ２・１１
+BalloonData XH02_110_EMS[] = {
+	{ BALLOON_MODE_CHARA,  CHARA_RORONA,      0, NAME_RORONA,     BUC_RORONA_NOR,   BUC_POSITION_TYPE_NONE,   -1,    BALLOON_FRAME_TYPE_SYSTEM, "Arlvis Academy, the supreme academy of alchemy, built on a solitary island floating in the distant sky" },
+};
+BALLOON_DATA_ALL XH02_110_bda = {
+	"XH02",			// 出力ファイルパス
+	"EVENT_MESSAGE_XH02_110",		// 出力ファイル名
+	XH02_110_EMS,		// 上記変数
+};

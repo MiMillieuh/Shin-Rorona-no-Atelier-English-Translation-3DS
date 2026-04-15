@@ -1,0 +1,11 @@
+BalloonData QN01_560_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "I'm home... wait,<CR>neither Dad nor Mom are here...<CR>Haah, how lonely..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_560_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_560",// 出力ファイル名
+	QN01_560_EMS,           // 上記変数
+};

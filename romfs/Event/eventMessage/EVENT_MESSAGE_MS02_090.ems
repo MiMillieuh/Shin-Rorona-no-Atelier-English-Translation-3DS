@@ -1,0 +1,11 @@
+ BalloonData MS02_090_EMS[] = {
+	// ▼
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,     9509, BALLOON_FRAME_TYPE_BUC,            "But if I rest this much,<CR>I'll miss the deadline..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL MS02_090_bda = {
+	"MS02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_MS02_090",// 出力ファイル名
+	MS02_090_EMS,           // 上記変数
+};

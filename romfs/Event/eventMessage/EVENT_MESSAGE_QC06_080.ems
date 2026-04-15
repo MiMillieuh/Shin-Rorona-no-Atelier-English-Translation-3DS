@@ -1,0 +1,44 @@
+﻿BalloonData QC06_080_EMS[] = {
+	// ★※発生タイミング、状況未定。使わないかも
+	// ▼採取等から戻ってきた時
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Gio-san, thank you for today" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Glad to be of help.<CR>I hope you'll call on me again" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Yes, take care" },
+	// ▼ロロナと別れ一人残るジオ
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "...Such a sweet girl.<CR>Hard to believe she's a disciple of yours" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "How rude. It's thanks to my training<CR>that she grew into such a lovely disciple" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Hmm. Is keeping an eye on her<CR>part of the training too?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Yes. So that no pesky insects<CR>get too close to my precious disciple" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Insects, huh? That's harsh.<CR>I've tried to be a gentleman,<CR>you know" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,        8, BALLOON_FRAME_TYPE_BUC,            "Hmph. We're not exactly on joking terms.<CR>What are you planning?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Nothing at all" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_ODO,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Nothing?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       11, BALLOON_FRAME_TYPE_BUC,            "I met a girl in town by chance,<CR>and I ended up helping her out" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "That's all there is to it.<CR>It just so happens to be<CR>your disciple" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "That's a bit too convenient, don't you think?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Does it seem that way? If so,<CR>it's probably because of how charming your disciple is" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       15, BALLOON_FRAME_TYPE_BUC,            "Is that really all?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KOMA,       BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "You're persistent. You're overthinking it.<CR>I understand you resent me, but<CR>I believe I've been fair" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       17, BALLOON_FRAME_TYPE_BUC,            "Then this isn't an act stemming from guilt,<CR>or a desire for atonement?" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       18, BALLOON_FRAME_TYPE_BUC,            "No. Absolutely not" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,       19, BALLOON_FRAME_TYPE_BUC,            "I see...<CR>So you've completely fallen for<CR>how adorable she is" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KANA,    BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "I always wondered if there was a reason<CR>you never married at your age,<CR>but so that's how it is" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       21, BALLOON_FRAME_TYPE_BUC,            "Hmm... if I were twenty years younger,<CR>I might have seriously considered it" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Don't make jokes like that" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_NOR,        BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "Didn't you start it?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_KOMA,    BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "Well, Rorona does have a certain charm<CR>that's unrelated to such things.<CR>A mysterious allure that neither I nor my master possess" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_HOHO,       BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "After all, you took her in as your disciple yourself" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_IKA,     BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "...I'm not amused. I'm leaving" },
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_ODO,        BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "Oh my, finished already?" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       28, BALLOON_FRAME_TYPE_BUC,            "I have too many questions.<CR>I'll save them for another time" },
+	{ BALLOON_MODE_BUC,    CHARA_ASTRID,     0, NAME_ASTRID,      BUC_ASTRID_NOR,     BUC_POSITION_TYPE_L,       29, BALLOON_FRAME_TYPE_BUC,            "You'll be seeing my disciple plenty,<CR>so we can meet anytime" },
+	// ▼立ち去る師匠
+	{ BALLOON_MODE_BUC,    CHARA_GIO,        0, NAME_GIO,         BUC_GIO_KANA,       BUC_POSITION_TYPE_R,       30, BALLOON_FRAME_TYPE_BUC,            "Seems like I'm still quite disliked, huh?<CR>Can't be helped, I suppose..." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC06_080_bda = {
+	"QC06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC06_080",// 出力ファイル名
+	QC06_080_EMS,           // 上記変数
+};

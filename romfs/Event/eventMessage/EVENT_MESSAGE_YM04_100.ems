@@ -1,0 +1,16 @@
+BalloonData YM04_100_EMS[] = {
+	// ▼新規ダンジョン（オルトガラクセン深層）に入ると発生
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "It's pretty clear no one's touched this place in ages,<CR>so it's falling apart in all sorts of places..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "There were supposed to be dragons around here, right?<CR>I need to be careful" },
+	// ▼トトリがパーティに入っている場合（同時にメルルも入っていた場合でもこちら）
+	{ BALLOON_MODE_BUC,    CHARA_TOTORI,     0, NAME_TOTORI,      BUC_TOTORI_KAN,     BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "But maybe we'll find the materials<CR>for the Dragon's Hourglass here" },
+	// ▼メルルだけがパーティに入っている場合
+	{ BALLOON_MODE_BUC,    CHARA_MERURU,     0, NAME_MERURU,      BUC_MERURU_NOR,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "But there might be clues to the Dragon's Hourglass materials here too.<CR>Not everything is bad, you know!" },
+	// ▼
+};
+
+BALLOON_DATA_ALL YM04_100_bda = {
+	"YM04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM04_100",// 出力ファイル名
+	YM04_100_EMS,           // 上記変数
+};

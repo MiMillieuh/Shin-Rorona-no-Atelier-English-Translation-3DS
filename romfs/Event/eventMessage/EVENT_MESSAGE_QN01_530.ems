@@ -1,0 +1,14 @@
+BalloonData QN01_530_EMS[] = {
+	// ▼湖のそこで遺跡を発見した時（初回
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "W-what is that?<CR>It looks like a temple... why is it in the lake?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Let me try going inside...<CR>There won't be ghosts... right?" },
+	// ▼
+	{ BALLOON_MODE_SYSTEM, CHARA_NONE,       0, NAME_NONE,        BUC_NONE,           BUC_POSITION_TYPE_NONE,    -1, BALLOON_FRAME_TYPE_NORMAL,         "You can now visit the <CLBL>Lost City of the Nation<CLNR>." },
+	// ▼
+};
+
+BALLOON_DATA_ALL QN01_530_bda = {
+	"QN01",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QN01_530",// 出力ファイル名
+	QN01_530_EMS,           // 上記変数
+};

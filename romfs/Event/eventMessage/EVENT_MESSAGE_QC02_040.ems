@@ -1,0 +1,22 @@
+ BalloonData QC02_040_EMS[] = {
+	// ▼ゲーム序盤で一緒に採取中
+	// ★ステルクが初めて戦闘した時が望ましいが、細かいこというとキリがなくなる
+	// ★優先度低い。なくてもいい
+	// ▼戦闘が終わった時など
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Haah…" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "What's wrong? The battle is over, but<CR>you shouldn't let your guard down" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Oh, no.<CR>Sterk-san, you're really strong, aren't you?<CR>I was just surprised" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "…Being surprised means you thought<CR>I would be weaker?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KOMA,    BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "N-no! That's not what I meant!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I'm just kidding. Without an opportunity like this,<CR>there aren't many chances to show off my skills,<CR>so I can't really blame you for thinking whatever you want" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC_THOUGHT,    "（Even Sterk-san tells jokes…）" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "…Besides, being a knight doesn't mean I'm necessarily strong.<CR>Other knights barely even train with the sword…" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Ah, that was unnecessary to say.<CR>Let's get back to it, we should move on" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC02_040_bda = {
+	"QC02",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC02_040",// 出力ファイル名
+	QC02_040_EMS,           // 上記変数
+};

@@ -1,0 +1,33 @@
+BalloonData QC05_020_EMS[] = {
+	// ▼After the exploration event above ends
+	// ▼Occurs when returning to town
+	// ▼Branches between returning normally vs returning after a party wipe
+	// ▼When returning normally
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Whew, finally made it back" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        1, BALLOON_FRAME_TYPE_BUC,            "Come to think of it, I wonder if that person<CR>made it safely to town..." },
+	// ▼When returning after a party wipe
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "Ugh... that was rough..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_SIN,     BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Come to think of it, I wonder if that person<CR>made it safely to town..." },
+	// ▼The following is shared
+	// ▼Scene transition. Either when the minister steps outside the castle or is working in his room
+	// ★The opening line may change depending on the situation
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Yo, long time no see" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "Hmph, so you finally came back.<CR>You good-for-nothing wanderer" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "What, you're still going strong, huh?<CR>I was hoping you'd be on your last legs<CR>since I went to the trouble of calling you" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "The audacity of you to survive without so much as a letter,<CR>wandering about for nearly a decade..." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "Yeah yeah, enough already. You didn't call me back<CR>just to lecture me, did you?" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            "...Right. I actually have a job for you.<CR>There something I'd like you to help me with" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "A job, huh...<CR>Well, I was kind of hoping for something more interesting..." },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "Hmm? Did you say something?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Nothing. So what kind of job?<CR>Fair warning, boring office work<CR>is a no-go" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_NOR,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "If it were that simple, I wouldn't need you.<CR>Since you don't know anyone in town,<CR>this job is perfect for you" },
+	{ BALLOON_MODE_BUC,    CHARA_MERIODUS,   0, NAME_MERIODUS,    BUC_MERIODUS_HOHO,  BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "To shut down that eyesore of an atelier,<CR>once and for all" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_NAZO,        BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "An atelier? Hmm...<CR>Maybe I should hear more about this" },
+	// ▼
+};
+
+BALLOON_DATA_ALL QC05_020_bda = {
+	"QC05",                 // Output file path
+	"EVENT_MESSAGE_QC05_020",// Output file name
+	QC05_020_EMS,           // The variable
+};

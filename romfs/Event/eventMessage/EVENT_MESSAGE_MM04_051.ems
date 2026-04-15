@@ -1,0 +1,31 @@
+BalloonData MM04_051_EMS[] = {
+	// ▼Announce evaluation on system screen
+	// ▼Branch based on evaluation
+	// ▼When evaluation is highest
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_HOHO,     BUC_POSITION_TYPE_R,        0, BALLOON_FRAME_TYPE_BUC,            "Whew... It seems you've completed your task safely.<CR>I was worried" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "If the castle staff worked as hard as you do,<CR>I wouldn't have so much trouble..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_IKA,      BUC_POSITION_TYPE_R,        2, BALLOON_FRAME_TYPE_BUC,            "That's not all - even the King himself this year...<CR>Everyone's been..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "S-Sterk-san?<CR>Your face is getting scarier by the minute..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        4, BALLOON_FRAME_TYPE_BUC,            "Mmph... Sorry.<CR>It seems I've lost my composure" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "...Alright, I'm fine now.<CR>Let me explain the next task" },
+	// ▼When evaluation is average
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_NOR,      BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "There are some shortcomings, but they're within acceptable range.<CR>I'll handle the deficiencies on my end" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_AKI,     BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Sorry... Sterk-san looks so busy" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "Don't worry about it.<CR>With how busy things are now,<CR>a little extra work won't make a difference" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,        9, BALLOON_FRAME_TYPE_BUC,            "Now then. Let me explain the next task" },
+	// ▼When evaluation is low
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       10, BALLOON_FRAME_TYPE_BUC,            ".........This is... muu..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       11, BALLOON_FRAME_TYPE_BUC,            "A-ah... did I fail...?" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       12, BALLOON_FRAME_TYPE_BUC,            "I wouldn't go so far as to say failed...<CR>But we'll need to rearrange a few things on our end" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_KANA,     BUC_POSITION_TYPE_R,       13, BALLOON_FRAME_TYPE_BUC,            "This is troubling... I had high expectations for your work..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       14, BALLOON_FRAME_TYPE_BUC,            "I-I'm sorry!<CR>N-next time I'll work even harder!" },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       15, BALLOON_FRAME_TYPE_BUC,            "Yes, please do... sigh..." },
+	{ BALLOON_MODE_BUC,    CHARA_STERK,      0, NAME_STERK,       BUC_STERK_AKI,      BUC_POSITION_TYPE_R,       16, BALLOON_FRAME_TYPE_BUC,            "...This isn't the time to be discouraged.<CR>Alright, let's move on to the next task" },
+	// ▼↓
+};
+
+BALLOON_DATA_ALL MM04_051_bda = {
+	"MM04",                 // Output file path
+	"EVENT_MESSAGE_MM04_051",// Output file name
+	MM04_051_EMS,           // Above variable
+};

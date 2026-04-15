@@ -1,0 +1,24 @@
+﻿BalloonData YM06_010_EMS[] = {
+	// ▼延長戦以降に発生・タントリスその後イベント
+	// ●特定条件を満たしている
+	// ●王宮受付に行くと発生
+	// ▼タントリスとエスティが話をしている
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_WARA,  BUC_POSITION_TYPE_L,        0, BALLOON_FRAME_TYPE_BUC,            "Well then, I'll leave it to you.<CR>Alright, that takes care of<CR>running errands for my old man." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        1, BALLOON_FRAME_TYPE_BUC,            "Got it.<CR>Give my regards to the minister." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_KANA,  BUC_POSITION_TYPE_L,        2, BALLOON_FRAME_TYPE_BUC,            "If he hadn't worn himself out, I wouldn't<CR>have needed to come here myself.<CR>He must have overdone it with everything." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_L,        3, BALLOON_FRAME_TYPE_BUC,            "Still, my old man's an idiot.<CR>There had to be a better way to handle it." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_AKI,   BUC_POSITION_TYPE_L,        4, BALLOON_FRAME_TYPE_BUC,            "Factories, factories... it's like that's<CR>all he can think about. There are plenty<CR>of other ways to develop the town, you know." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_SIN,      BUC_POSITION_TYPE_R,        5, BALLOON_FRAME_TYPE_BUC,            "I can kind of see his point, though.<CR>The minister has his own way of thinking—<CR>maybe that's why he acted that way." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_ODO,   BUC_POSITION_TYPE_L,        6, BALLOON_FRAME_TYPE_BUC,            "Wait, are you saying you<CR>actually support my old man?" },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        7, BALLOON_FRAME_TYPE_BUC,            "Not exactly... I just thought you might be able<CR>to come up with a better approach." },
+	{ BALLOON_MODE_BUC,    CHARA_ESTIY,      0, NAME_ESTIY,       BUC_ESTIY_NOR,      BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "I'm an outsider, so I wouldn't be able to<CR>come up with anything. But you're not in<CR>that position, are you?" },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_SIN,   BUC_POSITION_TYPE_L,        9, BALLOON_FRAME_TYPE_BUC,            "......<CR>She's got me there." },
+	{ BALLOON_MODE_BUC,    CHARA_TANTORIS,   0, NAME_TANTORIS,    BUC_TANTORIS_NOR,   BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "...Anyway, I've delivered the documents.<CR>See you." },
+	// ▼タントリス立ち去る
+};
+
+BALLOON_DATA_ALL YM06_010_bda = {
+	"YM06",                 // 出力ファイルパス
+	"EVENT_MESSAGE_YM06_010",// 出力ファイル名
+	YM06_010_EMS,           // 上記変数
+};

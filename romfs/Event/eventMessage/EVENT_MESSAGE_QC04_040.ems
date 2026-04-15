@@ -1,0 +1,49 @@
+BalloonData QC04_040_EMS[] = {
+	// ▼↑の後、しばらくしてから。ロロナが街にいる時
+	// ▼人形劇をしているリオネラ
+	// ★一枚絵使いまわして、歓声のＳＥとかだけ
+	// ▼人形劇終了後
+	// ★この時人形はリオネラの足元に
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_L2,       0, BALLOON_FRAME_TYPE_BUC,            "Whew..." },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,       1, BALLOON_FRAME_TYPE_BUC,            "Good job, good job.<CR>Today you didn't run away at all" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_IKA,    BUC_POSITION_TYPE_L2,       2, BALLOON_FRAME_TYPE_BUC,            "I'm not ALWAYS running away..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R,        3, BALLOON_FRAME_TYPE_BUC,            "I mean, not running away should be the default, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_L2,       4, BALLOON_FRAME_TYPE_BUC,            "Uu... That's true but... It's just..." },
+	{ BALLOON_MODE_BUCSYS, CHARA_RORONA,     0, NAME_RORONA,      BUC_NONE,           BUC_POSITION_TYPE_NONE,     5, BALLOON_FRAME_TYPE_BUC,            "Rio-chaaan" },
+	// ▼ロロナが駆け寄ってくる
+	// ★一旦BUCクリア
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_ODO,    BUC_POSITION_TYPE_R,        6, BALLOON_FRAME_TYPE_BUC,            "Ah... You came to watch...?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,        7, BALLOON_FRAME_TYPE_BUC,            "Yep! I got to see the whole thing today.<CR>Rio-chan, you were so cool!" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_TERE,   BUC_POSITION_TYPE_R,        8, BALLOON_FRAME_TYPE_BUC,            "N-not that great..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,       9, BALLOON_FRAME_TYPE_BUC,            "Just Lionela? What about the lead actor standing right here?" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       10, BALLOON_FRAME_TYPE_BUC,            "Sorry, sorry.<CR>Horo-kun and Ranya-chan were great too" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      11, BALLOON_FRAME_TYPE_BUC,            "We're honored to receive such praise" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       12, BALLOON_FRAME_TYPE_BUC,            "Oh right, so...<CR>I was wondering about something" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NOR,     BUC_POSITION_TYPE_L,       13, BALLOON_FRAME_TYPE_BUC,            "Do Ranya-chan and Horo-kun not just talk,<CR>but also move around on their own?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       14, BALLOON_FRAME_TYPE_BUC,            "Ah..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      15, BALLOON_FRAME_TYPE_BUC,            "No way. If we could move on our own,<CR>we wouldn't need Lionela, you know" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       16, BALLOON_FRAME_TYPE_BUC,            "Is that so...<CR>Then how do you control them?<CR>I couldn't see any strings at all" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,       17, BALLOON_FRAME_TYPE_BUC,            "Ah, um... The strings are... invisible strings..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_WARA,    BUC_POSITION_TYPE_L,       18, BALLOON_FRAME_TYPE_BUC,            "Invisible strings? Whoa, amazing!<CR>What kind of strings? Show me, show me!" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_R2,      19, BALLOON_FRAME_TYPE_BUC,            "Even if you ask us to show you<CR>invisible strings, that's hard to do" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_ODO,     BUC_POSITION_TYPE_L,       20, BALLOON_FRAME_TYPE_BUC,            "Mm, true..." },
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      21, BALLOON_FRAME_TYPE_BUC,            "Besides, these aren't just any<CR>invisible strings, you know...<CR>They're the kind only an idiot can't see!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_KANA,    BUC_POSITION_TYPE_L,       22, BALLOON_FRAME_TYPE_BUC,            "Eeeeeh!?<CR>So does that mean... I'm an idiot?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_SIN,    BUC_POSITION_TYPE_R,       23, BALLOON_FRAME_TYPE_BUC,            "N-no... t-that's not... I-it's a lie! All of it!" },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_EX2,     BUC_POSITION_TYPE_L,       24, BALLOON_FRAME_TYPE_BUC,            "A lie? So I'm NOT an idiot?" },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KOMA,   BUC_POSITION_TYPE_R,       25, BALLOON_FRAME_TYPE_BUC,            "Ah, no... The 'idiot' part wasn't what I meant..." },
+	{ BALLOON_MODE_BUC,    CHARA_RORONA,     0, NAME_RORONA,      BUC_RORONA_NAKI,    BUC_POSITION_TYPE_L,       26, BALLOON_FRAME_TYPE_BUC,            "So I AM an idiot after all..." },
+	{ BALLOON_MODE_BUC,    CHARA_LIONELA,    0, NAME_LIONELA,     BUC_LIONELA_KANA,   BUC_POSITION_TYPE_R,       27, BALLOON_FRAME_TYPE_BUC,            "Ah, w-wayyy..." },
+	// ▼二人のやり取りを他人事のように見てる人形達
+	{ BALLOON_MODE_BUC,    CHARA_HORO,       0, NAME_HORO,        BUC_HORO_NOR,       BUC_POSITION_TYPE_R2,      28, BALLOON_FRAME_TYPE_BUC,            "Looks like these two are going at it forever" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_L2,      29, BALLOON_FRAME_TYPE_BUC,            "It's your fault for saying unnecessary things" },
+	{ BALLOON_MODE_BUC,    CHARA_RANYA,      0, NAME_RANYA,       BUC_RANYA_NOR,      BUC_POSITION_TYPE_L2,      30, BALLOON_FRAME_TYPE_BUC,            "Well, it's rare to see Lionela talk this much,<CR>so let's leave them be for a while" },
+	// ★ＱＶ上で、喋ってる様子の二人を少し写してから、ゆっくりフェードアウトがベスト
+	// ▼
+};
+
+BALLOON_DATA_ALL QC04_040_bda = {
+	"QC04",                 // 出力ファイルパス
+	"EVENT_MESSAGE_QC04_040",// 出力ファイル名
+	QC04_040_EMS,           // 上記変数
+};

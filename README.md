@@ -7,4 +7,4 @@ An attempt to translate Shin Rorona no Atelier for the 3DS in English
 
 ## Install : 
 
-Create a folder called **"000400000015CB00"** in the **"luma/title"** folder of your SD card in your 3DS and copy the romfs folder inside of it.
+Create a folder called `"000400000015CB00"` in the `"luma/title"` folder of your SD card in your 3DS and copy the romfs folder inside of it.
